@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <cms_index_index>
+        <reference name="head">
+            <action method="addCss" ifconfig="bannerslider/general/flexslider"><stylesheet>shopgo/bannerslider/css/jquery/flexslider.css</stylesheet></action>
+            <action method="addItem" ifconfig="bannerslider/general/jquery"><type>skin_js</type><file>shopgo/bannerslider/js/jquery/jquery.js</file></action>
+            <action method="addItem" ifconfig="bannerslider/general/jquery"><type>skin_js</type><file>shopgo/bannerslider/js/jquery/jquery.noconflict.js</file></action>
+            <action method="addItem" ifconfig="bannerslider/general/flexslider"><type>skin_js</type><file>shopgo/bannerslider/js/jquery/jquery.flexslider.js</file></action>
+            <action method="addItem" ifconfig="bannerslider/general/easing"><type>skin_js</type><file>shopgo/bannerslider/js/jquery/jquery.easing.js</file></action>
+            <action method="addItem" ifconfig="bannerslider/general/mousewheel"><type>skin_js</type><file>shopgo/bannerslider/js/jquery/jquery.mousewheel.js</file></action>
+            <action method="addItem" ifconfig="bannerslider/general/modernizr"><type>skin_js</type><file>shopgo/bannerslider/js/modernizr.js</file></action>
+            <action method="addItem" ifconfig="bannerslider/general/enabled"><type>skin_js</type><file>shopgo/bannerslider/js/script.js</file></action>
+        </reference>
+        <reference name="content">
+            <block type="bannerslider/bannerslider" name="top_bannerslider" as="top_bannerslider" template="shopgo/bannerslider.phtml" before="-">
+                <action method="setData"><key>position</key><value>top</value></action>
+            </block>
+            <block type="bannerslider/bannerslider" name="bottom_bannerslider" as="bottom_bannerslider" template="shopgo/bannerslider.phtml">
+                <action method="setData"><key>position</key><value>bottom</value></action>
+            </block>
+        </reference>
+    </cms_index_index>
+</layout>

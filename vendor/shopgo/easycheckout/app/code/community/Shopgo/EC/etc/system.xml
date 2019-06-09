@@ -1,0 +1,550 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <shopgo translate="label">
+            <label>Shopgo Extensions</label>
+            <sort_order>0</sort_order>
+        </shopgo>
+    </tabs>
+    <sections>
+        <ec translate="label" module="ec">
+            <class>separator-top</class>
+            <label>Easy Checkout</label>
+            <tab>shopgo</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>300</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>General Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>0</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <active translate="label">
+                            <label>Enable Module</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </active>
+                        <default_country>
+                            <label>Default Country</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_country</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </default_country>
+                        <default_zipcode>
+                            <label>Default ZIP/Postal Code</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </default_zipcode>
+                        <checkout_title>
+                            <label>Checkout Title</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </checkout_title>
+                        <checkout_description>
+                            <label>Checkout Description</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </checkout_description>
+                        <guest_checkout translate="label">
+                            <label>Allow Guest Checkout</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </guest_checkout>
+                        <enable_agreements>
+                            <label>Enable Terms and Conditions</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable_agreements>
+                        <enable_delivery_date>
+                            <label>Enable delivery date option</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>7</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable_delivery_date>
+                        <!--
+                        <enable_coupon>
+                            <label>Enable coupon</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>8</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Allow coupons redemption on the checkout level.]]></comment>
+                        </enable_coupon>
+                        -->
+                        <version translate="label">
+                            <label>EasyCheckout version</label>
+                            <frontend_type>select</frontend_type>
+                            <frontend_model>Shopgo_EC_Block_Adminhtml_Version</frontend_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </version>
+                    </fields>
+                </general>
+                <address>
+                    <label>Address Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <nozip_country>
+                            <label>Hide zip code for the following countries</label>
+                            <frontend_type>multiselect</frontend_type>
+                            <source_model>adminhtml/system_config_source_country</source_model>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </nozip_country>
+                        <use_geoip>
+                            <label>Use GeoIP for the default country</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Use GeoIP to show the customer country as the default one.]]></comment>
+                        </use_geoip>
+                        <cities_data_source>
+                            <label>Cities data source</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>ec/resources_citiesdatasources</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[The data source will be used to get the available cities.]]></comment>
+                        </cities_data_source>
+
+                        <!-- CITIES INTEGRATION: START -->
+                        <cities_username>
+                            <label>Cities API username</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-alphanum</validate>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Cities API<br> <span style="color:#F30">Do not change this if you do not have a Cities account.</span>]]></comment>
+                            <depends><cities_data_source>cities_api</cities_data_source></depends>
+                        </cities_username>
+
+                        <autocomplete_allow_any_value>
+                            <label>Allow values other than autocomplete suggestions</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[<span style="color:#3D5B9C">When set to "No", only values suggested by the autocomplete will be allowed. Otherwise, any input is acceptable.</span>]]></comment>
+                            <depends><city_input>autocomplete</city_input></depends>
+                            <depends><cities_data_source separator="|">geonames_api|cities_api|aramex_api|aramex_api_shipping_module</cities_data_source></depends>
+                            
+                        </autocomplete_allow_any_value>
+                        <!-- CITIES INTEGRATION: END -->
+                        
+                        <geonames_username>
+                            <label>Geonames API username</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-alphanum</validate>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Geonames API 30,000 free credits daily<br> <span style="color:#F30">Do not change this if you do not have a Geonames account.</span>]]></comment>
+                            <depends><cities_data_source>geonames_api</cities_data_source></depends>
+                        </geonames_username>
+                        <aramex_username>
+                            <label>Aramex API username</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>required-entry</validate>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Aramex location API username.]]></comment>
+                            <depends><cities_data_source>aramex_api</cities_data_source></depends>
+                        </aramex_username>
+                        <aramex_password>
+                            <label>Aramex API password</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>required-entry</validate>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Aramex location API password.]]></comment>
+                            <depends><cities_data_source>aramex_api</cities_data_source></depends>
+                        </aramex_password>
+                        <city_input>
+                            <label>City field input type</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>ec/resources_cityinput</source_model>
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[The city field input type to use: Dropdown or Autocomplete.]]></comment>
+                        </city_input>
+                        <reload_delay>
+                            <label>Reload delay</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>8</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Reload shipping and payment methods when change any field after a specfic time interval]]></comment>
+                        </reload_delay>
+                        <delay_interval>
+                            <label>Delay interval</label>
+                            <frontend_type>text</frontend_type>
+                            <comment><![CDATA[Delay interval in milliseconds (1 second = 1000 milliseconds)]]></comment>
+                            <depends><reload_delay>1</reload_delay></depends>
+                            <sort_order>9</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><reload_delay>1</reload_delay></depends>
+                        </delay_interval>
+                        <input_maxlength>
+                            <label>Max input text length</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-number</validate>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[The maximum characters allowed to be entered in the checkout fields.]]></comment>
+                        </input_maxlength>
+                        <numeric_tel>
+                            <label>Numeric telephone</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[<span style="color:#3D5B9C"> When set to yes only numeric entries will be allowed for the telephone number. </span>]]></comment>
+                        </numeric_tel>
+                    </fields>
+                </address>
+                <shipping translate="label">
+                    <label>Shipping Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>2</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <default_shipping_method>
+                            <label>Default Shipping Method</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>ec/resources_allowedmethods</source_model>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <validate>required-entry</validate>
+                            <comment><![CDATA[Default Shipping Method when checkout]]></comment>
+                        </default_shipping_method>
+                    </fields>
+                </shipping>
+                <payment translate="label">
+                    <label>Payment Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>3</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <default_payment_method>
+                            <label>Default Payment Method</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>ec/resources_Activpayment</source_model>   
+                            <!--<source_model>adminhtml/system_config_source_payment_allowedmethods</source_model>-->
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <validate>required-entry</validate>
+                            <comment><![CDATA[Default Payment Method when checkout]]></comment>
+                        </default_payment_method>
+                    </fields>
+                </payment>
+                <ux translate="label">
+                    <label>UX (Look and Feel) Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>4</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <placeorder_color>
+                            <label>Place order button color</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Shopgo_EC_Model_Adminhtml_System_Config_Source_PlaceOrderButtonColor</source_model>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </placeorder_color>
+                        <placeorder_custom_color>
+                            <label>Enter Hexa color code</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><placeorder_color>custom</placeorder_color></depends>
+                        </placeorder_custom_color>
+                        
+                        <show_discount_total>
+                            <label>Show discount total</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Show the discount on your total cart in checkout page.]]></comment>
+                        </show_discount_total>
+                        
+                        <show_base_grand_total>
+                            <label>Show base grand total</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Show the base grand total in the review section if available.]]></comment>
+                        </show_base_grand_total>
+                        <always_show_shipping_methods>
+                            <label>Always show shipping methods</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[<span style="color:#3D5B9C"> Use default destination address to show the available shipping methods. </span>]]></comment>
+                        </always_show_shipping_methods>
+                        <show_custom_review_text>
+                            <label>Show custom text under review box</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[<span style="color:#3D5B9C"> Allow you to add custom text under the review box. </span>]]></comment>
+                        </show_custom_review_text>
+                        <custom_review_text>
+                            <label>Custom review text</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Allow you to show static text content about tax, shipping and duty.]]></comment>
+                            <depends><show_custom_review_text>1</show_custom_review_text></depends>
+                        </custom_review_text>
+                        
+                        <billing_information_tag>
+                            <label>Billing Information Sub Titles</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>required-entry</validate>
+                            <sort_order>7</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Change  sub titles for billing Information label]]></comment>
+                        </billing_information_tag>
+                        
+                        <shipping_information_tag>
+                            <label>Shipping Information Sub Titles</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>required-entry</validate>
+                            <sort_order>8</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Change sub titles for shipping information label]]></comment>
+                        </shipping_information_tag>
+                        
+                        <shipping_method_tag>
+                            <label>Shipping Method Sub Titles</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>required-entry</validate>
+                            <sort_order>9</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Change sub titles for shipping method label]]></comment>
+                        </shipping_method_tag>
+                        
+                        <payment_information_tag>
+                            <label>Payment Information Sub Titles</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>required-entry</validate>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Change sub titles for payment information label]]></comment>
+                        </payment_information_tag>
+                        
+                        <review_your_order_tag>
+                            <label>Review Your Order Sub Titles</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>required-entry</validate>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Change  sub titles for review your order label]]></comment>
+                        </review_your_order_tag>
+                        
+                    </fields>
+                </ux>
+                <advanced>
+                    <label>Advanced Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>5</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <skip_cart>
+                            <label>Skip cart</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Redirect newly added items to checkout directly.]]></comment>
+                        </skip_cart>
+                        <allow_one_item>
+                            <label>Allow only one item in the cart</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[This option will clear your store cart each time a customer add a new item to it results in allowing one item in the cart at a time.]]></comment>
+                        </allow_one_item>
+                         <date_format>
+                            <label>Date Format</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Shopgo_EC_Model_Adminhtml_System_Config_Source_ShippingDateFormat</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends>
+                                <enable_delivery_date>
+                                    <fieldset>general</fieldset>
+                                    <value>1</value>
+                                </enable_delivery_date>
+                            </depends>  
+                        </date_format>
+                        <capture_time>
+                            <label>Include Shipping Time</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends>
+                                <enable_delivery_date>
+                                    <fieldset>general</fieldset>
+                                    <value>1</value>
+                                </enable_delivery_date>
+                            </depends>  
+                        </capture_time>
+                        <same_day>
+                            <label>Same Day Delivery</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[<span style="color:#3D5B9C"> No-->Delivery Will be available after 24h. </span>]]></comment>
+                            <depends>
+                                <enable_delivery_date>
+                                    <fieldset>general</fieldset>
+                                    <value>1</value>
+                                </enable_delivery_date>
+                            </depends>                  
+                        </same_day>
+                    </fields>
+                </advanced>
+                <dev>
+                    <label>Developers Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>6</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <console_log>
+                            <label>Show console log</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Output logs in the browser console]]></comment>
+                        </console_log>
+                    </fields>
+                </dev>
+            </groups>
+        </ec>
+    </sections>
+</config>

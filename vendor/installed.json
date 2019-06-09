@@ -1,0 +1,1138 @@
+[
+    {
+        "packageName": "aheadworks\/lib",
+        "version": "9999999-dev-200c91e0deb2dadb2643581d1d1032c9247042e5",
+        "installedFiles": [
+            "\/app\/code\/local\/AW\/Lib",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/aw_lib.xml",
+            "\/app\/etc\/modules\/AW_Lib.xml",
+            "\/app\/locale\/en_US\/AW_Lib.csv",
+            "\/skin\/adminhtml\/default\/default\/aw_lib"
+        ]
+    },
+    {
+        "packageName": "aheadworks\/order-attributes",
+        "version": "dev-checkout_awoa-d6d8741a77967738947854d654a9080bb581ddf2",
+        "installedFiles": [
+            "\/app\/code\/local\/AW\/Orderattributes",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/aw_orderattributes.xml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/aw_orderattributes",
+            "\/app\/design\/frontend\/default\/default\/layout\/aw_orderattributes.xml",
+            "\/app\/design\/frontend\/default\/default\/template\/aw_orderattributes",
+            "\/app\/etc\/modules\/AW_Orderattributes.xml",
+            "\/app\/locale\/en_US\/AW_Orderattributes.csv",
+            "\/skin\/frontend\/default\/default\/aw_orderattributes"
+        ]
+    },
+    {
+        "packageName": "balke-technologies\/magento-module-storemaintenance",
+        "version": "9999999-dev-504ec45d9d61bb3439b322b06af0c1c0c081d901",
+        "installedFiles": [
+            "\/app\/code\/community\/BalkeTechnologies\/StoreMaintenance",
+            "\/app\/design\/adminhtml\/base\/default\/template\/balketechnologies\/storemaintenance",
+            "\/app\/design\/adminhtml\/default\/default\/template\/balketechnologies\/storemaintenance",
+            "\/app\/etc\/modules\/BalkeTechnologies_StoreMaintenance.xml",
+            "\/skin\/frontend\/base\/default\/balketechnologies\/storemaintenance",
+            "\/skin\/frontend\/default\/default\/balketechnologies\/storemaintenance",
+            "\/misc\/default.html",
+            "\/misc\/prototype.js",
+            "\/misc\/timer.js"
+        ]
+    },
+    {
+        "packageName": "checkoutapi\/chargepayment",
+        "version": "9999999-dev-a91f9a454f4c19eb5c8207e500bc70ab7ba93566",
+        "installedFiles": [
+            "\/app\/code\/community\/CheckoutApi\/ChargePayment",
+            "\/app\/design\/frontend\/base\/default\/layout\/checkoutapi",
+            "\/app\/design\/frontend\/base\/default\/template\/chargepayment",
+            "\/app\/etc\/modules\/CheckoutApi_ChargePayment.xml",
+            "\/lib\/CheckoutApi"
+        ]
+    },
+    {
+        "packageName": "craigchristenson\/magento-2checkout",
+        "version": "9999999-dev-0e2af17f618e9f4b32f34334ef01dc6301f3f48c",
+        "installedFiles": [
+            "\/app\/code\/local\/Craig\/Tco",
+            "\/app\/design\/frontend\/base\/default\/layout\/tco.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/tco",
+            "\/app\/etc\/modules\/Craig_Tco.xml"
+        ]
+    },
+    {
+        "packageName": "etws\/et_currencymanager",
+        "version": "9999999-dev-f8c5bd350f630d3849c7941861ba484c37f7a9a9",
+        "installedFiles": [
+            "\/app\/code\/community\/ET\/CurrencyManager",
+            "\/app\/design\/frontend\/base\/default\/layout\/et_currencymanager.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/et_currencymanager",
+            "\/app\/etc\/modules\/ET_CurrencyManager.xml",
+            "\/app\/locale\/en_US\/ET_Currencymanager.csv",
+            "\/app\/locale\/fr_FR\/ET_Currencymanager.csv",
+            "\/app\/locale\/ru_RU\/ET_Currencymanager.csv",
+            "\/js\/et\/currencymanager"
+        ]
+    },
+    {
+        "packageName": "gate2play\/payment-gateway",
+        "version": "9999999-dev-e5c9fe66f2248897e8bde96c807217e3c004ac35",
+        "installedFiles": [
+            "\/app\/code\/community\/Gate2play\/Paymentgateway",
+            "\/app\/design\/frontend\/base\/default\/layout\/gate2play.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/gate2play\/paymentgateway",
+            "\/app\/etc\/modules\/Gate2play_Paymentgateway.xml",
+            "\/skin\/frontend\/base\/default\/images\/gate2play\/loading.gif"
+        ]
+    },
+    {
+        "packageName": "innovate\/innovate-payments",
+        "version": "9999999-dev-620434ed1e71104eea10687c8f4d02d3744ae2b4",
+        "installedFiles": [
+            "\/app\/code\/community\/Innovate\/InnovatePayments",
+            "\/app\/design\/adminhtml\/default\/default\/template\/innovatepayments",
+            "\/app\/design\/frontend\/base\/default\/layout\/innovatepayments.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/innovatepayments",
+            "\/app\/etc\/modules\/Innovate_InnovatePayments.xml"
+        ]
+    },
+    {
+        "packageName": "magestore\/notification",
+        "version": "9999999-dev-c54c26ed5dae5118da0ba0bd54d98f2b93763713",
+        "installedFiles": [
+            "\/app\/code\/local\/Magestore\/Magenotification",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/magenotification.xml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/magenotification",
+            "\/app\/etc\/modules\/Magestore_Magenotification.xml",
+            "\/js\/tinybox\/tinybox.js",
+            "\/skin\/adminhtml\/default\/default\/css\/magestore\/magenotification.css",
+            "\/skin\/adminhtml\/default\/default\/css\/magestore\/notice_price.gif",
+            "\/skin\/adminhtml\/default\/default\/css\/tinybox\/style.css",
+            "\/skin\/adminhtml\/default\/default\/css\/tinybox\/images\/preload.gif",
+            "\/skin\/adminhtml\/default\/default\/css\/tinybox\/images\/rhino.jpg"
+        ]
+    },
+    {
+        "packageName": "manadev-shopgo\/core",
+        "version": "15.02.10.18-33605a422460b0b1f26328e1cc00eb1625242370",
+        "installedFiles": [
+            "\/app\/code\/local\/Mana\/Core",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/mana_core.xml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/mana\/core",
+            "\/app\/design\/frontend\/base\/default\/layout\/mana_core.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/mana\/core",
+            "\/app\/etc\/modules\/Mana_Core.xml",
+            "\/app\/locale\/en_US\/Mana_Core.csv",
+            "\/js\/m-classes\/.htaccess",
+            "\/js\/mana\/core.js",
+            "\/js\/mana\/core.js.map",
+            "\/js\/mana\/core.min.js",
+            "\/js\/src\/Mana\/Core",
+            "\/skin\/adminhtml\/default\/default\/css\/mana_core.css",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/ui.css",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-bg_diagonals-thick_18_b81900_40x40.png",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-bg_diagonals-thick_20_666666_40x40.png",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-bg_flat_10_000000_40x100.png",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-bg_glass_65_ffffff_1x400.png",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-bg_glass_100_f6f6f6_1x400.png",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-bg_glass_100_fdf5ce_1x400.png",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-bg_gloss-wave_35_f6a828_500x100.png",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-bg_highlight-soft_75_ffe45c_1x100.png",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-bg_highlight-soft_100_eeeeee_1x100.png",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-icons_228ef1_256x240.png",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-icons_222222_256x240.png",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-icons_ef8c08_256x240.png",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-icons_ffd27a_256x240.png",
+            "\/skin\/adminhtml\/default\/default\/css\/jquery\/images\/ui-icons_ffffff_256x240.png",
+            "\/skin\/adminhtml\/default\/default\/images\/mana_core",
+            "\/skin\/adminhtml\/default\/default\/lib\/jstree",
+            "\/skin\/frontend\/base\/default\/css\/mana_core.css",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/ui.css",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/animated-overlay.gif",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_diagonals-thick_18_b81900_40x40.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_diagonals-thick_20_666666_40x40.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_flat_10_000000_40x100.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_flat_75_ffffff_40x100.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_glass_65_ffffff_1x400.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_glass_75_dadada_1x400.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_glass_95_fef1ec_1x400.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_glass_100_f6f6f6_1x400.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_glass_100_fdf5ce_1x400.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_gloss-wave_35_f6a828_500x100.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_highlight-soft_75_ffe45c_1x100.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-bg_highlight-soft_100_eeeeee_1x100.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-icons_2e83ff_256x240.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-icons_228ef1_256x240.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-icons_222222_256x240.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-icons_454545_256x240.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-icons_888888_256x240.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-icons_cd0a0a_256x240.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-icons_ef8c08_256x240.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-icons_ffd27a_256x240.png",
+            "\/skin\/frontend\/base\/default\/css\/jquery\/images\/ui-icons_ffffff_256x240.png",
+            "\/skin\/frontend\/rwd\/default\/css\/mana_core.css",
+            "\/skin\/frontend\/rwd\/default\/images\/mana_core\/m-wait.gif"
+        ]
+    },
+    {
+        "packageName": "manadev\/infinite-scrolling",
+        "version": "14.06.20.06-4b2b9aa09810e1b2a0970e9c2e259223699be57c",
+        "installedFiles": [
+            "\/app\/code\/local\/Mana\/InfiniteScrolling",
+            "\/app\/design\/frontend\/base\/default\/layout\/mana_infinitescrolling.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/mana\/infinitescrolling",
+            "\/app\/design\/frontend\/rwd\/default\/layout\/mana_infinitescrolling.xml",
+            "\/app\/etc\/modules\/Mana_InfiniteScrolling.xml",
+            "\/js\/mana\/infinitescrolling.js",
+            "\/js\/mana\/infinitescrolling.js.map",
+            "\/js\/mana\/infinitescrolling.min.js",
+            "\/js\/src\/Mana\/InfiniteScrolling",
+            "\/skin\/frontend\/base\/default\/css\/mana_infinitescrolling.css",
+            "\/skin\/frontend\/base\/default\/images\/mana_infinitescrolling",
+            "\/skin\/frontend\/base\/default\/js\/mana\/infinitescrolling.js",
+            "\/skin\/frontend\/base\/default\/js\/mana\/infinitescrolling.js.map",
+            "\/skin\/frontend\/base\/default\/js\/mana\/infinitescrolling.min.js",
+            "\/skin\/frontend\/base\/default\/js\/src\/Mana\/InfiniteScrolling"
+        ]
+    },
+    {
+        "packageName": "msp\/flat-shipping5",
+        "version": "9999999-dev-9709aaa4f7307e58c08c8076b66b0eab533d8893",
+        "installedFiles": [
+            "\/app\/code\/community\/MSP\/FlatShipping5",
+            "\/app\/design\/frontend\/base\/default\/layout\/msp_flatshipping5.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/msp_flatshipping5",
+            "\/app\/etc\/modules\/MSP_FlatShipping5.xml"
+        ]
+    },
+    {
+        "packageName": "phoenix-media\/magento-cashondelivery",
+        "version": "9999999-dev-e8e80cd35cc23793e6e96279bdceac0e37b317ad",
+        "installedFiles": [
+            "\/app\/code\/community\/Phoenix\/CashOnDelivery\/Block",
+            "\/app\/code\/community\/Phoenix\/CashOnDelivery\/Helper",
+            "\/app\/code\/community\/Phoenix\/CashOnDelivery\/Model",
+            "\/app\/code\/community\/Phoenix\/CashOnDelivery\/etc",
+            "\/app\/code\/community\/Phoenix\/CashOnDelivery\/sql",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/phoenix\/cashondelivery.xml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/phoenix\/cashondelivery\/form.phtml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/phoenix\/cashondelivery\/info.phtml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/phoenix\/cashondelivery\/pdf",
+            "\/app\/design\/adminhtml\/default\/default\/template\/phoenix\/cashondelivery\/sales",
+            "\/app\/design\/frontend\/base\/default\/layout\/phoenix\/cashondelivery.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/phoenix\/cashondelivery\/checkout",
+            "\/app\/design\/frontend\/base\/default\/template\/phoenix\/cashondelivery\/form.phtml",
+            "\/app\/design\/frontend\/base\/default\/template\/phoenix\/cashondelivery\/info.phtml",
+            "\/app\/etc\/modules\/Phoenix_CashOnDelivery.xml",
+            "\/app\/locale\/de_DE\/Phoenix_CashOnDelivery.csv",
+            "\/app\/locale\/el_GR\/Phoenix_CashOnDelivery.csv",
+            "\/app\/locale\/en_US\/Phoenix_CashOnDelivery.csv",
+            "\/app\/locale\/pl_PL\/Phoenix_CashOnDelivery.csv",
+            "\/js\/phoenix\/cashondelivery\/sales.js"
+        ]
+    },
+    {
+        "packageName": "rockwells\/logviewer",
+        "version": "9999999-dev-84676e1b5dbd52a102f675c442abfdd93804fa5f",
+        "installedFiles": [
+            "\/app\/code\/community\/Rockwells\/LogViewer",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/logviewer\/logviewer.xml",
+            "\/app\/etc\/modules\/Rockwells_LogViewer.xml",
+            "\/app\/locale\/en_US\/Rockwells_LogViewer.csv",
+            "\/skin\/adminhtml\/default\/default\/logviewer\/linedtextarea.css",
+            "\/skin\/adminhtml\/default\/default\/logviewer\/linedtextarea.js",
+            "\/skin\/adminhtml\/default\/default\/logviewer\/load.js"
+        ]
+    },
+    {
+        "packageName": "shopgo\/advanced-ifconfig",
+        "version": "1.0.3.0-8e3f2200fcf27fc0d1d0a75722cec150277d1b23",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/AdvIfconfig",
+            "\/app\/etc\/modules\/Shopgo_AdvIfconfig.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/auto-newsletter",
+        "version": "9999999-dev-098dc85bc8c7809d3256f0078b0010c0600ad990",
+        "installedFiles": [
+            "\/app\/code\/local\/Shopgo\/AutoNewsletter",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/autonewsletter.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/autonewsletter",
+            "\/app\/etc\/modules\/Shopgo_AutoNewsletter.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/auto-related-products",
+        "version": "9999999-dev-c9346a40a2968706988ad9f53c0db8244f15e11f",
+        "installedFiles": [
+            "\/app\/etc\/modules\/Shopgo_ARP.xml",
+            "\/app\/code\/community\/Shopgo\/ARP"
+        ]
+    },
+    {
+        "packageName": "shopgo\/cashu-payment",
+        "version": "9999999-dev-9b08307f3188fc3cd1d6359fefd631b6e8afd52d",
+        "installedFiles": [
+            "\/app\/code\/community\/Cashu\/Prepaid",
+            "\/app\/design\/frontend\/base\/default\/template\/cashu\/prepaid",
+            "\/app\/etc\/modules\/Cashu_Prepaid.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/cms-assistant",
+        "version": "9999999-dev-c7ff13f381ea9191344d624b335597a9ebc29c2a",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/CmsAssistant",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/cms_assistant.xml",
+            "\/app\/etc\/modules\/Shopgo_CmsAssistant.xml",
+            "\/skin\/frontend\/base\/default\/shopgo\/cms_assistant"
+        ]
+    },
+    {
+        "packageName": "shopgo\/core",
+        "version": "1.0.7.0-b7efb9291b03765c5d7510225f8245b5a86a707f",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/Core",
+            "\/app\/etc\/modules\/Shopgo_Core.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/currency-import-service",
+        "version": "9999999-dev-1e55be90bf41312906aaea46c2fe946bb1ccea4f",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/CIS",
+            "\/app\/etc\/modules\/Shopgo_CIS.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/easycheckout",
+        "version": "2.3.3.0-29bd82bf52165dbca3a13ac022f71d11b779b764",
+        "installedFiles": [
+            "\/js\/Shopgo\/EC",
+            "\/skin\/adminhtml\/base\/default\/shopgo\/ec",
+            "\/skin\/frontend\/base\/default\/shopgo\/ec",
+            "\/app\/design\/adminhtml\/base\/default\/template\/shopgo\/ec",
+            "\/app\/design\/adminhtml\/base\/default\/layout\/shopgo\/ec.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/ec",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/ec.xml",
+            "\/app\/locale\/en_US\/Shopgo_EC.csv",
+            "\/app\/locale\/ar_SA\/Shopgo_EC.csv",
+            "\/app\/etc\/modules\/Shopgo_EC.xml",
+            "\/app\/code\/community\/Shopgo\/EC"
+        ]
+    },
+    {
+        "packageName": "shopgo\/facebook-api",
+        "version": "9999999-dev-41ad8ced82e8c4dacb5913b7f5f7b94b3f384038",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/FacebookApi",
+            "\/app\/etc\/modules\/Shopgo_FacebookApi.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/faturah-payment",
+        "version": "9999999-dev-5676045f15472624f9bbe3518bcf07908ea7e7e9",
+        "installedFiles": [
+            "\/app\/code\/community\/Faturah\/Pay",
+            "\/app\/design\/frontend\/base\/default\/template\/faturah\/pay",
+            "\/app\/etc\/modules\/Faturah_Pay.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/follow",
+        "version": "1.0.1.0-e23530984b07733cbf4d0a3f492e9aa2db8fa104",
+        "installedFiles": [
+            "\/app\/design\/adminhtml\/default\/default\/template\/shopgo\/follow",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/follow",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/follow.xml",
+            "\/app\/etc\/modules\/Shopgo_Follow.xml",
+            "\/app\/code\/local\/Shopgo\/Follow"
+        ]
+    },
+    {
+        "packageName": "shopgo\/geo",
+        "version": "9999999-dev-ede34fc8f698ad46c5588cef1adc3fe59b35e99e",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/Geo",
+            "\/app\/design\/adminhtml\/base\/default\/layout\/shopgo\/geo.xml",
+            "\/app\/design\/adminhtml\/base\/default\/template\/shopgo\/geo",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/geo.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/geo",
+            "\/app\/etc\/modules\/Shopgo_Geo.xml",
+            "\/app\/locale\/ar_SA\/Shopgo_Geo.csv",
+            "\/skin\/frontend\/base\/default\/shopgo\/geo"
+        ]
+    },
+    {
+        "packageName": "shopgo\/logo-upload",
+        "version": "0.0.1.0-ecb4da72a75faa96acb0a248db086ac61d084b39",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/LogoUpload",
+            "\/app\/etc\/modules\/Shopgo_LogoUpload.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/magento-1-arabic-language-pack",
+        "version": "9999999-dev-19bf554e64bed46050dab01f77f561e5b0a901b6",
+        "installedFiles": [
+            "\/app\/locale\/ar_SA\/Mage_Review.csv",
+            "\/app\/locale\/ar_SA\/Mage_Install.csv",
+            "\/app\/locale\/ar_SA\/Mage_Strikeiron.csv",
+            "\/app\/locale\/ar_SA\/Mage_Sales.csv",
+            "\/app\/locale\/ar_SA\/Mage_CatalogRule.csv",
+            "\/app\/locale\/ar_SA\/Mage_CatalogSearch.csv",
+            "\/app\/locale\/ar_SA\/Mage_Customer.csv",
+            "\/app\/locale\/ar_SA\/Mage_Cms.csv",
+            "\/app\/locale\/ar_SA\/Mage_Directory.csv",
+            "\/app\/locale\/ar_SA\/Mage_SalesRule.csv",
+            "\/app\/locale\/ar_SA\/Mage_Wishlist.csv",
+            "\/app\/locale\/ar_SA\/Mage_Paypal.csv",
+            "\/app\/locale\/ar_SA\/Mage_Catalog.csv",
+            "\/app\/locale\/ar_SA\/Mage_CatalogInventory.csv",
+            "\/app\/locale\/ar_SA\/Mage_Bundle.csv",
+            "\/app\/locale\/ar_SA\/Mage_Paygate.csv",
+            "\/app\/locale\/ar_SA\/Mage_Sitemap.csv",
+            "\/app\/locale\/ar_SA\/Mage_GoogleBase.csv",
+            "\/app\/locale\/ar_SA\/Mage_Rss.csv",
+            "\/app\/locale\/ar_SA\/Mage_Checkout.csv",
+            "\/app\/locale\/ar_SA\/Mage_Api.csv",
+            "\/app\/locale\/ar_SA\/Mage_AdminNotification.csv",
+            "\/app\/locale\/ar_SA\/Mage_Adminhtml.csv",
+            "\/app\/locale\/ar_SA\/Mage_Weee.csv",
+            "\/app\/locale\/ar_SA\/Mage_Dataflow.csv",
+            "\/app\/locale\/ar_SA\/Mage_Media.csv",
+            "\/app\/locale\/ar_SA\/Mage_GoogleCheckout.csv",
+            "\/app\/locale\/ar_SA\/Mage_Usa.csv",
+            "\/app\/locale\/ar_SA\/Mage_Tag.csv",
+            "\/app\/locale\/ar_SA\/Mage_PaypalUk.csv",
+            "\/app\/locale\/ar_SA\/Mage_GoogleOptimizer.csv",
+            "\/app\/locale\/ar_SA\/Mage_Downloadable.csv",
+            "\/app\/locale\/ar_SA\/Mage_Eav.csv",
+            "\/app\/locale\/ar_SA\/Mage_Page.csv",
+            "\/app\/locale\/ar_SA\/Mage_Tax.csv",
+            "\/app\/locale\/ar_SA\/Mage_Poll.csv",
+            "\/app\/locale\/ar_SA\/Mage_Reports.csv",
+            "\/app\/locale\/ar_SA\/Mage_Core.csv",
+            "\/app\/locale\/ar_SA\/Mage_Sendfriend.csv",
+            "\/app\/locale\/ar_SA\/Mage_Payment.csv",
+            "\/app\/locale\/ar_SA\/Mage_Backup.csv",
+            "\/app\/locale\/ar_SA\/Mage_Rating.csv",
+            "\/app\/locale\/ar_SA\/Mage_Contacts.csv",
+            "\/app\/locale\/ar_SA\/Mage_GoogleAnalytics.csv",
+            "\/app\/locale\/ar_SA\/Mage_GiftMessage.csv",
+            "\/app\/locale\/ar_SA\/Mage_Shipping.csv",
+            "\/app\/locale\/ar_SA\/Mage_Newsletter.csv",
+            "\/app\/locale\/ar_SA\/Mage_ProductAlert.csv",
+            "\/app\/locale\/ar_SA\/Mage_Cron.csv",
+            "\/app\/locale\/ar_SA\/Mage_Rule.csv"
+        ]
+    },
+    {
+        "packageName": "shopgo\/magento-core-1-js-libraries",
+        "version": "9999999-dev-6724299bbb4520dadab5168ce0374fa9a28d635f",
+        "installedFiles": [
+            "\/js\/jquery\/validate\/localization\/messages_ar.js",
+            "\/js\/jquery\/validate\/localization\/messages_bg.js",
+            "\/js\/jquery\/validate\/localization\/messages_cn.js",
+            "\/js\/jquery\/validate\/localization\/messages_cs.js",
+            "\/js\/jquery\/validate\/localization\/messages_da.js",
+            "\/js\/jquery\/validate\/localization\/messages_de.js",
+            "\/js\/jquery\/validate\/localization\/messages_el.js",
+            "\/js\/jquery\/validate\/localization\/messages_es.js",
+            "\/js\/jquery\/validate\/localization\/messages_fa.js",
+            "\/js\/jquery\/validate\/localization\/messages_fi.js",
+            "\/js\/jquery\/validate\/localization\/messages_fr.js",
+            "\/js\/jquery\/validate\/localization\/messages_he.js",
+            "\/js\/jquery\/validate\/localization\/messages_hu.js",
+            "\/js\/jquery\/validate\/localization\/messages_it.js",
+            "\/js\/jquery\/validate\/localization\/messages_kk.js",
+            "\/js\/jquery\/validate\/localization\/messages_lt.js",
+            "\/js\/jquery\/validate\/localization\/messages_lv.js",
+            "\/js\/jquery\/validate\/localization\/messages_nl.js",
+            "\/js\/jquery\/validate\/localization\/messages_no.js",
+            "\/js\/jquery\/validate\/localization\/messages_pl.js",
+            "\/js\/jquery\/validate\/localization\/messages_ptbr.js",
+            "\/js\/jquery\/validate\/localization\/messages_ptpt.js",
+            "\/js\/jquery\/validate\/localization\/messages_ro.js",
+            "\/js\/jquery\/validate\/localization\/messages_ru.js",
+            "\/js\/jquery\/validate\/localization\/messages_se.js",
+            "\/js\/jquery\/validate\/localization\/messages_sk.js",
+            "\/js\/jquery\/validate\/localization\/messages_tr.js",
+            "\/js\/jquery\/validate\/localization\/messages_tw.js",
+            "\/js\/jquery\/validate\/localization\/messages_ua.js",
+            "\/js\/jquery\/validate\/localization\/methods_de.js",
+            "\/js\/jquery\/validate\/localization\/methods_nl.js",
+            "\/js\/jquery\/validate\/localization\/methods_pt.js",
+            "\/js\/jquery\/validate\/jquery.validate.js",
+            "\/js\/jquery\/advListRotator.js",
+            "\/js\/jquery\/fileuploader.js",
+            "\/js\/jquery\/froogaloop.js",
+            "\/js\/jquery\/froogaloop.min.js",
+            "\/js\/jquery\/history.adapter.jquery.js",
+            "\/js\/jquery\/history.js",
+            "\/js\/jquery\/jquery-ui.js",
+            "\/js\/jquery\/jquery-ui.min.js",
+            "\/js\/jquery\/jquery.easing.js",
+            "\/js\/jquery\/jquery.flexslider-min.js",
+            "\/js\/jquery\/jquery.js",
+            "\/js\/jquery\/jquery.min.js",
+            "\/js\/jquery\/jquery.noconflict.js",
+            "\/js\/jquery\/jquery.printf.js",
+            "\/js\/jquery\/require.js",
+            "\/js\/jquery\/require.min.js"
+        ]
+    },
+    {
+        "packageName": "shopgo\/magento-core-1-robots",
+        "version": "9999999-dev-4c882c0d9dca4bb747166bc40766b29ec0c15cae",
+        "installedFiles": [
+
+        ]
+    },
+    {
+        "packageName": "shopgo\/magento-totango-integration",
+        "version": "1.0.1.0-ac5dfde5421de10e6e0f55c7798eb8b282e187a9",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/Totango",
+            "\/app\/etc\/modules\/Shopgo_Totango.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/magento-totango-integration-persist-config",
+        "version": "9999999-dev-ff885cc9097857398bd3fc2c49a3f3f6d12cc0d4",
+        "installedFiles": [
+            "\/var\/shopgo\/totango\/persist.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/onecard-payment",
+        "version": "9999999-dev-447f2ded82e03c49600b71fa2530fcd21a237c33",
+        "installedFiles": [
+            "\/app\/code\/local\/Onecard\/Onecardpay",
+            "\/app\/design\/frontend\/base\/default\/template\/onecard",
+            "\/app\/etc\/modules\/Onecard_Onecardpay.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/packge-listner",
+        "version": "9999999-dev-3c35063731bc8087447612476b6472c4786b4191",
+        "installedFiles": [
+            "\/app\/code\/local\/Shopgo\/PackgeListener",
+            "\/app\/etc\/modules\/Shopgo_PackgeListener.xml",
+            "\/var\/package.json"
+        ]
+    },
+    {
+        "packageName": "shopgo\/probadge",
+        "version": "9999999-dev-45da55fb6fb6bbf2ab7013dd557ceff4b72baa5c",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/ProBadge",
+            "\/app\/design\/frontend\/base\/default\/layout\/probadge.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/probadge",
+            "\/app\/etc\/modules\/Shopgo_ProBadge.xml",
+            "\/skin\/frontend\/base\/default\/probadge"
+        ]
+    },
+    {
+        "packageName": "shopgo\/product-flipper",
+        "version": "9999999-dev-cd559c5a3e47cccd963faa99aa2d44cfc7317e79",
+        "installedFiles": [
+            "\/skin\/frontend\/base\/default\/shopgo\/flipper",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/flipper",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/shopgo_flipper.xml",
+            "\/app\/locale\/en_US\/Shopgo_ProductFlipper.csv",
+            "\/app\/etc\/modules\/Shopgo_ProductFlipper.xml",
+            "\/app\/code\/community\/Shopgo\/ProductFlipper"
+        ]
+    },
+    {
+        "packageName": "shopgo\/shipping-core",
+        "version": "1.3.10.0-19ec52d0db5fe052d5ed8c2d5cbf509f90880091",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/ShippingCore",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/shopgo\/shipping_core.xml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/shopgo\/shipping_core",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/shipping_core.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/shipping_core",
+            "\/app\/etc\/modules\/Shopgo_ShippingCore.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/shopgo-quickview-2",
+        "version": "9999999-dev-6a01e15b27148d270a7d74621b3bf9cbae157039",
+        "installedFiles": [
+            "\/skin\/frontend\/base\/default\/shopgo\/quickview",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/quickview",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/quickview.xml",
+            "\/app\/etc\/modules\/Shopgo_Quickview.xml",
+            "\/app\/code\/local\/Shopgo\/Quickview"
+        ]
+    },
+    {
+        "packageName": "shopgo\/social",
+        "version": "9999999-dev-ac160e8c0d326384aa59874151dbfc132eb12e96",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/Social",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/social.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/social",
+            "\/app\/etc\/modules\/Shopgo_Social.xml",
+            "\/app\/locale\/ar_SA\/Shopgo_Social.csv",
+            "\/app\/locale\/en_US\/Shopgo_Social.csv",
+            "\/skin\/frontend\/base\/default\/shopgo\/social"
+        ]
+    },
+    {
+        "packageName": "shopgo\/swinxy-zoom",
+        "version": "9999999-dev-adf2bfb70624a089ee8a6819a0ac9a106e2b0385",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/Swinzoom",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/swinzoom.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/swinzoom\/media.phtml",
+            "\/app\/etc\/modules\/Shopgo_Swinzoom.xml",
+            "\/js\/shopgo\/swinzoom",
+            "\/skin\/frontend\/base\/default\/shopgo\/swinzoom"
+        ]
+    },
+    {
+        "packageName": "shopgo\/switcher",
+        "version": "0.0.1.0-3a1b039d5a1e6ea76772234a1ee541f739d26acd",
+        "installedFiles": [
+            "\/skin\/frontend\/base\/default\/shopgo\/switcher",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/switcher",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/switcher.xml",
+            "\/app\/etc\/modules\/Shopgo_Switcher.xml",
+            "\/app\/code\/community\/Shopgo\/Switcher"
+        ]
+    },
+    {
+        "packageName": "shopgo\/top-cart",
+        "version": "9999999-dev-4a1018423f2d87b254e1b72ebb5406a33ba3a33b",
+        "installedFiles": [
+            "\/app\/code\/local\/Minicart\/Topcart",
+            "\/app\/design\/frontend\/base\/default\/layout\/topcart.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/topcart",
+            "\/app\/etc\/modules\/Minicart_Topcart.xml",
+            "\/js\/topcart",
+            "\/skin\/frontend\/base\/default\/topcart"
+        ]
+    },
+    {
+        "packageName": "tm-shopgo\/easy-tabs",
+        "version": "1.2.2.0-da651dc561c24ce2b61bb84939045a0b57373327",
+        "installedFiles": [
+            "\/app\/code\/community\/TM\/EasyTabs",
+            "\/app\/design\/frontend\/base\/default\/layout\/easytabs.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/easytabs",
+            "\/app\/etc\/modules\/TM_EasyTabs.xml",
+            "\/skin\/frontend\/base\/default\/css\/easytabs.css"
+        ]
+    },
+    {
+        "packageName": "shopgo\/extenstionsmanager",
+        "version": "9999999-dev-48a3df59a88b7de01ad55a0f8304b46aab24677b",
+        "installedFiles": [
+            "\/shopgo\/embc"
+        ]
+    },
+    {
+        "packageName": "shopgo\/gtm",
+        "version": "9999999-dev-e68dc045cee253338eb8784ecfe19450567f4007",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/GTM",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/gtm.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/gtm",
+            "\/app\/etc\/modules\/Shopgo_GTM.xml"
+        ]
+    },
+    {
+        "packageName": "ras\/paytabs",
+        "version": "9999999-dev-462bd68c104e423a7019dd9d40665dd9f4ea87ba",
+        "installedFiles": [
+            "\/app\/code\/local\/Ras\/Paytabs",
+            "\/app\/etc\/modules\/Ras_Paytabs.xml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/Ras_Paytabs",
+            "\/app\/locale\/ar_SA\/Ras_Paytabs.csv",
+            "\/app\/locale\/en_US\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_AE\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_BH\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_DZ\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_EG\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_IQ\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_JO\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_KW\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_LY\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_LB\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_MA\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_OM\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_QA\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_SD\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_SY\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_TN\/Ras_Paytabs.csv",
+            "\/app\/locale\/ar_YE\/Ras_Paytabs.csv",
+            "\/skin\/frontend\/base\/default\/paytabs"
+        ]
+    },
+    {
+        "packageName": "shopgo\/config-corrupted-cache",
+        "version": "dev-1.9.2.4\/magento-cf726e6f7af2e2bcfe9daecb360d43c8ffd21a1a",
+        "installedFiles": [
+            "\/app\/code\/local\/Mage\/Core\/Model\/Config.php"
+        ]
+    },
+    {
+        "packageName": "shopgo\/skynet-shipping",
+        "version": "1.0.8.0-3e2ee72ed9be2c990c0b7cd2fa170103d0c654c4",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/SkynetShipping",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/shopgo\/skynet_shipping.xml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/shopgo\/skynet_shipping",
+            "\/app\/etc\/modules\/Shopgo_SkynetShipping.xml",
+            "\/skin\/adminhtml\/default\/default\/shopgo\/skynet_shipping"
+        ]
+    },
+    {
+        "packageName": "aoepeople\/aoe_scheduler",
+        "version": "1.5.0.0-6fb8bf1524145fe5b6775305932e1dd0d7d5f6c5",
+        "installedFiles": [
+            "\/app\/code\/community\/Aoe\/Scheduler",
+            "\/app\/etc\/modules\/Aoe_Scheduler.xml",
+            "\/shell\/scheduler.php",
+            "\/app\/locale\/sv_SE\/Aoe_Scheduler.csv",
+            "\/app\/locale\/de_DE\/Aoe_Scheduler.csv",
+            "\/app\/locale\/en_US\/template\/email\/aoe_scheduler",
+            "\/app\/design\/adminhtml\/default\/default\/template\/aoe_scheduler",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/aoe_scheduler",
+            "\/skin\/adminhtml\/default\/default\/aoe_scheduler",
+            "\/dev\/tests\/aoe_scheduler"
+        ]
+    },
+    {
+        "packageName": "shopgo\/payfort-payment-new",
+        "version": "9999999-dev-b761f0933e650e577455fe8df2b386ca6b833914",
+        "installedFiles": [
+            "\/app\/code\/community\/Payfort\/Pay",
+            "\/app\/design\/frontend\/base\/default\/layout\/payfort\/pay.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/payfort",
+            "\/app\/etc\/modules\/Payfort_Pay.xml",
+            "\/js\/payfort\/checkout-submit.js",
+            "\/skin\/frontend\/base\/default\/css\/payfort",
+            "\/skin\/frontend\/base\/default\/images\/payfort",
+            "\/app\/locale\/en_US\/Payfort_Pay.csv"
+        ]
+    },
+    {
+        "packageName": "inchoo\/featured-products",
+        "version": "9999999-dev-75ab057c409239a2847eb02c54fd2cd4b3d615b8",
+        "installedFiles": [
+            "\/app\/code\/community\/Inchoo\/FeaturedProducts",
+            "\/app\/code\/community\/Inchoo\/Notes",
+            "\/app\/etc\/modules\/Inchoo_FeaturedProducts.xml",
+            "\/app\/etc\/modules\/Inchoo_Notes.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/inchoo\/featuredproducts",
+            "\/app\/design\/frontend\/base\/default\/layout\/inchoofeaturedproducts.xml"
+        ]
+    },
+    {
+        "packageName": "magestore-shopgo\/mega-menu",
+        "version": "9999999-dev-cde1751ed82253c8aa28891422b3bdcf8896dca4",
+        "installedFiles": [
+            "\/app\/code\/local\/Magestore\/license_certificates\/Magestore_Megamenu.xml",
+            "\/app\/code\/local\/Magestore\/Megamenu",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/megamenu.xml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/megamenu",
+            "\/app\/design\/frontend\/base\/default\/layout\/megamenu.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/megamenu",
+            "\/app\/etc\/modules\/Magestore_Megamenu.xml",
+            "\/app\/locale\/en_US\/Magestore_Megamenu.csv",
+            "\/js\/megamenu",
+            "\/media\/import\/menu1.jpg",
+            "\/media\/import\/menu2.jpg",
+            "\/media\/import\/menu3.jpg",
+            "\/media\/import\/menu4.jpg",
+            "\/media\/import\/templatemenu.xml",
+            "\/media\/megamenu",
+            "\/media\/brands1.gif",
+            "\/media\/brands2.gif",
+            "\/media\/brands3.gif",
+            "\/media\/Check-it-out.gif",
+            "\/media\/magnifier_handle.gif",
+            "\/media\/slider_bg.gif",
+            "\/media\/slider_btn_zoom_in.gif",
+            "\/media\/slider_btn_zoom_out.gif",
+            "\/skin\/adminhtml\/default\/default\/css\/magestore\/megamenu",
+            "\/skin\/adminhtml\/default\/default\/css\/magestore\/magnifier_handle.gif",
+            "\/skin\/adminhtml\/default\/default\/css\/magestore\/megamenu.css",
+            "\/skin\/adminhtml\/default\/default\/css\/magestore\/slider_bg.gif"
+        ]
+    },
+    {
+        "packageName": "manadev-shopgo\/seo-layered-navigation-plus",
+        "version": "14.11.14.16-patch2-0223966465424e41a4a69526940af8d5d6b7fcbb",
+        "installedFiles": [
+            "\/app\/code\/local\/Mana\/Admin",
+            "\/app\/code\/local\/Mana\/Ajax",
+            "\/app\/code\/local\/Mana\/Db",
+            "\/app\/code\/local\/Mana\/Filters",
+            "\/app\/code\/local\/Mana\/Seo",
+            "\/app\/code\/local\/ManaPro\/FilterAdmin",
+            "\/app\/code\/local\/ManaPro\/FilterAdvanced",
+            "\/app\/code\/local\/ManaPro\/FilterAjax",
+            "\/app\/code\/local\/ManaPro\/FilterCheckboxes",
+            "\/app\/code\/local\/ManaPro\/FilterClear",
+            "\/app\/code\/local\/ManaPro\/FilterColors",
+            "\/app\/code\/local\/ManaPro\/FilterDropdown",
+            "\/app\/code\/local\/ManaPro\/FilterExpandCollapse",
+            "\/app\/code\/local\/ManaPro\/FilterGroup",
+            "\/app\/code\/local\/ManaPro\/FilterHelp",
+            "\/app\/code\/local\/ManaPro\/FilterPositioning",
+            "\/app\/code\/local\/ManaPro\/FilterRadios",
+            "\/app\/code\/local\/ManaPro\/FilterSeoLinks",
+            "\/app\/code\/local\/ManaPro\/FilterShowMore",
+            "\/app\/code\/local\/ManaPro\/FilterSlider",
+            "\/app\/code\/local\/ManaPro\/FilterSuperSlider",
+            "\/app\/code\/local\/ManaPro\/FilterTree",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/mana_admin.xml",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/mana_seo.xml",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/manapro_filteradmin.xml",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/manapro_filteradvanced.xml",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/manapro_filtercolors.xml",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/manapro_filterseolinks.xml",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/manapro_filtersuperslider.xml",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/manapro_filtertree.xml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/mana\/admin",
+            "\/app\/design\/frontend\/base\/default\/layout\/mana_ajax.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/mana_filters.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filteradvanced.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filterajax3.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filtercheckboxes.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filterclear.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filtercolors.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filterdropdown.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filterexpandcollapse.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filtergroup.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filterhelp.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filterpositioning.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filterradios.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filtershowmore.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filterslider.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filtersuperslider.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/manapro_filtertree.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/mana\/filters",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filteradvanced",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filtercheckboxes",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filterclear",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filtercolors",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filterdropdown",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filterexpandcollapse",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filtergroup",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filterhelp",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filterpositioning\/horizontal",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filterradios",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filtershowmore",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filterslider",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filtersuperslider",
+            "\/app\/design\/frontend\/base\/default\/template\/manapro\/filtertree",
+            "\/app\/design\/frontend\/rwd\/default\/layout\/mana_filters.xml",
+            "\/app\/design\/frontend\/rwd\/default\/layout\/manapro_filterajax3.xml",
+            "\/app\/design\/frontend\/rwd\/default\/template\/mana\/filters",
+            "\/app\/design\/frontend\/rwd\/default\/template\/manapro\/filteradvanced",
+            "\/app\/design\/frontend\/rwd\/default\/template\/manapro\/filtercheckboxes",
+            "\/app\/design\/frontend\/rwd\/default\/template\/manapro\/filtercolors",
+            "\/app\/etc\/modules\/Mana_Admin.xml",
+            "\/app\/etc\/modules\/Mana_Ajax.xml",
+            "\/app\/etc\/modules\/Mana_Db.xml",
+            "\/app\/etc\/modules\/Mana_Filters.xml",
+            "\/app\/etc\/modules\/Mana_Seo.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterAdmin.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterAdvanced.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterAjax.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterCheckboxes.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterClear.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterColors.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterDropdown.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterExpandCollapse.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterGroup.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterHelp.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterPositioning.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterRadios.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterSeoLinks.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterShowMore.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterSlider.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterSuperSlider.xml",
+            "\/app\/etc\/modules\/ManaPro_FilterTree.xml",
+            "\/app\/locale\/en_US\/Mana_Admin.csv",
+            "\/app\/locale\/en_US\/Mana_Ajax.csv",
+            "\/app\/locale\/en_US\/Mana_Db.csv",
+            "\/app\/locale\/en_US\/Mana_Filters.csv",
+            "\/app\/locale\/en_US\/Mana_Seo.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterAdmin.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterAdvanced.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterAjax.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterCheckboxes.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterClear.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterColors.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterDropdown.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterExpandCollapse.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterGroup.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterHelp.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterPositioning.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterRadios.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterSeoLinks.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterShowMore.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterSlider.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterSuperSlider.csv",
+            "\/app\/locale\/en_US\/ManaPro_FilterTree.csv",
+            "\/js\/mana\/admin.js",
+            "\/js\/mana\/admin",
+            "\/skin\/adminhtml\/default\/default\/css\/mana_admin.css",
+            "\/skin\/adminhtml\/default\/default\/images\/mana_admin",
+            "\/skin\/adminhtml\/default\/default\/js\/mana_admin.js",
+            "\/skin\/adminhtml\/default\/default\/js\/mana_seo.js",
+            "\/skin\/adminhtml\/default\/default\/js\/manapro_filtercolors.js",
+            "\/skin\/adminhtml\/default\/default\/js\/manapro_filtersuperslider.js",
+            "\/skin\/adminhtml\/default\/default\/js\/manapro_filtertree.js",
+            "\/skin\/frontend\/base\/default\/css\/mana_ajax.css",
+            "\/skin\/frontend\/base\/default\/css\/mana_filters.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filteradvanced.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filtercheckboxes.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filterclear.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filtercolors.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filterdropdown.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filterexpandcollapse.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filtergroup.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filterhelp.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filterpositioning.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filterradios.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filtershowmore.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filterslider.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filtersuperslider.css",
+            "\/skin\/frontend\/base\/default\/css\/manapro_filtertree.css",
+            "\/skin\/frontend\/base\/default\/images\/manapro_filtercheckboxes",
+            "\/skin\/frontend\/base\/default\/images\/manapro_filterexpandcollapse",
+            "\/skin\/frontend\/base\/default\/images\/manapro_filtergroup",
+            "\/skin\/frontend\/base\/default\/images\/manapro_filterpositioning",
+            "\/skin\/frontend\/base\/default\/images\/manapro_filterslider",
+            "\/skin\/frontend\/base\/default\/images\/manapro_filtertree",
+            "\/skin\/frontend\/base\/default\/js\/mana_ajax.js",
+            "\/skin\/frontend\/base\/default\/js\/manapro_filterajax.js",
+            "\/skin\/frontend\/base\/default\/js\/manapro_filtercolors.js",
+            "\/skin\/frontend\/base\/default\/js\/manapro_filterexpandcollapse.js",
+            "\/skin\/frontend\/base\/default\/js\/manapro_filtergroup.js",
+            "\/skin\/frontend\/base\/default\/js\/manapro_filterhelp.js",
+            "\/skin\/frontend\/base\/default\/js\/manapro_filterpositioning.js",
+            "\/skin\/frontend\/base\/default\/js\/manapro_filtershowmore.js",
+            "\/skin\/frontend\/base\/default\/js\/manapro_filterslider.js",
+            "\/skin\/frontend\/base\/default\/js\/manapro_filtersuperslider.js",
+            "\/skin\/frontend\/base\/default\/js\/manapro_filtertree.js",
+            "\/skin\/frontend\/base\/default\/js\/price_slider.js",
+            "\/skin\/frontend\/rwd\/default\/css\/mana_filters.css",
+            "\/skin\/frontend\/rwd\/default\/css\/manapro_filteradvanced.css",
+            "\/skin\/frontend\/rwd\/default\/css\/manapro_filtercheckboxes.css",
+            "\/skin\/frontend\/rwd\/default\/css\/manapro_filterdropdown.css",
+            "\/skin\/frontend\/rwd\/default\/css\/manapro_filterexpandcollapse.css",
+            "\/skin\/frontend\/rwd\/default\/css\/manapro_filtergroup.css",
+            "\/skin\/frontend\/rwd\/default\/css\/manapro_filterpositioning.css",
+            "\/skin\/frontend\/rwd\/default\/css\/manapro_filterradios.css",
+            "\/skin\/frontend\/rwd\/default\/css\/manapro_filtershowmore.css",
+            "\/skin\/frontend\/rwd\/default\/css\/manapro_filterslider.css",
+            "\/skin\/frontend\/rwd\/default\/css\/manapro_filtersuperslider.css"
+        ]
+    },
+    {
+        "packageName": "obukhow\/adaptive-resize",
+        "version": "9999999-dev-1fb6fb4483b826d612596ecf33fb8ef654ff3a01",
+        "installedFiles": [
+            "\/app\/etc\/modules\/Bolevar_AdaptiveResize.xml",
+            "\/app\/code\/community\/Bolevar\/AdaptiveResize"
+        ]
+    },
+    {
+        "packageName": "shopgo\/admin-simple-blocker",
+        "version": "0.1.0.0-da372bbf4f8280c1c93dbd20c4a7be3d4f072f54",
+        "installedFiles": [
+            "\/app\/code\/local\/Shopgo\/AdminSimpleBlocker",
+            "\/app\/etc\/modules\/Shopgo_AdminSimpleBlocker.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/aramex-shipping",
+        "version": "1.3.0.0-0cac39a55a15e2a5d3d5d16436889de8fe088a99",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/AramexShipping",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/shopgo\/aramex_shipping.xml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/shopgo\/aramex_shipping",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/aramex_shipping.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/aramex_shipping",
+            "\/app\/etc\/modules\/Shopgo_AramexShipping.xml",
+            "\/skin\/adminhtml\/default\/default\/shopgo\/aramex_shipping"
+        ]
+    },
+    {
+        "packageName": "shopgo\/banner-slider-cmp",
+        "version": "9999999-dev-bac55992155cd6422474c2f953c3ea698b57560a",
+        "installedFiles": [
+            "\/skin\/frontend\/base\/default\/shopgo\/bannerslider",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/shopgo\/bannerslider.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/bannerslider.phtml",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/bannerslider.xml",
+            "\/app\/etc\/modules\/Shopgo_Bannerslider.xml",
+            "\/app\/code\/local\/Shopgo\/Bannerslider"
+        ]
+    },
+    {
+        "packageName": "aheadworks\/all",
+        "version": "9999999-dev-3b00037cff5d96faa2e184780e699418705780a0",
+        "installedFiles": [
+            "\/app\/code\/local\/AW\/All",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/aw_all.xml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/aw_all",
+            "\/app\/etc\/modules\/AW_All.xml",
+            "\/js\/aw_all",
+            "\/skin\/adminhtml\/default\/default\/aw_all"
+        ]
+    },
+    {
+        "packageName": "aheadworks\/blog",
+        "version": "1.3.18.0-5c5e0ba8634078c33b22f659dfbebd38b0105978",
+        "installedFiles": [
+            "\/app\/code\/community\/AW\/Blog",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/aw_blog.xml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/aw_blog",
+            "\/app\/design\/frontend\/base\/default\/layout\/aw_blog.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/aw_blog",
+            "\/app\/design\/frontend\/rwd\/default\/layout\/aw_blog.xml",
+            "\/app\/design\/frontend\/rwd\/default\/template\/aw_blog",
+            "\/app\/etc\/modules\/AW_Blog.xml",
+            "\/app\/locale\/ar_SA\/template\/email\/aw_blog\/comment_submitted.html",
+            "\/app\/locale\/ar_SA\/AW_Blog.csv",
+            "\/app\/locale\/cs_CZ\/template\/email\/aw_blog\/comment_submitted.html",
+            "\/app\/locale\/cs_CZ\/AW_Blog.csv",
+            "\/app\/locale\/de_DE\/template\/email\/aw_blog\/comment_submitted.html",
+            "\/app\/locale\/de_DE\/AW_Blog.csv",
+            "\/app\/locale\/en_GB\/template\/email\/aw_blog\/comment_submitted.html",
+            "\/app\/locale\/en_GB\/AW_Blog.csv",
+            "\/app\/locale\/en_US\/template\/email\/aw_blog\/comment_submitted.html",
+            "\/app\/locale\/en_US\/AW_Blog.csv",
+            "\/app\/locale\/fr_FR\/template\/email\/aw_blog\/comment_submitted.html",
+            "\/app\/locale\/fr_FR\/AW_Blog.csv",
+            "\/app\/locale\/nl_NL\/template\/email\/aw_blog\/comment_submitted.html",
+            "\/app\/locale\/nl_NL\/AW_Blog.csv",
+            "\/app\/locale\/ru_RU\/template\/email\/aw_blog\/comment_submitted.html",
+            "\/app\/locale\/ru_RU\/AW_Blog.csv",
+            "\/lib\/recaptcha\/recaptchalib-aw.php",
+            "\/skin\/adminhtml\/default\/default\/aw_blog",
+            "\/skin\/frontend\/base\/default\/aw_blog",
+            "\/skin\/frontend\/rwd\/default\/aw_blog"
+        ]
+    },
+    {
+        "packageName": "shopgo\/style-editor",
+        "version": "9999999-dev-0c4a36959c8931b401b91f323139a941a5cb89bf",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/StyleEditor",
+            "\/app\/design\/adminhtml\/base\/default\/layout\/shopgo\/styleeditor.xml",
+            "\/app\/design\/adminhtml\/base\/default\/template\/shopgo\/styleeditor",
+            "\/app\/etc\/modules\/Shopgo_StyleEditor.xml",
+            "\/skin\/adminhtml\/base\/default\/shopgo\/styleeditor",
+            "\/lib\/Shopgo\/styleeditor"
+        ]
+    },
+    {
+        "packageName": "shopgo\/mage-branding",
+        "version": "9999999-dev-f1b61ac9990dfe00067b5d59f3ef19963ad03166",
+        "installedFiles": [
+            "\/app\/code\/local\/Shopgo\/AdminLogin",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/shopgo\/adminlogin.xml",
+            "\/app\/design\/adminhtml\/default\/default\/template\/shopgo\/adminlogin",
+            "\/app\/etc\/modules\/Shopgo_AdminLogin.xml",
+            "\/skin\/adminhtml\/default\/default\/shopgo\/adminlogin"
+        ]
+    },
+    {
+        "packageName": "shopgo\/magento-core-1-htaccess",
+        "version": "dev-custom-bae3bb360d8f0338d546b0945026a76440ca4780",
+        "installedFiles": [
+
+        ]
+    },
+    {
+        "packageName": "shopgo\/zain-iraq-payment",
+        "version": "9999999-dev-5c8e7f4b6bede0610ba3b36501572fd31bfddfa2",
+        "installedFiles": [
+            "\/app\/code\/community\/Shopgo\/ZainIraq",
+            "\/skin\/frontend\/default\/default\/images\/zainiraq\/logo-en.png",
+            "\/app\/design\/frontend\/base\/default\/template\/shopgo\/zainiraq",
+            "\/app\/design\/frontend\/base\/default\/layout\/shopgo\/zainiraq.xml",
+            "\/app\/etc\/modules\/Shopgo_ZainIraq.xml",
+            "\/lib\/Firebase"
+        ]
+    },
+    {
+        "packageName": "astorm\/pulsestorm-launcher",
+        "version": "9999999-dev-05ebcedef9fbfa4e343427ce2755169490c66706",
+        "installedFiles": [
+            "\/app\/code\/community\/Pulsestorm\/Launcher",
+            "\/app\/design\/adminhtml\/default\/default\/template\/pulsestorm_launcher",
+            "\/app\/etc\/modules\/Pulsestorm_Launcher.xml",
+            "\/skin\/adminhtml\/default\/default\/pulsestorm_launcher"
+        ]
+    },
+    {
+        "packageName": "shopgo\/clarity-theme",
+        "version": "9999999-dev-466ca59eacc43036233425e2161903b2e962776a",
+        "installedFiles": [
+            "\/app\/code\/local\/Shopgo\/NewSale",
+            "\/app\/etc\/modules\/Shopgo_NewSale.xml",
+            "\/app\/design\/frontend\/shopgo\/clarity",
+            "\/app\/design\/frontend\/shopgo\/clarity_custom\/.gitkeep",
+            "\/app\/design\/frontend\/shopgo\/clarity_custom\/README.md",
+            "\/skin\/frontend\/shopgo\/clarity",
+            "\/skin\/frontend\/shopgo\/clarity_custom\/.gitkeep",
+            "\/skin\/frontend\/shopgo\/clarity_custom\/README.md",
+            "\/app\/code\/local\/Shopgo\/Clarity",
+            "\/app\/etc\/modules\/Shopgo_Clarity.xml"
+        ]
+    },
+    {
+        "packageName": "shopgo\/knet-payment",
+        "version": "9999999-dev-37d3e3c917aecacc2eb8aff7b4c817f641745b41",
+        "installedFiles": [
+            "\/app\/design\/frontend\/base\/default\/template\/knet\/pg",
+            "\/app\/design\/frontend\/base\/default\/layout\/knet\/pg.xml",
+            "\/app\/etc\/modules\/Knet_PG.xml",
+            "\/app\/code\/community\/Knet\/PG",
+            "\/lib\/Knet\/PG"
+        ]
+    },
+    {
+        "packageName": "wigman\/ajax-swatches",
+        "version": "dev-develop-f7f10ddcb62218f304fbfce5b1a155b2a2ad9f81",
+        "installedFiles": [
+            "\/app\/code\/community\/Wigman\/AjaxSwatches",
+            "\/app\/etc\/modules\/Wigman_AjaxSwatches.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/wigman_ajaxswatches.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/wigman\/ajaxswatches",
+            "\/skin\/frontend\/base\/default\/wigman\/ajaxswatches"
+        ]
+    },
+    {
+        "packageName": "magebuzz\/shop-by-manufacturer",
+        "version": "9999999-dev-35cf7eff21e8cb90ba0f206145b48cbca187260f",
+        "installedFiles": [
+            "\/app\/code\/local\/Magebuzz\/Manufacturer",
+            "\/app\/design\/adminhtml\/default\/default\/template\/magebuzz\/manufacturer",
+            "\/app\/design\/adminhtml\/default\/default\/layout\/magebuzz\/manufacturer.xml",
+            "\/app\/design\/frontend\/base\/default\/layout\/magebuzz\/manufacturer.xml",
+            "\/app\/design\/frontend\/base\/default\/template\/magebuzz\/manufacturer",
+            "\/app\/etc\/modules\/Magebuzz_Manufacturer.xml",
+            "\/app\/locale\/en_US\/Magebuzz_Manufacturer.csv",
+            "\/js\/magebuzz\/manufacturer",
+            "\/skin\/frontend\/base\/default\/magebuzz\/manufacturer"
+        ]
+    }
+]

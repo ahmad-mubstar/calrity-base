@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shopgo_ProductFlipper>
+            <version>1.0.0</version>
+        </Shopgo_ProductFlipper>
+    </modules>
+
+    <global>
+        <models>
+            <shopgo_flipper>
+                <class>Shopgo_ProductFlipper_Model</class>
+                <resourceModel>shopgo_flipper_resource</resourceModel>
+            </shopgo_flipper>
+        </models>
+
+        <helpers>
+            <shopgo_flipper>
+                <class>Shopgo_ProductFlipper_Helper</class>
+            </shopgo_flipper>
+        </helpers>
+
+        <blocks>
+            <shopgo_flipper>
+                <class>Shopgo_ProductFlipper_Block</class>
+            </shopgo_flipper>
+        </blocks>
+
+        <resources>
+            <shopgo_flipper_setup>
+                <setup>
+                    <module>Shopgo_ProductFlipper</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </shopgo_flipper_setup>
+            <shopgo_flipper_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </shopgo_flipper_write>
+            <shopgo_flipper_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </shopgo_flipper_read>
+        </resources>
+    </global>
+
+
+    <frontend>
+        <routers>
+            <shopgo_flipper>
+                <use>standard</use>
+                <args>
+                    <module>Shopgo_ProductFlipper</module>
+                    <frontName>flipper</frontName>
+                </args>
+            </shopgo_flipper>
+        </routers>
+        <layout>
+            <updates>
+                <shopgo_flipper>
+                    <file>shopgo/shopgo_flipper.xml</file>
+                </shopgo_flipper>
+            </updates>
+        </layout>
+    </frontend>
+
+    <default>
+        <shopgo_flipper>
+            <extension_settings>
+                <enable>1</enable>
+                <preloader>1</preloader>
+                <img_selector>a.product-image</img_selector>
+            </extension_settings>
+            <image_flip>
+                <effect>fade</effect>
+                <duration>500</duration>
+            </image_flip>
+        </shopgo_flipper>
+    </default>
+</config>

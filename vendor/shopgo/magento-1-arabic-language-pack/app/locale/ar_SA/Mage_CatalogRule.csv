@@ -1,0 +1,66 @@
+Actions,العمليات
+Active,نشط
+Add New Rule,أضف قاعدة جديدة
+Apply Rules,طبق القواعد
+Attribute Set,مجموعة السمات
+Catalog,كتالوج
+Catalog Price Rule,قاعدة الاسعار فى الكتالوج
+Catalog Price Rules,قواعد الاسعار فى الكتالوج
+Category,قئة
+Comments History,تاريخ التعليقات
+Conditions,شروط
+Conditions (leave blank for all products),شروط (اتركه فارغا لكافة المنتجات)
+Conditions Combination,مجموعة من الشروط
+Credit Memos,المذكرات الائتمان
+Customer Groups,مجموعات العملاء
+Customer is new buyer: %s,العميل : مشتري جديد: %s
+Customer registered: %s,العميل المسجل: %s
+Date Expire,تاريخ الانتهاء
+Date From,من تاريخ
+Date Start,بداية بتاريخ
+Date To,حتى تاريخ
+Delete Rule,احذف قاعدة
+Description,الوصف
+Description: %s,الوصف: %s
+Edit Rule,تعديل القاعدة
+Edit Rule '%s',تعديل القاعدة '%s'
+Expire at: %s,تنتهى عند: %s
+From Date,من تاريخ
+General Information,المعلومات العامة
+Gift Messages,رسائل مع الهدية
+ID,المعرف
+Inactive,غير نشط
+Invoices,الفواتير
+NOT LOGGED IN,غير مسجل الدخول
+Name: %s,الأسم: %s
+New Rule,قاعدة جديدة
+No,لا
+Options,الخيارات
+Order Credit Memos,طلب مذكرة ائتمانية
+Order Gift Messages,طلب رسائل هدية
+Order History,تاريخ الطلب
+Order Invoices,فواتير الطلب
+Order Shipments,شحنات الطلب
+Priority,الاولوية
+Product Attribute,سمة المنتج
+Promotions,ترويج
+Rule Information,معلومات القاعدة
+Rule Name,اسم القاعدة
+Rule was successfully deleted,تم حذف القاعدة بنجاح
+Rule was successfully saved,تم حفظ القاعدة بنجاح
+Rules were successfully applied,تم تطبيق القاعدة بنجاح
+Save Rule,حفظ القاعدة
+Save and Apply,حفظ وتطبيق
+Shipments,الشحنات
+Start at: %s,ابتداءً من: %s
+Status,الحالة
+Stop further rules processing,اوقف تطبيق أي قواعد أخرى
+The page you are trying to save no longer exists,الصفحة التى تحاول حفظها لم تعد موجودة
+"There are rules that have been changed but not applied. Please, click Apply Rules in order to see immediate effect in catalog.",هناك قواعد تم تغييرها ولكن لم تطبق بعد . من فضلك، انقر على تطبيق القواعد من أجل أثر فوري في الكتالوج.
+This rule no longer exists,هذة القاعدة لم تعد موجودة
+To Date,حتى تاريخ
+Unable to apply rules,لا يمكن تطبيق هذة القواعد
+Unable to find a page to delete,لا يمكن ايجاد هذة الصفحة لحذفها
+Update product's %s %s: %s,تحديث بيانات المنتج %s %s: %s
+Websites,المواقع
+Yes,نعم

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <shopgo>
+            <label>ShopGo</label>
+            <sort_order>207</sort_order>
+        </shopgo>
+    </tabs>
+    <sections>
+        <shopgo_flipper translate="label" module="shopgo_flipper">
+            <label>Product Flipper</label>
+            <tab>shopgo</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>150</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <extension_settings translate="label">
+                    <label>Extension Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enable translate="label">
+                            <label>Enable</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Enable/Disable extension]]></comment>
+                        </enable>
+                        <preloader translate="label">
+                            <label>Pre-Loader</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[YES - use pre-loader<br> NO - do not use pre-loader]]></comment>
+                        </preloader>
+                        <img_selector translate="label">
+                            <label>Path to image link</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Css selector to image product link.<br>Ex: "a.product-image"]]></comment>
+                        </img_selector>
+                    </fields>
+                </extension_settings>
+                <image_flip translate="label">
+                    <label>Image Flip</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <effect translate="label">
+                            <label>Effect</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>shopgo_flipper/system_config_effect</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Swap image effect]]></comment>
+                        </effect>
+                        <duration translate="label">
+                            <label>Effect duration</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Effect duration (in milliseconds)]]></comment>
+                        </duration>
+                    </fields>
+                </image_flip>
+            </groups>
+        </shopgo_flipper>
+    </sections>
+</config>

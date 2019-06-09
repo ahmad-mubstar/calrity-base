@@ -1,0 +1,18 @@
+{
+    "name": "shopgo/config-corrupted-cache",
+    "type": "magento-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "description": "A patch that fixes a config corruption bug in Magento 1, explained here: https://github.com/AmpersandHQ/magento-ce-ee-config-corruption-bug",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name": "ShopGo",
+            "email": "support@shopgo.me"
+        }
+    ]
+}

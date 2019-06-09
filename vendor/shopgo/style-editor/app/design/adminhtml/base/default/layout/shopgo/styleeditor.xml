@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_styleeditor_index translate="label" module="styleeditor">
+        <label>ShopGo StyleEditor Template</label>
+        <block type="adminhtml/page" name="root" output="toHtml" template="shopgo/styleeditor/layout.phtml">
+            <block type="page/html_head" name="head" as="head"></block>
+            <block type="core/text_list" name="content" as="content" translate="label">
+                <label>Main Content Area</label>
+            </block>
+        </block>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>shopgo/styleeditor/layout.phtml</template>
+            </action>
+        </reference>
+        <reference name="head">
+            <action method="setTemplate">
+                <template>shopgo/styleeditor/layout/head.phtml</template>
+            </action>
+            <!-- internal css -->
+            <action method="addCss">
+                <stylesheet>shopgo/styleeditor/css/style.css</stylesheet>
+            </action>
+            <block type="styleeditor/script" name="styleeditor_script" template="shopgo/styleeditor/script.phtml"></block>
+            <action method="addItem">
+                <type>skin_js</type>
+                <script>shopgo/styleeditor/js/script.js</script>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="styleeditor/adminhtml_styleeditor" name="styleeditor" template="shopgo/styleeditor/index.phtml"></block>
+        </reference>
+    </adminhtml_styleeditor_index>
+</layout>

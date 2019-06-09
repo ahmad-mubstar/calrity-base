@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shopgo_PackgeListener>
+            <version>0.1.0</version>
+        </Shopgo_PackgeListener>
+    </modules>
+   <crontab>
+        <jobs>
+            <check_products_size>
+                <schedule>
+                    <cron_expr>0 3 * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>checkpackagesize/checkpackagesize::checkproductsize</model>
+                </run>
+            </check_products_size>
+        </jobs>
+    </crontab>
+    <global>
+
+        <helpers>
+            <PackgeListener>
+                <class>Shopgo_PackgeListener_Helper</class>
+            </PackgeListener>
+        </helpers>
+
+        <models>
+            <checkpackagesize>
+                <class>Shopgo_PackgeListener_Model</class>
+            </checkpackagesize>
+        </models>
+    </global>
+</config>

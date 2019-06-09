@@ -1,0 +1,7 @@
+app/code/community/Rockwells/LogViewer/                                app/code/community/Rockwells/LogViewer/
+app/design/adminhtml/default/default/layout/logviewer/logviewer.xml    app/design/adminhtml/default/default/layout/logviewer/logviewer.xml
+app/etc/modules/Rockwells_LogViewer.xml                                app/etc/modules/Rockwells_LogViewer.xml
+app/locale/en_US/Rockwells_LogViewer.csv                               app/locale/en_US/Rockwells_LogViewer.csv
+skin/adminhtml/default/default/logviewer/linedtextarea.css             skin/adminhtml/default/default/logviewer/linedtextarea.css
+skin/adminhtml/default/default/logviewer/linedtextarea.js              skin/adminhtml/default/default/logviewer/linedtextarea.js
+skin/adminhtml/default/default/logviewer/load.js                       skin/adminhtml/default/default/logviewer/load.js

@@ -1,0 +1,362 @@
+{
+    "base": {
+        "shopgo/core": {
+            "version": "*",
+            "activation-file": "Shopgo_Core"
+        },
+        "shopgo/advanced-ifconfig": {
+            "version": "*",
+            "activation-file": "Shopgo_AdvIfconfig",
+            "depends": [
+                "shopgo/core"
+            ]
+        },
+        "shopgo/shipping-core": {
+            "version": "*",
+            "activation-file": "Shopgo_ShippingCore",
+            "depends": [
+                "shopgo/core",
+                "shopgo/advanced-ifconfig"
+            ]
+        },
+        "shopgo/mage-branding": {
+            "version": "dev-master",
+            "activation-file": "Shopgo_AdminLogin",
+            "depends": [
+                "shopgo/core"
+            ]
+        },
+        "shopgo/currency-import-service": {
+            "version": "dev-master",
+            "activation-file": "Shopgo_CIS",
+            "depends": [
+                "shopgo/core"
+            ]
+        },
+        "shopgo/cms-assistant": {
+            "version": "dev-master",
+            "activation-file": "Shopgo_CmsAssistant",
+            "depends": [
+                "shopgo/core"
+            ]
+        },
+        "shopgo/aramex-shipping": {
+            "version": "*",
+            "activation-file": "Shopgo_AramexShipping",
+            "depends": [
+                "shopgo/shipping-core"
+            ]
+        },
+        "shopgo/skynet-shipping": {
+            "version": "*",
+            "activation-file": "Shopgo_SkynetShipping",
+            "depends": [
+                "shopgo/shipping-core"
+            ]
+        },
+        "magento-hackathon/hackathon_magemonitoring": {
+            "version": "~2.1",
+            "activation-file": "Hackathon_MageMonitoring"
+        },
+        "phoenix-media/magento-cashondelivery": {
+            "version": "dev-master",
+            "activation-file": "Phoenix_CashOnDelivery"
+        },
+        "aoepeople/aoe_scheduler": {
+            "version": "~1.0",
+            "activation-file": "Aoe_Scheduler"
+        },
+        "shopgo/faturah-payment": {
+            "version": "dev-master",
+            "activation-file": "Faturah_Pay"
+        },
+        "shopgo/onecard-payment": {
+            "version": "dev-master",
+            "activation-file": "Onecard_Onecardpay"
+        },
+        "shopgo/simple-sharer": {
+            "version": "~1.0",
+            "activation-file": "Shopgo_Simplesharer"
+        },
+        "shopgo/auto-related-products": {
+            "version": "dev-master",
+            "activation-file": "Onecard_Onecardpay"
+        },
+        "shopgo/geo": {
+            "version": "dev-master",
+            "activation-file": "Shopgo_Geo"
+        },
+        "shopgo/switcher": {
+            "version": "~0.0.1",
+            "activation-file": "Shopgo_Switcher"
+        },
+        "shopgo/facebook-api": {
+            "version": "dev-master",
+            "activation-file": "Shopgo_FacebookApi"
+        },
+        "innovate/innovate-payments": {
+            "version": "dev-master",
+            "activation-file": "Innovate_InnovatePayments"
+        },
+        "gate2play/payment-gateway": {
+            "version": "dev-master",
+            "activation-file": "Gate2play_Paymentgateway"
+        },
+        "shopgo/cms-io": {
+            "version": "dev-master",
+            "activation-file": "Shopgo_Ecms"
+        },
+        "shopgo/knet-payment": {
+            "version": "dev-master",
+            "activation-file": "Knet_PG"
+        },
+        "shopgo/payfort-payment": {
+            "version": "dev-master",
+            "activation-file": "Payfort_Pay"
+        },
+        "shopgo/logo-upload": {
+            "version": "~0.0.1",
+            "activation-file": "Shopgo_LogoUpload"
+        },
+        "shopgo/gtm": {
+            "version": "~1.0",
+            "activation-file": "Shopgo_GTM"
+        },
+        "shopgo/cashu-payment": {
+            "version": "dev-master",
+            "activation-file": "Cashu_Prepaid"
+        },
+        "craigchristenson/magento-2checkout": {
+            "version": "dev-master",
+            "activation-file": "Craig_Tco"
+        },
+        "shopgo/checkout-com-payment-hosted": {
+            "version": "dev-master",
+            "activation-file": "Checkout_HostedPayment"
+        },
+        "shopgo/auto-newsletter": {
+            "version": "dev-master",
+            "activation-file": "Shopgo_AutoNewsletter"
+        },
+        "aheadworks/all": {
+            "version": "dev-master",
+            "activation-file": "AW_All"
+        },
+        "aheadworks/lib": {
+            "version": "dev-master",
+            "activation-file": "AW_Lib"
+        },
+        "aheadworks/order-attributes": {
+            "version": "dev-master",
+            "activation-file": "AW_Orderattributes",
+            "depends": [
+                "aheadworks/all",
+                "aheadworks/lib"
+            ]
+        },
+        "aheadworks/blog": {
+            "version": "~1.3",
+            "activation-file": "AW_Blog"
+        },
+        "shopgo/easycheckout": {
+            "version": "*",
+            "activation-file": "Shopgo_EC",
+            "depends": [
+                "aheadworks/order-attributes",
+                "phoenix-media/magento-cashondelivery",
+                "shopgo/geo"
+            ]
+        },
+        "msp/flat-shipping5": {
+            "version": "dev-master",
+            "activation-file": "MSP_FlatShipping5"
+        },
+        "etws/et_currencymanager": {
+            "version": "dev-master",
+            "activation-file": "ET_CurrencyManager"
+        }
+    },
+    "secondary": {
+        "obukhow/adaptive-resize": {
+            "version": "dev-master",
+            "activation-file": "Bolevar_AdaptiveResize"
+        },
+        "shopgo/cloud-zoom": {
+            "version": "dev-master",
+            "activation-file": "Shopgo_Zoom"
+        },
+        "shopgo/swinxy-zoom": {
+            "version": "dev-master",
+            "activation-file": "Shopgo_Swinzoom"
+        },
+        "shopgo/follow": {
+            "version": "~1.0",
+            "activation-file": "Shopgo_Follow"
+        },
+        "mageme/web-forms-pro-2": {
+            "version": "~2.4",
+            "activation-file": "VladimirPopov_WebForms"
+        },
+        "tm/core": {
+            "version": "~1.3",
+            "activation-file": "TM_Core"
+        },
+        "tm-shopgo/easy-tabs": {
+            "version": "1.2.2",
+            "activation-file": "TM_EasyTabs"
+        },
+        "tm-shopgo/easycatalogimg": {
+            "version": "dev-master",
+            "activation-file": "TM_EasyCatalogImg"
+        },
+        "tm/catalog-configurable-swatches": {
+            "version": "~1.0",
+            "activation-file": " TM_CatalogConfigurableSwatches",
+            "depends": [
+                "tm/core"
+            ]
+        },
+        "tm/easylightbox": {
+            "version": "~3.1",
+            "activation-file": "TM_EasyLightbox",
+            "depends": [
+                "tm/core",
+                "tm/catalog-configurable-swatches"
+            ]
+        },
+        "shopgo/top-cart": {
+            "version": "~0.1",
+            "activation-file": "Minicart_Topcart"
+        },
+        "shopgo/probadge": {
+            "version": "~1.0",
+            "activation-file": "Shopgo_ProBadge"
+        },
+        "shopgo/banner-slider-cmp": {
+            "version": "dev-master",
+            "activation-file": "Shopgo_Bannerslider"
+        },
+        "shopgo/brand-slider-cmp": {
+            "version": "dev-master",
+            "activation-file": "Shopgo_Brandslider"
+        },
+        "shopgo/product-slider": {
+            "version": "~1.0",
+            "activation-file": "Shopgo_Productslider"
+        },
+        "magestore/notification": {
+            "version": "dev-master",
+            "activation-file": "Magestore_Magenotification"
+        },
+        "magestore-shopgo/mega-menu": {
+            "version": "dev-master",
+            "activation-file": "Magestore_Megamenu",
+            "depends": [
+                "magestore/notification"
+            ]
+        },
+        "aheadworks/core": {
+            "version": "dev-master",
+            "activation-file": "AW_Core"
+        },
+        "aheadworks-shopgo/product-color-swatches": {
+            "version": "1.0.3",
+            "activation-file": "AW_Colorswatches",
+            "depends": [
+                "aheadworks/all"
+            ]
+        },
+        "aheadworks/booking-and-reservations": {
+            "version": "dev-master",
+            "activation-file": "AW_Booking",
+            "depends": [
+                "aheadworks/all",
+                "aheadworks/core"
+            ]
+        },
+        "inchoo/featured-products": {
+            "version": "dev-master",
+            "activation-file": [
+                "Inchoo_FeaturedProducts",
+                "Inchoo_Notes"
+            ]
+        },
+        "magestore/ajax-cart": {
+            "version": "~0.2",
+            "activation-file": "Magestore_Ajaxcart",
+            "depends": [
+                "magestore/notification"
+            ]
+        },
+        "manadev-shopgo/core": {
+            "version": "15.02.10.18",
+            "activation-file": "Mana_Core"
+        },
+        "manadev-shopgo/seo-layered-navigation-plus": {
+            "version": "14.11.14.16",
+            "activation-file": [
+                "ManaPro_FilterAdmin", "ManaPro_FilterAdvanced",
+                "ManaPro_FilterAjax", "ManaPro_FilterCheckboxes",
+                "ManaPro_FilterClear", "ManaPro_FilterColors",
+                "ManaPro_FilterDropdown", "ManaPro_FilterExpandCollapse",
+                "ManaPro_FilterGroup", "ManaPro_FilterHelp",
+                "ManaPro_FilterPositioning", "ManaPro_FilterRadios",
+                "ManaPro_FilterSeoLinks", "ManaPro_FilterShowMore",
+                "ManaPro_FilterSlider", "ManaPro_FilterSuperSlider",
+                "ManaPro_FilterTree", "Mana_Admin",
+                "Mana_Ajax", "Mana_Db",
+                "Mana_Filters", "Mana_Seo"
+            ],
+            "depends": [
+                "manadev-shopgo/core"
+            ]
+        },
+        "manadev/infinite-scrolling": {
+            "version": "14.06.20.06",
+            "activation-file": "Mana_Core",
+            "depends": [
+                "manadev-shopgo/core"
+            ]
+        },
+        "jake-sharp/category-image": {
+            "version": "dev-master",
+            "activation-file": "JakeSharp_CategoryImage"
+        },
+        "webdziner/ajax-search": {
+            "version": "dev-master",
+            "activation-file": "Webdziner_Ajaxsearch"
+        },
+        "webcomm/magento-boilerplate": {
+            "version": "dev-master",
+            "activation-file": "Webcomm_BootstrapNavigation"
+        }
+    },
+    "optional": {
+        "base": {
+            "shopgo/bulk-product-image-import": {
+                "version": "dev-master",
+                "activation-file": "Shopgo_Bulkprodimages"
+            },
+            "eadesign-shopgo/invoice-pdf-generator": {
+                "version": "dev-master",
+                "activation-file": "EaDesign_PdfGenerator"
+            },
+            "shopgo/facebook-store": {
+                "version": "dev-master",
+                "activation-file": "Shopgo_FacebookStore"
+            }
+        },
+        "secondary": {}
+    },
+    "theme": {
+        "webdziner/all": {
+            "activation-file": "Webdziner_All"
+        },
+        "webdziner/bgsetting": {
+            "activation-file": "Webdziner_Bgsetting"
+        },
+        "webdziner/featuredproduct": {
+            "activation-file": "Webdziner_Featuredproduct"
+        }
+    }
+}

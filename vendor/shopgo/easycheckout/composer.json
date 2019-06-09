@@ -1,0 +1,18 @@
+{
+    "name": "shopgo/easycheckout",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "The one step checkout page by ShopGo",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "aheadworks/order-attributes": "*",
+        "phoenix-media/magento-cashondelivery": "dev-master",
+        "shopgo/geo": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Ali Halabyah",
+            "email": "ali@shopgo.me"
+        }
+    ]
+}

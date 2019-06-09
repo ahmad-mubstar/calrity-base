@@ -1,0 +1,4 @@
+<?php if (Mage::helper('shopgo_flipper')->isEnabled()): ?>
+    <img class="flipper_image" src="<?php echo $this->getFlipperImage(); ?>"
+         width="<?php echo $this->getWidth() ?>px" height="<?php echo $this->getHeight() ?>px"/>
+<?php endif ?>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * ShopGo
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ *
+ * @category    Shopgo
+ * @package     Shopgo_ShippingCore
+ * @author      Ammar <ammar@shopgo.me>
+ * @copyright   Copyright (c) 2014 Shopgo. (http://www.shopgo.me)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+-->
+<config>
+    <sections>
+        <shipping translate="label" module="shippingcore">
+            <groups>
+                <origin translate="label">
+                    <fields>
+                        <street_line3 translate="label">
+                            <label>Street Address Line 3</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </street_line3>
+                    </fields>
+                </origin>
+                <additional_info translate="label">
+                    <label>Additional Info</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>3</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <person_title translate="label">
+                            <label>Person Title</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </person_title>
+                        <person_name translate="label">
+                            <label>Person Name</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </person_name>
+                        <company translate="label">
+                            <label>Company</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </company>
+                        <store_description translate="label">
+                            <label>Store Description</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </store_description>
+                        <phone_number translate="label">
+                            <label>Phone Number</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </phone_number>
+                        <phone_number_ext translate="label">
+                            <label>Phone Number Ext</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </phone_number_ext>
+                        <phone_number2 translate="label">
+                            <label>Phone Number 2</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </phone_number2>
+                        <phone_number2_ext translate="label">
+                            <label>Phone Number 2 Ext</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>80</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </phone_number2_ext>
+                        <faxnumber translate="label">
+                            <label>Fax Number</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </faxnumber>
+                        <email translate="label">
+                            <label>Email</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </email>
+                        <cellphone translate="label">
+                            <label>Cellphone</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>110</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </cellphone>
+                    </fields>
+                </additional_info>
+                <dwa translate="label">
+                    <label>Dimensional Weight Attributes</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>4</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <length translate="label">
+                            <label>Length</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>shippingcore/system_config_source_length</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </length>
+                        <width translate="label">
+                            <label>Width</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>shippingcore/system_config_source_width</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </width>
+                        <height translate="label">
+                            <label>Height</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>shippingcore/system_config_source_height</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </height>
+                        <separator translate="label">
+                            <frontend_type>hidden</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </separator>
+                        <attribute_set translate="label">
+                            <label>Attribute Set</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>shippingcore/system_config_source_attributeset</source_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </attribute_set>
+                        <attribute_set_group translate="label comment">
+                            <label>Attribute Set Group</label>
+                            <frontend_type>select</frontend_type>
+                            <comment><![CDATA[
+                                <strong style="color:#3D5B9C">Note:&nbsp;</strong>Attribute set and attrbute set group are optional and only used to set dimensional weight attributes.
+                            ]]></comment>
+                            <source_model>shippingcore/system_config_source_attributesetgroup</source_model>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </attribute_set_group>
+                        <set_attributes translate="label">
+                            <frontend_type>button</frontend_type>
+                            <frontend_model>shippingcore/adminhtml_system_config_form_dwaButton</frontend_model>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </set_attributes>
+                    </fields>
+                </dwa>
+                <cod>
+                    <label>Cash on Delivery</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>5</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <payment_methods translate="label comment">
+                            <label>Payment Methods</label>
+                            <comment><![CDATA[
+                                Select Cash on Delivery methods from the above active payment methods list.<br/>
+                                <strong style="color:#3D5B9C">Note:&nbsp;</strong>Make sure that the COD payment methods that you want to select are enabled in (System > Configuration > Payment Methods page).
+                            ]]></comment>
+                            <frontend_type>multiselect</frontend_type>
+                            <sort_order>10</sort_order>
+                            <source_model>shippingcore/system_config_source_activepaymentmethod</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </payment_methods>
+                        <currency translate="label">
+                            <label>Currency</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>shippingcore/system_config_source_codcurrency</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </currency>
+                        <specific_currency translate="label comment">
+                            <label>Specific Currency</label>
+                            <comment><![CDATA[
+                                You can add more currencies to the list from (System > Configuration > General > Currency Setup > Currency Options > Allowed Currencies).<br/>
+                                <strong style="color:#3D5B9C">Note:&nbsp;</strong>In case that the selected currency got removed from allowed currencies, you would have to specify another one. Otherwise, the base currency will be selected by default.
+                            ]]></comment>
+                             <frontend_type>select</frontend_type>
+                            <source_model>shippingcore/system_config_source_allowedcurrencies</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends><currency>4</currency></depends>
+                        </specific_currency>
+                    </fields>
+                </cod>
+            </groups>
+        </shipping>
+    </sections>
+</config>

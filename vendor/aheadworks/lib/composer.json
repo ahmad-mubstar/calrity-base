@@ -1,0 +1,14 @@
+{
+    "name": "aheadworks/lib",
+    "type": "magento-module",
+    "license": "EULA",
+    "description": "aheadWorks lib Magento extension.",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "aheadWorks"
+        }
+    ]
+}

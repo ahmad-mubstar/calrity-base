@@ -1,0 +1,28 @@
+ <div id="fb-root"></div>
+ <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : <?php echo Mage::getStoreConfig('social/facebook/client_id') ? Mage::getStoreConfig('social/facebook/client_id') : 'null'; ?>,
+      cookie     : true,
+      status     : true,
+      xfbml      : true
+    });
+  };
+
+  (function(d, s, id){
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) {return;}
+   js = d.createElement(s); js.id = id;
+   js.src = "//connect.facebook.net/en_US/all.js";
+   fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));
+
+  // for testing
+  function greet(id){
+    FB.api('/me', function(response) {
+      var src = 'https://graph.facebook.com/' + id + '/picture';
+      jQuery('.welcome-msg').append('<img height="20" src="' + src + '"/>');
+    });
+  }
+
+</script>

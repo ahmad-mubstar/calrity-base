@@ -1,0 +1,14 @@
+.header { background: #f8f8f8 !important; }
+.header-top { border-bottom: 0 !important; }
+.header-right { color: #2d444f !important; }
+.header-right a, .header-right a:hover { color: #fe6944 !important; }
+.nav-bar { background: #666e73 !important; border-bottom: 0 !important; border-top: 0 !important; }
+#nav li.active { background: #2ab1c7 !important; }
+#nav ul span, #nav ul li.last li span { background: none !important; border-bottom: 1px dotted #ddd; }
+#nav ul li.last span, #nav ul li.last li.last span { background:none; border-bottom: none; }
+#nav ul li a { background-color: #fefefe !important; }
+#nav li.over ul a,
+#nav ul li.active a,
+#nav ul li a,
+#nav ul li a:hover { color: #555 !important; }
+#nav ul li a:hover { background: #e3ecee !important; }

@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * ShopGo
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ *
+ * @category    Shopgo
+ * @package     Shopgo_Totango
+ * @author      Ammar  <ammar@shopgo.me>
+ *              Emad   <emad@shopgo.me>
+ *              Ahmad  <ahmadalkaid@shopgo.me>
+ *              Aya    <aya@shopgo.me>
+ *              ShopGo <support@shopgo.me>
+ * @copyright   Copyright (c) 2015 ShopGo. (http://www.shopgo.me)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Shopgo_Totango>
+            <version>1.0.1</version>
+        </Shopgo_Totango>
+    </modules>
+    <global>
+        <helpers>
+            <totango>
+                <class>Shopgo_Totango_Helper</class>
+            </totango>
+        </helpers>
+        <models>
+            <totango>
+                <class>Shopgo_Totango_Model</class>
+            </totango>
+        </models>
+        <events>
+            <sales_order_save_after>
+                <observers>
+                    <sales_order_save_after_observer>
+                        <type>singleton</type>
+                        <class>totango/observer</class>
+                        <method>trackOrderStatus</method>
+                    </sales_order_save_after_observer>
+                </observers>
+            </sales_order_save_after>
+            <catalog_product_save_before>
+                <observers>
+                    <catalog_product_save_before_observer>
+                        <type>singleton</type>
+                        <class>totango/observer</class>
+                        <method>trackNewProduct</method>
+                    </catalog_product_save_before_observer>
+                </observers>
+            </catalog_product_save_before>
+            <catalog_category_prepare_save>
+                <observers>
+                    <catalog_category_prepare_save_observer>
+                        <type>singleton</type>
+                        <class>totango/observer</class>
+                        <method>trackNewCategory</method>
+                    </catalog_category_prepare_save_observer>
+                </observers>
+            </catalog_category_prepare_save>
+            <catalog_entity_attribute_save_before>
+                <observers>
+                    <catalog_entity_attribute_save_before_observer>
+                        <type>singleton</type>
+                        <class>totango/observer</class>
+                        <method>trackNewAttribute</method>
+                    </catalog_entity_attribute_save_before_observer>
+                </observers>
+            </catalog_entity_attribute_save_before>
+            <admin_system_config_changed_section_carriers>
+                <observers>
+                    <admin_system_config_changed_section_carriers_observer>
+                        <type>singleton</type>
+                        <class>totango/observer</class>
+                        <method>trackActiveCarriers</method>
+                    </admin_system_config_changed_section_carriers_observer>
+                </observers>
+            </admin_system_config_changed_section_carriers>
+            <admin_system_config_changed_section_payment>
+                <observers>
+                    <admin_system_config_changed_section_payment_observer>
+                        <type>singleton</type>
+                        <class>totango/observer</class>
+                        <method>trackActivePaymentMethods</method>
+                    </admin_system_config_changed_section_payment_observer>
+                </observers>
+            </admin_system_config_changed_section_payment>
+            <admin_session_user_login_success>
+                <observers>
+                    <admin_session_user_login_success_observer>
+                        <type>singleton</type>
+                        <class>totango/observer</class>
+                        <method>trackAdminSuccessfulLogin</method>
+                    </admin_session_user_login_success_observer>
+                </observers>
+            </admin_session_user_login_success>
+        </events>
+    </global>
+    <default>
+        <totango>
+            <trackers>
+                <active>1</active>
+                <complete_orders>1</complete_orders>
+                <canceled_orders>1</canceled_orders>
+                <product>1</product>
+                <category>1</category>
+                <attribute>1</attribute>
+                <carrier>1</carrier>
+                <payment>1</payment>
+                <admin_login>1</admin_login>
+            </trackers>
+        </totango>
+    </default>
+</config>

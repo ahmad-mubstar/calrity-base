@@ -1,0 +1,22 @@
+{
+    "name": "shopgo/banner-slider-cmp",
+    "type": "magento-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "description": "Banner slider Magento extension (CMP Compatible)",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "shopgo/core": "*"
+    },
+    "authors":[
+        {
+            "name": "Ammar",
+            "email": "ammar@shopgo.me"
+        }
+    ],
+    "replace": {
+        "shopgo/banner-slider": "*"
+    }
+}

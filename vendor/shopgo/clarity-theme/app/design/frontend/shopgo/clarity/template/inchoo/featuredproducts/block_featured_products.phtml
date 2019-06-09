@@ -1,0 +1,112 @@
+<?php
+/**
+ * @category     Inchoo
+ * @package     Inchoo Featured Products
+ * @author        Domagoj Potkoc, Inchoo Team <web@inchoo.net>
+ * @modified    Mladen Lotar <mladen.lotar@surgeworks.com>, Vedran Subotic <vedran.subotic@surgeworks.com>
+ */
+
+/** @var Mage_Catalog_Model_Resource_Product_Collection $_products */
+$_products = $this->getProductCollection();
+$_products->setPageSize(12);
+
+$count = (int)Mage::getStoreConfig('styleeditor/flippers/count');
+$speed = (int)Mage::getStoreConfig('styleeditor/flippers/speed');
+
+$width = (int)((1142 - (30 * ($count - 1))) / $count);
+$height = (int)($width / 0.875);
+
+?>
+
+
+<?php $image_size = (int)Mage::getStoreConfig("featuredproducts/cmspage/max_image_dimension") ?>
+<?php if ($_products && $_products->getSize()): ?>
+    <?php $_product = $this->getProduct(); ?>
+    <div class="flexslider3 featured-products inchoo-products" id="slider3">
+        <h2><?php echo $this->__($this->getBlockLabel()) ?></h2>
+
+        <?php
+        $i = 0;
+        $row = 0;
+        foreach ($_products->getItems() as $_product):
+            ?>
+
+            <?php if ($i == 0): ?>
+            <?php $row++; ?>
+            <ul class="slides">
+        <?php endif; ?>
+            <li class="item">
+
+                <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>" class="product-image">
+                    <img src="<?php echo $this->helper('adaptiveResize/image')->init($_product, 'small_image')->adaptiveResize($width, $height) ?>" alt="<?php echo $this->htmlEscape($_product->getName()) ?>"/>
+                </a>
+
+                <?php if (class_exists('Shopgo_Quickview_Helper_Data') && Mage::getStoreConfigFlag('quickview/general/enable') == 1) { ?>
+                    <div class="quickview-wrap quick-view"">
+                        <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" style="display:none"></a>
+                    </div>
+                <?php } ?>
+
+                <?php echo MAGE::helper('NewSale')->getProductLabels($_product, 'new'); ?>
+                <?php if (!MAGE::helper('NewSale')->getProductLabels($_product, 'new')) : ?>
+                <div class="no-label-new">
+                    <?php endif; ?>
+                    <?php echo MAGE::helper('NewSale')->getProductLabels($_product, 'sale'); ?>
+                    <?php if (!MAGE::helper('NewSale')->getProductLabels($_product, 'new')) : ?>
+                </div>
+            <?php endif; ?>
+
+                                <?php if ($_product->isSaleable()): ?>
+                                    <button type="button" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                                <?php else: ?>
+                                    <div class="out-of-stock"><?php echo $this->__('Out of stock') ?></div>
+                                <?php endif; ?>
+
+                <div class="product-description">
+                    <p>
+                        <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>)">
+                            <?php echo $this->htmlEscape($_product->getName()) ?>
+                        </a>
+                    </p>
+                    <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+
+                    <?php if (Mage::getStoreConfig('featuredproducts/general/price_visible')): ?>
+
+                        <?php echo $this->getPriceHtml($_product, true, '-new') ?>
+
+                        <?php if ($_product->isSaleable()): ?>
+                            <button type="button" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')">
+                                <span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                        <?php else: ?>
+                            <div class="out-of-stock"><?php echo $this->__('Out of stock') ?></div>
+                        <?php endif; ?>
+
+                    <?php endif; ?>
+
+                </div>
+            </li>
+
+            <?php $i++;
+            if ($i == $this->getItemsPerRow()):
+                ?>
+                <?php $i = 0; ?>
+                </ul>
+            <?php endif; ?>
+        <?php endforeach; ?>
+
+    </div>
+<?php endif; ?>
+
+<script type="text/javascript" charset="utf-8">
+    jQuery(document).ready(function () {
+        jQuery('#slider3').flexslider({
+            animation: "slide",
+            touch: true,
+            itemWidth: <?php echo $width ?>,
+            itemMargin: 30,
+            minItems: 2,
+            slideshowSpeed: <?php echo $speed ?>,
+            maxItems: 5
+        });
+    });
+</script>

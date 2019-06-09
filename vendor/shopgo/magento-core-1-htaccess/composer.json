@@ -1,0 +1,19 @@
+{
+    "name": "shopgo/magento-core-1-htaccess",
+    "type": "magento-module",
+    "description": "Magento Core 1.x .htaccess",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name": "Shopgo",
+            "email": "support@shopgo.me"
+        }
+    ],
+    "extra": {
+        "map": [
+            [".htaccess", ".htaccess"]
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+app/code/community/Shopgo/StyleEditor/                                      app/code/community/Shopgo/StyleEditor/
+app/design/adminhtml/base/default/layout/shopgo/styleeditor.xml             app/design/adminhtml/base/default/layout/shopgo/styleeditor.xml
+app/design/adminhtml/base/default/template/shopgo/styleeditor               app/design/adminhtml/base/default/template/shopgo/styleeditor
+app/etc/modules/Shopgo_StyleEditor.xml                                      app/etc/modules/Shopgo_StyleEditor.xml
+skin/adminhtml/base/default/shopgo/styleeditor/                              skin/adminhtml/base/default/shopgo/styleeditor/
+lib/Shopgo/styleeditor/                                                     lib/Shopgo/styleeditor/

@@ -1,0 +1,75 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @see Mage_Checkout_Block_Cart_Totals
+ */
+?>
+<?php if ($this->getTotals()): ?>
+    <tfoot>
+        <?php $_colspan = $this->helper('tax')->displayCartBothPrices() ? 5 : 3; ?>
+        <?php echo $this->renderTotals(null, $_colspan); ?>
+        <?php if(Mage::getStoreConfig('ec/ux/show_discount_total')){?>
+            <tr>
+                <td class="a-right" colspan="<?php echo $_colspan; ?>">
+                    <?php echo $this->__('You saved');?>
+                </td>
+                <td class="a-right">
+                <?php
+                    $cart = Mage::getModel('checkout/cart')->getQuote();
+                    
+                    foreach ($cart->getAllItems() as $item) {
+                        $productName = $item->getProduct()->getName();
+                        $productPrice += $item->getProduct()->getPrice();
+                        $productSpecialPrice +=     $price = Mage::helper('tax')->getPrice($item->getProduct(), $item->getProduct()->getFinalPrice());//$item->getProduct()->getSpecialPrice();
+                    }
+                    	$productPrice -= $productSpecialPrice ;
+                	echo Mage::app()->getLocale()->currency(Mage::app()->getStore()->getCurrentCurrencyCode())->getSymbol().$productPrice;
+		?>
+                </td>
+            </tr>
+        <?php }?>
+        <?php echo $this->renderTotals('footer', $_colspan); ?>
+        <?php if ($this->needDisplayBaseGrandtotal() && Mage::getStoreConfig('ec/ux/show_base_grand_total')): ?>
+            <tr>
+                <td class="a-right" colspan="<?php echo $_colspan; ?>">
+                    <small><?php echo $this->helper('sales')->__('Your credit card will be charged for') ?></small>
+                </td>
+                <td class="a-right">
+                    <small><?php echo $this->displayBaseGrandtotal() ?></small>
+                </td>
+            </tr>
+        <?php endif ?>
+        <?php if(Mage::helper('ec')->enableUpdateQty()): ?>
+            <tr>
+                <td class="a-right">
+                    <div class="mini ui button usePopup" onClick="easyCheckout.updateQty()" data-content="<?php echo $this->__('Click here to update the quantity')?>">
+                        <?php echo $this->__('Update')?>
+                    </div>
+                </td>
+            </tr>
+        <?php endif; ?>
+    </tfoot>
+<?php endif; ?>

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Gate2play Payment payment method model.
+ *
+ * @category   Gate2play
+ * @package    Gate2play_Paymentgatewaygateway
+ * @author     gate2play.com
+ */
+-->
+<config>
+    <modules>
+        <Gate2play_Paymentgateway>
+            <version>1.1.0</version>
+        </Gate2play_Paymentgateway>
+    </modules>
+    <global>       
+        <blocks>
+ 	    <paymentgateway>
+            	<class>Gate2play_Paymentgateway_Block</class>
+	    </paymentgateway>          
+        </blocks>
+        <models>
+            <paymentgateway>
+                <class>Gate2play_Paymentgateway_Model</class>
+           </paymentgateway>
+	   <paymentgateway_adminhtml>
+		<class>Gate2play_Paymentgateway_Adminhtml_Model</class>
+	   </paymentgateway_adminhtml>
+        </models>
+     	<resources>
+            <paymentgateway_setup>
+                <setup>
+                    <module>Gate2play_Paymentgateway</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </paymentgateway_setup>
+            <paymentgateway_write>
+                <connection>
+                  <use>core_write</use>
+                </connection>
+            </paymentgateway_write>
+            <paymentgateway_read>
+               <connection>
+                <use>core_read</use>
+              </connection>
+            </paymentgateway_read>
+        </resources>
+        <helpers>
+            <gate2play>
+                <class>Gate2play_Paymentgateway_Helper</class>
+            </gate2play>
+        </helpers>        
+    </global>
+    <frontend>
+         <routers>
+            <gate2play>
+                <use>standard</use>
+                <args>
+                    <module>Gate2play_Paymentgateway</module>
+                    <frontName>gate2play</frontName>
+                </args>
+            </gate2play>       
+        </routers> 
+        <secure_url>
+             <gate2play>/gate2play/</gate2play>
+         </secure_url>         
+        <layout>
+            <updates>
+                <gate2play>
+                    <file>gate2play.xml</file>
+                </gate2play>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <payment>
+            <paymentgateway>
+                <active>0</active>
+		<model>paymentgateway/paymentMethod</model>
+		<order_status>pending</order_status>
+                <cctypes>AE,VI,MC,DI</cctypes>
+		<payment_action>authorize</payment_action>
+		<allowspecific>0</allowspecific>
+                <title>Gate2play Payment</title>
+	        <create_order_before>1</create_order_before>
+                <password backend_model="adminhtml/system_config_backend_encrypted"/>
+            </paymentgateway>
+        </payment>
+    </default>
+</config>

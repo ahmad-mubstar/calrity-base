@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    
+    <default>
+        <reference name="head">
+            <!-- <action method="addItem"
+                ifconfig="social/google/enabled">
+                <type>skin_css</type>
+                <name>shopgo/social/google/css/button.css</name>
+            </action>
+            <action method="addItem"
+                ifconfig="social/facebook/enabled">
+                <type>skin_css</type>
+                <name>shopgo/social/facebook/css/button.css</name>
+            </action>
+            <action method="addItem"
+                ifconfig="social/twitter/enabled">
+                <type>skin_css</type>
+                <name>shopgo/social/twitter/css/button.css</name>
+            </action>
+            <action method="addItem"
+                ifconfig="social/linkedin/enabled">
+                <type>skin_css</type>
+                <name>shopgo/social/linkedin/css/button.css</name>
+            </action> -->
+            <!-- -->
+            <action method="addCss">
+                <stylesheet>shopgo/social/css/font-style.css</stylesheet>
+            </action>
+            <!-- <action method="addCss"
+                ifconfig="social/share_btns/enabled">
+                <script>shopgo/social/css/share_btns/styles.css</script>
+            </action> -->
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>shopgo/social/css/styles.css</name>
+            </action>
+            <block type="shopgo_social/social" name="facebook_meta" as="facebook_meta" template="shopgo/social/facebook/opengraph_tags.phtml"/>
+        </reference>
+        <reference name="before_body_end">
+            <block type="shopgo_social/social" name="facebook_channel" as="facebook_channel" template="shopgo/social/facebook/channel.phtml"/>
+        </reference>
+    </default>
+
+    <customer_account_login>
+        <reference name="head">
+            <!-- <action method="addItem">
+                <type>skin_css</type>
+                <name>shopgo/social/css/styles.css</name>
+            </action> -->
+        </reference>
+        <reference name="content">
+            <block type="shopgo_social/login" name="shopgo_social_login">
+                <block type="shopgo_social/google_button" name="shopgo_social_google_login_button" />
+                <block type="shopgo_social/facebook_button" name="shopgo_social_facebook_login_button" />
+                <block type="shopgo_social/twitter_button" name="shopgo_social_twitter_login_button" />
+                <block type="shopgo_social/linkedin_button" name="shopgo_social_linkedin_login_button" />
+            </block>
+        </reference>
+    </customer_account_login>
+
+    <customer_account_create>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>shopgo/social/css/styles.css</name>
+            </action>
+        </reference>
+        <reference name="customer.form.register.fields.before">
+            <action method="setTemplate" >
+                <template>shopgo/social/customer/form/register.phtml</template>
+            </action>
+            <block type="shopgo_social/register" name="shopgo_social_register">
+                <block type="shopgo_social/google_button" name="shopgo_social_checkout_google_button" />
+                <block type="shopgo_social/facebook_button" name="shopgo_social_checkout_facebook_button" />
+                <block type="shopgo_social/twitter_button" name="shopgo_social_checkout_twitter_button" />
+                <block type="shopgo_social/linkedin_button" name="shopgo_social_checkout_linkedin_button" />
+            </block>
+        </reference>
+    </customer_account_create>
+
+    <customer_account>
+        <reference name="customer_account_navigation">
+            <action method="addLink" translate="label" module="shopgo_social"
+                ifconfig="social/google/enabled">
+                <name>shopgo_social_google</name>
+                <path>social/account/google</path>
+                <label>Google Connect</label>
+            </action>
+            <action method="addLink" translate="label" module="shopgo_social"
+                ifconfig="social/facebook/enabled">
+                <name>shopgo_social_facebook</name>
+                <path>social/account/facebook</path>
+                <label>Facebook Connect</label>
+            </action>
+            <action method="addLink" translate="label" module="shopgo_social"
+                ifconfig="social/twitter/enabled">
+                <name>shopgo_social_twitter</name>
+                <path>social/account/twitter</path>
+                <label>Twitter Connect</label>
+            </action>
+            <action method="addLink" translate="label" module="shopgo_social"
+                ifconfig="social/linkedin/enabled">
+                <name>shopgo_social_linkedin</name>
+                <path>social/account/linkedin</path>
+                <label>LinkedIn Connect</label>
+            </action>
+        </reference>
+    </customer_account>
+
+    <shopgo_social_account_google translate="label">
+        <label>Customer My Account Google Connect</label>
+        <update handle="customer_account"/>
+        <reference name="head">
+            <action method="setTitle" translate="title" module="shopgo_social">
+                <title>Google Connect</title>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>shopgo/social/css/styles.css</name>
+            </action>
+        </reference>
+        <reference name="my.account.wrapper">
+            <block type="shopgo_social/google_account" name="shopgo_social_google_account">
+                <block type="shopgo_social/google_button" name="shopgo_social_account_google_button" />
+            </block>
+        </reference>
+        <reference name="customer_account_navigation">
+            <action method="setActive" module="shopgo_social">
+                <path>social/account/google</path>
+            </action>
+        </reference>
+    </shopgo_social_account_google>
+
+   <shopgo_social_account_facebook translate="label">
+        <label>Customer My Account Facebook Connect</label>
+        <update handle="customer_account"/>
+        <reference name="head">
+            <action method="setTitle" translate="title" module="shopgo_social">
+                <title>Facebook Connect</title>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>shopgo/social/css/styles.css</name>
+            </action>
+        </reference>
+        <reference name="my.account.wrapper">
+            <block type="shopgo_social/facebook_account" name="shopgo_social_facebook_account">
+                <block type="shopgo_social/facebook_button" name="shopgo_social_account_facebook_button" />
+            </block>
+        </reference>
+        <reference name="customer_account_navigation">
+            <action method="setActive" module="shopgo_social">
+                <path>social/account/facebook</path>
+            </action>
+        </reference>
+    </shopgo_social_account_facebook>
+
+   <shopgo_social_account_twitter translate="label">
+        <label>Customer My Account Twitter Connect</label>
+        <update handle="customer_account"/>
+        <reference name="head">
+            <action method="setTitle" translate="title" module="shopgo_social">
+                <title>Twitter Connect</title>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>shopgo/social/css/styles.css</name>
+            </action>
+        </reference>
+        <reference name="my.account.wrapper">
+            <block type="shopgo_social/twitter_account" name="shopgo_social_twitter_account">
+                <block type="shopgo_social/twitter_button" name="shopgo_social_account_twitter_button" />
+            </block>
+        </reference>
+        <reference name="customer_account_navigation">
+            <action method="setActive" module="shopgo_social">
+                <path>social/account/twitter</path>
+            </action>
+        </reference>
+    </shopgo_social_account_twitter>
+
+   <shopgo_social_account_linkedin translate="label">
+        <label>Customer My Account LinkedIn Connect</label>
+        <update handle="customer_account"/>
+        <reference name="head">
+            <action method="setTitle" translate="title" module="shopgo_social">
+                <title>LinkedIn Connect</title>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>shopgo/social/css/styles.css</name>
+            </action>
+        </reference>
+        <reference name="my.account.wrapper">
+            <block type="shopgo_social/linkedin_account" name="shopgo_social_linkedin_account">
+                <block type="shopgo_social/linkedin_button" name="shopgo_social_account_linkedin_button" />
+            </block>
+        </reference>
+        <reference name="customer_account_navigation">
+            <action method="setActive" module="shopgo_social">
+                <path>social/account/linkedin</path>
+            </action>
+        </reference>
+    </shopgo_social_account_linkedin>
+
+    <!-- <checkout_onepage_index>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>shopgo/social/css/styles.css</name>
+            </action>
+        </reference>
+        <reference name="checkout.onepage.login">
+            <action method="setTemplate" >
+                <template>shopgo/social/checkout/onepage/login.phtml</template>
+            </action>
+            <block type="shopgo_social/checkout" name="shopgo_social_checkout">
+                <block type="shopgo_social/google_button" name="shopgo_social_checkout_google_button" />
+                <block type="shopgo_social/facebook_button" name="shopgo_social_checkout_facebook_button" />
+                <block type="shopgo_social/twitter_button" name="shopgo_social_checkout_twitter_button" />
+                <block type="shopgo_social/linkedin_button" name="shopgo_social_checkout_linkedin_button" />
+            </block>
+        </reference>
+    </checkout_onepage_index> -->
+
+    <!-- -->
+
+    <catalog_product_view>
+        <reference name="product.info.extrahint">
+                <block type="shopgo_social/social_share_buttons" name="shopgo_social" as="shopgo_social"  template="shopgo/social/share_btns.phtml"  after="-" />
+        </reference>
+        <reference name="content">
+            <block type="shopgo_social/social" name="tet" as="tet" template="shopgo/social/facebook/comment.phtml" after="-"/>
+        </reference>
+    </catalog_product_view>
+
+</layout>

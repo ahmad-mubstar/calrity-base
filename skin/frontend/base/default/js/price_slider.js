@@ -1,0 +1,1 @@
+../../../../../vendor/manadev-shopgo/seo-layered-navigation-plus/skin/frontend/base/default/js/price_slider.js

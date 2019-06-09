@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+    <print>
+
+        <reference name="head">
+    
+            <!-- Add our assets -->
+            <action method="addCss">
+                <stylesheet>css/style.css</stylesheet>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/script-ck.js</name>
+            </action>
+
+        </reference>
+
+    </print>
+    <!-- Default handle, loaded on most pages -->
+    <default>
+
+        <reference name="head">
+
+            <!-- Remove Magento's default assets -->
+            <remove name="product.info.addtocart.brands"/>
+            <remove name="currency"/>
+            <remove name="store_language"/>
+            <remove name="left.newsletter"/>
+            <remove name="left.permanent.callout"/>
+            <remove name="right.permanent.callout"/>
+            <action method="removeItem" ifconfig="easy_tabs/general/enabled"><type>skin_css</type><name>css/easytabs.css</name></action>
+            <action method="removeItem">
+                <type>skin_css</type>
+                <name>css/print.css</name>
+            </action>
+            <action method="removeItem">
+                <type>skin_css</type>
+                <name>css/styles-ie.css</name>
+            </action>
+            <action method="removeItem">
+                <type>skin_css</type>
+                <name>css/styles.css</name>
+            </action>
+            <action method="removeItem">
+                <type>skin_css</type>
+                <name>css/widgets.css</name>
+            </action>
+            <action method="removeItem">
+                <type>skin_js</type>
+                <name>js/ie6.js</name>
+            </action>
+            <action method="removeItem">
+                <type>js</type>
+                <name>lib/ds-sleight.js</name>
+            </action>
+            <action method="removeItem">
+                <type>js</type>
+                <name>varien/menu.js</name>
+            </action>
+            <action method="removeItem">
+                <type>js</type>
+                <name>topcart/topcart.jquery.js</name>
+            </action>
+
+            <!-- Add our assets -->
+            <action method="addCss">
+                <stylesheet>css/style.css</stylesheet>
+            </action>
+            <action method="addCss">
+                <stylesheet>css/theme.css</stylesheet>
+            </action>
+            <action method="addCss">
+                <stylesheet>css/custom.css</stylesheet>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/script.js</name>
+            </action>
+
+
+            <!-- Add additional child blocks -->
+            <block type="core/template" name="boilerplate.head.meta" template="boilerplate/page/html/head/meta.phtml"/>
+            <block type="core/template" name="boilerplate.head.ie8" template="boilerplate/page/html/head/ie8.phtml"/>
+
+            <action method="addJs"><script>varien/configurable.js</script></action>
+            <action method="addJs"><script>varien/product.js</script></action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/bundle.js</name>
+            </action>
+
+            <action method="addItem"><type>js</type><name>calendar/calendar.js</name><!--<params/><if/><condition>can_load_calendar_js</condition>--></action>
+            <action method="addItem"><type>js</type><name>calendar/calendar-setup.js</name><!--<params/><if/><condition>can_load_calendar_js</condition>--></action>
+
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/jQuery.scrollToMe.js</name>
+            </action>
+
+            <action method="addItem"><type>skin_js</type><name>js/lib/modernizr.custom.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/lib/selectivizr.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/lib/matchMedia.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/lib/matchMedia.addListener.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/lib/enquire.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/app.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/lib/jquery.cycle2.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/lib/jquery.cycle2.swipe.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/slideshow.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/lib/imagesloaded.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/minicart.js</name></action>
+
+        </reference>
+
+        <!-- Add/Remove Top Links -->
+        <reference name="root">
+
+                        <!-- Mage_Catalog -->
+        <reference name="left">
+            <block type="poll/activePoll" name="right.poll">
+                <action method="setPollTemplate">
+                    <template>poll/active.phtml</template>
+                    <type>poll</type>
+                </action>
+                <action method="setPollTemplate">
+                    <template>poll/result.phtml</template>
+                    <type>results</type>
+                </action>
+            </block>
+            <action method="unsetChild"><name>catalog.compare.sidebar</name></action>
+        </reference>
+
+            <!--<remove name="global_messages"/>-->
+            <!-- Remove Global Messages in favor of "inchoo_global_messages" -->
+            <reference name="top.links">
+                <!-- Remove Top Links -->
+                <!--<action method="removeLinkByUrl">-->
+                <!--<url helper="customer/getAccountUrl"/>-->
+                <!--</action>-->
+                <remove name="checkout_cart_link"/>
+                
+                <!-- Removed only the "My Cart" link.-->
+                <action method="removeLinkByUrl">
+                    <url helper="checkout/url/getCartUrl"/>
+                </action>
+                <!-- //Remove Top Links -->
+            </reference>
+
+        </reference>
+
+        <reference name="header">
+            <block type="bannerslider/bannerslider" name="top_bannerslider" as="top_bannerslider" template="shopgo/bannerslider.phtml" before="-">
+                <action method="setData"><key>position</key><value>top</value></action>
+            </block>
+            <block type="page/html_wrapper" name="top.container" as="topContainer" translate="label">
+                <label>Page Header</label>
+                <action method="setElementClass"><value>top-container</value></action>
+                <block type="checkout/cart_sidebar" name="topCart" template="topcart/topcart.phtml" before="-">
+                    <action method="addItemRender"><type>simple</type><block>checkout/cart_item_renderer</block><template>checkout/cart/sidebar/default.phtml</template></action>
+                    <action method="addItemRender"><type>grouped</type><block>checkout/cart_item_renderer_grouped</block><template>checkout/cart/sidebar/default.phtml</template></action>
+                    <action method="addItemRender"><type>configurable</type><block>checkout/cart_item_renderer_configurable</block><template>checkout/cart/sidebar/default.phtml</template></action>
+                    <block type="core/text_list" name="cart_sidebar.extra_actions" as="extra_actions" translate="label" module="checkout">
+                        <label>Shopping Cart Sidebar Extra Actions</label>
+                    </block>
+                </block>
+                <block type="catalog/product_compare_sidebar" name="compare_dropdown" template="catalog/product/compare/sidebar.phtml"/>
+            </block>
+            <block type="directory/currency" name="shopgo_store_currency_selector" template="shopgo/switcher/currency.phtml"/>
+            <block type="page/switch" name="shopgo_store_language" as="shopgo_store_language" template="shopgo/switcher/language.phtml"/>
+        </reference>
+
+        <reference name="footer">
+            <block type="cms/block" name="cms_about_us" before="footer_links">
+                <action method="setBlockId">
+                    <block_id>about_us</block_id>
+                </action>
+            </block>
+            <block type="newsletter/subscribe" name="footer_newsletter" template="newsletter/subscribe_footer.phtml"/>
+
+            <block type="cms/block" name="cms_footer_links_1">
+                <action method="setBlockId">
+                    <block_id>footer_links_1</block_id>
+                </action>
+            </block>
+            <block type="cms/block" name="company-links">
+                <action method="setBlockId">
+                    <block_id>company-links</block_id>
+                </action>
+            </block>
+
+            <block type="core/template" name="follow_list" as="follow_list" template="shopgo/follow/list.phtml" />
+
+        </reference>
+
+    </default>
+
+    <STORE_ar>
+
+        <reference name="head">
+
+            <!-- remove LTR assets -->
+            <action method="removeItem">
+                <type>skin_css</type>
+                <name>css/style.css</name>
+            </action>
+            <action method="removeItem">
+                <type>skin_css</type>
+                <name>css/theme.css</name>
+            </action>
+            <action method="removeItem">
+                <type>skin_css</type>
+                <name>css/custom.css</name>
+            </action>
+
+            <!-- add RTL assets -->
+            <action method="addCss">
+                <stylesheet>css/style-rtl.css</stylesheet>
+            </action>
+            <action method="addCss">
+                <stylesheet>css/theme.css</stylesheet>
+            </action>
+            <action method="addCss">
+                <stylesheet>css/custom.css</stylesheet>
+            </action>
+            <action method="addCss">
+                <stylesheet>css/custom-rtl.css</stylesheet>
+            </action>
+
+        </reference>
+
+        <reference name="root">
+            <action method="addBodyClass">
+                <className>ar</className>
+            </action>
+        </reference>
+
+    </STORE_ar>
+
+    <catalogsearch_result_index>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2columns-left.phtml</template>
+            </action>
+        </reference>
+    </catalogsearch_result_index>
+
+    <catalogsearch_advanced_index>
+        <remove name="right_currency" />
+        <remove name="catalog.compare.sidebar" />
+    </catalogsearch_advanced_index>
+    <wishlist_shared_index>
+        <remove name="catalog.compare.sidebar" />
+    </wishlist_shared_index>
+    <wishlist_index_share>
+        <remove name="catalog.compare.sidebar" />
+    </wishlist_index_share>
+    <customer_account>
+        <remove name="catalog.compare.sidebar" />
+    </customer_account>
+    <shopgo_swinzoom_handle>
+        <reference name="head">
+            <!-- Swinzoom -->
+            <action method="addCss" ifconfig="shopgo_swinzoom/general/enabled"><script>shopgo/swinzoom/css/jquery.swinxy-combined.css</script></action>
+            <action method="addJs" ifconfig="shopgo_swinzoom/general/jquery"><script>shopgo/swinzoom/jquery-2.1.0.min.js</script></action>
+            <action method="addJs" ifconfig="shopgo_swinzoom/general/jquery"><script>shopgo/swinzoom/jquery-no-conflict.js</script></action>
+            <action method="addJs" ifconfig="shopgo_swinzoom/general/enabled"><script>shopgo/swinzoom/jquery.swinxy-combined.min.js</script></action>
+            <action method="addJs" ifconfig="shopgo_swinzoom/general/mouseweel"><script>shopgo/swinzoom/jquery.mousewheel.js</script></action>
+        </reference>
+    </shopgo_swinzoom_handle>
+    
+    <catalogsearch_advanced_result>
+        <remove name="right_currency" />
+        <update handle="shopgo_swinzoom_handle"/>
+    </catalogsearch_advanced_result>
+
+    <catalog_category_view>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2columns-left.phtml</template>
+            </action>
+        </reference>
+        <update handle="shopgo_swinzoom_handle"/>
+    </catalog_category_view>
+
+    <catalog_product_view>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/1column.phtml</template>
+            </action>
+        </reference>
+
+        <reference name="product.info">
+            <block type="catalog/product_list_related" name="catalog.product.related" as="related" template="catalog/product/list/related.phtml"/>
+            <block type="catalog/product_view" name="product.info.prevnext" as="prev_next" template="catalog/product/view/prevnext.phtml"/>
+        </reference>
+
+        <reference name="product.info.extrahint">
+            <remove name="product.manufacturer" />
+        </reference>
+
+        <reference name="product.info">
+            <block type="manufacturer/product_manufacturer" name="product.manufacturer.custom" as="product_manufacturer"
+                   template="magebuzz/manufacturer/product/manufacturer.phtml"/>
+        </reference>
+
+        <reference name="head">
+            <action method="addItem"><type>skin_js</type><script>js/lib/elevatezoom/jquery.elevateZoom-3.0.8.min.js</script></action>
+        </reference>
+        <reference name="product.info.media">
+            <block type="core/text_list" name="product.info.media.after" as="after" />
+        </reference>
+
+    </catalog_product_view>
+
+    <PRODUCT_TYPE_configurable>
+
+        <reference name="product.info.options.configurable">
+            <block type="core/text_list" name="product.info.options.configurable.renderers" as="attr_renderers">
+                <block type="configurableswatches/catalog_product_view_type_configurable_swatches" template="configurableswatches/catalog/product/view/type/options/configurable/swatches.phtml" />
+            </block>
+            <block type="core/text_list" name="product.info.options.configurable.after" as="after">
+                <block type="core/template" template="configurableswatches/catalog/product/view/type/configurable/swatch-js.phtml" />
+            </block>
+        </reference>
+
+    </PRODUCT_TYPE_configurable>
+    
+    <cms_index_index>
+        <update handle="shopgo_swinzoom_handle"/>
+        <reference name="content">
+            <action method="unsetChild"><name>top_bannerslider</name></action>
+        </reference>
+    </cms_index_index>
+
+    <catalogsearch_result_index>
+        <update handle="shopgo_swinzoom_handle"/>
+    </catalogsearch_result_index>
+
+    <quickview_index_view_FINAL>
+        <reference name="content">
+            <remove name="simplesharer"/>
+            <remove name="product.info.prevnext"/>
+            <remove name="product.info.addto" />
+        </reference>
+        <reference name="product.info">
+           <action method="setTemplate"><template>shopgo/quickview/catalog/product/view.phtml</template></action>
+       </reference>
+    </quickview_index_view_FINAL>
+
+    <blog_index_list>
+        <reference name="left">
+            <remove name="cart_sidebar" />
+            <remove name="right.reports.product.viewed" />
+            <remove name="brandsbar" />
+        </reference>
+    </blog_index_list>
+
+    <contacts_index_index>
+        <reference name ="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>
+    </contacts_index_index>
+
+    <awshopbybrand_index_brandpageview>
+        <reference name="left">
+            <remove name="catalog.leftnav"/>
+        </reference>
+        <update handle="shopgo_swinzoom_handle"/>
+    </awshopbybrand_index_brandpageview>
+
+</layout>
+

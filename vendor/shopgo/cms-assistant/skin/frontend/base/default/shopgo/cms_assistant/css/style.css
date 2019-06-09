@@ -1,0 +1,195 @@
+.sca-wrapper-reset,
+.sca-content-reset,
+.sca-label-reset,
+.sca-click-here-reset,
+.sca-link-reset,
+.sca-content-highlight-reset,
+.sca-clear-reset {
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.shopgo-cms-assistant-wrapper {
+    clear: both !important;
+   /*margin-top: 65px !important;*/
+    position: relative !important;
+}
+
+/*
+.shopgo-cms-assistant-label {
+    border-radius: 5px 0 5px 0;
+    left: 0;
+    margin: -5px 0 0 -5px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    z-index: 1000000;
+}
+*/
+
+.shopgo-cms-assistant-label {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -ms-box-sizing: border-box !important;
+    -webkit-transition: background .1s linear !important;
+    box-sizing: border-box !important;
+    display: inline-block !important;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+    font-size: .8125rem !important;
+    font-weight: 400 !important;
+    left: -1.5em !important;
+    padding: .5em .8em !important;
+    position: absolute !important;
+    text-align: left !important;
+    text-transform: uppercase !important;
+    top: -0.4em !important;
+    transition: background .1s linear !important;
+    vertical-align: middle !important;
+    z-index: 1000000 !important;
+}
+
+.shopgo-cms-assistant-label *::selection {
+    background-color: #CCE2FF !important;
+}
+
+::selection {
+    color: #555 !important;
+}
+
+.shopgo-cms-assistant-label.items>.row>.item,
+.shopgo-cms-assistant-label.items>.item {
+    line-height: 1.2 !important;
+}
+
+.shopgo-cms-assistant-label.ribbon {
+    border-radius: 0 4px 4px 0 !important;
+    margin: 0 .2em !important;
+    padding-left: 2rem !important;
+}
+
+.shopgo-cms-assistant-label.ribbon:after {
+    border-bottom: 1em solid transparent !important;
+    border-left: 0 solid transparent !important;
+    border-right-color: inherit !important;
+    border-right-style: solid !important;
+    border-right-width: 1em !important;
+    border-top: 0 solid transparent !important;
+    content: "" !important;
+    height: 0 !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 100% !important;
+    width: 0 !important;
+}
+
+.shopgo-cms-assistant-label.sca-block.ribbon {
+    border-color: #1AB8F3 !important;
+}
+
+.shopgo-cms-assistant-label.sca-block {
+    background-color: #6ECFF5 !important;
+    color: #FFF !important;
+}
+
+.shopgo-cms-assistant-label.sca-block:before {
+    background-color: #489442 !important;
+}
+
+.shopgo-cms-assistant-label.sca-page.ribbon {
+    border-color: #00839B !important;
+}
+
+.shopgo-cms-assistant-label.sca-page {
+    background-color: #16B70A !important;
+    color: #FFF !important;
+}
+
+.shopgo-cms-assistant-label.sca-page:before {
+    background-color: #16B70A !important;
+}
+
+.shopgo-cms-assistant-label.sca-bannerslider.ribbon {
+    border-color: #62009B !important;
+}
+
+.shopgo-cms-assistant-label.sca-bannerslider {
+    background-color: #8822C3 !important;
+    color: #FFF !important;
+}
+
+.shopgo-cms-assistant-label.sca-bannerslider:before {
+    background-color: #8822C3 !important;
+}
+
+/*
+.shopgo-cms-assistant-label.sca-block {
+    background-color: #1BC2E0;
+    border: 1px #00839B solid;
+}
+*/
+
+/*
+.shopgo-cms-assistant-label.sca-page {
+    background-color: #16B70A;
+    border: 1px #489442 solid;
+}
+*/
+
+/*
+.shopgo-cms-assistant-label.sca-bannerslider {
+    background-color: #8822C3;
+    border: 1px #62009B solid;
+}
+*/
+
+.shopgo-cms-assistant-label a {
+    color: #fff !important;
+    float: none !important;
+    font-size: 1.14em !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+.shopgo-cms-assistant-label a:hover {
+    text-decoration: underline !important;
+}
+
+.shopgo-cms-assistant-click-here {
+    color: #EEE !important;
+    font-size: 11px !important;
+    text-align: left;
+}
+
+.shopgo-cms-assistant-content {
+    position: relative !important;
+    z-index: 10 !important;
+}
+
+.shopgo-cms-assistant-content-highlight {
+    border-radius: 5px !important;
+    height: 100% !important;
+    left: 0 !important;
+    margin: -5px 0 0 -5px !important;
+    padding: 5px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: -1 !important;
+}
+
+.shopgo-cms-assistant-content-highlight.sca-block {
+    border: 1px #1BC2E0 dotted !important;
+}
+
+.shopgo-cms-assistant-content-highlight.sca-page {
+    border: 1px #16B70A dotted !important;
+}
+
+.shopgo-cms-assistant-content-highlight.sca-bannerslider {
+    border: 1px #8822C3 dotted !important;
+}
+
+.clear {
+    clear: both !important;
+}

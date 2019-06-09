@@ -1,0 +1,14 @@
+{
+    "name": "shopgo/switcher",
+    "type": "magento-module",
+    "description": "Switcher Magento extension",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "ShopGo",
+            "email": "ali@shopgo.me"
+        }
+    ]
+}

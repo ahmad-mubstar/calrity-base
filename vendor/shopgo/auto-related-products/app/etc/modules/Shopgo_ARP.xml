@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shopgo_ARP>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Shopgo_ARP>
+    </modules>
+</config>

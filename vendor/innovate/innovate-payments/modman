@@ -1,0 +1,5 @@
+app/code/community/Innovate/InnovatePayments/                            app/code/community/Innovate/InnovatePayments/
+app/design/adminhtml/default/default/template/innovatepayments/          app/design/adminhtml/default/default/template/innovatepayments/
+app/design/frontend/base/default/layout/innovatepayments.xml             app/design/frontend/base/default/layout/innovatepayments.xml
+app/design/frontend/base/default/template/innovatepayments/              app/design/frontend/base/default/template/innovatepayments/
+app/etc/modules/Innovate_InnovatePayments.xml                            app/etc/modules/Innovate_InnovatePayments.xml

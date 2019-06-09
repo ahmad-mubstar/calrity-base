@@ -1,0 +1,13 @@
+{
+    "name": "shopgo/extenstionsManager",
+    "type": "magento-module",
+    "description": "Extensions Manager by Composer",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "shopgo"
+        }
+    ]
+}

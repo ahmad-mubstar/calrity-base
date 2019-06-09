@@ -1,0 +1,33 @@
+<div class="checkout-agreements">
+    <?php foreach ($this->getAgreements() as $_a): ?>
+        <div class="grouped inline fields">
+            <div class="field">
+                <div class="ui checkbox">
+                    <input type="checkbox" name="agreement[<?php echo $_a->getId() ?>]" value="1" title="<?php echo $this->htmlEscape($_a->getCheckboxText()) ?>">
+                    <label><?php echo $this->__('Please accept terms and conditions') ?></label>
+                </div>
+            </div>
+            <a class="ui teal label no-decoration" href="#" data-agreement-modal-id="<?php echo $_a->getId() ?>"><?php echo $_a->getName() ?></a>
+            <div class="ui modal agreement-modal" id="agreement-<?php echo $_a->getId() ?>">
+                <i class="close icon"></i>
+                <div class="ui black header">
+                    <?php echo $this->__('Terms and Conditions') ?>
+                </div>
+                <div class="content">
+                    <div class="ui teal segment agreement-content">
+                        <p>
+                            <?php if ($_a->getIsHtml()): ?>
+                                <?php echo $_a->getContent() ?>
+                            <?php else: ?>
+                                <?php echo nl2br($this->htmlEscape($_a->getContent())) ?>
+                            <?php endif; ?>
+                        </p>
+                    </div>
+                </div>
+                <div class="actions">
+                    <div class="ui button"><?php echo $this->__('Close') ?></div>
+                </div>
+            </div>
+      	</div>
+  	<?php endforeach ?>
+</div>

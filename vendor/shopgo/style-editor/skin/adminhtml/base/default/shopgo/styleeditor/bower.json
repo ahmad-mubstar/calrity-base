@@ -1,0 +1,30 @@
+{
+  "name": "ShopGo Style Editor",
+  "version": "1.0.0",
+  "authors": [
+    "talalus <talal@shopgo.me>"
+  ],
+  "homepage": "www.shopgo.me",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.3.0",
+    "svg-loaders": "~1.0.2",
+    "sweetalert": "~0.4.2",
+    "spectrum": "~1.6.0",
+    "material-design-hamburger": "~1.0.0",
+    "angular-file-upload": "~1.1.5",
+    "es5-shim": "~4.3.1",
+    "jquery": "~2",
+    "angular": "~1",
+    "jquery-address": "*",
+    "html5shiv": "~3.7.3",
+    "nprogress": "~0.2.0"
+  }
+}

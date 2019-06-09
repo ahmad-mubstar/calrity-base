@@ -1,0 +1,50 @@
+<?php if(Mage::getSingleton('customer/session')->isLoggedIn()): ?>
+	<div class="ui info message">
+		<i class="icon info"></i><?php echo $this->__('Please enter your details below to complete your purchase.')?>
+	</div>
+<?php else: ?>
+	<div id="loginMessage" class="ui info message" onClick="javascript:easyCheckout.showLoginModal()">
+		<i class="icon help"></i><?php echo $this->__('Already have an account ? Please login here.') ?>
+	</div>
+	<!-- Login modal -->
+	<div id="loginModal" class="ui  modal">
+		<i class="close icon"></i>
+		<div class="header"><?php echo $this->__('Login') ?></div>
+		<div class="content">
+			<form id="loginForm" method="Post" action="<?php Mage::getUrl('easycheckout/index/loginPost', array('_secure'=>true)); ?>" class="ui form attached ">
+				<div class="ui inverted dimmer">
+					<div class="ui text loader"><?php echo $this->__('Loading'); ?></div>
+				</div>
+				<div class="field">
+					<label><?php echo $this->__('Email Address') ?></label>
+					<div class="ui left labeled icon input">
+						<input type="text"
+						placeholder="<?php echo $this->__('Email Address') ?>"
+						name="login[email]"> <i class="user icon"></i>
+						<div class="ui corner label">
+							<i class="icon asterisk"></i>
+						</div>
+					</div>
+				</div>
+				<div class="field">
+					<label><?php echo $this->__('Password') ?></label>
+					<div class="ui left labeled icon input">
+						<input type="password"
+						placeholder="<?php echo $this->__('Password') ?>"
+						name="login[password]"> <i class="lock icon"></i>
+						<div class="ui corner label">
+							<i class="icon asterisk"></i>
+						</div>
+					</div>
+				</div>
+				<div class="ui error message">
+					<i class="icon warning"></i>
+				</div>
+				<button class="ui blue submit button"><?php echo $this->__('Login') ?></button>
+			</form>
+			<div class="ui bottom attached info button message " onClick="javascript:easyCheckout.setLocation('<?php echo Mage::getBaseUrl() . 'customer/account/forgotpassword/' ?>');">
+				<i class="icon help"></i><?php echo $this->__('Forgot Your Password?'); ?>
+			</div>
+		</div>
+	</div>
+<?php endif; ?>

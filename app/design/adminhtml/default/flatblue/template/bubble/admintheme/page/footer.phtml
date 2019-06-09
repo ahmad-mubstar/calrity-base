@@ -1,0 +1,53 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<div class="footer-content">
+    <div class="bug-report">
+        <p>
+        <form class="hkb-site-search" method="get" action="http://support.shopgo.me/">
+            <input id="hkb-search" class="input-text" value="" placeholder="Search the knowledge base..." name="search" autocomplete="off" type="text">
+            <input name="ht-kb-search" value="1" type="hidden">
+            <button class="hkb-site-search__button" type="submit"><span>Search</span></button>
+        </form>
+        </p>
+    <!--    <p>--><?php //echo $this->__('Interface Locale: %s', $this->getLanguageSelect()) ?><!--</p>-->
+    <!--    <p>--><?php //echo $this->helper('bubble_admintheme')->__('Current Theme:'); ?><!--&nbsp;--><?php //echo $this->getLayout()->createBlock('bubble_admintheme/adminhtml_themes_select')->getHtml(); ?><!--</p>-->
+    </div>
+
+    <div class="legality">
+
+        <p class="social">
+            <a class="" href="https://plus.google.com/u/0/116718655965266100697/posts" target="_blank"><i class="fa fa-google"></i></a>
+            <a class="tt-twitter" href="https://twitter.com/ShopGoME" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a class="tt-dribbble" href="http://www.youtube.com/user/ShopGoChannel" target="_blank"><i class="fa fa-youtube"></i></a>
+            <a class="tt-facebook" href="https://www.facebook.com/ShopGoMe" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a class="tt-linkedin" href="http://www.linkedin.com/company/2685673?trk=prof-exp-company-name" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a class="tt-insta" href="https://www.instagram.com/shopgome/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </p>
+        <p><?php echo $this->__('© %d Storax Inc. All rights reserved. Powered by ShopGo', date('Y')) ?></p>
+    </div>
+
+</div>

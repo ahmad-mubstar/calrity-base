@@ -1,0 +1,102 @@
+<!--
+╭━━━┳╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━━╮╱╱╱╱╱╱╱╱╱╭━━━┳╮╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱╭╮
+┃╭━╮┃┃╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱┃╭━━╯╱╱╱╱╱╱╱╱╱┃╭━╮┃┃╱╱╱╱╱╱╱┃┃╱╱╱╱╱╱╭╯╰╮
+┃╰━━┫╰━┳━━┳━━┳━━┳━━╮╱╱╱╱┃╰━━┳━━┳━━┳╮╱╭┫┃╱╰┫╰━┳━━┳━━┫┃╭┳━━┳╮┣╮╭╯
+╰━━╮┃╭╮┃╭╮┃╭╮┃╭╮┃╭╮┃╭━━╮┃╭━━┫╭╮┃━━┫┃╱┃┃┃╱╭┫╭╮┃┃━┫╭━┫╰╯┫╭╮┃┃┃┃┃
+┃╰━╯┃┃┃┃╰╯┃╰╯┃╰╯┃╰╯┃╰━━╯┃╰━━┫╭╮┣━━┃╰━╯┃╰━╯┃┃┃┃┃━┫╰━┫╭╮┫╰╯┃╰╯┃╰╮
+╰━━━┻╯╰┻━━┫╭━┻━╮┣━━╯╱╱╱╱╰━━━┻╯╰┻━━┻━╮╭┻━━━┻╯╰┻━━┻━━┻╯╰┻━━┻━━┻━╯
+╱╱╱╱╱╱╱╱╱╱┃┃╱╭━╯┃╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
+╱╱╱╱╱╱╱╱╱╱╰╯╱╰━━╯╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
+-->
+<div id="shopgo_easy_checkout" class="main container">
+	<script type="text/javascript">
+		var baseUrl = "<?php echo preg_replace('/\?.*/', '', Mage::getUrl('', array('_secure' => true))); ?>";
+		
+		// CITIES INTEGRATION: START
+		var is_secure =  parseInt("<?php if (Mage::app()->getStore()->isCurrentlySecure()) { echo 1; } else { echo 0; } ?>");
+		var cities_url = is_secure? 'https://cities.shopgo.io/api/cities' : 'http://cities.shopgo.io/api/cities';
+
+		var cities_username = '<?php echo Mage::getStoreConfig('ec/address/cities_username') ? Mage::getStoreConfig('ec/address/cities_username') : 'shopgo'; ?>';
+
+		var store_code = '<?php echo Mage::app()->getStore()->getCode() ? Mage::app()->getStore()->getCode() : 'en'; ?>';
+		var store_hostname = "<?php echo $_SERVER['HTTP_HOST']; ?>";
+
+		var autocomplete_allow_any_value = '<?php echo Mage::getStoreConfig('ec/address/autocomplete_allow_any_value') ? Mage::getStoreConfig('ec/address/autocomplete_allow_any_value') : '0'; ?>';
+		autocomplete_allow_any_value = autocomplete_allow_any_value === '0' ? false : true;
+		// CITIES INTEGRATION: END
+
+		var geonamesUsername = '<?php echo Mage::getStoreConfig('ec/address/geonames_username') ? Mage::getStoreConfig('ec/address/geonames_username') : 'shopgo'; ?>';
+		var citiesDataSource = '<?php echo Mage::getStoreConfig('ec/address/cities_data_source'); ?>';
+        var translationData = <?php echo json_encode($this->helper('ec')->getTranslationData('Shopgo_EC'), JSON_HEX_APOS); ?>;
+        var isVirtual = <?php echo Mage::getSingleton('checkout/session')->getQuote()->isVirtual() ? 'true' : 'false'; ?>;
+		var countryRegions = <?php echo $this->helper('directory')->getRegionJson() ?>;
+		var geoCountryCode = '<?php echo Mage::getModel('geo/country')->getCountry() ? Mage::getModel('geo/country')->getCountry() : ''; ?>';
+        var noPostcodeCountries = <?php echo json_encode(explode(',', Mage::getStoreConfig('ec/address/nozip_country'))); ?>;
+        var reloadDelay = <?php echo Mage::getStoreConfig('ec/address/reload_delay') ? Mage::getStoreConfig('ec/address/reload_delay') : '0'; ?>;
+        var delayInterval = <?php echo Mage::getStoreConfig('ec/address/delay_interval') ? Mage::getStoreConfig('ec/address/delay_interval') : '1000'; ?>;
+        var inputMaxLength = <?php echo Mage::getStoreConfig('ec/address/input_maxlength') ? Mage::getStoreConfig('ec/address/input_maxlength') : '30'; ?>;
+        var isNumericTel = <?php echo Mage::getStoreConfig('ec/address/numeric_tel') ? 'true' : 'false'; ?>;
+        var consoleLog = <?php echo Mage::getStoreConfig('ec/dev/console_log') ? 'true' : 'false'; ?>;
+		<?php echo Mage::helper('ec')->defaultShippingMethod() ? "var defaultShippingMethod = '" . Mage::helper('ec')->defaultShippingMethod() . "';" : "";?>
+		<?php echo Mage::helper('ec')->defaultPaymentMethod() ? "var defaultPaymentMethod = '" . Mage::helper('ec')->defaultPaymentMethod() . "';" : "";?>
+        var cityInput = '<?php echo Mage::getStoreConfig('ec/address/city_input') ? Mage::getStoreConfig('ec/address/city_input') : 'Null'; ?>';
+	</script>
+	<div class="ui one column page grid stackable">
+		<div class="row">
+			<div class="column">
+				<div class="ui basic segment" style="margin-bottom: 0; padding-bottom: 0;">
+					<h2 class="ui left floated medium header">
+						<i class="lock icon large"></i>
+						<div class="content">
+                            <?php echo Mage::helper('ec')->checkoutTitle(); ?>
+                            <div class="sub header"><?php echo Mage::helper('ec')->checkoutDescription(); ?></div>
+                        </div>
+					</h2>
+					<h2 class="ui right floated medium header">
+						<div class="content">
+							<a href="<?php echo $this->getUrl('') ?>" title="<?php echo '' ?>" class="logo">
+                                <strong><?php echo ''; ?></strong>
+                                <img src="<?php echo $this->getSkinUrl(Mage::getStoreConfig('design/header/logo_src')); ?>" alt="<?php echo ''; ?>" />
+                            </a>
+						</div>
+					</h2>
+				</div>
+				<?php echo $this->getChildHtml('login'); ?>				
+				<div id="globalMessages" class="ui error message hidden">
+					<i class="warning icon"></i>
+					<i class="close icon"></i>
+				</div>
+				<div class="ui section divider"></div>
+			</div>
+		</div>
+	</div>
+	<div class="ui three column page grid stackable">
+		<div class="column">
+            <?php echo $this->getChildHtml('billing'); ?>
+            <?php echo $this->getChildHtml('shipping'); ?>
+        </div>
+		<div class="column">
+            <?php echo $this->getChildHtml('shipping_method'); ?>
+            <?php echo $this->getChildHtml('payment'); ?>
+        </div>
+		<div class="column">
+            <?php echo $this->getChildHtml('review'); ?>
+        </div>
+	</div>
+	<div id="pageDimmer" class="ui page dimmer">
+		<div class="content">
+			<div class="center">
+				<h2 class="ui inverted icon header successDimmer" style="display: none">
+					<i class="icon circular inverted emphasized green check"></i>
+                    <?php echo $this->__('Your order has been placed successfully!'); ?>
+                    <div class="sub header"></div>
+				</h2>
+				<h2 class="ui inverted icon header redirectDimmer" style="display: none">
+					<i class="icon circular inverted emphasized green url"></i>
+                    <?php echo $this->__('You will be redirected to the payment gateway'); ?>
+                    <div class="sub header"></div>
+				</h2>
+			</div>
+		</div>
+	</div>
+</div>

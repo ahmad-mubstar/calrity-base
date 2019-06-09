@@ -1,0 +1,33 @@
+ALL,الكل
+ANY,أى
+Add,أضف
+Apply,نفذ
+Description: %s,الوصف: %s
+Expire at: %s,تنتهى فى: %s
+FALSE,خاطئ
+If %s of these conditions are %s:,لو  %s اى من هذة الشروط كانت %s:
+Invalid discount amount.,مقدار الخصم غير صحيح.
+MATCHING All,الجميع مطابق
+MATCHING ANY,ايا منهم مطابق
+NOT MATCHING ALL,الجميع غير مطابق
+NOT MATCHING ANY,ايا منهم غير مطابق
+Name: %s,الأسم: %s
+Open Chooser,افتح الاختيارى
+Perform following actions,طبق العمليات التالية
+Please choose a condition to add...,من فضلك اختر شرطا لاضافتة...
+Please choose an action to add...,من فضلك اختر علمية لاضافتها...
+Remove,احذف
+Start at: %s,يبدأ فى: %s
+TRUE,صحيح
+by,بواسطة
+contains,يحتوي على
+does not contain,لا يحتوي
+equals or greater than,يساوي أو أكبر من
+equals or less than,يساوي أو أقل من
+greater than,أكثر من
+is,هو
+is not,غير
+is not one of,ليست واحدة
+is one of,هي واحدة من
+less than,أقل من
+to,الى

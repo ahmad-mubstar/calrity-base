@@ -1,0 +1,18 @@
+Cron (Scheduled Tasks) - all the times are in minutes,كرون (المهام المجدولة) - جميع الأوقات في دقائق
+Daily,يوميا
+Failure history lifetime,تاريخ الفشل
+For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.,لعناوين مواقع صحيحة تكونت خلال عمل الكرون من فضلك تأكد من تعيين قاعدة عناوين ويب > آمنة وغير آمنة.
+Generate schedules every,توليد جداول كل
+History cleanup every,حذف السجلات كل
+Invalid callback: %s::%s does not exist,رد غير صالح  %s::%s لا يوجد
+"Invalid model/method definition, expecting ""model/class::method"".","لا يوجد طريقة  نموذج معرف , متوقع ""model/class::method"""
+Missed if not run within,ستضيع إذا لم تعمل ضمن
+Monthly,شهريا
+No callbacks found,لايوجد ردور
+Schedule ahead for,الجدولة لـ
+Success history lifetime,تاريخ النجاح
+Too late for the schedule,متأخر كثيراً عن الجدولة
+Unable to save Cron expression,خطأ فى حفظ العملية
+Unknown error,خطأ غير معروف
+Weekly,"اسبوعيا
+"

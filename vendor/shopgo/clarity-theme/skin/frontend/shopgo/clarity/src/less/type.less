@@ -1,0 +1,92 @@
+@import "../../bower_components/bootstrap/less/type.less";
+
+h1, .h1 {
+    font-size: floor(@font-size-base * 1.1);
+}
+
+h2, .h2 {
+    font-size: floor(@font-size-base * 0.9);
+}
+
+h3, .h3 {
+    font-size: ceil(@font-size-base * 0.7);
+}
+
+h4, .h4 {
+    font-size: ceil(@font-size-base * 0.6);
+}
+
+h5, .h5 {
+    font-size: @font-size-base;
+}
+
+h6, .h6 {
+    font-size: ceil(@font-size-base * 0.4);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    /*@replace: 0px*/
+    letter-spacing: 4px;
+}
+
+.page-title {
+    .clearfix();
+    .page-header();
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+
+    .separator {
+        margin: 0 3px;
+    }
+
+    .link-rss {
+        float: right;
+        margin: 7px 0 0;
+    }
+    // h1:after {
+    //     content: "";
+    //     width: 0;
+    //     height: 0;
+    //     border-left: 5px solid transparent;
+    //     border-right: 5px solid transparent;
+    //     border-top: 7px solid;
+    //     display: block;
+    //     margin: 10px 0 12px;
+    // }
+}
+
+.title-buttons {
+    text-align: right;
+
+    h1, h2, h3,
+    h4, h5, h6 {
+        float: left;
+    }
+}
+
+.subtitle,
+.sub-title {
+    color: @headings-small-color;
+}
+
+p {
+    font-size: 11px;
+    color: #888;
+    /* @replace: "JF Flat Regular", Arial, Helvetica, sans-serif */
+    font-family: @font-family-sans-serif;
+}
+
+label {
+    color: #888;
+    /* @replace: "JF Flat Regular", Arial, Helvetica, sans-serif */
+    font-family: @font-family-sans-serif;
+    font-weight: 100;
+    font-size: 11px;
+}
+
+.checkout-onepage-index h2 {
+    font-size: 12px !important;
+}

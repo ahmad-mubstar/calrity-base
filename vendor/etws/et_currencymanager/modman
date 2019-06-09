@@ -1,0 +1,8 @@
+install/app/code/community/ET/CurrencyManager/                            app/code/community/ET/CurrencyManager/
+install/app/design/frontend/base/default/layout/et_currencymanager.xml    app/design/frontend/base/default/layout/et_currencymanager.xml
+install/app/design/frontend/base/default/template/et_currencymanager/     app/design/frontend/base/default/template/et_currencymanager/
+install/app/etc/modules/ET_CurrencyManager.xml                            app/etc/modules/ET_CurrencyManager.xml
+install/app/locale/en_US/ET_Currencymanager.csv                           app/locale/en_US/ET_Currencymanager.csv
+install/app/locale/fr_FR/ET_Currencymanager.csv                           app/locale/fr_FR/ET_Currencymanager.csv
+install/app/locale/ru_RU/ET_Currencymanager.csv                           app/locale/ru_RU/ET_Currencymanager.csv
+install/js/et/currencymanager/                                            js/et/currencymanager/

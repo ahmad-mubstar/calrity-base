@@ -1,0 +1,80 @@
+<div class="shopgo-social-login">
+    <div class="account-login">
+        <div class="<?php echo $this->_getColSet(); ?> shopgo-social-login-upper">
+            <?php if($this->_googleEnabled()): ?>
+            <div class="<?php echo $this->_getDescCol(); ?> new-users shopgo-social-login-upper-google">
+                <div class="content">
+                    <h2><?php echo $this->__('Google Connect'); ?></h2>
+                    <p><?php echo $this->__('You can login using your Google account.'); ?></p>
+                    <div class="buttons-set">
+                        <?php echo $this->getChildHtml('shopgo_social_google_login_button'); ?>
+                    </div>
+                </div>
+            </div>
+            <?php endif; ?>
+            <?php if($this->_facebookEnabled()): ?>
+            <div class="<?php echo $this->_getDescCol(); ?> new-users shopgo-social-login-upper-facebook">
+                <div class="content">
+                    <h2><?php echo $this->__('Facebook Connect'); ?></h2>
+                    <p><?php echo $this->__('You can login using your Facebook account.'); ?></p>
+                    <div class="buttons-set">
+                        <?php echo $this->getChildHtml('shopgo_social_facebook_login_button'); ?>
+                    </div>
+                </div>
+            </div>
+            <?php endif; ?>
+            <?php if($this->_twitterEnabled()): ?>
+            <div class="<?php echo $this->_getDescCol(); ?> new-users shopgo-social-login-upper-twitter">
+                <div class="content">
+                    <h2><?php echo $this->__('Twitter Connect'); ?></h2>
+                    <p><?php echo $this->__('You can login using your Twitter account.'); ?></p>
+                    <div class="buttons-set">
+                        <?php echo $this->getChildHtml('shopgo_social_twitter_login_button'); ?>
+                    </div>
+                </div>
+            </div>
+            <?php endif; ?>
+            <?php if($this->_linkedinEnabled()): ?>
+            <div class="<?php echo $this->_getDescCol(); ?> new-users shopgo-social-login-upper-linkedin">
+                <div class="content">
+                    <h2><?php echo $this->__('LinkedIn Connect'); ?></h2>
+                    <p><?php echo $this->__('You can login using your LinkedIn account.'); ?></p>
+                    <div class="buttons-set">
+                        <?php echo $this->getChildHtml('shopgo_social_linkedin_login_button'); ?>
+                    </div>
+                </div>
+            </div>
+            <?php endif; ?>            
+        </div>
+        <!-- <div class="<?php echo $this->_getColSet(); ?> shopgo-social-login-lower">
+            <?php if($this->_googleEnabled()): ?>
+            <div class="<?php echo $this->_getButtCol(); ?> shopgo-social-login-lower-google">
+                <div class="buttons-set">
+                    <?php echo $this->getChildHtml('shopgo_social_google_login_button'); ?>
+                </div>
+            </div>
+            <?php endif; ?>
+            <?php if($this->_facebookEnabled()): ?>
+            <div class="<?php echo $this->_getButtCol(); ?> shopgo-social-login-lower-facebook">
+                <div class="buttons-set">
+                    <?php echo $this->getChildHtml('shopgo_social_facebook_login_button'); ?>
+                </div>
+            </div>
+            <?php endif; ?>
+            <?php if($this->_twitterEnabled()): ?>
+            <div class="<?php echo $this->_getButtCol(); ?> shopgo-social-login-lower-twitter">
+                <div class="buttons-set">
+                    <?php echo $this->getChildHtml('shopgo_social_twitter_login_button'); ?>
+                </div>
+            </div>
+            <?php endif; ?>
+            <?php if($this->_linkedinEnabled()): ?>
+            <div class="<?php echo $this->_getButtCol(); ?> shopgo-social-login-lower-linkedin">
+                <div class="buttons-set">
+                    <?php echo $this->getChildHtml('shopgo_social_linkedin_login_button'); ?>
+                </div>
+            </div>
+            <?php endif; ?>            
+        </div> -->
+    </div>
+</div>

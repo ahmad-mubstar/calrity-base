@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layout version="0.1.0">
+    
+    <catalog_product_view>
+        <reference name="head">
+        <!-- Swinzoom -->
+            <action method="addCss" ifconfig="shopgo_swinzoom/general/enabled"><script>shopgo/swinzoom/css/jquery.swinxy-combined.css</script></action>    
+            <action method="addJs" ifconfig="shopgo_swinzoom/general/jquery"><script>shopgo/swinzoom/jquery-2.1.0.min.js</script></action>
+            <action method="addJs" ifconfig="shopgo_swinzoom/general/jquery"><script>shopgo/swinzoom/jquery-no-conflict.js</script></action>
+    	    <action method="addJs" ifconfig="shopgo_swinzoom/general/enabled"><script>shopgo/swinzoom/jquery.swinxy-combined.min.js</script></action>
+            <action method="addJs" ifconfig="shopgo_swinzoom/general/mouseweel"><script>shopgo/swinzoom/jquery.mousewheel.js</script></action>
+
+        <!-- End of Swinzoom -->
+        </reference>
+        <reference name="product.info.media">
+           <action method="setTemplate" ifconfig="shopgo_swinzoom/general/enabled"><template>shopgo/swinzoom/media.phtml</template></action>
+        </reference>
+    </catalog_product_view>
+</layout>
+

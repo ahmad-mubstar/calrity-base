@@ -1,0 +1,1 @@
+../../vendor/shopgo/payfort-payment-New/js/payfort/checkout-submit.js

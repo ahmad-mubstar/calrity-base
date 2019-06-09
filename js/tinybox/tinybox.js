@@ -1,0 +1,1 @@
+../../vendor/magestore/notification/js/tinybox/tinybox.js

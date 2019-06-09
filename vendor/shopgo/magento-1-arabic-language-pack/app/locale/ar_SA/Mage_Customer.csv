@@ -1,0 +1,599 @@
+* Required Fields,* الحقول المطلوبة
+A new password was sent,تم إرسال كلمة مرور جديدة
+Account Dashboard,لوحة التحكم الرئيسية للحساب
+Account Information,بيانات الحساب
+Account Sharing Options,خيارات مشاركة الحساب
+Account information was successfully saved,تم حفظ بيانات الحساب بنجاح
+Action,فعل
+Add New Address,إضافة عنوان جديد
+Add New Customer,إضافة عميل جديد
+Add New Customer Group,إضافة مجموعة عملاء جديدة
+Added From,مضاف من
+Additional Address Entries,مدخلات عنوان إضافية
+Address,العنوان
+Address Book,دفتر العنوان
+Address Information,بيانات العنوان
+Addresses,العناوين
+Admin,الإدارة
+All,الكل
+All Store Views,مشاهدات جميع واجهات المتاجر
+All countries,كل الدول
+Always optional,دائما اختياري
+Amount,كمية
+Approved,موافق عليه
+Are you sure that you want to remove this item?,هل أنت متأكد أنك تريد إزالة هذه السلعة؟
+Are you sure you want to cancel adding of this address?,هل أنت متأكد أنك تريد إلغاء إضافة هذا العنوان؟
+Are you sure you want to delete this address?,هل أنت متأكد أنك تريد حذف هذا العنوان؟
+Are you sure?,هل أنت متأكد؟
+Array of Entity collections is expected,من المتوقع تجمع مصفوفة من الكيان
+Assign a customer group,تعيين مجموعة العملاء
+Average Sale,متوسط البيع
+Back,العودة
+Back to Login,العودة لتسجيل الدخول
+Bad request.,طلب خطآ.
+Bill to Name,الفاتورة إلى الاسم
+Billing Information,بيانات الدفع
+Bought From,تم الشراء من
+"By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.",عن طريق انشاء حساب مع شركائنا في المتجر ، سوف تكون قادرة على التحرك من خلال عملية الخروج بشكل اسرع ، وتخزين متعددة تتناول النقل البحري ، وبالنظر الى المسار الاوامر الخاصة بك في حسابك وأكثر.
+CSV,CSV
+Can't save address,لا يمكن حفظ العنوان
+Can't save customer,لا يمكن حفظ العميل
+Can't share customer accounts global. Because some customer accounts with same emails exist on multiple websites and cannot be merged.,من خلال إنشاء حساب مع متجرنا ، ستكون قادرًا على اجراء  عملية الدفع بشكل أسرع ، وتخزين عناوين شحن متعددة ، وعرض وتتبع طلباتك في حسابك وأكثر من ذلك.
+Cancel,إلغاء
+Change Account Password,تغيير كلمة مرور الحساب
+Change Billing Address,تغيير عنوان الدفع
+Change Password,تغيير كلمة المرور
+Change Shipping Address,تغيير عنوان الشحن
+City,المدينة
+Company,الشركة
+Config,اعدادات
+Confirm New Password,تأكيد كلمة المرور الجديدة
+Confirm Password,تأكيد كلمة المرور
+Confirmation Link Email,تأكيد وصلة البريد الإلكتروني
+Confirmed,مؤكدة
+Contact Information,بيانات الاتصال
+Continue Shopping,الاستمرار بالتسوق
+Country,الدولة
+Create,إنشاء
+Create New Account Options,خيارات إنشاء حساب جديد
+Create New Customer Account,إنشاء حساب عميل جديد
+Create Order,إنشاء طلب شراء
+Create an Account,إنشاء حساب
+Create customer,إنشاء عميل
+Create customer address,إنشاء عنوان العميل
+Current Password,كلمة المرور الحالية
+Customer,العميل
+Customer Addresses,عناوين العميل
+Customer Api,تطبيق العميل
+Customer Configuration,اعدادات العميل
+Customer Group,مجموعة عملاء
+Customer Group was successfully deleted,تم حذف مجموعة عملاء بنجاح
+Customer Group was successfully saved,تم حفظ مجموعة عملاء بنجاح
+Customer Groups,مجموعات عملاء
+Customer Information,بيانات العميل
+Customer Login,تسجيل دخول العميل
+Customer Since,عميل منذ
+Customer View,عرض العملاء
+Customer collection expected,تجمع عملاء متوقع
+Customer doesn't have primary billing address,العميل ليس لديه عنوان دفع رئيسي
+Customer email already exists,البريد الإلكتروني للعميل موجود بالفعل
+"Customer website id must be specified, when using website scope.",يجب تحديد الرمز التعريفي للموقع، عند استخدام نطاق الموقع.
+Customers,العملاء
+Customers Only,العملاء فقط
+Customers Section,قسم العملاء
+Date,التاريخ
+Date Added,التاريخ المضاف
+Date of Birth,تأريخ الميلاد
+Date of Birth is required.,تأريخ الميلاد مطلوب
+Day,اليوم
+Days in Wishlist,الأيام في قائمة الأمنيات
+Default Addresses,العناوين الافتراضية
+Default Billing Address,عنوان الدفع الافتراضي
+Default Email Domain,البريد الالكتروني الافتراضي للنطاق
+Default Group,المجموعة الافتراضية
+Default Shipping Address,عنوان الشحن الافتراضي
+Default Welcome Email,إيميل الترحيب الافتراضي
+Delete,حذف
+Delete Address,حذف العنوان
+Delete Customer,حذف العميل
+Delete Customer Group,حذف مجموعة عملاء
+Delete customer,حذف عميل
+Delete customer address,حذف عنوان العميل
+Deleted Stores,المتاجر المحذوفة
+Details,التفاصيل
+Disabled,غير مفعل
+Edit,تحرير
+Edit Account Info,تحرير بيانات الحساب
+Edit Account Information,تحرير بيانات الحساب
+Edit Address,تحرير العنوان
+Edit Address Entry,تحرير مدخل العنوان
+"Edit Customer Group ""%s""","تحرير مجموعة العملاء ""%s"""
+Edit Customer Groups,تحرير مجموعات العملاء
+Edit Customer's Address,تحرير عنوان العميل
+Edit Group,تحرير مجموعة
+Edit Newsletter Subscription,تحرير اشتراك النشرة البريدية
+Edit Newsletters,تحرير النشرات البريدية
+Edit Personal Information,تحرير البيانات الشخصية
+Email,البريد الإلكتروني
+Email Address,عنوان البريد الإلكتروني
+Email Sender,مرسل البريد الإلكتروني
+Entity collection is expected,ومن المتوقع تجمع الكيان
+Error during retrieval of option value: %s,خطأ أثناء استرداد قيمة الخيار: %s
+Ext. Price,السعر الخارجي
+Failed to confirm customer account.,فشل تأكيد حساب العميل
+Fax,فاكس
+First Name,الاسم الأول
+First name can't be empty,الاسم الأول يجب أن لا يكون خالي
+Forgot Email Sender,نسيت البريد الالكتروني للمرسل
+Forgot Email Template,نسيت البريد الالكتروني للقالب
+Forgot Your Password?,هل نسيت كلمة المرور؟
+From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.,من خلال لوحة التحكم الخاص بك لديك القدرة على عرض لقطة اخيرة من نشاط الحساب وتحديث معلومات حسابك. اختر الرابط ادناه لعرض او تعديل المعلومات.
+General Subscription,اشتراك عام
+Global,عالمي
+Go to Address Book,اذهب الى دفتر العناوين
+Grand Total,المجموع الكلي
+Grand Total: %s,المجموع الكلي: %s
+Group,مجموعة
+"Group ""%s"" can not be deleted","مجموعة ""%s"" لا يمكن حذفها"
+Group Information,بيانات المجموعة
+Group Name,اسم المجموعة
+Guest,زائر
+HTML,لغة النص التشعبي
+"Hello, %s!",مرحبا، %s!
+ID,الرمز التعريفي
+IP Address,عنوان بروتوكول الإنترنت
+"If you have an account with us, please log in.",إذا كنت تمتلك حسابا معنا، من فضلك قم بتسجيل الدخول.
+"Invalid attribute option specified for attribute %s (%s), skipping the record",خيار السمة %s (%s) غير محدد بشكل صحيح، تخطى السجل
+"Invalid attribute set specified, skipping the record",مجموعة السمات المحددة غير صحيحة، تخطى السجل
+Invalid current password,كلمة المرور الحالية غير صحيحة
+Invalid customer data,بيانات العميل غير صحيحة
+Invalid email address,عنوان البريد الإلكتروني غير صحيح
+"Invalid email address ""%s""","عنوان البريد الإلكتروني غير صحيح  ""%s"""
+Invalid login or password.,العنوان او الاسم السري غير صحيح
+"Invalid option id specified for %s (%s), skipping the record",خيار رمز التعريف %s (%s) المحدد غير صحيح،  تخطى السجل
+"Invalid store specified, skipping the record",المتجر المحدد غير صحيح ، تخطى سجل
+Items Order,سلع طلب الشراء
+Last 5 Orders,اخر 5 طلبات
+Last Activity,اخر نشاط
+Last Name,اسم العائلة
+Last Url,اخر رابط موقع
+Last Viewed Items,آخر السلع المعروضة
+Last date subscribed,اخر تاريخ مشترك
+Last date unsubscribed,اخر تاريخ غير مشترك
+Last name can't be empty,الاسم العائلي لا يجوز ان يكون خالي
+Leave empty for default (15 minutes).,اترك فارغ تلقائيا (١٥ دقيقة)
+Leave empty for default (2). Valid range: 1-4,اترك فارغ تلقائيا (٢). نطاق صحيح: ١-٤
+Lifetime Sales,عمر المبيعات
+Log In,تسجيل الدخول
+Log Out,تسجيل الخروج
+Log in or Create an Account,سجل الدخول او انشئ حساب جديد
+Login,تسجيل الدخول
+Login Information,بيانات تسجيل الدخول
+Login and password are required,تسجيل الدخول و الرقم السري مطلوبات
+Login or Create an Account,تسجيل دخول او انشاء حساب
+M.I.,M.I.
+MM,دقيقة
+Manage Addresses,إدارة العناوين
+Manage Customers,إدارة العملاء
+"Missing email, skipping the record",البريد الالكتروني ناقص ، تخطى السجل
+"Missing firstname, skipping the record",الاسم الاول ناقص ، تخطى السجل
+"Missing lastname, skipping the record",الاسم الاخير ناقص ، تخطى السجل
+Month,الشهر
+My Account,حسابي
+My Account Dashboard,لوحة التحكم لحسابي
+My Dashboard,لوحة التحكم الخاصة بي
+My Orders,طلبات الشراء الخاصة بي
+My Reviews,آرائي
+My Tags,علاماتي
+My Wishlist,قائمة امنياتي
+Name,الاسم
+Name and Address Options,خيارات الاسم والعنوان
+Never,أبدا
+New Address,عنوان جديد
+New Address Entry,مدخل عنوان جديد
+New Customer,عميل جديد
+New Customer Address,عنوان عميل جديد
+New Customer Group,مجموعة عميل جديدة
+New Customer Groups,مجموعات عميل جديدة
+New Customers,عملاء جدد
+New Group,مجموعة جديدة
+New Password,كلمة مرور جديدة
+New account,حساب جديد
+New account confirmation key,مفتاح التأكيد للحساب الجديد
+New account confirmed,تم تأكيد الحساب الجديد
+New password,كلمة المرور الجديدة
+Newsletter,النشرة البريدية
+Newsletter Finish,نهاية النشرة البريدية
+Newsletter Information,بيانات النشرة البريدية
+Newsletter Received,تم استلام النشرة البريدية
+Newsletter Start,بداية النشرة البريدية
+Newsletter Subscription,اشتراك النشرة البريدية
+Newsletters,النشرات البريدية
+No Items Found,لم يتم العثور على عناصر
+No Newsletter Found,لم يتم العثور على نشرات بريدية
+No item specified.,لم يتم تعيين أي عنصر
+No product collections found,لم يتم العثور على مجموعات المنتجات
+Not Sent,لم ترسل
+"Not confirmed, can login",لم تؤكد، يمكن تسجيل الدخول
+"Not confirmed, cannot login",لم تؤكد، لا يمكن تسجيل الدخول
+Number of lines in a street address ,عدد الاسطر في عنوان الشارع
+Offline,غير متصل
+Online,متصل
+Online Customers,عملاء متصلون
+Online Customers Options,خيارات العملاء المتصلون
+Online Minutes Interval,فترة الدقائق
+Order #,طلب شراء #
+Order #%s (%s),طلب شراء #%s (%s)
+Order List...,قائمة طلب شراء...
+Order Total,مجموع طلب الشراء
+Orders,طلبات الشراء
+PDF,ملف PDF
+Password,كلمة المرور
+Password Management,إدارة كلمة المرور
+Password Options,خيارات كلمة المرور
+Password can't be empty,لايمكن لكلمة المرور ان تكون خالية
+Password fields can't be empty.,لا يمكن لحقول كلمات المرور ان تكون خالية
+Password forgotten,لقد نسيت كلمة المرور
+Password minimal length must be more %s,الحد الأدنى لكلمة المرور يجب ان يكون اكثر %s
+Password must have at least 6 characters. Leading or trailing spaces will be ignored.,يجب أن تحتوي كلمة المرور على 6 حروف على الأقل. سيتم تجاهل أي فراغات قبل أو بعد الأحرف.
+Paused,متوقف
+Payment Method,طريقة الدفع
+Pending,معلق
+Per Website,لكل موقع
+Personal Information,بيانات شخصية
+Please enter your email below and we'll send you a new password.,من فضلك قم بإدخال بريدك الإلكتروني بالأسفل وسيتم إرسال كلمة مرور جديدة لك.
+Please enter your email below and we'll send you confirmation link for it.,من فضلك قم بإدخال بريدك الإلكتروني بالأسفل وسيتم إرسال رابط التفعيل  .
+Please enter your email.,من فضلك قم بإدخال بريدك الإلكتروني.
+Please make sure your passwords match.,من فضلك تأكد من تطابق كلمة المرور.
+Please select,من فضلك اختر
+"Please select region, state or province",من فضلك اختر منطقة، ولاية أو مقاطعة
+"Please, check your e-mail for confirmation key.",من فضلك، قم بزيارة بريدك الالكتروني لمفتاح التفعيل
+Prefix,اختصار
+Prefix dropdown options,اختصار خيارات القائمة المنسدلة
+Price,السعر
+Primary Billing Address,عنوان الدفع الرئيسي
+Primary Shipping Address,عنوان الشحن الرئيسي
+"Problem saving the collection, aborting. Error: %s",مشكلة في حفظ المجموعة توقف. خطأ: %s
+Product,المنتج
+Product ID,الرمز التعريفي للمنتج
+Product Name,اسم المنتج
+Product Reviews,آراء المنتج
+Product Tags,علامات المنتج
+Product name,اسم المنتج
+Purchase On,الشراء في
+Purchased at,تم الشراء في
+Qty,الكمية
+Recent Orders,طلبات الشراء الحالية
+"Records for ""","سجلات ل  """
+Refunded,تم اعادة المبلغ
+Registered Customers,عملاء مسجلون
+Remove,إزالة
+Require Emails Confirmation,مطلوب تأكيد البريد الإلكتروني
+Retrieve address data,إسترجاع بيانات العنوان
+Retrieve address info,إسترجاع معلومات العنوان
+Retrieve customer addresses,إسترجاع عناوين العميل
+Retrieve customer data,إسترجاع بيانات العميل
+Retrieve customer's groups,إسترجاع مجموعات العميل
+Retrieve customers,إسترجاع العملاء
+Retrieve customers info,إسترجاع معلومات العملاء
+Retrieve your confirmation link here,إسترجاع رابط التأكيد هنا
+Retrieve your password here,استعادة كلمة المرور هنا
+SKU,الرمز التعريفي للمنتج
+Sales Statistics,إحصائيات المبيعات
+Save,حفظ
+Save Address,حفظ عنوان
+Save And Continue Edit,حفظ والعودة الى صفحة التغييرات
+Save Customer,حفظ عميل
+Save Customer Group,حفظ مجموعة عملاء
+Save Password,حفظ كلمة المرور
+Saved ,تم الحفظ 
+Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.,الفارزة المنقوطة (؛) قيم مفصولة. <br/>ضع فارزة منقوطة في البداية للخيار الخاوي الأول. <br/>إتركه خالي لحقل النص المفتوح
+Send Welcome Email after Confirmation,إرسال رسالة الترحيب بعد التأكيد
+Send auto-generated password,ارسال رقم سري تلقائي
+Send confirmation link,إرسال رابط التأكيد
+Send welcome email,ارسال رسالة ترحيب
+Sending,جار الإرسال
+Sent,تم الإرسال
+Session Start Time,وقت بدء الجلسة
+Set as Default Billing Address,التحديد كعنوان دفع افتراضي
+Set as Default Shipping Address,التحديد كعنوان شحن افتراضي
+Share Customer Accounts,مشاركة حسابات العميل
+Ship to First name,الشحن للاسم الاول
+Ship to Last name,شحن للاسم الاخير
+Shipped to First Name,شحنت للاسم الاول
+Shipped to Last Name,شحنت للاسم الخير
+Shipped to Name,شحنت للاسم
+Shipping Information,بيانات الشحن
+Shipping Method,طريقة الشحن
+Shopping Cart,سلّة التسوق
+Shopping Cart - %d item(s),سلة الشراء - %d سلع(s)
+Show Tax/VAT number,إظهار رقم الضريبة/ الضريبة المضاعفة
+Show date of birth,إظهار تأريخ الميلاد
+Show middle name (initial),إظهار (الحرف الأول ) للاسم الوسطي
+Show prefix,اظهار الاختصار الاولي
+Show suffix,اظهار الاختصار اللاحق
+Sign Up for Newsletter,اشترك في بالنشرة البريدية
+Sign up for our newsletter,اشترك بنشرتنا البريدية
+"Skip import row, required field ""%s"" not defined","تخطى ادخال هذا السطر ،حقل مطلوب ""%s""غير معرف"
+"Skip import row, website ""%s"" field not exists","تخطى ادخال هذا السطر ،حقل الموقع مطلوب ""%s""غير معرف"
+State/Province,ولاية/مقاطعة
+Status,الحالة
+Store,المتجر
+Store View,واجهة المتجر
+Street Address,عنوان الشارع
+Subject,الموضوع
+Submit,إرسال
+Subscribe,اشتراك
+Subscribe to newsletter,الاشتراك بالنشرة البريدية
+Subscribed to Newsletter?,هل تود الاشتراك بالنشرة البريدية؟
+Suffix,لاحقة
+Suffix dropdown options,الخيارات اللاحقة للقائمة المنسدلة
+TAX/VAT number is required.,مطلوب رقم الضريبة/VAT
+Tag Name,اسسم العلامة
+Tax Class,تصنيف الضريبة
+Tax/VAT number,رقم الضريبة/ الضريبة المضاعفة
+Telephone,هاتف
+Text,نص
+Text One Line,النص على الشبكة
+Thank you for registering with %s,شكرا للتسجيل مع  %s
+The address does not belong to this customer,العنوان لا يخص هذا العميل
+The address was successfully deleted,تم حذف العنوان بنجاح
+The address was successfully saved,تم حفظ العنوان بنجاح
+"The suffix that goes after name (Jr., Sr., etc.)",الاختصار اللاحق الذي يآتي بعد الاسم (Sr رئيسي، Jr اساسي، الخ)
+"The title that goes before name (Mr., Mrs., etc.)",العنوان الذي يسبق الاسم ( سيد، سيدة، الخ)
+There are no items in customer's wishlist at the moment,لا يوجد سلع بقائمة الأمنيات الخاصة بالعميل في هذه اللحظة
+There are no items in customer's shopping cart at the moment,لا يوجد سلع في سلّة التسوق الخاصة بالعميل في هذه اللحظة
+There was an error while deleting the address,هناك خطأ أثناء حذف العنوان
+"This Email will be sent instead of Default Welcome Email, after Account Confirmation.",سيتم إرسال هذا الايميل بدلا من ايميل الترحيب، بعد تأكيد الحساب
+This account is not confirmed.,هذا الحساب غير مفعل
+This customer has no saved addresses.,لا يوجد لهذا العميل عناوين محفوظة.
+This e-mail does not require confirmation.,لايحتاج هذا الايميل إلى تأكيد
+This email address was not found in our records,لم يتم إيجاد هذا البريد الإلكتروني في سجلاتنا
+This is My Primary %s Address,هذا هو عنواني المبدئي %s 
+To Cart,إلى سلّة التسوق
+Total,الإجمالي
+Type,نوع
+Unknown,غير معروف
+Unsubscribe from newsletter,إلغاء الاشتراك في النشرة البريدية
+Update,تحديث
+Update customer address data,تحديث بيانات عنوان العميل
+Update customer data,تحديث بيانات العميل
+Use as My Primary %s Address,استخدم كا عنواني المبدئي %s 
+Use as my default billing address,استخدم كعنوان الدفع الافتراضي
+Use as my default shipping address,استخدم كعنوان الشحن الافتراضي
+User description,وصف المستخدم
+View,شاهد
+View Order,عرض طلب الشراء
+View Order List,عرض قائمة طلب الشراء
+Visible In,مرئي في
+Visitor,زائر
+Visitors Only,الزوار فقط
+Website,موقع
+Welcome Email,رسالة الترحيب
+Wishlist,قائمة الأمنيات
+Wishlist - %d item(s),قائمة الاماني - %d عنصر(s)
+Wrong confirmation key.,خطأ في مفتاح التفعيل
+Wrong customer account specified.,حساب العميل المحدد غير صحيح
+Wrong email.,بريد إلكتروني غير صحيح
+Wrong region id by selected country,رقم تعريف المنطقة غير صحيح للبلد المختار
+Wrong transactional account email type.,نوع البريد الإلكتروني لحساب المعاملات غير صحيح.
+XML,XML ملف
+YYYY,سنة
+Year,السنة
+You are currently not subscribed to any newsletter.,أنت حاليا غير مشترك في أية نشرة بريدية.
+You are currently not subscribed to our newsletter,أنت حاليا غير مشترك في نشرتنا البريدية
+You are currently subscribed to 'General Subscription'.,انت مشترك حاليا العامة للاشتراك '.
+You are currently subscribed to our newsletter,أنت حاليا مشترك في نشرتنا البريدية
+You are currently subscribed to our newsletter.,أنت حاليا مشترك في نشرتنا البريدية.
+You have been successfully logged out and will be redirected to our homepage in 5 seconds.,لقد قمت بتسجيل خروجك بنجاح وسيتم تحويلك إلى صفحتنا الرئيسية في خلال 5 ثوان.
+You have no additional address entries in your address book.,لا يوجد لديك عنوان اضافي مداخل في دفتر العناوين الخاص بك.
+You have no additional entries in your address book.,لا يوجد لديك مدخلات اضافية في دفتر العناوين الخاص بك.
+You have no default billing address in your address book.,لا يوجد لديك عنوان دفع افترلضي في دفتر العناوين الخاص بك.
+You have no default shipping address in your address book.,لا يوجد لديك عنوان الشحن الافتراضي في دفتر العناوين الخاص بك.
+You have no primary entries in your address book.,لا يوجد لديك مدخلات اولية في دفتر العناوين الخاص بك.
+You have not set a primary billing address.,انت لم تحدد عنوان الفاتوره الابتدائي.
+You have not set a primary shipping address.,انت لم تحدد عنوان الشحن الابتدائي.
+You have placed no orders yet.,انت لم تقوم باي طلب شراء.
+You have placed no products yet.,انت لم تضيف اي منتج بعد.
+You're now Logged Out,انت الان مسجل الخروج
+Your account balance is: %s,رصيد حسابك هو: %s
+ZIP,الرمز البريدي
+ZIP/Post Code,الرمز البريدي
+ZIP/Postal Code,الرمز البريدي
+Zip/Postal Code,الرمز البريدي
+n/a,غير محدد
+or,أو
+Please enter your email below and we'll send you a new password.,من فضلك قم بإدخال عنوان بريدك الإلكتروني وسنقوم بإرسال كلمة المرور الجديدة
+First name can't be empty,لا يمكن للاسم الأول ان يكون خالي
+Last name can't be empty,لا  يمكن للاسم الأخير ان يكون خالي
+Password can't be empty,لايمكن لكلمة المرور ان تكون خالية
+My Account,حسابي
+Log In,تسجيل الدخول
+New Customers,عميل جديد
+"By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.",عن طريق انشاء حساب مع شركائنا في المتجر ، سوف تكون قادرة على التحرك من خلال عملية الخروج بشكل اسرع ، وتخزين متعددة تتناول النقل البحري ، وبالنظر الى المسار الاوامر الخاصة بك في حسابك وأكثر.
+Registered Customers,العملاء المسجلين
+"If you have an account with us, please log in.",إذا كان لديك حساب معنا، الرجاء تسجيل الدخول
+Email Address,عنوان البريد الإلكتروني
+Password,كلمة المرور
+* Required Fields,حقول مطلوبة *
+Forgot Your Password?,هل نسيت كلمة المرور؟
+Retrieve your password here,إسترجاع كلمة المرور هنا
+Please enter your email below and we'll send you a new password.,"فضلاً, ادرج بريدك الإلكتروني بالأسفل وسوف نرسل لك كلمة مرور جديدة."
+Back to Login,الرجوع الى تسجيل الدخول
+Submit,تقديم
+My Dashboard,لوحة تحكمي
+From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.,من خلال لوحة التحكم ستتمكن من رؤية لقطة عن اخر نشاطات الحساب ويمكنك تجديد معلومات حسابك. اختر الرابط ادناه لرؤية او تغيير المعلومات
+Contact Information,معلومات الاتصال
+Address Book,دفتر العنوان
+Account Information,معلومات الحساب
+Thank you for registering with %s,شكرا لتسجيلك مع  %s
+Newsletter Subscription,اشتراك النشرة البريدية
+You have not set a default billing address.,لم تقم بتعيين عنوان دفع الافتراضية.
+You have not set a default shipping address.,لم تقم بتعيين عنوان الشحن الافتراضي.
+Login or Create an Account,سجل دخولك او انشئ حساب جديد
+Personal Information,معلومات شخصية
+Sign Up for Newsletter,سجل لتصلك النشرة البريدية
+You are currently not subscribed to any newsletter.,أنت حاليا غير مشترك في أية نشرة بريدية.
+Default Shipping Address,عنوان الشحن الافتراضي
+Login,تسجيل الدخول
+Invalid login or password.,تسجيل الدخول او كلمة المرور غير صحيحة
+Edit Account Information,تغيير معلومات الحساب
+Log Out,تسجيل الخروج
+First Name,الاسم الأول
+Last Name,الاسم الأخير
+SignUp,تسجيل الدخول
+Site Map,خارطة الموقع
+Orders and Retunrs, طلبات الشراء والترجيع
+shopping cart,سلّة التسوق
+Seasonal discounts,التخفيضات الموسمية
+Your email,بريدك الإلكتروني
+Live Support,الدعم الفني المباشر
+Chat,محادثة
+newsletter sign up,التسجيل للنشرة البريدية
+Customer Assistance,خدمة الزبائن
+Email Us,ارسل لنا بريد إلكتروني
+Payment Methids,طرق الدفع
+My Account,حسابي
+Deafult welcome msg!,رسالة الترحيب الإفتراضية
+Furniture,أثاث
+Electronics,إلكترونيات
+Apparel,نسيج
+Information,معلومات
+about us,عنّا
+contact us,إتصل بنا
+Privacy Policy,سياسة الخصوصية
+warranty and return,الضمان والإرجاع
+VIP Sign Up,تسجيل الدخول للشخصيات المهمة
+about dropship,عن المتجر
+shipping & handling,الشحن والمعالجة
+Large Order Quotations,إقتباسات الطلبيات الكبيرة
+lowest Price Guarantee,الحد الأدنى للأسعار المضمونة
+Drop shipping program,برنامج الشحن
+Tracking packages,تتبع الحزم
+Do I have to pay tax?,هل يجب دفع ضريبة
+Our services,خدماتنا
+compare products,مقارنة المنتجات
+My cart,سلتي
+community poll,إستطلاع المجتمع
+search the entire store here,البحث في المتجر
+Add to Cart,إضافة إلى السلة
+starting at,بداية من
+stay connected,إبق على إتصال
+add to wishlist,إضافة للنشرة البريدية
+add to compare,إضافة للمقارنة
+additional information,معلومات إضافية
+Product Tags,علامات المنتجات
+sign in,تسجيل الدخول
+view cart,رؤية سلّة التسوق
+My wishlist,قائمة أمنياتي
+track my order,تتبع طلبي
+help,مساعدة
+Why buy from us,لماذا تشتري منّا
+shipping & Returns,الشحن والإرجاع
+Secure shopping,التسوق الامن
+International Shipping,الشحن الدولي
+affiliates, الشركات التابعة
+Group sales,مجموعة المبيعات
+log in,تسجيل الدخول
+Checkout,الدفع
+home page,الصفحة الرئيسية
+careers,التوظيف
+shipping,الشحن
+online store,المتجر الإلكتروني
+Gift cards,بطاقات الإهداء
+support center,مركز الخدمة
+Returns,إرجاع
+customer service,خدمة الزبائن
+shipping info,معلومات الشحن
+Search terms,مصطلحات البحث
+advanced search,البحث المتقدم
+our account,حسابنا
+your account,حسابك
+personal information,المعلومات الشخصية
+address,العنوان
+discount,خصم
+press room,غرفة الصحافة
+contacts,إتصال
+features,ميزات
+manufacturers,المصنعين
+Currency:,العملة
+participate,مشاركة
+forum,طلب
+street Team,فريق الشارع
+Retail stores,متاجر البيع بالتجزئة
+jobs,الوظائف
+info,معلومات
+submit,إرسال
+Our brands,علاماتنا التجارية
+opening time,أوقات الدوام
+Latest news,اخر الأخبار
+My Account,حسابي
+Site Map,خارطة الموقع
+Orders and Returns,طلبات الشراء و المرتجعات
+About Us,من نحن
+Customer Service,خدمة الزبائن
+Privacy Policy,سياسة الخصوصية
+Mouse over the image for zoom,قم بتمرير المؤشر فوق الصورة لتكبير الصورة
+Your Language,اللغة
+Currency,العملة
+Orders and Retunrs, الطلبات والترجيع
+About Us,من نحن
+Customer Service,خدمة الزبائن
+Sign Up for Our Newsletter:,اشترك في نشرتنا البريدية
+Enter your Email,ادخل بريدك الالكتروني
+Quick View,عرض سريع
+Availability:,التوافر:
+"By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.",من خلال إنشاء حساب مع متجرنا، وسوف تكون قادر على التحرك من خلال عملية الدفع بشكل أسرع، تخزين عناوين الشحن متعددة، وتتبع أوامر عرض في حسابك وأكثر من ذلك.
+Top,للأعلى 
+Flat Rate,سعر موحد
+Create an account,انشاء حساب؟
+Place Order,اتمام العملية
+Go to Shopping Cart,سلّة التسوق
+Cart Subtotal:,المجموع
+Unit Price,سعر القطعة:
+Subtotal:,المجموع الكلي
+Clear Shopping Cart,ازالة محتويات السلة
+Enter your coupon code here.,اذا لديك كوبون الرجاء ادخال رقمه هنا
+Address Book,سجل العناوين
+Billing Agreements,اتفاقيات الدفع
+Recurring Profiles,الملامح المتكررة
+My Product Reviews,آرائي في المنتجات
+My Applications,تطبيقاتي
+Newsletter Subscriptions,اشتراكات النشرات البريدية
+My Downloadable Products,المنتجات المحملة
+There are no billing agreements yet.,لا يوجد اتفاقيات دفع
+There are no recurring profiles yet.,لا يوجد ملامح متكررة
+You have not tagged any products yet.,لم تقم باضاقة علامات لأية منتج
+You have no applications.,لا يوجد لديك تطبيقات
+You have not purchased any downloadable products yet.,لم تقم بتحميل اية منتجات
+Ship To,الشحن الى
+Shopping cart - ,سلة التسوق -
+Already registered? Please log in below.,مستخدم جديد ؟ سجل دخولك هنا
+Sign Up for Our Newsletter:,اشترك بالنشرة الاخبارية:
+"<strong class=""pic-cart""><strong>Shopping Cart</strong></strong><span>(%s items)</span>","<strong class=""pic-cart""><strong>سلّة التسوق&nbsp;</strong></strong><span>(%s منتجات)</span>"
+"<strong class=""pic-cart""></strong><strong>Shopping Cart</strong><span>(0 items)</span>","<strong class=""pic-cart""><strong>سلّة التسوق&nbsp;</strong></strong><span>(0 منتج)</span>"
+Orders and Returns,طلبات الشراء و الارجاع
+Menu,القائمة
+Enter your coupon code here.,أدخل رمز الكوبون هنا.
+Unit Price:,سعر القطعة:
+Subtotal:,المجموع الكلي:
+Please wait ...,الرجاء الانتظار
+Quick View,مشاهدة سريعة
+Please enter your email address below. You will receive a link to reset your password.,ادخل عنوان البريد الالكتوني هنا. ستتلقى بريداً يحتوي على رابط استرجاع كلمة المرور.
+If there is an account associated with %s you will receive an email with a link to reset your password.,اذا كان هنالك حساب مرتبط بالبريد الالكتروني التالي %s ستصلك رسالة فيها رابط لاسترجاع كلمة المرور.
+%s was added to your shopping cart.,%s' أضيف الى سلّة التسوق.
+"There is already an account with this email address. If you are sure that it is your email address, <a href=%s>click here<a> to get your password and access your account.","هنالك حساب مسجل بالبريد الالكتروني الذي ادخلته , اذا اردت استرجاع حسابك <a href=%s>اضغط هنا<a> لاسترجاعه. "
+You are now logged out,سيتم تسجيل خروجك
+You have logged out and will be redirected to our homepage in 5 seconds.,سيتم تحويلك الى الصفحة الرئيسة بعد خمس ثوانِ.
+Categories,تصنيفات
+Sign Up for Newsletter,سجل في نشرتنا الاخبارية
+You are currently not subscribed to any newsletter.,أنت غير مسجل في أي نشرة إخبارية
+Sort By,رتب حسب
+Next,التالي
+Product Details and Comment,معلومات المنتج و التعليقات
+"Sign in with <i class=""fa fa-facebook""></i>","دخول بواسطة <i class=""fa fa-facebook""></i>"
+Sign in with Facebook,دخول بواسطة فيسبوك
+We<br>Now<br>Ship to<br>,نشحن<br>الآن <br>الى<br>
+Already have an Account,لديك حساب
+Signup,اشتراك
+Forgot Your Password,نسيت كلمة المرور

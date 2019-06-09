@@ -1,0 +1,89 @@
+div.aw_brand_container {
+    float: left;
+    min-height: 180px;
+    text-align: center;
+    background-color: white;
+    padding: 8px;
+    margin: 5px;
+}
+
+div.aw_brand_logo {
+    float: left;
+    margin-bottom: 5px;
+    min-height: 150px;
+}
+
+div.aw_brand_title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a.aw_brands_url,
+.shopbybrands-brand-page a {
+    text-decoration: none;
+}
+
+ul.brands-list {
+    padding: 10px;
+    list-style: none;
+}
+
+li.brands-item {
+    padding: 5px;
+}
+
+span.brand-name {
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+li.brands-item a {
+    text-decoration: none;;
+}
+
+li.brands-item img {
+    display: inline;
+}
+
+div.brand_container {
+    padding: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+/* More from this brand section */
+.aw-sbb-more-product-from-brand {
+    background-color: #f1ecdb;
+    border: thin solid #e5dcc3;
+    display: inline-block;
+    padding: 10px;
+}
+
+.aw-sbb-more-product-from-brand-label {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.aw-sbb-product-list-container {
+    display: inline-block;
+}
+
+.aw-sbb-product-container {
+    display: inline-block;
+    margin: 5px;
+    border: thin solid #e5dcc3;
+}
+
+.aw-sbb-product-container:hover {
+    border: thin solid #bab199;
+}
+
+.nav-primary li a {
+    padding: 0 25px;
+}
+.awshopbybrand-index-allbrandsview .brand-title {
+    display: none;
+}

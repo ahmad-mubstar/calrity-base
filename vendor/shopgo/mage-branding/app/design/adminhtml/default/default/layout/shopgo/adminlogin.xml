@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addCss" ifconfig="shopgo_adminlogin/general/enabled">
+                <name>shopgo/adminlogin/css/menu.css</name>
+            </action>
+            <action method="setTemplate" ifconfig="shopgo_adminlogin/general/enabled">
+                <template>shopgo/adminlogin/adminhtml/page/head.phtml</template>
+            </action>
+        </reference>
+    </default>
+    <adminhtml_index_login>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="adminhtml/template" name="content" template="login.phtml">
+                <action method="setTemplate" ifconfig="shopgo_adminlogin/general/enabled">
+                    <file>shopgo/adminlogin/login.phtml</file>
+                </action>
+                <block type="core/text_list" name="form.additional.info" />
+            </block>
+        </block>
+    </adminhtml_index_login>
+    <adminhtml_index_forgotpassword>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="adminhtml/template" name="content" template="forgotpassword.phtml">
+                <action method="setTemplate" ifconfig="shopgo_adminlogin/general/enabled">
+                    <file>shopgo/adminlogin/forgotpassword.phtml</file>
+                </action>
+                <block type="core/text_list" name="form.additional.info" />
+            </block>
+        </block>
+    </adminhtml_index_forgotpassword>
+    <adminhtml_system_convert_gui_run>
+        <reference name="convert_root_head">
+            <action method="setTemplate" ifconfig="shopgo_adminlogin/general/enabled">
+                <template>shopgo/adminlogin/adminhtml/page/head.phtml</template>
+            </action>
+        </reference>
+    </adminhtml_system_convert_gui_run>
+</layout>

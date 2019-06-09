@@ -1,0 +1,19 @@
+{
+    "name": "shopgo/magento-core-1-robots",
+    "type": "magento-module",
+    "description": "Magento Core 1.x Robots.txt",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name": "Shopgo",
+            "email": "support@shopgo.me"
+        }
+    ],
+    "extra": {
+        "map": [
+            ["robots.txt", "robots.txt"]
+        ]
+    }
+}

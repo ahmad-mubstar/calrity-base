@@ -1,0 +1,2 @@
+Infinite scrolling is a web design technique that prevents the browser scroll bar from scrolling to the bottom of the page, causing the page to grow with additional content instead. This extension adds infinite scrolling to category pages, quick search page and other Magento pages containing product lists.
+http://www.manadev.com/magento-extensions/infinite-scrolling

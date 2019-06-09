@@ -1,0 +1,5 @@
+app/code/community/Shopgo/ProBadge/                                     app/code/community/Shopgo/ProBadge/
+app/design/frontend/base/default/layout/probadge.xml                    app/design/frontend/base/default/layout/probadge.xml
+app/design/frontend/base/default/template/probadge/                     app/design/frontend/base/default/template/probadge/
+app/etc/modules/Shopgo_ProBadge.xml                                     app/etc/modules/Shopgo_ProBadge.xml
+skin/frontend/base/default/probadge/                                    skin/frontend/base/default/probadge/

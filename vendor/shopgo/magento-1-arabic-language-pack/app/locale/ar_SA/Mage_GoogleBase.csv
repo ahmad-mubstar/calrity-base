@@ -1,0 +1,80 @@
+Account login,تسجل الدخول
+Account password,كلمة مرور للحساب
+Active,فعال
+Add Attribute Mapping,إضافة خصائص تعيين
+Add New Attribute,إضافة خاصية جديدة
+Add to Google Base,إضافة إلى Google Base
+Are you sure?,هل أنت متآكد؟
+Attribute,خاصية
+Attribute Set,مجموعة الخصائص
+Attribute Set and Item Type,مجموعة الخصائص، نوع العنصر
+Attributes,خصائص
+Attributes Set,مجموعة الخصائص
+Attributes mapping,سمات رسم الخرائط
+AuthSub,اوث سب
+Available Products,المنتجات المتاحة
+British Pound Sterling,الجنيه الاسترليني البريطاني
+Cannot update Google Base Item for Store '%s',لا يمكن تحديث قاعدة جوجل البند للمخزن '٪ ق'
+Captcha confirmation error: %s,خطأ تأكيد كلمة التحقق:٪ ق
+Captcha confirmed successfully,تم تآكيد كلمة التحقق بنجاح 
+Clicks,نقرات
+ClientLogin,تسجيل دخول العميل
+Confirm,تؤكد
+Current Mapping will be reloaded. Continue?,سيتم إعادة تحميل الخرائط الحالي. استمر؟
+"Custom attribute, no mapping",سمة مخصصة، لا رسم الخرائط
+Default Store (%s),افتراضي مخزن (٪ ق)
+Delete,حذف
+Delete Mapping,حذف رسم الخرائط
+Edit Item Type,تحرير نوع العنصر
+"Edit Item Type ""%s""","تحرير نوع العنصر ""٪ ليالي"""
+Error: %s,الخطأ:٪ ق
+Euro,اليورو
+Expires,تنتهي
+Germany,ألمانيا
+Google Base,قاعدة جوجل
+Google Base Attribute,السمة قاعدة جوجل
+Google Base ID,جوجل ID قاعدة
+Google Base Item Type,قاعدة جوجل نوع البند
+Google Base Item type,قاعدة جوجل نوع البند
+Google Base Items,عناصر قاعدة جوجل
+Hide,إخفاء
+Impr.,الظهور.
+Invalid Product Model for Google Base Item,نموذج المنتج غير صالح للقاعدة جوجل البند
+Item Type was deleted,تم حذف نوع البند
+Item Types,أنواع العناصر
+Item model is not specified to delete Google Base entry,لم يتم تحديد نموذج القطعة لحذف دخول قاعدة جوجل
+Item type was successfully saved,تم حفظ نوع العنصر بنجاح
+Items,العناصر
+Manage Attribute Mapping,إدارة الخرائط سمة
+Manage Attributes,إدارة الخصائص
+Manage Items,إدارة العناصر
+New Item Type,نوع عنصر جديد
+No,لا
+No items were deleted from Google Base,تم حذف أي عناصر من قاعدة جوجل
+No items were published,لم يتم نشر اي عنصر
+No items were saved as Inactive items,لم يتم حفظ أية عناصر كعناصر غير فعال
+No products were added to Google Base,تم إضافة أي منتجات إلى Google Base
+Object model is not specified to save Google Base entry,لم يتم تحديد نموذج الكائن لحفظ دخول قاعدة جوجل
+Page views,عدد الصفحات
+"Please, select Attribute Set and Google Item Type to load attributes",من فضلك، حدد مجموعة الخاصية و  نوع بند جوجل لتحميل الخصائص
+Product Name,اسم المنتج
+Publish,نشر
+Published,تم النشر
+Remove,إزالة
+Save Mapping,حفظ الخرائط
+Synchronize,تزامن
+Target Country,البلد المستهدف
+This action will update items statistics and remove the items which are not available in Google Base. Continue?,وهذا الإجراء بتحديث بنود الإحصاءات وإزالة العناصر التي لا تتوفر في قاعدة جوجل. استمر؟
+"Total of %d items(s) were successfully deleted, Total of %d items(s) were successfully updated",تم حذف عدد من البنود٪ د (ق) بنجاح، تم تحديث عدد من البنود٪ د (ق) بنجاح
+Total of %d items(s) were successfully published,مجموع البنود٪ د (ق) ونشرت بنجاح
+Total of %d items(s) were successfully removed from Google Base,تم إزالة عدد من العناصر٪ د (ق) بنجاح من قاعدة جوجل
+Total of %d items(s) were successfully saved as Inactive items,تم حفظ مجموع البنود٪ د (ق) بنجاح كعناصر غير نشط
+Total of %d product(s) were successfully added to Google Base,تم إضافة عدد من الناتج٪ د (ق) بنجاح إلى Google Base
+US Dollar,الدولار الأمريكي
+"Unable to connect to Google Base. Please, check Account settings in configuration.",غير قادر على الاتصال إلى Google Base. برجاء مراجعة إعدادات الحساب في التكوين.
+United Kingdom,المملكة المتحدة
+United States,الولايات المتحدة الامريكية
+Update Google Base item when product is updated,بتحديث بند من قاعدة جوجل عندما يتم تحديث المنتج
+View Available Products,عرض المنتجات المتوفرة
+View Item in Google Base,مشاهدة عنصر في قاعدة جوجل
+Yes,نعم

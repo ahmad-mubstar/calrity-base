@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+/* ---------------------------------------------------------------------- */
+/* "Polyglot" Language Switcher
+/* ----------------------------------------------------------------------
+Version: 1.4
+Author: Ixtendo
+Author URI: http://www.ixtendo.com
+License: MIT License
+License URI: http://www.opensource.org/licenses/mit-license.php
+------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* TABLE OF CONTENTS
+/* ----------------------------------------------------------------------
+-Generic
+-JS-created Code
+------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* Generic
+/* ---------------------------------------------------------------------- */
+
+.shopgoSwitcher,
+.shopgoSwitcher * {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.shopgoSwitcher ul {
+  list-style: none;
+}
+.shopgoSwitcher {
+  font-size: 12px;
+  color: #444;
+  line-height: normal;
+  position: relative;
+  /* sets the initial position for the drop-down menu */
+  
+  z-index: 99999;
+  float: right;
+  margin: 3px;
+}
+.shopgoSwitcher form {
+  display: none;
+}
+/* ---------------------------------------------------------------------- */
+/* JS-created Code
+/* ---------------------------------------------------------------------- */
+
+.shopgoSwitcher a {
+  text-decoration: none;
+  display: block;
+  padding: 0 20px 0 30px;
+  /* 6px 6px 6px 28px */
+  
+  color: #444;
+  background-repeat: no-repeat;
+  background-position: 6px center;
+  overflow: hidden;
+}
+.shopgoSwitcher a:hover {
+  color: #000;
+}
+.shopgoSwitcher a.current:link,
+.shopgoSwitcher a.current:visited,
+.shopgoSwitcher a.current:active {
+  position: relative;
+  /* sets the initial position for the trigger arrow */
+}
+.shopgoSwitcher ul.dropdown li:hover {
+  background-color: #eee;
+}
+.shopgoSwitcher a.active {
+  /* This style is applied as long as the drop-down menu is visible. */
+  
+  border-bottom: none !important;
+  border-radius: 3px 3px 0 0 !important;
+}
+.shopgoSwitcher span.trigger {
+  display: block;
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  text-indent: -10000em;
+  top: 0.5em;
+  /* 6px */
+  
+  right: 6px;
+}
+.shopgoSwitcher a.current:link span.trigger,
+.shopgoSwitcher a.current:visited span.trigger {
+  background: url(../images/arrow-down.gif) no-repeat left top;
+}
+.shopgoSwitcher a.current:hover span.trigger,
+.shopgoSwitcher a.current:active span.trigger,
+.shopgoSwitcher a.active span.trigger {
+  background-position: left bottom !important;
+}
+/* Drop-Down Menu */
+
+.shopgoSwitcher ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 5px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.shopgoSwitcher ul.dropdown li a {} .shopgoSwitcher ul.dropdown li:last-child {} #currency-switcher ul.dropdown li a {
+  min-width: 170px;
+  padding: 5px 5px 5px 30px;
+}
+#language-switcher ul.dropdown li a {
+  padding: 10px 10px 10px 30px;
+}
+/* Flags */
+
+#en {
+  background-image: url(../images/flags/gb.png);
+}
+#ar {
+  background-image: url(../images/flags/ara.png);
+}
+#fr {
+  background-image: url(../images/flags/fr.png);
+}
+#de {
+  background-image: url(../images/flags/de.png);
+}
+#it {
+  background-image: url(../images/flags/it.png);
+}
+#es {
+  background-image: url(../images/flags/es.png);
+}
+/* Currency flags */
+
+#DZD {
+  background: url(../images/flags/dzd.png) no-repeat 0% 50%;
+}
+#USD {
+  background: url(../images/flags/usd.png) no-repeat 0% 50%;
+}
+#EUR {
+  background: url(../images/flags/euro.png) no-repeat 0% 50%;
+}
+#GBP {
+  background: url(../images/flags/gbp.png) no-repeat 0% 50%;
+}
+#KWD {
+  background: url(../images/flags/kwd.png) no-repeat 0% 50%;
+}
+#JOD {
+  background: url(../images/flags/jod.png) no-repeat 0% 50%;
+}
+#BHD {
+  background: url(../images/flags/bhd.png) no-repeat 0% 50%;
+}
+#EGP {
+  background: url(../images/flags/egp.png) no-repeat 0% 50%;
+}
+#IQD {
+  background: url(../images/flags/iqd.png) no-repeat 0% 50%;
+}
+#LBP {
+  background: url(../images/flags/lbp.png) no-repeat 0% 50%;
+}
+#LYD {
+  background: url(../images/flags/lyd.png) no-repeat 0% 50%;
+}
+#OMR {
+  background: url(../images/flags/omr.png) no-repeat 0% 50%;
+}
+#QAR {
+  background: url(../images/flags/qar.png) no-repeat 0% 50%;
+}
+#SAR {
+  background: url(../images/flags/sar.png) no-repeat 0% 50%;
+}
+#SYP {
+  background: url(../images/flags/syp.png) no-repeat 0% 50%;
+}
+#TND {
+  background: url(../images/flags/tnd.png) no-repeat 0% 50%;
+}
+#AED {
+  background: url(../images/flags/aed.png) no-repeat 0% 50%;
+}
+#YER {
+  background: url(../images/flags/yer.png) no-repeat 0% 50%;
+}

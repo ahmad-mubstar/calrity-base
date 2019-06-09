@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+ * @category    design
+ * @package     base_default
+ * @copyright   gate2play.com
+ */
+
+-->
+<layout version="0.1.0">
+    <default>
+        <reference name="content">
+        </reference>
+    </default>    
+    <gate2play_payment_index>     
+        <reference name="content">
+            <block type="paymentgateway/content_paymentgateway" name="gate2play.payment.content" template="gate2play/paymentgateway/payment.phtml">                
+                <action method="setTokenID"></action>
+            </block>
+        </reference>        
+    </gate2play_payment_index>       
+    <gate2play_payment_status>
+        <reference name="content">
+            <block type="paymentgateway/content_status" name="gate2play.payment.status" template="gate2play/paymentgateway/status.phtml" />
+        </reference>
+    </gate2play_payment_status>                   
+</layout>

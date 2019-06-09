@@ -1,0 +1,66 @@
+(eg: domain.com/identifier),(على سبيل المثال : domain.com / معرف)
+Action,فعل
+Add New Block,اضافة مساحة جديدة
+Add New Page,إضافة صفحة جديدة
+All countries,كل الدول
+Block Information,معلومات المساحة
+Block Title,عنوان المساحة
+Block was successfully deleted,تم حذف المساحة بنجاح
+Block was successfully saved,تم حفظ المساحة بنجاح
+CMS,إدارة محتوى الموقع
+CMS Home Page,CMS الصفحة الرئيسية
+CMS No Route Page,CMS لا يوجد مسار للصفحة
+Content,المحتوى
+Custom Design,تصميم مخصص
+Custom Theme,قالب مخصص
+Custom Theme From,قالب مخصص من
+Custom Theme To,قالب مخصص إلى
+Customer Tax Class Information,معلومات درجة الضرائب للعميل
+Date Created,تاريخ الانشاء
+Delete Block,حذف المساحة
+Delete Page,حذف الصفحة
+Description,الوصف
+Disabled,غير مفعل
+Edit Block,تعديل المساحة
+Edit Block '%s',تعديل المساحة '%s'
+Edit Page,تعديل الصفحة
+Edit Page '%s',تعديل الصفحة '%s'
+Enabled,مفعّل
+General Information,معلومات عامة
+Go to Home Page,اذهب إلى الصفحة الرئيسية
+Home,الصفحة الرئيسية
+Identifier,معرف
+Keywords,كلمات مفتاحية
+Last Modified,اخر تعديل
+Layout,تخطيط
+Layout Update XML,تنسبق تحديث لغة XML
+Manage Pages,إدارة الصفحات
+Meta Data,بيانات الميتا
+Meta Description,وصف الميتا
+Meta Keywords,كلمات مفتاحية للميتا
+New Block,مساحة جديدة
+New Page,صفحة جديدة
+Page Identifier cannot consist only of numbers.,لا يمكن أن يحتوي معرف الصفحة على أرقام فقط.
+Page Identifier for specified store already exist.,معرف الصفحة للمتجر المحدد مستخدم سابقا.
+Page Information,بيانات الصفحة
+Page Status,حالة الصفحة
+Page Title,عنوان الصفحة
+Page was successfully deleted,تم حذف الصفحة بنجاح
+Page was successfully saved,تم حفظ الصفحة بنجاح
+Poll Manager,مدير التصويت
+Product Tax Class Information,معلومات فئات الضرائب للمنتج
+SEF URL Identifier,معرف عنوان SER
+Save Block,حفظ المساحة الجديدة
+Save Page,حفظ الصفحة
+Show breadcrumbs for CMS pages,عرض درب مسار التنقل لصفحات المتجر
+Static Blocks,المساحات الثابتة
+Status,الحالة
+Store View,واجهة المتجر حسب اللغة
+Such a block identifier in selected store already exist.,هذه المساحة المعرفة في المجموعة المختارة من التخزين موجودة بالفعل.
+The page you are trying to save no longer exists,الصفحة التي تحاول حفظها لم تعد موجودة
+This block no longer exists,هذه المساحة ليست موجوده
+This page no longer exists,هذه الصفحة لم تعد موجودة
+Title,العنوان
+Unable to find a block to delete,لا يمكن على ايجاد المساحة الثابتة لحذفها
+Unable to find a page to delete,لا يمكن إيجاد الصفحة للحذفها
+Pages,صفحات الموقع

@@ -1,0 +1,16 @@
+{
+    "name": "aheadworks/order-attributes",
+    "type": "magento-module",
+    "license": "EULA",
+    "description": "The Order Attributes Pro extension for Magento allows you to add custom fields to any checkout steps. You can insert fields of any types (text, dropdown, checkbox, etc.) for filling in and fasten the process of order completion. You will not have to call or email customers to find out the best time for delivery or ask to leave feedback annoying them.",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "aheadworks/all": "dev-master",
+        "aheadworks/lib": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "aheadWorks"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+<?php 
+//
+$helper = Mage::helper('ec');
+if($helper->checkUpdate()):
+?>
+  <div class="notification-global">
+    <span class="label"><?php echo $this->__('New EasyCheckout ' . $helper->checkUpdate(true) . ' update available!'); ?></span>
+    <a href="<?php echo Mage::getSingleton('adminhtml/url')->getUrl('adminhtml/system_config/edit/section/ec');?>"><strong class="label"><?php echo $this->__('Click here to update'); ?></strong></a>
+  </div>
+<?php endif; ?>

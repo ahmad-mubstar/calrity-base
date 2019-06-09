@@ -1,0 +1,18 @@
+<?php
+$follow = Mage::helper('follow/data');
+if ($follow->getField('social_status')) {
+    $follow_style = '';
+    $items = $follow->getField('social_items');
+    $array_items = unserialize($items);
+    $id = 1;
+    $collect_items = array();
+    foreach ($array_items as $key => $item) {
+        $item['id'] = $id;
+        $follow_style .= '.social-links li a#social_item_' . $item['id'] . ':hover {border-color: ' . $item['color'] . '; color: ' . $item['color'] . ';}';
+        $id++;
+    }
+}
+?>
+<style type="text/css">
+    <?php echo $follow_style; ?>
+</style>

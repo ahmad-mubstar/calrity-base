@@ -1,0 +1,4 @@
+app/code/community/Shopgo/Store/                                          app/code/community/Shopgo/Store/
+app/design/frontend/base/default/layout/shopgo/store.xml                  app/design/frontend/base/default/layout/shopgo/store.xml
+app/design/frontend/base/default/template/shopgo/store/                   app/design/frontend/base/default/template/shopgo/store/
+app/etc/modules/Shopgo_Store.xml                                          app/etc/modules/Shopgo_Store.xml

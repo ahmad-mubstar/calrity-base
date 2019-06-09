@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shopgo_PackgeListener>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Shopgo_PackgeListener>
+    </modules>
+</config>

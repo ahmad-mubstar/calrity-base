@@ -1,0 +1,18 @@
+<div>
+    <center>
+    <img src="<?php echo $this->getImageSrc('loading.gif'); ?>" alt="Loading ..."  />
+    </center>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+
+setInterval(function(){
+    g2p_redirect();
+},7000);
+    
+function g2p_redirect() {    
+    window.location.href = '<?php echo $this->getRedirectURL();?>';
+}
+//]]>
+</script>

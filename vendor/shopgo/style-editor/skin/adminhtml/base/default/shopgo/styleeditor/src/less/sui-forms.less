@@ -1,0 +1,797 @@
+
+/* @form wrappers
+---------------------------------- */
+.sui-wrap {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 200px;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  bottom: 40px;
+  box-sizing: border-box;
+  background: #1B1C1D;
+}
+
+.sui-forms,
+.sui-forms * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.sui-forms {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  line-height: 1.231;
+  font-weight: 400;
+  font-size: 12px;
+  color: #888888;
+}
+
+.sui-forms .form-body {
+  padding: 10px 30px;
+  padding-bottom: 20px;
+}
+
+.sui-forms .form-footer {
+  position: fixed;
+  width: 200px;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+.sui-forms .tagline {
+  border-bottom: 1px solid #484848;
+  span {
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    padding:0 0 5px 0;
+    color: #6BC9EF;
+  }
+}
+.sui-forms .section-title {
+  margin-bottom: 10px;
+
+}
+
+/* @buttons
+----------------------------------------------------- */
+.sui-forms .button {
+  border: 0;
+  height: 40px;
+  color: #243140;
+  line-height: 1;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 0 18px;
+  text-align: center;
+  vertical-align: top;
+  background: #bdc3c7;
+  display: block;
+  float: left;
+  width: 50%;
+  -webkit-user-drag: none;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.2);
+}
+
+/* @buttons :hover, :active states
+---------------------------------------------------------------- */
+.sui-forms .button:hover {
+  color: #243140;
+  background: #cacfd2;
+}
+
+.sui-forms .button:active {
+  color: #1d2938;
+  background: #a1a6a9;
+}
+
+.sui-forms a.button,
+.sui-forms span.button,
+.sui-forms label.button {
+  line-height: 42px;
+  text-decoration: none;
+}
+
+/* @primary button theme
+-------------------------------------------- */
+.sui-forms .btn-primary {
+  background-color: #3B83C0;
+}
+
+.sui-forms .btn-primary:hover,
+.sui-forms .btn-primary:focus {
+  background-color: #459ae1;
+}
+
+.sui-forms .btn-primary:active {
+  background-color: #3371a6;
+}
+
+.sui-forms .btn-primary,
+.sui-forms .btn-primary:hover,
+.sui-forms .btn-primary:focus,
+.sui-forms .btn-primary:active {
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.08);
+}
+
+/* @form helper classes
+--------------------------------------------------------------- */
+.sui-forms .section{ margin-bottom:22px; }
+.sui-forms .smart-link{ color:#6BC9EF; text-decoration:none; }
+.sui-forms .smart-link:hover{ text-decoration: underline; }
+
+
+/* @form label + field :: field class is useful for validation
+---------------------------------------------------------------------- */
+.sui-forms .field{ display:block; position:relative; }
+.sui-forms .field-icon i { color:#A2A6A8; position:relative; }
+.sui-forms .field-label { display: block; margin-bottom: 7px; }
+.sui-forms .field-label.colm{ padding-top:12px; }
+.sui-forms .field-label em{
+  color:#e74c3c;
+  font-size:12px;
+  font-style:normal;
+  display:inline-block;
+  margin-left:4px;
+  position:relative;
+  top:3px;
+}
+
+/* @crossbrowser placeholder styling :: modern browsers only IE10+
+------------------------------------------------------------------------ */
+.sui-forms input[type=search] { -webkit-appearance: textfield; }
+.sui-forms ::-webkit-search-decoration,
+.sui-forms ::-webkit-search-cancel-button { -webkit-appearance: none; }
+.sui-forms input:invalid { -moz-box-shadow: none; box-shadow: none;  }
+.sui-forms input::-webkit-input-placeholder,
+.sui-forms textarea::-webkit-input-placeholder { color: #888; }
+.sui-forms input:focus::-webkit-input-placeholder,
+.sui-forms textarea:focus::-webkit-input-placeholder { color: #D6DBE0; }
+.sui-forms input:-moz-placeholder,
+.sui-forms textarea:-moz-placeholder {  color: #888; }
+.sui-forms input:focus:-moz-placeholder,
+.sui-forms textarea:focus:-moz-placeholder { color: #D6DBE0; }
+.sui-forms input::-moz-placeholder,
+.sui-forms textarea::-moz-placeholder {  color: #888; opacity: 1; }
+.sui-forms input:focus::-moz-placeholder,
+.sui-forms textarea:focus::-moz-placeholder { color: #D6DBE0; opacity: 1; }
+.sui-forms input:-ms-input-placeholder,
+.sui-forms textarea:-ms-input-placeholder {  color: #888; }
+.sui-forms input:focus:-ms-input-placeholder,
+.sui-forms textarea:focus:-ms-input-placeholder { color: #D6DBE0; }
+
+/* @element general styling :: fonts :: adjust accordingly
+------------------------------------------------------------- */
+.sui-forms label,
+.sui-forms input,
+.sui-forms button,
+.sui-forms select,
+.sui-forms textarea {
+  margin: 0;
+  font-size: 12px;
+  font-family:  "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight:400;
+  color: #999;
+  outline:none;
+}
+
+/* @remove browser specific styling
+----------------------------------------------- */
+.sui-forms .gui-input,
+.sui-forms .gui-textarea,
+.sui-forms .select > select,
+.sui-forms input[type="button"],
+.sui-forms input[type="submit"],
+.sui-forms input[type="search"],
+.sui-forms .select-multiple select {
+  -webkit-tap-highlight-color:transparent;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-border-radius:0px;
+  border-radius: 0px;
+}
+
+.sui-forms input[type="search"]::-webkit-search-decoration,
+.sui-forms input[type="search"]::-webkit-search-cancel-button,
+.sui-forms input[type="search"]::-webkit-search-results-button,
+.sui-forms input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+/* @labels font-size styling :: adjust to fit your needs
+--------------------------------------------------------- */
+.sui-forms .switch,
+.sui-forms .option,
+.sui-forms .field-label{ font-size:12px; }
+
+/* @prevent user selection for usability purposes
+----------------------------------------------------- */
+.sui-forms .radio,
+.sui-forms .button,
+.sui-forms .checkbox,
+.sui-forms .switch > label{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* @universal rules for all elements
+---------------------------------------------------- */
+.sui-forms .radio,
+.sui-forms .button,
+.sui-forms .tooltip,
+.sui-forms .checkbox,
+.sui-forms .gui-input,
+.sui-forms .notification,
+.sui-forms .gui-textarea,
+.sui-forms .select > select,
+.sui-forms .select-multiple select{
+  -webkit-transition:all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  -ms-transition:all 0.5s ease-in-out;
+  -o-transition:all 0.5s ease-in-out;
+  transition:all 0.5s ease-in-out;
+  outline:none;
+}
+
+/* @control border-size :: color etc for these elements
+----------------------------------------------------------- */
+.sui-forms .select,
+.sui-forms .gui-input,
+.sui-forms .gui-textarea,
+.sui-forms .select > select,
+.sui-forms .select-multiple select{
+  background: #484848;
+  position: relative;
+  vertical-align: top;
+  border: 2px solid #5D5D5D;
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  color: #B3B8BC;
+  outline:none;
+  height: 42px;
+  width: 100%;
+  *zoom: 1;
+}
+
+/* @styling inputs and textareas
+------------------------------------------- */
+.sui-forms .gui-input,
+.sui-forms .gui-textarea { padding:10px; }
+.sui-forms .gui-textarea {
+  resize: none;
+  line-height: 19px;
+  overflow: auto;
+  max-width:100%;
+  height: 96px;
+}
+
+/* @hint below textareas
+---------------------------------------- */
+.sui-forms .input-hint {
+  padding: 10px;
+  display: block;
+  margin-top: -4px;
+  line-height: 16px;
+  position: relative;
+  background: #3B3B3B;
+  border: 2px solid #5D5D5D;
+  border-top:1px solid #5D5D5D;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #999;
+}
+
+/* @form selects :: dropdowns
+-------------------------------------------------- */
+.sui-forms .select { border:0; z-index:10; }
+.sui-forms .select > select {
+  display: block;
+  padding:9px 10px;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  outline:none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  z-index:10;
+  margin: 0;
+}
+
+.sui-forms .select > select::-ms-expand { display: none; }
+.sui-forms .select:before,
+.sui-forms .select:after {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  z-index:15;
+}
+
+.sui-forms .select .arrow {
+  position: absolute;
+  top: 9px;
+  right: 5px;
+  width: 24px;
+  height: 24px;
+  color:#999;
+  pointer-events:none;
+  z-index:16;
+}
+
+.sui-forms .select .arrow:after,
+.sui-forms .select .arrow:before {
+  content: '';
+  position: absolute;
+  font:12px "Consolas", monospace;
+  font-style:normal;
+  pointer-events:none;
+  display:none\9;
+  left:6px;
+}
+
+.sui-forms .select .arrow:before { content:'\25BC'; bottom:4px; }
+.sui-forms .select .double:after { content:'\25B2'; top:-1px;  }
+.sui-forms .select .double:before { content:'\25BC'; bottom:-1px; }
+.sui-forms .select-multiple select {
+  width:100%;
+  height: 123px;
+  padding: 10px;
+}
+
+/* @file inputs :: file uploaders
+-------------------------------------------------------- */
+.sui-forms .file{ display:block; width:100%; }
+.sui-forms .file .gui-file{
+  width:100%;
+  height:100%;
+  cursor:pointer;
+  padding:8px 10px;
+  position:absolute;
+  -moz-opacity:0;
+  opacity: 0;
+  z-index:11;
+  bottom:0;
+  right:0;
+}
+
+.sui-forms .file .button {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  float: none;
+  height: 34px;
+  line-height: 34px;
+  padding: 0 16px;
+  z-index:10;
+}
+
+/* @form element :hover state
+-------------------------------------------- */
+.sui-forms .gui-input:hover,
+.sui-forms .gui-textarea:hover,
+.sui-forms .select > select:hover,
+.sui-forms .select-multiple select:hover,
+.sui-forms .gui-input:hover ~ .input-hint,
+.sui-forms .file .gui-file:hover + .gui-input,
+.sui-forms .gui-textarea:hover ~ .input-hint{
+  border-color: #6BC9EF;
+  background:#333;
+}
+
+/* @form element :focus state
+-------------------------------------------------------- */
+.sui-forms .gui-input:focus,
+.sui-forms .gui-textarea:focus,
+.sui-forms .select > select:focus,
+.sui-forms .select-multiple select:focus{ border-color: #6BC9EF; color: #CCC!important; }
+.sui-forms .gui-textarea:focus{  height: 120px; }
+.sui-forms .select > select:focus { z-index:10; z-index:20\9; }
+.sui-forms .gui-input:focus ~ .field-icon i,
+.sui-forms .gui-textarea:focus ~ .field-icon i{ color:#6BC9EF; }
+.sui-forms .select-multiple select:focus,
+.sui-forms .gui-input:focus ~ .input-hint,
+.sui-forms .gui-textarea:focus ~ .input-hint,
+.sui-forms .file .gui-file:focus + .gui-input{ border-color: #6BC9EF; }
+.sui-forms .select > select:focus + .arrow{ color:#6BC9EF; }
+
+/* @radio + checkbox option elements
+----------------------------------------------------- */
+.sui-forms .option {
+  position: relative;
+  padding-right:15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sui-forms .option > input {
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  opacity: 0;
+  left: 0;
+}
+.sui-forms .checkbox,
+.sui-forms .radio {
+  position:relative;
+  margin-right:2px;
+  background: #222;
+  display: inline-block;
+  border: 3px solid #555555;
+  height: 21px;
+  width: 21px;
+  top:5px;
+}
+
+.sui-forms .checkbox:before,
+.sui-forms .radio:before {
+  content: '';
+  display: none;
+}
+
+
+.sui-forms input:checked + .checkbox:before,
+.sui-forms input:checked + .radio:before {
+  display: block;
+}
+
+.sui-forms .checkbox:before {
+  position: absolute;
+  top: 4px;
+  left: 3px;
+  width: 6px;
+  height: 3px;
+  border: solid #1abc9c;
+  border-width: 0 0 3px 3px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.sui-forms input:checked + .checkbox,
+.sui-forms input:checked + .radio{ border: 3px solid #1abc9c; }
+.sui-forms .radio {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+
+}
+.sui-forms .radio:before {
+  margin: 4px;
+  width: 7px;
+  height: 7px;
+  background: #1abc9c;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+
+/* @radio + checkbox :hover state
+-------------------------------------------------- */
+.sui-forms input:hover + .checkbox,
+.sui-forms input:hover + .radio{
+  border-color: #6BC9EF;
+}
+
+/* @radio + checkbox :focus state
+--------------------------------------------------- */
+.sui-forms input:focus + .checkbox,
+.sui-forms input:focus + .radio{
+  border-color: #1abc9c;
+}
+
+.sui-forms input:focus + .radio:before{ background: #1abc9c; }
+.sui-forms input:focus + .checkbox:before{ border-color: #1abc9c; }
+
+/* @toggle switch elements
+-------------------------------------------------- */
+.sui-forms .switch {
+  cursor:pointer;
+  position: relative;
+  padding-right:10px;
+  display: inline-block;
+  margin-bottom:5px;
+  height: 26px;
+}
+.sui-forms .switch > label {
+  cursor:pointer;
+  display: inline-block;
+  position: relative;
+  height: 25px;
+  width: 58px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  background: #555555;
+  border: 2px solid #555555;
+  text-transform: uppercase;
+  font-family:Helvetica, Arial, sans-serif;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+.sui-forms .switch > label + span{ display:inline-block; padding-left:5px; position:relative; top:-7px; }
+.sui-forms .switch > label:before {
+  content: attr(data-off);
+  position: absolute;
+  top: 1px;
+  right: 3px;
+  width: 33px;
+}
+
+.sui-forms .switch > label:after {
+  content:"";
+  margin: 1px;
+  width: 19px;
+  height: 19px;
+  display: block;
+  background: #fff;
+}
+
+.sui-forms .switch > input {
+  -webkit-appearance: none;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  opacity: 0;
+  left: 0;
+  top: 0;
+
+}
+
+/* @toggle switch focus state
+-------------------------------------------------------------- */
+.sui-forms .switch > input:focus { outline: none; }
+.sui-forms .switch > input:focus + label { color: #fff; border-color: #6E6E6E; background:#6E6E6E; }
+.sui-forms .switch > input:focus + label:after { background: #fff; }
+
+/* @toggle switch normal state
+--------------------------------------------------------------- */
+.sui-forms .switch > input:checked + label {
+  border-color: #6BC9EF;
+  background: #6BC9EF;
+  padding-left: 33px;
+  color: white;
+}
+
+.sui-forms .switch > input:checked + label:before {
+  content: attr(data-on);
+  left: 1px;
+  top:1px;
+}
+
+.sui-forms .switch > input:checked + label:after {
+  margin: 1px;
+  width: 19px;
+  height: 19px;
+  background: white;
+}
+
+/* @toggle switch normal state focus
+--------------------------------------------------------------------------------- */
+.sui-forms .switch > input:checked:focus + label { background: #16a085; border-color: #16a085; }
+.sui-forms .switch-round > label {
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -o-border-radius: 13px;
+  border-radius: 13px;
+}
+.sui-forms .switch-round > label + span{ top:-2px; }
+.sui-forms .switch-round > label:before { width: 33px; }
+.sui-forms .switch-round > label:after {
+  width: 19px;
+  color:#555555;
+  content: "\2022";
+  font:20px/20px Times, Serif;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -o-border-radius: 13px;
+  border-radius: 13px;
+}
+
+.sui-forms .switch-round > input:checked + label { padding-left: 33px; }
+.sui-forms .switch-round > input:checked + label:after{ color:#6BC9EF; }
+
+/* @notification messages | info | error | warning | success
+-------------------------------------------------------------- */
+.sui-forms .form-msg{ display:none; }
+.sui-forms .notification { color: #444; padding:15px; position:relative; }
+.sui-forms .notification p{ margin:0; padding:0 15px; padding-left:5px; line-height:normal;  }
+.sui-forms .notification .close-btn{
+  margin-top: -7px;
+  padding: inherit;
+  position: absolute;
+  text-decoration:none;
+  font: bold 20px/20px Arial, sans-serif;
+  opacity: 0.65;
+  color: inherit;
+  display: block;
+  right:1px;
+  top:14%;
+}
+
+.sui-forms .notification .close-btn:hover{ opacity: 1; }
+.sui-forms .alert-info { color:#163161; background-color: #cfe6fc; }
+.sui-forms .alert-success { color:#336633; background-color: #d2f7ad; }
+.sui-forms .alert-warning { color: #CC6600; background-color: #fae7a2; }
+.sui-forms .alert-error { color:#990000; background-color: #FBDBCF; }
+
+/* @validaion - error state
+------------------------------------- */
+.sui-forms .state-error .gui-input,
+.sui-forms .state-error .gui-textarea,
+.sui-forms .state-error.select > select,
+.sui-forms .state-error.select-multiple > select,
+.sui-forms .state-error input:hover + .checkbox,
+.sui-forms .state-error input:hover + .radio,
+.sui-forms .state-error input:focus + .checkbox,
+.sui-forms .state-error input:focus + .radio,
+.sui-forms .state-error .checkbox,
+.sui-forms .state-error .radio{
+  /*background:#FEEFE9;*/
+  border-color:#E46B66;
+}
+
+.sui-forms .state-error .gui-input ~ .field-icon i,
+.sui-forms .state-error .gui-textarea ~ .field-icon i{  color: #E46B66; }
+.sui-forms .state-error.select .arrow { color: #E46B66; }
+.sui-forms .state-error .gui-input ~ .input-hint,
+.sui-forms .state-error.file .gui-file:hover + .gui-input,
+.sui-forms .state-error .gui-textarea ~ .input-hint { border-color:#E46B66; }
+.sui-forms .state-error + em{
+  display: block!important;
+  margin-top: 6px;
+  padding: 0 3px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  line-height: normal;
+  color: #E46B66;
+  font-size:0.85em;
+
+}
+
+/* @validaion - success state
+-------------------------------------------------- */
+.sui-forms .state-success .gui-input,
+.sui-forms .state-success .gui-textarea,
+.sui-forms .state-success.select > select,
+.sui-forms .state-success.select-multiple > select,
+.sui-forms .state-success input:hover + .checkbox,
+.sui-forms .state-success input:hover + .radio,
+.sui-forms .state-success input:focus + .checkbox,
+.sui-forms .state-success input:focus + .radio,
+.sui-forms .state-success .checkbox,
+.sui-forms .state-success .radio{
+  /*background:#EAFCD8;*/
+  border-color:#6BC9EF;
+}
+
+.sui-forms .state-success .gui-input ~ .field-icon i,
+.sui-forms .state-success .gui-textarea ~ .field-icon i{  color: #6BC9EF; }
+.sui-forms .state-success.select .arrow { color: #6BC9EF; }
+.sui-forms .state-success .gui-input ~ .input-hint,
+.sui-forms .state-success.file .gui-file:hover + .gui-input,
+.sui-forms .state-success .gui-textarea ~ .input-hint { border-color:#6BC9EF; }
+
+
+/* @disabled state
+----------------------------------------------- */
+.sui-forms .button[disabled],
+.sui-forms .state-disabled .button,
+.sui-forms input[disabled] + .radio,
+.sui-forms input[disabled] + .checkbox,
+.sui-forms .switch > input[disabled] + label{
+  cursor: default;
+  opacity:0.5;
+}
+
+.sui-forms .gui-input[disabled],
+.sui-forms .gui-textarea[disabled],
+.sui-forms .select > select[disabled],
+.sui-forms .select-multiple select[disabled],
+.sui-forms .gui-input[disabled] ~ .input-hint,
+.sui-forms .file .gui-file[disabled] + .gui-input,
+.sui-forms .file .gui-file[disabled]:hover + .gui-input,
+.sui-forms .gui-textarea[disabled] ~ .input-hint {
+  background-color: #f4f6f6;
+  border-color: #d5dbdb!important;
+  cursor: default;
+  color: #d5dbdb;
+  opacity:0.7;
+}
+
+.sui-forms input[disabled] ~ .field-icon i,
+.sui-forms textarea[disabled] ~ .field-icon i,
+.sui-forms .select > select[disabled] + .arrow{
+  opacity:0.4;
+}
+
+/* @form rows
+--------------------------------- */
+.sui-forms .frm-row{ margin:0 -10px;  }
+.sui-forms .slider-group:before,
+.sui-forms .slider-group:after,
+.sui-forms .frm-row:before,
+.sui-forms .frm-row:after { display: table; content: ""; line-height: 0; }
+.sui-forms .slider-group:after,
+.sui-forms .frm-row:after{ clear: both; }
+
+/* Firefox select fix - select arrow hack  disabled on FF 30+
+-------------------------------------------------------------- */
+@-moz-document url-prefix() {
+  .sui-forms .select:before{
+    content: '';
+    pointer-events:none;
+    -moz-transition:none;
+    transition:none;
+    position: absolute;
+    background: #484848;
+    width: 34px;
+    right:2px;
+    top:2px;
+    bottom:2px;
+    z-index:99;
+  }
+
+  .sui-forms .select > select:focus,
+  .sui-forms .select > select:hover,
+  .sui-forms .select:hover select,
+  .sui-forms .select:hover:before{
+    background: #333333;
+    -moz-transition:none;
+    transition:none;
+    -moz-box-shadow:none;
+    box-shadow:none;
+  }
+
+  .sui-forms .select .arrow {  z-index:100;  }
+  .sui-forms .state-error.select > select:focus,
+  .sui-forms .state-error.select > select:hover,
+  .sui-forms .state-error.select:hover select,
+  .sui-forms .state-error.select:hover:before,
+  .sui-forms .state-error.select:before { background:#484848;  }
+  .sui-forms .state-success.select > select:focus,
+  .sui-forms .state-success.select > select:hover,
+  .sui-forms .state-success.select:hover select,
+  .sui-forms .state-success.select:hover:before,
+  .sui-forms .state-success.select:before { background:#484848;  }
+}
+
+/* IE10+  
+-------------------------------------------------------------------------- */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .sui-forms .select .arrow:after,
+  .sui-forms .select .arrow:before { display:block; }
+}
+
+/* @Fix old of versions android + ios
+------------------------------------------------------------- */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .sui-forms .option,
+  .sui-forms .rating,
+  .sui-forms .switch,
+  .sui-forms .captcode { -webkit-animation: bugfix infinite 1s; }
+  @-webkit-keyframes bugfix {
+    from { padding: 0;  }
+    to { padding: 0; }
+  }
+  .sui-forms .switch { margin-right:10px;  margin-bottom:5px; }
+  .sui-forms .option { margin-right:15px; }
+}

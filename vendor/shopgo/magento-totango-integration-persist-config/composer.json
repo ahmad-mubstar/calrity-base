@@ -1,0 +1,37 @@
+{
+    "name": "shopgo/magento-totango-integration-persist-config",
+    "type": "magento-module",
+    "license": "AFL-3.0",
+    "description": "Magento Totango Integration extension persist config file",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "shopgo/magento-totango-integration": "*"
+    },
+    "authors":[
+        {
+            "name": "Ammar",
+            "email": "ammar@shopgo.me"
+        },
+        {
+            "name": "Emad",
+            "email": "emad@shopgo.me"
+        },
+        {
+            "name": "Ahmad",
+            "email": "ahmadalkaid@shopgo.me"
+        },
+        {
+            "name": "Aya",
+            "email": "aya@shopgo.me"
+        },
+        {
+            "name": "ShopGo",
+            "email": "support@shopgo.me"
+        }
+    ],
+    "extra": {
+        "map": [
+            ["persist.xml", "var/shopgo/totango/persist.xml"]
+        ]
+    }
+}

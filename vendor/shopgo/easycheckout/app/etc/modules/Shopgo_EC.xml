@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shopgo_EC>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+              <Mage_Payment/>
+              <AW_Orderattributes/>
+              <Phoenix_CashOnDelivery/>
+              <!-- <Evopin_Checkoutcom /> -->
+              <Shopgo_Geo/>
+            </depends>
+        </Shopgo_EC>
+    </modules>
+</config>

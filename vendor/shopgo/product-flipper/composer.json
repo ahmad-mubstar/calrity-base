@@ -1,0 +1,15 @@
+{
+    "name": "shopgo/product-flipper",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "ShopGo Product Flipper",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Talal Suhail",
+            "email": "talal@shopgo.me"
+        }
+    ]
+}

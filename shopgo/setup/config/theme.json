@@ -1,0 +1,17 @@
+{
+    "theme": {
+        "shopgo/progress-theme": {
+            "name": "Progress",
+            "url": "http://progress.devshopgo.me/",
+            "thumbnail": "https://bytebucket.org/shopgo/shopgo-progress-theme-package/raw/df67f71279569b5ba076ad2696010df5b7acbaa3/screenshots/thumbnail.jpg?token=354f805996f79af0736e47a703e11fa1c8015274",
+            "version": "1.0.0",
+            "base": true,
+            "extensions": [
+                "shopgo/banner-slider-cmp", "shopgo/brand-slider-cmp",
+                ":theme:webdziner/all", ":theme:webdziner/bgsetting",
+                ":theme:webdziner/featuredproduct", "webdziner/ajax-search",
+                "shopgo/cloud-zoom"
+            ]
+        }
+    }
+}

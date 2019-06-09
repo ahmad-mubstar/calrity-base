@@ -1,0 +1,4 @@
+app/code/local/Shopgo/AutoNewsletter/                                app/code/local/Shopgo/AutoNewsletter/
+app/design/frontend/base/default/layout/shopgo/autonewsletter.xml    app/design/frontend/base/default/layout/shopgo/autonewsletter.xml
+app/design/frontend/base/default/template/shopgo/autonewsletter/     app/design/frontend/base/default/template/shopgo/autonewsletter/
+app/etc/modules/Shopgo_AutoNewsletter.xml                            app/etc/modules/Shopgo_AutoNewsletter.xml

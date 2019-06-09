@@ -1,0 +1,3 @@
+app/code/local/Onecard/Onecardpay/                                   app/code/local/Onecard/Onecardpay/
+app/design/frontend/base/default/template/onecard/                   app/design/frontend/base/default/template/onecard/
+app/etc/modules/Onecard_Onecardpay.xml                               app/etc/modules/Onecard_Onecardpay.xml

@@ -1,0 +1,45 @@
+API Login ID,اسم مستخدم API
+Authorize Only,تفويض فقط
+Authorize and Capture,تفويض وحجز
+Authorize.net,Authorize.net
+Credit Card Types,انواع البطاقات الائتمانية
+Credit Card Verification,التحقق من البطاقة الإئتمانية
+Debug,معالجة
+Email customer,البريد الالكتروني للعميل
+Enabled,تفعيل
+Error in authorizing the payment,خطأ في تفويض الدفعة
+Error in capturing the payment,خطأ في حجز الدفعة
+Error in payment gateway,خطأ في بوابة الدفع
+Error in refunding the payment,خطأ في إعادة المدفوعات
+Error in refunding the payment.,خطأ في إعادة المدفوعات
+Error in retrieving the transaction,خطأ في استرجاع المعاملات
+Fraud order status,حالة الطلب المزور
+Gateway request error: %s,خطأ في طلب البوابة: %s
+Invalid amount for authorization,مبلغ غير صحيح للتفويض
+Invalid amount for authorization.,مبلغ غير صحيح للتفويض
+Invalid transaction id,رقم تعريف حركة غير صحيح
+Maximum Order Total,الحد الأقصى لمجموع الطلب
+Merchant Login,تسجيل الدخول التاجر
+Merchant's email,البريد الالكتروني للتاجر
+Minimum Order Total,الحد الأدنى لمجموع الطلب
+New order status,حالة طلب جديد
+Partner,ِشريك
+Password,كلمة المرور
+Payflow Pro,Payflow Pro
+Payment Action,إجراء الدفع
+Payment authorization error.,خطأ في تفويض الدفعة
+Payment authorization transaction has been declined.,تم رفض تفويض الدفعة
+Payment from Specific countries,الدفع من بلدان معينة
+Payment from applicable countries,الدفع من البلدان المطبقه
+Proxy Host,مستضيف الوكيل Proxy Host
+Proxy Port,منفذ الوكيل Proxy Port
+Sort order,ترتيب
+TENDER,مناقصة
+Test mode,وضع الإختبار
+Title,العنوان
+Transaction key,مفتاح المعاملات
+URL,الرابط
+Use Proxy,استخدام الوكيل
+User,المستخدم
+VERBOSITY,إسهاب
+Voided transaction,المعاملات الملغاة

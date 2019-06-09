@@ -1,0 +1,30 @@
+<?php
+/**
+ 
+ */
+?>
+<meta http-equiv="Content-Type" content="<?php echo $this->getContentType() ?>" />
+<title><?php echo Mage::helper('ec')->checkoutTitle() ?></title>
+<meta name="description" content="<?php echo htmlspecialchars($this->getDescription()) ?>" />
+<meta name="keywords" content="<?php echo htmlspecialchars($this->getKeywords()) ?>" />
+<meta name="robots" content="<?php echo htmlspecialchars($this->getRobots()) ?>" />
+<link rel="icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
+<link rel="shortcut icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700" rel="stylesheet" type="text/css"></link>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta name="viewport" content="width=device-width">
+<script type="text/javascript">
+	if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+		var viewportmeta = document.querySelector('meta[name="viewport"]');
+		if (viewportmeta) {
+        	viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0';
+        	document.body.addEventListener('gesturestart', function() {
+        		viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+    		}, false);
+       	}
+ 	}
+</script>
+<?php echo $this->getCssJsHtml() ?>
+<?php echo $this->getChildHtml() ?>
+<?php //echo $this->helper('core/js')->getTranslatorScript() ?>
+<?php echo $this->getIncludes() ?>

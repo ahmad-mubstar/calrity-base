@@ -1,0 +1,5 @@
+app/code/local/Shopgo/AdminLogin/                                    app/code/local/Shopgo/AdminLogin/
+app/design/adminhtml/default/default/layout/shopgo/adminlogin.xml    app/design/adminhtml/default/default/layout/shopgo/adminlogin.xml
+app/design/adminhtml/default/default/template/shopgo/adminlogin/     app/design/adminhtml/default/default/template/shopgo/adminlogin/
+app/etc/modules/Shopgo_AdminLogin.xml                                app/etc/modules/Shopgo_AdminLogin.xml
+skin/adminhtml/default/default/shopgo/adminlogin/                    skin/adminhtml/default/default/shopgo/adminlogin/

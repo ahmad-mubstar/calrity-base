@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Knet
+ * @package    Knet_PG
+ * @author     ali@shopgo.me
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <Knet_PG>
+            <version>1.0.0</version>
+        </Knet_PG>
+    </modules>
+    <global>
+        <models>
+            <pg>
+                <class>Knet_PG_Model</class>
+            </pg>
+        </models>
+        <resources>
+			<pg_setup>
+				<setup>
+					<module>Knet_PG</module>
+				</setup>
+				<connection>
+					<use>core_setup</use>
+				</connection>
+			</pg_setup>
+			<pg_write>
+				<connection>
+					<use>core_write</use>
+				</connection>
+			</pg_write>
+			<pg_read>
+				<connection>
+					<use>core_read</use>
+				</connection>
+			</pg_read>
+        </resources>
+        <blocks>
+            <pg>
+                <class>Knet_PG_Block</class>
+            </pg>
+        </blocks>
+        <helpers>
+            <pg>
+                <class>Knet_PG_Helper</class>
+            </pg>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <pg>
+                <use>standard</use>
+                <args>
+                    <module>Knet_PG</module>
+                    <frontName>knet</frontName>
+                </args>
+            </pg>
+        </routers>
+        <layout>
+            <updates>
+                <pg>
+                    <file>knet/pg.xml</file>
+                </pg>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <cactimediainfo>
+											<title>Knet - All</title>
+										</cactimediainfo>
+										<paymentinfo>
+											<title>Knet Payment Gateway</title>
+										</paymentinfo>
+										<pg>
+											<title>Knet Payment Gateway</title>
+										</pg>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+    <default>
+        <payment>
+            <pg>
+                <active>0</active>
+				<enable_log>1</enable_log>
+               	<model>pg/pg</model>
+               	<title>Knet Payment Gateway</title>
+                <mode>0</mode>
+				<order_status>pending</order_status>
+                <debug_flag>1</debug_flag>
+				<allowspecific>0</allowspecific>
+				<sort_order>1</sort_order>
+            </pg>
+        </payment>
+    </default>
+</config>

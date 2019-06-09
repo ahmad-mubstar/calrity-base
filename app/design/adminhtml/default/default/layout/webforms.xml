@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<adminhtml_webforms_index>
+		<reference name="content">
+			<block type="webforms/adminhtml_webforms" name="webforms" />
+		</reference>
+	</adminhtml_webforms_index>
+	<adminhtml_response_edit>
+		<update handle="editor"/>
+	</adminhtml_response_edit>
+	<adminhtml_webforms_edit>
+		<update handle="editor"/>
+	</adminhtml_webforms_edit>
+    <adminhtml_quickresponse_edit>
+        <update handle="editor"/>
+    </adminhtml_quickresponse_edit>
+    <adminhtml_results_edit>
+        <update handle="editor"/>
+        <reference name="head">
+            <action method="addJs">
+                <file>webforms/adminhtml/logic.js</file>
+            </action>
+        </reference>
+    </adminhtml_results_edit>
+    <adminhtml_customer_edit>
+        <update handle="editor"/>
+        <reference name="head">
+            <action method="addJs">
+                <file>webforms/adminhtml/logic.js</file>
+            </action>
+        </reference>
+    </adminhtml_customer_edit>
+	<adminhtml_results_reply>
+		<reference name="head">
+			<action method="addCss">
+				<stylesheet>webforms/stars.css</stylesheet>
+			</action>			
+			<action method="addCss">
+				<stylesheet>webforms/message.css</stylesheet>
+			</action>
+		</reference>
+		<update handle="editor"/>
+	</adminhtml_results_reply>
+	<adminhtml_results_index>
+		<reference name="head">
+			<action method="addCss">
+				<stylesheet>webforms/stars.css</stylesheet>
+			</action>			
+			<action method="addCss">
+				<stylesheet>webforms/message.css</stylesheet>
+			</action>
+		</reference>
+		<reference name="content">
+			<block type="webforms/adminhtml_results" name="results" />
+		</reference>
+	</adminhtml_results_index>
+</layout>

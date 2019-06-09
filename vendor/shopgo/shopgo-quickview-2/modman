@@ -1,0 +1,5 @@
+skin/frontend/base/default/shopgo/quickview/                      skin/frontend/base/default/shopgo/quickview/
+app/design/frontend/base/default/template/shopgo/quickview/       app/design/frontend/base/default/template/shopgo/quickview/
+app/design/frontend/base/default/layout/shopgo/quickview.xml      app/design/frontend/base/default/layout/shopgo/quickview.xml
+app/etc/modules/Shopgo_Quickview.xml                              app/etc/modules/Shopgo_Quickview.xml
+app/code/local/Shopgo/Quickview/                                  app/code/local/Shopgo/Quickview/

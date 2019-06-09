@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Cashu_Prepaid>
+            <version>1.0.0</version>
+        </Cashu_Prepaid>
+    </modules>
+    <global>
+        <helpers>
+            <prepaid>
+                <class>Cashu_Prepaid_Helper</class>
+            </prepaid>
+        </helpers>
+        <models>
+            <prepaid>
+                <class>Cashu_Prepaid_Model</class>
+            </prepaid>
+        </models>
+    </global>
+    <frontend>
+        <routers>
+            <cashu_prepaid>
+                <use>standard</use>
+                <args>
+                    <module>Cashu_Prepaid</module>
+                    <frontName>cashu</frontName>
+                </args>
+            </cashu_prepaid>
+        </routers>
+    </frontend>
+    <default>
+        <payment>
+            <cashu_prepaid>
+                <active>0</active>
+                <order_status>processing</order_status>
+                <model>prepaid/pay</model>
+                <title>Cashu Prepaid</title>
+                <payment_action>sale</payment_action>
+                <allowspecific>0</allowspecific>
+                <sort_order>1</sort_order>
+            </cashu_prepaid>
+        </payment>
+    </default>
+</config>

@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+#page-login                             { background-color:#fafafa; font-family: 'Source Sans Pro','Droid Arabic Kufi', sans-serif;}
+.login-container                        { background:none; width:450px; margin: 150px auto 10px auto; padding: 0 32px;}
+.login-container .login-logo            { width:113px; margin:0 auto 60px; }
+.login-container #messages              { width:339px; margin:0 auto; }
+.login-form                             { background:none; padding: 39px 0;padding-top: 0px; }
+.login-form .input-box                  { -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; height: 53px; margin: 0 auto; width: 338px; border: 1px solid #f0f0f0;}
+.login-form .input-box.input-username   { background: url(../images/login_box_username_icon.png) 15px 19px no-repeat #fff; }
+.login-form .input-box.input-password   { background: url(../images/login_box_password_icon.png) 17px 19px no-repeat #fff; margin-top: 13px; }
+.login-form .input-box.forgot-password  { background: url(../images/login_box_username_icon.png) 15px 19px no-repeat #fff; }
+.login-form .input-box input.input-text { border: 0; color: #929296; font-size: 16px; height: 40px; margin-top: 5px; vertical-align: text-top; width: 253px !important; }
+.login-form .input-box input.ezpz-hint  { color: #929296; }
+.login-form .input-box.input-username input.input-text,
+.login-form .input-box.input-username input.ezpz-hint,
+.login-form .input-box.forgot-password input.input-text,
+.login-form .input-box.forgot-password input.ezpz-hint { margin-left: 40px; }
+.login-form .input-box.input-password input.input-text,
+.login-form .input-box.input-password input.ezpz-hint { margin-left: 40px; }
+.login-form .form-buttons               { margin:15px 0 0 0; text-align:center; }
+.login-form .form-buttons a             { color: #969696; font-size: 16px; }
+.login-form .form-buttons a:hover       { color: #969696; }
+.login-form .form-buttons input         { background: #e46285; border: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; text-transform:uppercase; font-size: 16px; font-weight: normal; height: 50px; margin-top:15px; width: 340px; }
+.login-container.fp .form-buttons       { margin: 35px auto 0; width: 340px; }
+.login-container.fp .form-buttons button{ background: #e46285; border: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; font-size: 18px; font-weight: normal; height: 38px; margin-top:-2px; }
+.login-form .form-buttons input:hover,
+.login-container.fp .form-buttons button:hover { background:#e1577c; }
+.login-form .form-buttons input:active,
+.login-container.fp .form-buttons button:active { background:#e1577c; }
+.login-box-tip                          { display:none; }
+/*.login-box                              { background:#f4f4f4; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; border-radius: 10px; }*/
+.login-tip                              {font-size: 18px; margin-bottom: 1em; color: #999696; display: block;}
+.login-tip.arabic			{font-size:14px; line-height:22px;}
+.login-form h2				{font-size: 1.5em; color:#969696; width: 340px; margin: 0 auto; margin-bottom: 10px;}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .login-form .input-box.input-username   { background: url(../images/login_box_username_icon@2x.png) 15px 19px no-repeat #fff; background-size: 18px 16px; }
+    .login-form .input-box.input-password   { background: url(../images/login_box_password_icon@2x.png) 17px 19px no-repeat #fff; background-size: 12px 16px; margin-top: 13px; }
+    .login-form .input-box.forgot-password  { background: url(../images/login_box_username_icon@2x.png) 15px 19px no-repeat #fff; background-size: 18px 16px;}
+}

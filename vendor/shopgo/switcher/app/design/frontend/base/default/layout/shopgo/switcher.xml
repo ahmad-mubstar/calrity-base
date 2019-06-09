@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>shopgo/switcher/css/switcher.css</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>shopgo/switcher/js/jquery.switcher.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>shopgo/switcher/js/scripts.js</name>
+            </action>
+        </reference>
+        <reference name="header">
+            <block type="directory/currency" name="currency" template="shopgo/switcher/currency.phtml"/>
+        </reference>
+        <reference name="store_language">
+            <action method="setTemplate">
+                <template>shopgo/switcher/language.phtml</template>
+            </action>
+        </reference>
+    </default>
+</layout>

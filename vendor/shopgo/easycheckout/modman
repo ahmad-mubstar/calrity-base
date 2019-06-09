@@ -1,0 +1,11 @@
+js/Shopgo/EC/                                                 js/Shopgo/EC/
+skin/adminhtml/base/default/shopgo/ec/                        skin/adminhtml/base/default/shopgo/ec/
+skin/frontend/base/default/shopgo/ec/                         skin/frontend/base/default/shopgo/ec/
+app/design/adminhtml/base/default/template/shopgo/ec/         app/design/adminhtml/base/default/template/shopgo/ec/
+app/design/adminhtml/base/default/layout/shopgo/ec.xml        app/design/adminhtml/base/default/layout/shopgo/ec.xml
+app/design/frontend/base/default/template/shopgo/ec/          app/design/frontend/base/default/template/shopgo/ec/
+app/design/frontend/base/default/layout/shopgo/ec.xml         app/design/frontend/base/default/layout/shopgo/ec.xml
+app/locale/en_US/Shopgo_EC.csv                                app/locale/en_US/Shopgo_EC.csv
+app/locale/ar_SA/Shopgo_EC.csv                                app/locale/ar_SA/Shopgo_EC.csv
+app/etc/modules/Shopgo_EC.xml                                 app/etc/modules/Shopgo_EC.xml
+app/code/community/Shopgo/EC/                                 app/code/community/Shopgo/EC/

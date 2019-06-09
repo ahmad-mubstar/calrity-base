@@ -1,0 +1,15 @@
+{
+    "name": "shopgo/payfort-payment-New",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "Payfort payment 2016",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Shopgo Team",
+            "email": "support@shopgo.me"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <catalog translate="title" module="catalog">
+            <children>
+                <products translate="title" module="catalog">
+                    <children>
+                        <booking translate="title" module="booking">
+                            <sort_order>15</sort_order>
+                            <title>Books and reservations</title>
+                            <action>adminhtml/book</action>
+                        </booking>
+                    </children>
+                </products>
+            </children>
+        </catalog>
+    </menu>
+
+
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <catalog translate="title" module="catalog">
+                        <children>
+                            <products translate="title">
+                                <title>Products</title>
+                                <children>
+                                    <booking translate="title">
+                                        <title>Books and Reservations</title>
+                                        <sort_order>10</sort_order>
+                                    </booking>
+                                </children>
+                            </products>
+                        </children>
+                    </catalog>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+
+</config>

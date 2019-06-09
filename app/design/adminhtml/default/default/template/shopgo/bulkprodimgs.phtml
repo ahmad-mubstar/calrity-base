@@ -1,0 +1,66 @@
+<div id="bulkprodimgs">
+    <h3 class="bulkprodimgs-title"><?php echo $this->__('Bulk Products Images Import') ?></h3>
+    <div class="bulkprodimgs-body">
+        <form action="<?php echo $this->getUrl('*/*/import', array('id' => $this->getRequest()->getParam('id'))) ?>" method="post" enctype="multipart/form-data">
+            <ul>
+                <li class="form-label"><h6><?php echo $this->__('Import images') ?>:</h6></li>
+                <li class="csv-file">
+                    <ul>
+                        <li class="label"><?php echo $this->__('CSV File') ?></li>
+                        <li class="field"><input type="file" name="csv_file" /></li>
+                        <li class="clear"></li>
+                    </ul>
+                </li>
+                <li class="images-archive">
+                    <ul>
+                        <li class="label"><?php echo $this->__('Images Archive') ?></li>
+                        <li class="field"><input type="text" name="images_archive" value="" /><span>&nbsp;.zip</span></li>
+                        <li class="clear"></li>
+                    </ul>
+                </li>
+                <li class="purge-images">
+                    <ul>
+                        <li class="label"><?php echo $this->__('Purge Images When Done') ?></li>
+                        <li class="field"><input type="checkbox" name="purge_images" /></li>
+                        <li class="clear"></li>
+                    </ul>
+                </li>
+                <li class="submit">
+                    <input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
+                    <input type="submit" class="form-button" value="<?php echo $this->__('Import') ?>" />
+                </li>
+            </ul>
+        </form>
+        <ul>
+            <li class="separator"></li>
+        </ul>
+        <form action="<?php echo $this->getUrl('*/*/remove', array('id' => $this->getRequest()->getParam('id'))) ?>" method="post" enctype="multipart/form-data">
+            <ul>
+                <li class="form-label"><h6><?php echo $this->__('Remove Media Gallery Images') ?>:</h6></li>
+                <li class="csv-file">
+                    <ul>
+                        <li class="label"><?php echo $this->__('CSV File') ?></li>
+                        <li class="field"><input type="file" name="csv_file" /></li>
+                        <li class="clear"></li>
+                    </ul>
+                </li>
+                <li class="submit">
+                    <input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
+                    <input type="submit" class="form-button" value="<?php echo $this->__('Remove') ?>" />
+                </li>
+            </ul>
+        </form>
+        <ul>
+            <li class="separator"></li>
+        </ul>
+        <form action="<?php echo $this->getUrl('*/*/purge', array('id' => $this->getRequest()->getParam('id'))) ?>" method="post" enctype="multipart/form-data">
+            <ul>
+                <li class="form-label"><h6><?php echo $this->__('Purge import images') ?>:</h6></li>
+                <li class="submit">
+                    <input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
+                    <input type="submit" class="form-button" value="<?php echo $this->__('Purge') ?>" />
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <shopgo translate="title" module="bannerslider">
+            <title>ShopGo</title>
+            <sort_order>71</sort_order>
+            <children>
+                <bannerslider translate="title" module="bannerslider">
+                    <depends>
+                        <module>HideMe</module> <!-- Fake dependance to hide menu item -->
+                    </depends>
+                    <title>Banner Slider</title>
+                    <sort_order>0</sort_order>
+                    <children>
+                        <manage translate="title" module="bannerslider">
+                            <title>Manage Sliders</title>
+                            <sort_order>0</sort_order>
+                            <action>adminhtml/shopgo_bannerslider</action>
+                        </manage>
+                        <config translate="title" module="bannerslider">
+                            <title>Configuration</title>
+                            <sort_order>1</sort_order>
+                            <action>adminhtml/system_config/edit/section/bannerslider</action>
+                        </config>
+                    </children>
+                    <depends>
+                        <config>bannerslider/general/enabled</config>
+                    </depends>
+                </bannerslider>
+            </children>
+        </shopgo>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <!--<shopgo translate="title" module="bannerslider">-->
+                        <!--<title>ShopGo</title>-->
+                        <!--<sort_order>71</sort_order>-->
+                        <!--<children>-->
+                            <!--<bannerslider translate="title" module="bannerslider">-->
+                                <!--<title>Banner Slider</title>-->
+                                <!--<sort_order>0</sort_order>-->
+                                <!--<children>-->
+                                    <!--<manage translate="title" module="bannerslider">-->
+                                        <!--<title>Manage Sliders</title>-->
+                                        <!--<sort_order>0</sort_order>-->
+                                    <!--</manage>-->
+                                    <!--<config translate="title" module="bannerslider">-->
+                                        <!--<title>Configuration</title>-->
+                                        <!--<sort_order>1</sort_order>-->
+                                    <!--</config>-->
+                                <!--</children>-->
+                            <!--</bannerslider>-->
+                        <!--</children>-->
+                    <!--</shopgo>-->
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bannerslider translate="title" module="bannerslider">
+                                        <title>ShopGo Banner Slider</title>
+                                    </bannerslider>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

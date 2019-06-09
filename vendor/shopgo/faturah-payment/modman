@@ -1,0 +1,3 @@
+app/code/community/Faturah/Pay/                               app/code/community/Faturah/Pay/
+app/design/frontend/base/default/template/faturah/pay/        app/design/frontend/base/default/template/faturah/pay/
+app/etc/modules/Faturah_Pay.xml                               app/etc/modules/Faturah_Pay.xml

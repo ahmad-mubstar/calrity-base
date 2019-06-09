@@ -1,0 +1,14 @@
+<?php if ( Mage::getStoreConfig('social/facebook/enabled') && Mage::getStoreConfig('social/facebook/enable_og_tags') ) : ?>
+    <meta property="fb:app_id" content="<?php echo Mage::getStoreConfig('social/facebook/client_id'); ?>"/>
+    <meta property="og:url" content="<?php echo $this->helper('core/url')->getCurrentUrl();?>" />
+    <meta property="og:site_name" content="<?php echo Mage::app()->getStore()->getName(); ?>" />
+    <?php if (Mage::registry('current_product')) : ?>
+        <meta property="og:image" content="<?php echo Mage::helper('catalog/image')->init(Mage::registry('current_product'), 'image');?>" />
+        <meta property="og:title" content="<?php echo strip_tags(Mage::registry('current_product')->getName()); ?>" /> 
+        <meta property="og:description" content="<?php echo strip_tags(Mage::registry('current_product')->getDescription()); ?>" /> 
+    <?php else : ?>
+        <meta property="og:image" content="<?php echo Mage::getSingleton('core/layout')->getBlock('head')->getFaviconFile(); ?>" />
+        <meta property="og:title" content="<?php echo strip_tags($this->getLayout()->getBlock('head')->getTitle()); ?>" />
+        <meta property="og:description" content="<?php echo strip_tags(Mage::getStoreConfig('design/head/default_description')); ?>" /> 
+    <?php endif; ?>
+<?php endif; ?>

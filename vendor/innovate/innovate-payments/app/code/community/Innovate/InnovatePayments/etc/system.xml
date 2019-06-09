@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category	Innovate
+ * @package	Innovate_InnovatePayments
+ * @copyright	Copyright (c) 2011 Innovate Payments (http://www.innovatepayments.com/)
+ */
+-->
+<config>
+  <sections>
+    <payment>
+      <groups>
+        <innovatepayments_cc translate="label" module="innovatepayments">
+          <label>InnovatePayments Credit Card</label>
+          <frontend_type>text</frontend_type>
+          <sort_order>1</sort_order>
+          <show_in_default>1</show_in_default>
+          <show_in_website>1</show_in_website>
+	  <show_in_store>0</show_in_store>
+	  <comment><![CDATA[<a href="http://www.innovatepayments.com/apply.php" target="_blank">Click here to apply for an InnovatePayments account</a>]]></comment>
+          <fields>
+            <active translate="label">
+              <label>Enabled</label>
+              <frontend_type>select</frontend_type>
+              <source_model>adminhtml/system_config_source_yesno</source_model>
+              <sort_order>10</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>0</show_in_store>
+            </active>
+            <order_status translate="label">
+              <label>New order status</label>
+              <frontend_type>select</frontend_type>
+              <source_model>adminhtml/system_config_source_order_status_processing</source_model>
+              <sort_order>20</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>0</show_in_store>
+            </order_status>
+            <title translate="label">
+              <label>Title</label>
+              <frontend_type>text</frontend_type>
+              <sort_order>30</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>0</show_in_store>
+            </title>        
+            <allowspecific translate="label">
+              <label>Payment to applicable countries</label>
+              <frontend_type>allowspecific</frontend_type>
+              <sort_order>40</sort_order>
+              <source_model>adminhtml/system_config_source_payment_allspecificcountries</source_model>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </allowspecific>
+            <specificcountry translate="label">
+              <label>Payment to Specific countries</label>
+              <frontend_type>multiselect</frontend_type>
+              <sort_order>50</sort_order>
+              <source_model>adminhtml/system_config_source_country</source_model>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </specificcountry>
+            <store_id translate="label">
+              <label>Store ID</label>
+              <frontend_type>text</frontend_type>
+              <sort_order>60</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>0</show_in_store>
+            </store_id>
+            <security_key translate="label,comment">
+              <label>Secret Key</label>
+              <comment>Must match the key used in the store configuration. Key type must be sha1.</comment>
+              <frontend_type>text</frontend_type>
+              <sort_order>70</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>0</show_in_store>
+            </security_key>
+            <tran_desc translate="label,comment">
+              <label>Transaction Description</label>
+              <comment>Set to the description you want to appear on the InnovatePayments gateway.</comment>
+              <frontend_type>text</frontend_type>
+              <sort_order>71</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+	      <show_in_store>0</show_in_store>
+            </tran_desc>
+            <transaction_testmode translate="label">
+              <label>Test Mode</label>
+              <frontend_type>select</frontend_type>
+              <source_model>adminhtml/system_config_source_yesno</source_model>
+              <sort_order>80</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>0</show_in_store>
+            </transaction_testmode>
+            <autocapture translate="label">
+              <label>Automatic Capture</label>
+              <comment>If this is set to 'No' then you will need to manually capture each order to recieve payment. This must match the auto-capture setting within Innovate Payments.</comment>
+              <frontend_type>select</frontend_type>
+              <source_model>adminhtml/system_config_source_yesno</source_model>
+              <sort_order>90</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>0</show_in_store>
+            </autocapture>
+            <auth_password translate="label,comment">
+              <label>Authorisation password</label>
+              <comment>Required for manual capture requests. This is the same password as is used for remote connections, not the secret key used for the hosted payment pages.</comment>
+              <frontend_type>text</frontend_type>
+              <sort_order>100</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>0</show_in_store>
+            </auth_password>
+            <server_ip translate="label,comment">
+              <label>Server IP list </label>
+              <comment>List of the InnovatePayment server IP addresses to verify callback requests.</comment>
+              <frontend_type>text</frontend_type>
+              <sort_order>110</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+	      <show_in_store>0</show_in_store>
+            </server_ip>
+          </fields>
+        </innovatepayments_cc>
+      </groups>
+    </payment>
+  </sections>
+</config>

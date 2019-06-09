@@ -1,0 +1,7 @@
+app/code/community/Shopgo/Social/                                        app/code/community/Shopgo/Social/
+app/design/frontend/base/default/layout/shopgo/social.xml                app/design/frontend/base/default/layout/shopgo/social.xml
+app/design/frontend/base/default/template/shopgo/social/                 app/design/frontend/base/default/template/shopgo/social/
+app/etc/modules/Shopgo_Social.xml                                        app/etc/modules/Shopgo_Social.xml
+app/locale/ar_SA/Shopgo_Social.csv                                       app/locale/ar_SA/Shopgo_Social.csv
+app/locale/en_US/Shopgo_Social.csv                                       app/locale/en_US/Shopgo_Social.csv
+skin/frontend/base/default/shopgo/social/                                skin/frontend/base/default/shopgo/social/

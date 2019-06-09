@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <shopgo module="swinzoom">
+            <title>ShopGo</title>
+            <sort_order>71</sort_order>
+            <children>
+                <swinzoom module="swinzoom">
+                    <depends>
+                        <module>HideMe</module> <!-- Fake dependance to hide menu item -->
+                    </depends>
+                    <title>ShopGo Swinzoom</title>
+                    <sort_order>99</sort_order>
+                    <action>adminhtml/system_config/edit/section/shopgo_swinzoom</action>
+                </swinzoom>
+            </children>
+        </shopgo>
+    </menu>
+	<acl>
+	    <resources>
+	        <all>
+	            <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <shopgo_swinzoom>
+                                        <title>Swinzoom</title>
+                                    </shopgo_swinzoom>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

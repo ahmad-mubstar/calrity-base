@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config>
+	<menu>
+	    <shopgo module="styleeditor">
+			<depends>
+				<module>HideMe</module> <!-- Fake dependance to hide menu item -->
+			</depends>
+			<title>ShopGo</title>
+			<sort_order>100</sort_order>
+			<children>
+				<items module="styleeditor">
+					<title>Style Editor</title>
+					<sort_order>0</sort_order>
+					<action>adminhtml/system_config/edit/section/styleeditor</action>
+				</items>
+			</children>
+		</shopgo>
+	</menu>
+	<acl>
+		<resources>
+			<all>
+				<title>Allow Everything</title>
+			</all>
+			<admin>
+				<children>
+					<styleeditor translate="title">
+						<title>StyleEditor Module</title>
+						<sort_order>10</sort_order>
+					</styleeditor>
+					<system>
+						<children>
+							<config>
+								<children>
+									<styleeditor translate="title" module="styleeditor">
+										<title>StyleEditor Settings</title>
+										<sort_order>50</sort_order>
+									</styleeditor>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>

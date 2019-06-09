@@ -1,0 +1,14 @@
+{
+    "name": "magestore/notification",
+    "type": "magento-module",
+    "description": "Magestore Notification Magento extension",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name": "Magestore",
+            "email": "support@magestore.com"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<layout>
+    <shopgo_flipper_handle>
+        <reference name="content">
+            <block type="shopgo_flipper/flipper" name="shopgo.flipper.init" after="-" template="shopgo/flipper/init.phtml"/>
+        </reference>
+    </shopgo_flipper_handle>
+
+    <shopgo_flipper_handle_product_list>
+        <reference name="product_list">
+            <block type="shopgo_flipper/flipper" name="shopgo.flipper" as="shopgo.flipper"/>
+            <block type="shopgo_flipper/image_old" name="shopgo.flipper.image" as="shopgo.flipper.image"/>
+        </reference>
+    </shopgo_flipper_handle_product_list>
+
+    <shopgo_flipper_handle_search_result_list>
+        <reference name="search_result_list">
+            <block type="shopgo_flipper/flipper" name="shopgo.flipper" as="shopgo.flipper"/>
+            <block type="shopgo_flipper/image_old" name="shopgo.flipper.image" as="shopgo.flipper.image"/>
+        </reference>
+    </shopgo_flipper_handle_search_result_list>
+
+    <catalog_category_default>
+        <update handle="shopgo_flipper_handle"/>
+        <update handle="shopgo_flipper_handle_product_list"/>
+    </catalog_category_default>
+    <catalog_category_layered>
+        <update handle="shopgo_flipper_handle"/>
+        <update handle="shopgo_flipper_handle_product_list"/>
+    </catalog_category_layered>
+    <catalogsearch_result_index>
+        <update handle="shopgo_flipper_handle"/>
+        <update handle="shopgo_flipper_handle_search_result_list"/>
+    </catalogsearch_result_index>
+    <catalogsearch_advanced_result>
+        <update handle="shopgo_flipper_handle"/>
+        <update handle="shopgo_flipper_handle_search_result_list"/>
+    </catalogsearch_advanced_result>
+</layout>

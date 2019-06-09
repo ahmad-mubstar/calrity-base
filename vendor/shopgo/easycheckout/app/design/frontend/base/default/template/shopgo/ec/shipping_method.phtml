@@ -1,0 +1,41 @@
+<?php if (!Mage::getSingleton('checkout/session')->getQuote()->isVirtual()): ?>
+<div id="shipping-method" class="ui form segment shipping-method">
+    <div class="ui inverted dimmer">
+        <div class="content">
+            <div class="center"><div class="ui text loader"><?php echo $this->__('Loading')?></div></div>
+        </div> 
+    </div>
+    <h3 class="ui small header">
+        <i class="truck icon large"></i>
+        <div class="content">
+            <?php echo $this->__('Shipping Method') ?>
+            <div class="sub header"><?php echo Mage::getStoreConfig('ec/ux/shipping_method_tag') ?></div>
+        </div>
+    </h3>
+    <?php 
+        if(Mage::getSingleton('customer/session')->isLoggedIn())
+            echo $this->getChildHtml('available');
+        else 
+            echo '<p class="shipping-error-message">'.$this->__('Please specify the shipping address to see available options.').'</p>';
+     ?>
+    <?php 
+		$collection = Mage::helper('ec')->getAttributeCollection();
+		$collection->addShowInShippingMethodBlockFilter();
+	?>
+	<?php if ($collection->getSize() > 0) : ?>
+    	<div id="aw-orderattributes-checkoutonepage-attributes-container-shipping-method">
+            <?php foreach($collection as $attribute):?>
+                <?php
+                $html = $attribute->unpackData()->getTypeModel()->getFrontendFormRenderer()
+                    ->setValue($this->getValueByAttributeId($attribute->getId()))
+                    ->getHtml(true);
+                ?>
+                <?php if(strlen(trim($html)) > 0) :?>
+                        <div class="field"><?php echo $html;?></div>
+                <?php endif;?>
+            <?php endforeach;?>
+    	</div>
+	<?php endif;?>
+	<div class="ui error message"></div>
+</div>
+<?php endif ?>

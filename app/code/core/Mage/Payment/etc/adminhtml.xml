@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    Mage
+ * @package     Mage_Payment
+ * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <payment translate="title" module="payment">
+                                        <title>Payment Methods</title>
+                                        <children>
+                                            <pg translate="title">
+                                                <title>Knet</title>
+                                            </pg>
+                                            <innovatepayments_cc translate="title">
+                                                <title>InnovatePayments Credit Card</title>
+                                            </innovatepayments_cc>
+                                            <creditcard translate="title" module="shippingcore">
+                                                <title>Checkout.com credit card</title>
+                                            </creditcard>
+                                            <payfort translate="title">
+                                                <title>PayFort (Global Configuration)</title>
+                                            </payfort>
+                                            <payfortcc translate="title">
+                                                <title>PayFort Credit / Debit Cards Payment Method</title>
+                                            </payfortcc>
+                                            <payfortsadad translate="title">
+                                                <title>PayFort Sadad Payment Method</title>
+                                            </payfortsadad>
+                                            <payfortnaps translate="title">
+                                                <title>PayFort NAPS Payment Method</title>
+                                            </payfortnaps>
+                                            <paytabs_server translate="title">
+                                                <title>PayTabs.com</title>
+                                            </paytabs_server>
+                                            <zainiraq translate="title">
+                                                <title>Zain Iraq</title>
+                                            </zainiraq>
+                                            <cashu_prepaid translate="title">
+                                                <title>CashU</title>
+                                            </cashu_prepaid>
+                                            <banktransfer translate="title">
+                                                <title>Bank Transfer</title>
+                                            </banktransfer>
+                                            <cashondelivery translate="title">
+                                                <title>Cash On Delivery</title>
+                                            </cashondelivery>
+                                            <purchaseorder translate="title">
+                                                <title>Purchase Order</title>
+                                            </purchaseorder>
+                                            <free translate="title">
+                                                <title>Zero Subtotal Checkout</title>
+                                            </free>
+                                            <tco translate="title">
+                                                <title>2Checkout</title>
+                                            </tco>
+                                            <checkmo translate="title">
+                                                <title>Check / Money Order</title>
+                                            </checkmo>
+                                            <account translate="title">
+                                                <title>Merchant Location</title>
+                                            </account>
+                                            <paypal_payment_solutions translate="title">
+                                                <title>PayPal Payment Solutions</title>
+                                            </paypal_payment_solutions>
+                                            <paypal_group_all_in_one translate="title">
+                                                <title>PayPal All-in-One Payment Solutions Accept and process credit
+                                                    cards and PayPal payments.
+                                                </title>
+                                            </paypal_group_all_in_one>
+                                        </children>
+                                    </payment>
+                                    <!--<payment_services translate="title" module="payment">-->
+                                        <!--<title>Payment Services</title>-->
+                                    <!--</payment_services>-->
+                                    <!--<payment translate="title" module="payment">-->
+                                        <!--<title>Payment Methods</title>-->
+                                        <!--<children>-->
+                                            <!--<ccsave translate="title" module="shippingcore">-->
+                                                <!--<title>Saved CC</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</ccsave>-->
+                                            <!--<tco translate="title" module="shippingcore">-->
+                                                <!--<title>2Checkout</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</tco>-->
+                                            <!--<checkmo translate="title" module="shippingcore">-->
+                                                <!--<title>Check / Money Order</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</checkmo>-->
+                                            <!--<free translate="title" module="shippingcore">-->
+                                                <!--<title>Zero Subtotal Checkout</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</free>-->
+                                            <!--<purchaseorder translate="title" module="shippingcore">-->
+                                                <!--<title>Purchase Order</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</purchaseorder>-->
+                                            <!--<banktransfer translate="title" module="shippingcore">-->
+                                                <!--<title>Bank Transfer Payment</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</banktransfer>-->
+                                            <!--<cashondelivery translate="title" module="shippingcore">-->
+                                                <!--<title>Cash On Delivery Payment</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</cashondelivery>-->
+                                            <!--<authorizenet translate="title" module="shippingcore">-->
+                                                <!--<title>Authorize.net</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</authorizenet>-->
+                                            <!--<account translate="title" module="shippingcore">-->
+                                                <!--<title>Merchant Location</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</account>-->
+                                            <!--<paypal_group_all_in_one translate="title" module="shippingcore">-->
+                                                <!--<title>PayPal All-in-One Payment Solutions Accept and process credit-->
+                                                    <!--cards and PayPal payments.-->
+                                                <!--</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</paypal_group_all_in_one>-->
+                                            <!--<paypal_payment_gateways translate="title" module="shippingcore">-->
+                                                <!--<title>PayPal Payment Gateways</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</paypal_payment_gateways>-->
+                                            <!--<paypal_alternative_payment_methods translate="title" module="shippingcore">-->
+                                                <!--<title>PayPal Express Checkout</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</paypal_alternative_payment_methods>-->
+                                            <!--<paypal_payment_solutions translate="title" module="shippingcore">-->
+                                                <!--<title>PayPal Payment Solutions</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</paypal_payment_solutions>-->
+                                            <!--<authorizenet_directpost translate="title" module="shippingcore">-->
+                                                <!--<title>Authorize.net Direct Post</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</authorizenet_directpost>-->
+                                            <!--<cashu_prepaid translate="title" module="shippingcore">-->
+                                                <!--<title>CashU Prepaid</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</cashu_prepaid>-->
+                                            <!--<creditcardpci translate="title" module="shippingcore">-->
+                                                <!--<title>Checkout.com credit card (PCI version)</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</creditcardpci>-->
+                                            <!--<creditcard translate="title" module="shippingcore">-->
+                                                <!--<title>Checkout.com credit card (Non PCI version)v</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</creditcard>-->
+                                            <!--<faturah translate="title" module="shippingcore">-->
+                                                <!--<title>Faturah Payment Method</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</faturah>-->
+                                            <!--<paymentgateway translate="title" module="shippingcore">-->
+                                                <!--<title>Gate2Play</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</paymentgateway>-->
+                                            <!--<innovatepayments_cc translate="title" module="shippingcore">-->
+                                                <!--<title>InnovatePayments Credit Card</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</innovatepayments_cc>-->
+                                            <!--<pg translate="title" module="shippingcore">-->
+                                                <!--<title>Knet Payment Gateway</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</pg>-->
+                                            <!--<onecardpay translate="title" module="shippingcore">-->
+                                                <!--<title>Onecard Payment Method</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</onecardpay>-->
+                                            <!--<payfort translate="title" module="shippingcore">-->
+                                                <!--<title>PayFort (Global Configuration)</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</payfort>-->
+                                            <!--<payfortcc translate="title" module="shippingcore">-->
+                                                <!--<title>PayFort Credit / Debit Cards Payment Method</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</payfortcc>-->
+                                            <!--<payfortsadad translate="title" module="shippingcore">-->
+                                                <!--<title>PayFort Sadad Payment Method</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</payfortsadad>-->
+                                            <!--<payfortnaps translate="title" module="shippingcore">-->
+                                                <!--<title>PayFort NAPS Payment Method</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</payfortnaps>-->
+                                            <!--<phoenix_cashondelivery translate="title" module="shippingcore">-->
+                                                <!--<title>Cash on Delivery</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</phoenix_cashondelivery>-->
+                                            <!--<paytabs_server translate="title" module="shippingcore">-->
+                                                <!--<title>Credit Cards Powered by PayTabs.com</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</paytabs_server>-->
+                                            <!--<zainiraq translate="title" module="shippingcore">-->
+                                                <!--<title>Shopgo Zain Iraq Payment</title>-->
+                                                <!--<sort_order>10</sort_order>-->
+                                            <!--</zainiraq>-->
+                                        <!--</children>-->
+                                    <!--</payment>-->
+                                    <!--<payment_services translate="title" module="payment">-->
+                                        <!--<title>Payment Services</title>-->
+                                    <!--</payment_services>-->
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

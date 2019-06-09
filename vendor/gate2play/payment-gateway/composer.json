@@ -1,0 +1,14 @@
+{
+    "name": "gate2play/payment-gateway",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "Gate2play payment Magento extension",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Gate2play"
+        }
+    ]
+}

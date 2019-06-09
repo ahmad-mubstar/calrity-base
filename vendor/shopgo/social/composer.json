@@ -1,0 +1,15 @@
+{
+    "name": "shopgo/social",
+    "type": "magento-module",
+    "description": "Social Magento extension",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "shopgo/facebook-api": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "ShopGo",
+            "email": "ali@shopgo.me"
+        }
+    ]
+}

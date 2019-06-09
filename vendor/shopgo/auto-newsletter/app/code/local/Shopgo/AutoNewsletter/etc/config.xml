@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shopgo_AutoNewsletter>
+            <version>1.0.0</version>
+        </Shopgo_AutoNewsletter>
+    </modules>
+    <global>
+        <helpers>
+            <autonewsletter>
+                <class>Shopgo_AutoNewsletter_Helper</class>
+            </autonewsletter>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <customer>
+                <args>
+                    <modules>
+                        <Shopgo_AutoNewsletter before="Mage_Customer_AccountController">Shopgo_AutoNewsletter_Customer</Shopgo_AutoNewsletter>
+                    </modules>
+                </args>
+            </customer>
+        </routers>
+        <layout>
+            <updates>
+                <autonewsletter>
+                    <file>shopgo/autonewsletter.xml</file>
+                </autonewsletter>
+            </updates>
+        </layout>
+    </frontend>
+</config>

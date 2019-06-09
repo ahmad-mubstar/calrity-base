@@ -1,0 +1,15 @@
+{
+    "name": "aheadworks/blog",
+    "type": "magento-module",
+    "license": "EULA",
+    "description": "The Blog extension for Magento gives you a noteworthy opportunity to communicate with your regular customers and casual visitors. With Magento Blog you can create an interactive two-way communication platform to provide official information on your store news, upcoming products, promotions, and get customers’ feedback.",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "aheadworks/all": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "aheadWorks"
+        }
+    ]
+}

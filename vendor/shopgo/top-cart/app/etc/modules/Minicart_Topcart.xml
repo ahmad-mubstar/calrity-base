@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Minicart_Topcart>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Minicart_Topcart>
+    </modules>
+</config>

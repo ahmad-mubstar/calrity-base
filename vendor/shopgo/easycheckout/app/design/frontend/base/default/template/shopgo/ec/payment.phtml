@@ -1,0 +1,37 @@
+<div class="ui form segment payment">
+    <div class="ui inverted dimmer">
+        <div class="ui text loader"><?php echo $this->__('Loading')?></div>
+    </div>
+    <h3 class="ui small header">
+        <i class="payment icon large"></i>
+        <div class="content">
+            <?php echo $this->__('Payment Information') ?>
+            <div class="sub header"><?php echo Mage::getStoreConfig('ec/ux/payment_information_tag') ?></div>
+        </div>
+    </h3>
+    <?php 
+        if(Mage::getSingleton('customer/session')->isLoggedIn())
+            echo $this->getChildHtml('methods');
+        else
+            echo '<p class="payment-error-message">'.$this->__('Please specify the shipping method to see available payment options.').'</p>';
+    ?>
+    <?php 
+		$collection = Mage::helper('ec')->getAttributeCollection();
+		$collection->addShowInPaymentMethodBlockFilter();
+	?>
+	<?php if ($collection->getSize() > 0) : ?>
+    	<div id="aw-orderattributes-checkoutonepage-attributes-container-payment-method">
+   			<?php foreach($collection as $attribute):?>
+           		<?php
+                	$html = $attribute->unpackData()->getTypeModel()->getFrontendFormRenderer()
+                    	->setValue($this->getValueByAttributeId($attribute->getId()))
+                    	->getHtml(true);
+                ?>
+                <?php if(strlen(trim($html)) > 0) :?>
+                	<div class="field"><?php echo $html;?></div>
+                <?php endif;?>
+            <?php endforeach;?>
+    	</div>
+	<?php endif;?>
+	<div class="ui error message"></div>
+</div>

@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <shopgo translate="title" module="ec">
+            <title>Shopgo</title>
+            <sort_order>100</sort_order>               
+            <children>
+                <ec translate="title" module="ec">
+                    <depends>
+                        <module>HideMe</module> <!-- Fake dependance to hide menu item -->
+                    </depends>
+                    <title>Easy Checkout</title>
+                    <sort_order>0</sort_order>
+                    <children>
+                        <configuration>
+                            <title>Configuration</title>
+                            <sort_order>1</sort_order>
+                            <action>adminhtml/system_config/edit/section/ec</action>
+                        </configuration>
+                    </children>
+                    <depends>
+                        <module>hideMe</module>
+                    </depends>
+                </ec>
+            </children>
+        </shopgo>
+
+        <system translate="title" module="adminhtml">
+            <title>System</title>
+            <sort_order>90</sort_order>
+            <children>
+                <store translate="title" module="core">
+                    <title>Store Setup</title>
+                    <sort_order>1</sort_order>
+                    <children>
+                        <ec translate="title" module="ec">
+                        <title>Checkout</title>
+                        <sort_order>30</sort_order>
+                        <children>
+                        <configuration>
+                        <title>Configuration</title>
+                        <sort_order>1</sort_order>
+                        <action>adminhtml/system_config/edit/section/ec</action>
+                        </configuration>
+                        </children>
+                        </ec>
+                    </children>
+                </store>
+            </children>
+        </system>
+
+
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <ec translate="title">
+                                        <title>EC Module</title>
+                                        <sort_order>10</sort_order>
+                                    </ec>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <shopgo translate="title" module="ec">
+                        <title>Shopgo</title>
+                        <sort_order>71</sort_order>
+                        <children>
+                            <ec translate="title">
+                                <title>EC</title>
+                                <children>
+                                    <configuration translate="title">
+                                        <title>Configuration</title>
+                                        <sort_order>1</sort_order>
+                                    </configuration>
+                                </children>
+                            </ec>
+                        </children>
+                    </shopgo>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

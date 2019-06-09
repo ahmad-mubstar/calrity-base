@@ -1,0 +1,89 @@
+* Select shipping method,* اختر طريقة الشحن 
+AVS Status: %s,AVS اوضاع: %s
+Add,إضافة
+Add Shipping Method,إضافة طريقة شحن
+Allowed Methods,الطرق المسموحة
+Amount: %s,كمية: %s
+Auto-generated from GoogleCheckout Charge,متولد آليا من صفحة دفع غوغل
+Buyer account age: %s days,حساب العمرللمشتري: %بالايام
+CC Partial: xxxx-%s,بطاقة دفع ائتمانية جزئي: xxxx-%s
+CID Status: %s,حالة CID:٪ s
+Carrier Calculated Methods,طرق النقل المحسوبة
+Cart Discount,سلة الخصم
+Checkout Image Style,اسلوب صورة صفحة الدفع
+Continue Shopping URL,رابط استمرار التسوق
+Debug,نقح
+Default Package Height (in),ارتفاع الحزمة الافتراضي (انش)
+Default Package Length (in),طول الحزمة الافتراضي (انش)
+Default Package Width (in),عرض الحزمة الافتراضي (انش)
+Default price for methods,السعر الافتراضي للطرق
+Default price:,سعر افتراضي:
+Delivery Address Category,فئة عنوان التسليم
+Delivery schedule,جدول التسليم
+Disable Default Tax Tables,تعطيل جداول الضرائب الافتراضية
+Eligible for protection: %s,المستحقين للحمايه: %s
+Enable,تفعيل
+Enable Carrier Calculated,تفعيل المحسوبة
+Enable Digital Delivery,تمكين التوصيل الرقمي
+Enable Flat Rate,تفعيل النسبة الثابتة
+Enable Merchant Calculated,تفعيل التاجر محسوب
+Enable this if your checkout request is too big and being cut off.,تمكين هذا إذا طلب السحب الخاصة بك كبيرة جدا ويتم قطع.
+Expiration: %s,انتهاء: %s
+Financial: %s -> %s,مالي: %s -> %s
+Free Shipping,الشحن المجاني
+Fulfillment: %s -> %s,إنجاز: %s -> %s
+Google API,تطبيق غوغل
+Google Authorization:,تصريح الغوغل:
+Google Buyer Id: %s,رمز التعريفي لمشتري الغوغل: %s
+Google Charge:,المسؤل عن الغوغل:
+Google Checkout,تاكيد الغوغل
+Google Checkout Shipping - Carrier Calculated,صور الخروج النقل البحري -- محسوبه الناقل
+Google Checkout Shipping - Digital Delivery,شحن صفحة دفع غوغل - التوصيل الرقمي
+Google Checkout Shipping - Flat Rate,شحن صفحة دفع غوغل -- معدل ثابت
+Google Checkout Shipping - Merchant Calculated,شحن صفحة دفع غوغل -- حساب التاجر
+Google Checkout: %s,صفحة دفع غوغل: %s
+Google Order Number: %s,اعداد اوامر الغوغل: %s
+Google Refund:,اعادة ايجاد غوغل:
+Google Risk Information:,صور المعلومات عن المخاطر:
+Google order status change:,تغير اوضاع اوامر الغوغل:
+Hide Cart Contents During Checkout,اخفاء محتويات السلة خلال الخروج
+IP Address: %s,عنوان الملكية الفكرية: %s
+"If enabled, cart contents will be hidden after clicking on the Google Checkout button in the shopping cart, and restored if ""Edit Cart"" link was activated.","في حال التفعيل، محتويات سلة التسوق ستكون مخفية بعد النقر على زر صفحة دفع غوغل في سلة التسوق، و سيتم الاسترجاع في حال تفعيل رابط ""تحرير سلة الدفع"""
+Invoice auto-created: %s,انشاء الفاتورة الالي: %s
+Is Buyer Willing To Receive Marketing E-Mails: %s,هل المشتري لديه الرغبة باستلام رسائل اعلانية: %s
+Large - %s,كبير - %s
+Latest Charge: %s,اخر دفع: %s
+Latest Refund: %s,آخر رد: %s
+Location,موقع
+Medium - %s,متوسط - %s
+Merchant ID,رمز تعريف التاجر
+Merchant Key,مفتاح التاجر
+Method,طريقة
+New order status,وضع امر جديد
+No,لا
+"Optional, leave empty for home page.",اختياري ، اتركه فارغا للصفحه الرئيسية.
+Rate 1 Amount,معدل 1 المبلغ
+Rate 1 Ship To Applicable Countries,معدل 1 السفينة إلى البلدان المطبقة
+Rate 1 Ship to Specific Countries,معدل 1 السفينة إلى دول معينة
+Rate 1 Title,معدل 1 العنوان
+Rate 2 Amount,معدل 2 المبلغ
+Rate 2 Ship To Applicable Countries,معدل 2 الشحن إلى البلدان المطبقة
+Rate 2 Ship to Specific Countries,معدل 2 الشحن إلى دول معينة
+Rate 2 Title,معدل 2 عنوان
+Rate 3 Amount,معدل 3 المبلغ
+Rate 3 Ship To Applicable Countries,معدل 3 الشحن إلى البلدان المطبقة
+Rate 3 Ship to Specific Countries,معدل 3 الشحن لدول معينة
+Rate 3 Title,معدل 3 عنوان
+Remove,إزالة
+Required for live Google Checkout transactions.,مطلوب لمعاملات صفحة دفع غوغل.
+Sandbox,تجريبي
+Secure Callback URL,استدعاء رابط آمن
+Small - %s,صغير -٪ الصورة
+Total Charged: %s,إجمالي التكلفة:٪ ق
+Total Refunded: %s,إجمالي تم رد:٪ ق
+Transparent,شفاف
+United Kingdom,المملكة المتحدة
+United States,الولايات المتحدة الامريكانية
+Virtual item to reflect discount total,منتج افتراضي لعكس مجموع الخصم
+White Background,خلفية بيضاء
+You will be redirected to GoogleCheckout in a few seconds.,سيتم توجيهك إلى صفحة دفع غوغل في بضع ثوان.

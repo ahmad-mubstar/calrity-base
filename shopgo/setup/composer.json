@@ -1,0 +1,27 @@
+{
+    "require": {
+        "bragento/magento-composer-installer": "~1",
+        "shopgo/magento-core-1": "1.9.2.4"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://magento1.satis.shopgo.io",
+            "options": {
+                "ssh2": {
+                    "username": "composer",
+                    "pubkey_file": "~/.ssh/packages.pub",
+                    "privkey_file": "~/.ssh/packages"
+                }
+            }
+        }
+    ],
+    "extra": {
+        "magento-root-dir": "../../",
+        "magento-core-deploy" : {
+            "excludes": [
+                "composer.json"
+            ]
+         }
+    }
+}

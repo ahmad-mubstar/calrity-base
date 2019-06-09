@@ -1,0 +1,89 @@
+<?php
+/**
+ * @var Shopgo_EC_Block_Adminhtml_System_Config_Update_Button $this
+ */
+?>
+
+<script type="text/javascript">
+//<![CDATA[
+    var u;
+
+    function enableUpdateButton() {
+        Form.Element.enable('update_button');
+        $('update_button').removeClassName('disabled');
+    }
+
+    function disableUpdateButton() {
+        Form.Element.disable('update_button');
+        $('update_button').addClassName('disabled');
+    }
+
+    function checkUpdate() {
+        u = new Ajax.PeriodicalUpdater('', '<?php echo $this->getAjaxCheckUpdateUrl() ?>', {
+            method:     'get',
+            frequency:  1,
+            loaderArea: false,
+
+            onSuccess: function(transport) {
+                try {
+                    //
+                } catch (e) { }
+            }
+        });
+    }
+
+    function updateEC() {
+        var proceed = confirm(Translator.translate('Are you sure?'));
+        if(!proceed) return;
+        disableUpdateButton();
+        $('update_span_error').addClassName('no-display');
+        $('update_span_success').addClassName('no-display');
+        $('update_span').removeClassName('no-display');
+        $('update_message_span').update('Please wait ...');
+        new Ajax.Request('<?php echo $this->getAjaxUpdateUrl() ?>', {
+            loaderArea:     false,
+            aupdatehronous:   true,
+            onSuccess: function(transport) {
+                enableUpdateButton();
+                var response = eval('(' + transport.responseText + ')');
+                if (response.status == 'success') {
+                    $('update_span').addClassName('no-display');
+                    $('update_span_success').removeClassName('no-display').update(response.message);
+                    setTimeout(function() {
+                        document.location.reload();
+                    }, 3000);
+                } else {
+                    $('update_span').addClassName('no-display');
+                    $('update_span_error').removeClassName('no-display').update(response.message);
+                }
+                u.stop();
+            }
+        });
+        // window.setTimeout('checkUpdate()', 1000);
+    }
+//]]>
+</script>
+
+<?php 
+//
+$helper = Mage::helper('ec');
+if($helper->checkUpdate()): 
+?>
+
+<?php echo $this->getButtonHtml() ?>
+
+<p class="note"><span><span style="color:#F30">Warning: It's not recommended to use this feature if you have any customization on your checkout page, any custom changes will be lost!</span></span></p>
+
+<span class="update-indicator no-display" id="update_span">
+    <img alt="Update" style="margin:0 5px" src="<?php echo $this->getSkinUrl('images/process_spinner.gif') ?>"/>
+    <span id="update_message_span"></span>
+</span>
+&nbsp;
+<span class="no-display error" id="update_span_error"></span>
+<span class="no-display success" style="color:green" id="update_span_success"></span>
+
+<?php else: ?>
+
+<span style="color: green !important;"><?php echo $this->__('Up to date.'); ?></span>
+
+<?php endif; ?>

@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Shopgo_Follow>
+            <version>1.0.1</version>
+        </Shopgo_Follow>
+    </modules>
+	<global>
+		<helpers>
+			<follow>
+				<class>Shopgo_Follow_Helper</class>
+			</follow>
+		</helpers>
+		<models>
+			<follow>
+				<class>Shopgo_Follow_Model</class>
+			</follow>
+		</models>
+		<blocks>
+			<follow>
+				<class>Shopgo_Follow_Block</class>
+			</follow>
+		</blocks>
+	</global>
+	<frontend>
+		<routers>
+			<follow>
+				<use>standard</use>
+				<args>
+					<module>Shopgo_Follow</module>
+					<frontName>Follow</frontName>
+				</args>
+			</follow>
+		</routers>
+        <layout>
+            <updates>
+                <follow module="Shopgo_Follow">
+                    <file>shopgo/follow.xml</file>
+                </follow>
+            </updates>
+        </layout>
+	</frontend>
+	<adminhtml>
+		<menu>
+			<shopgo>
+				<title>ShopGO</title>
+				<sort_order>87</sort_order>
+				<children>
+					<follow>
+						<title>ShopGo Follow</title>
+						<sort_order>87</sort_order>
+						<action>adminhtml/system_config/edit/section/shopgo_follow_cfg/</action>
+					</follow>
+				</children>
+			</shopgo>
+		</menu>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<shopgo_follow_cfg translate="title" module="follow">
+											<title>ShopGo Follow Section</title>
+											<sort_order>150</sort_order>
+										</shopgo_follow_cfg>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+		<translate>
+			<modules>
+				<Shopgo_Follow>
+					<files>
+						<default>Shopgo_Follow.csv</default>
+					</files>
+				</Shopgo_Follow>
+			</modules>
+		</translate>
+	</adminhtml>
+	<default>
+		<shopgo_follow_cfg module="follow">
+			<social>
+				<status><![CDATA[1]]></status>
+				<items><![CDATA[a:4:{s:18:"_1421667028377_377";a:5:{s:5:"title";s:8:"Facebook";s:4:"link";s:33:"https://www.facebook.com/ShopGoMe";s:4:"icon";s:11:"fa-facebook";s:6:"target";s:6:"_blank";s:5:"color";s:7:"#3197f7";}s:18:"_1421667029127_127";a:5:{s:5:"title";s:7:"Twitter";s:4:"link";s:28:"https://twitter.com/ShopGoME";s:4:"icon";s:10:"fa-twitter";s:6:"target";s:6:"_blank";s:5:"color";s:7:"#16def0";}s:18:"_1421667030241_241";a:5:{s:5:"title";s:7:"Youtube";s:4:"link";s:41:"http://www.youtube.com/user/ShopGoChannel";s:4:"icon";s:10:"fa-youtube";s:6:"target";s:6:"_blank";s:5:"color";s:7:"#e82a2a";}s:18:"_1421668695552_552";a:5:{s:5:"title";s:7:"Google+";s:4:"link";s:43:"https://plus.google.com/u/0/+ShopgoMe/posts";s:4:"icon";s:14:"fa-google-plus";s:6:"target";s:6:"_blank";s:5:"color";s:7:"#e81212";}}]]></items>
+			</social>
+		</shopgo_follow_cfg>
+	</default>
+</config>

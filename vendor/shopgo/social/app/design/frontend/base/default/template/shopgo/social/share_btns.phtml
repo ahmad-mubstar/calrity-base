@@ -1,0 +1,87 @@
+<div class="shopgo-social">
+    <?php
+        $currentStore = Mage::app()->getStore(); 
+
+        $enabledconfig = Mage::getStoreConfig('social/share_btns/enabled');
+        if($enabledconfig): 
+
+        $services =  explode(',' , Mage::getStoreConfig('social/share_btns/icons'));
+        $iconColor = Mage::getStoreConfig('social/share_btns/iconscolor');
+        $iconSize = Mage::getStoreConfig('social/share_btns/iconsize');
+        $iconShape = Mage::getStoreConfig('social/share_btns/iconshape');
+        $iconBgColor = Mage::getStoreConfig('social/share_btns/background');
+        $current_product_url = Mage::registry('current_product')->getProductUrl()  . '?___store=' . $currentStore->getCode();
+        $current_product_img = Mage::registry('current_product')->getImageUrl() . '?___store=' . $currentStore->getCode();
+        //
+        if(count($services)) {
+            //
+            $javaScriptArray = array();
+            foreach ($services as $icon) {
+                if(empty($icon))
+                    continue;
+                $specialClass = str_replace("icon icon", "share", $icon);
+                array_push($javaScriptArray, $specialClass);
+                echo '<i class="'.$icon.' icon-sharer" data-share="'.$specialClass.'"></i>';
+            }
+        }
+    ?>
+
+    <style type="text/css">
+        .shopgo-social{font-size: 20px;}
+        .icon-sharer{
+            color :#<?php echo $iconColor; ?>!important;
+            background-color: #<?php echo $iconBgColor; ?>!important;
+            font-size:<?php echo $iconSize;?>!important;
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+            cursor: pointer;
+            <?php 
+            switch ($iconShape){
+                case "circle":
+                    echo 'border-radius:100%;';
+                    break;
+                case "radius":
+                    echo 'border-radius:4px;';
+                    break;
+            }
+            ?>
+        }
+        .icon-sharer:first-child{margin-left: 0;}
+    </style>
+
+    <script type="text/javascript">
+        /**/
+        function socialBind(){
+            var sharers = document.getElementsByClassName("icon-sharer"); 
+            for(var i=0; i<sharers.length; i++) { 
+                sharers[i].onclick = function(event) { 
+                    shareService =event.target.dataset.share;
+                    if(shareService == 'share-facebook') {
+                        shareWindowOpen('https://www.facebook.com/sharer/sharer.php?u=<?php echo $current_product_url;?>');
+                    }
+                    if(shareService == 'share-twitter') {
+                        shareWindowOpen('https://twitter.com/intent/tweet?source=webclient&text=<?php echo $current_product_url;?>');
+                    }
+                    if(shareService == 'share-google-plus') {
+                        shareWindowOpen('https://plus.google.com/share?url=<?php echo $current_product_url;?>');
+                    }
+                    if(shareService == 'share-pinterest') {
+                        shareWindowOpen('http://pinterest.com/pin/create/button/?url=<?php echo $current_product_url;?>&media=<?php echo $current_product_img;?>');
+                    }
+                    if(shareService == 'share-tumblr') {
+                        shareWindowOpen('http://www.tumblr.com/share?v=3&u=//<?php echo str_replace("http://", "", $current_product_url);?>')
+                    }
+                } 
+            }
+        }
+
+        function shareWindowOpen(link){
+            window.open(link,"","width=600,height=400");
+        }
+        /**/
+        socialBind();
+    </script>
+
+    <?php endif; ?>
+</div>

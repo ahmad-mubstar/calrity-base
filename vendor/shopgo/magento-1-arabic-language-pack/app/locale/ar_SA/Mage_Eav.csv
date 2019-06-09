@@ -1,0 +1,50 @@
+Attempt to add an invalid object,محاولة إضافة غير صحيحة
+Attribute '%s' used in configurable products.,السمة المستخدمة '%s' في منتجات التهيئة.
+"Attribute set with the ""%s"" name already exists","مجموعة السمات ""%s"" موجودة بالفعل"
+Attribute used in configurable products.,السمة مستخدمة في منتجات التهيئة
+Attribute with the same code,سمة بنفس الرمز
+Data integrity: No header row found for attribute,سلامة البيانات : لا يوجد رأس صف لهذه السمة
+Default Product Listing Sort by not exists on Available Product Listing Sort by,فرز قوائم المنتجات الأساسي غير متوفر في فرز قوائم المنتجات المتاحة
+Default option value is not defined,قيمة الخيار الافتراضية غير معرفة
+EAV types and attributes,أنواع وسمات EAV
+Entity collection expected,مجموعة الكيانات المتوقعة
+Entity collections expected,مجموعات الكيانات المتوقعة
+Entity is not initialized,الكيان لم تتم تهيئته
+Failed to load node %s from config.,فشل تحميل node٪ s من التشكيل.
+Frontend label is not defined,علامة الواجهة غير محددة
+"Invalid alias, already exists in joined attributes",الاسم المستعار غير صحيح ، موجود بالفعل في الصفات المشتركة
+Invalid attribute name: %s,اسم السمة غير صحيح: %s
+Invalid attribute requested: %s,طلب السمة غير صحيح: %s
+Invalid attribute type,نوع السمة غير صحيح
+Invalid character encountered in increment ID: %s,تم اكتشاف حرف غير صالح بمعرف الزيادة:٪ s
+Invalid data object key,بيانات غير صحيحة
+Invalid entity specified,تم تحديد كائن غير صالح
+Invalid entity supplied,تم توريد كائن غير صالح
+Invalid entity supplied: %s,تم توريد كائن غير صالح: %s
+Invalid entity type,نوع كائن غير صحيح
+"Invalid entity_id, skipping the record",Entity_id غير صحيح ، تخطى سجل
+Invalid entity_type specified: %s,Entity_type المحدد غير صحيح: %s
+Invalid foreign key,مفتاح غير صحيح
+Invalid joined fields,حقول مرتبطة غير صحيحة
+Invalid store specified,المتجر المحدد غير صحيح
+Joined field or attribute expression with this alias is already declared,الحقل أو سمة التعبير مع هذا الاسم المستعار سبق الإعلان عنهم
+Joined field with this alias (%s) is already declared,هذا الحقل مع الاسم المستعار (%s) سبق الإعلان عنه
+Joined field with this alias is already declared,الحقل مع هذا الاسم المستعار سبق الإعلان عنه
+Loaded %d records,تحميل %d تسجيلات
+No,لا
+No options found in config node %s,لا توجد خيارات في عقدة الإعدادت %s
+"Problem loading a record, aborting. Error: %s","مشكلة في تحميل سجل, إحباط . خطأ: %s"
+"Problem loading the collection, aborting. Error: %s","مشكلة تحميل المجموعة, إحباط . خطأ: %s"
+"Problem saving a record, aborting. Error: ","مشكلة حفظ السجل , إحباط . خطأ: %s"
+"Problem saving the collection, aborting. Error: %s","مشكلة حفظ المجموعة , إحباط . خطأ: %s"
+Saved ,تم الحفظ 
+"Scope must not be changed, because the attribute is used in configurable products.","المجال لايمكن تغييره, لأن السمة تم استخدامها في منتجات التهيئة"
+"The attribute code '%s' is reserved by system. Please, try another attribute code.","رمز السمة '%s' محجوز من النظام . من فضلك, حاول مع رمز سمة مختلف"
+Unknown parameter,معامل غير معروف
+Valid store_id is expected!,رمز store_id صالح متوقع!
+"Value of attribute ""%s"" must be unique","قيمة السمة ""%s"" لابد ان تكون فريدة"
+Wrong attribute ID,رمز التعريفي خاطئ لسمة
+Wrong attribute group ID,الرمز التعريفي خاطئ لمجموعة السمات
+Wrong attribute set ID,رمز تعريفي خاطئ لمجموعة السمات
+Wrong entity ID,رمز تعريفي خاطئ للكيان
+Yes,نعم

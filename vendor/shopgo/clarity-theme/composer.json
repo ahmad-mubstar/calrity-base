@@ -1,0 +1,32 @@
+{
+    "name": "shopgo/clarity-theme",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "ShopGo Clarity theme",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "obukhow/adaptive-resize": "dev-master",
+        "inchoo/featured-products": "dev-master",
+        "magestore/mega-menu": "dev-master",
+        "shopgo/top-cart": "dev-master",
+        "shopgo/follow": "~1.0",
+        "shopgo/banner-slider": "dev-master",
+        "shopgo/probadge": "dev-master",
+        "tm-shopgo/easy-tabs": "1.2.2",
+        "manadev/infinite-scrolling": "~14.06",
+        "manadev/seo-layered-navigation-plus": "~14.11",
+        "shopgo/product-flipper": "dev-master",
+        "shopgo/shopgo-quickview-2": "dev-master",
+        "shopgo/swinxy-zoom": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Talal",
+            "email": "talal@shopgo.me"
+        },
+        {
+            "name": "ShopGo",
+            "email": "support@shopgo.me"
+        }
+    ]
+}

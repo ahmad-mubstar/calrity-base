@@ -1,0 +1,15 @@
+{
+    "name": "shopgo/cashu-payment",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "CashU prepaid payment Magento extension",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Aya Mousa",
+            "email": "aya@shopgo.me"
+        }
+    ]
+}

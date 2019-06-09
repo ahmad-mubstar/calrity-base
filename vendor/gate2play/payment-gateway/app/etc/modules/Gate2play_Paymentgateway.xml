@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Gate2play Payment payment method model.
+ *
+ * @category   Gate2play
+ * @package    Gate2play_Paymentgateway
+ * @author     gate2play.com
+ */
+-->
+<config>
+    <modules>
+        <Gate2play_Paymentgateway>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Gate2play_Paymentgateway>
+    </modules>
+   <depends> 
+        <Mage_Paygate/>
+        <Mage_Sales/>
+        <Mage_Checkout/>
+    </depends> 
+</config>

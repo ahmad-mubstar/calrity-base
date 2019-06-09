@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+    <!--<menu>
+        <switcher module="switcher">
+                    <title>Shopgo</title>
+                    <sort_order>100</sort_order>               
+                    <children>
+                            <items module="switcher">
+                                    <title>Products Badges</title>
+                                    <sort_order>0</sort_order>
+                                    <action>switcher/adminhtml_switcher</action>
+                            </items>
+                    </children>
+            </switcher>
+    </menu>-->
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <!--<Shopgo_Switcher>-->
+                        <!--<title>Switcher Module</title>-->
+                        <!--<sort_order>10</sort_order>-->
+                    <!--</Shopgo_Switcher>-->
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <switcher translate="title" module="switcher"> 
+                                        <title>Customer Actions Tracker</title>
+                                        <sort_order>50</sort_order>
+                                    </switcher>
+                                </children>							
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

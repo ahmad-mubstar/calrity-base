@@ -1,0 +1,164 @@
+.catalogsearch-result-index {
+    h1 {
+        font-size: 14px;
+    }
+    .note-msg, .notice-msg {
+        background-color: #e3e3cf;
+        color: #909083;
+        border: 0;
+        font-size: 12px;
+        /* @replace: "JF Flat Regular", Arial, Helvetica, sans-serif */
+        font-family: @font-family-sans-serif;
+    }
+}
+
+.form-search {
+    margin-bottom: (@line-height-computed / 2);
+    position: relative;
+
+    // Style up the autocomplete to be just
+    // like a TWBS list group.
+    .search-autocomplete {
+        z-index: @zindex-dropdown;
+
+        li {
+            .list-group-item();
+            cursor: pointer;
+
+            .amount {
+                float: right;
+            }
+
+            // Bootstrap uses a hidden list
+            // item for the first child, so
+            // we target the first child to
+            // [class="first"].
+            &.first {
+                .border-top-radius(@list-group-border-radius);
+            }
+
+            // Hover state
+            &:hover,
+            &:focus {
+                text-decoration: none;
+                background-color: @list-group-hover-bg;
+            }
+
+            // When somebody selects an item
+            &.selected,
+            &.selected:hover,
+            &.selected:focus {
+                z-index: 2; // Place active items above their siblings for proper border styling
+                color: @list-group-active-color;
+                background-color: @list-group-active-bg;
+                border-color: @list-group-active-border;
+            }
+        }
+    }
+}
+
+// Advanced Search
+.advanced-search .form-list {
+
+    .input-range {
+        line-height: @input-height-base;
+        small {
+            float: right;
+        }
+    }
+}
+
+.advanced-search-amount {
+
+}
+
+.advanced-search-summary {
+    .well();
+    .well-sm();
+    .clearfix();
+
+    ul {
+        margin-bottom: 0;
+        padding-left: (@grid-gutter-width / 2);
+        padding-right: (@grid-gutter-width / 2);
+    }
+
+    strong {
+        color: @brand-primary;
+    }
+
+    p {
+        clear: both;
+        padding: (@line-height-computed / 2) (@grid-gutter-width / 2) 0;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+
+    @media (min-width: @screen-xs) {
+        ul {
+            float: left;
+            width: 50%;
+        }
+    }
+}
+
+//Top search
+
+.menu-search {
+    .form-search {
+        .input-group {
+            width: 100%;
+        }
+        position: relative;
+        input#search {
+            height: 26px;
+            width: 0px;
+            position: absolute;
+            border-right: none;
+            top: 3px;
+            left: 0px;
+            z-index: 0;
+            opacity: 0;
+            visibility: hidden;
+            .transition(1s);
+        }
+        button {
+            float: right;
+            border: none;
+            outline: none !important;
+            box-shadow: none;
+            padding: 0 !important;
+            position: relative;
+            .fa-search {
+                outline: 0;
+                position: relative;
+                color: #cdcdcd;
+                background: #fff;
+                border: 1px solid #cdcdcd;
+                border-radius: 50%;
+                padding: 0.5rem;
+                cursor: pointer;
+                .transition(0.3s);
+            }
+        }
+    }
+    .form-search.active {
+        .fa-search {
+            background: #444;
+            color: #fff;
+            .transition(0.3s);
+        }
+        button {
+            width: 26px;
+            display: block;
+        }
+        input#search {
+            width: 160px;
+            left: -160px;
+            opacity: 1;
+            visibility: visible;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+    }
+}

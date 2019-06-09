@@ -1,0 +1,71 @@
+<!--
+╭━━━┳╮╱╱╱╱╱╱╱╭━━━╮╱╱╱╱╱╭━━━╮╭╮╱╱╱╱╭╮╱╱╱╭━━━╮╱╭╮╭╮
+┃╭━╮┃┃╱╱╱╱╱╱╱┃╭━╮┃╱╱╱╱╱┃╭━╮┣╯╰╮╱╱╱┃┃╱╱╱┃╭━━╯╱┃┣╯╰╮
+┃╰━━┫╰━┳━━┳━━┫┃╱╰╋━━╮╱╱┃╰━━╋╮╭╋╮╱╭┫┃╭━━┫╰━━┳━╯┣╮╭╋━━┳━╮
+╰━━╮┃╭╮┃╭╮┃╭╮┃┃╭━┫╭╮┣━━╋━━╮┃┃┃┃┃╱┃┃┃┃┃━┫╭━━┫╭╮┣┫┃┃╭╮┃╭╯
+┃╰━╯┃┃┃┃╰╯┃╰╯┃╰┻━┃╰╯┣━━┫╰━╯┃┃╰┫╰━╯┃╰┫┃━┫╰━━┫╰╯┃┃╰┫╰╯┃┃
+╰━━━┻╯╰┻━━┫╭━┻━━━┻━━╯╱╱╰━━━╯╰━┻━╮╭┻━┻━━┻━━━┻━━┻┻━┻━━┻╯
+╱╱╱╱╱╱╱╱╱╱┃┃╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
+╱╱╱╱╱╱╱╱╱╱╰╯╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
+-->
+<?php
+
+$themeData = $this->getThemeData();
+
+?>
+<div id="loader"></div>
+<div id="page">
+    <header id="header" role="banner">
+        <div class="header-inner">
+            <section class="material-design-hamburger">
+                <button class="material-design-hamburger__icon" data-name="hide" value="Toggle" id="sidebar-toggle">
+                    <span class="material-design-hamburger__layer material-design-hamburger__icon--to-arrow"></span>
+                </button>
+            </section>
+            <div id="logo"><h1>ShopGo Style Editor</h1></div>
+            <div class="theme-info">
+                <div class="theme-name"><?php echo ucfirst($themeData->theme_name) ?></div>
+                <div class="theme-version"><?php echo $themeData->theme_version; ?></div>
+            </div>
+        </div>
+    </header>
+    <div id="content" role="main">
+        <div id="sidebar" class="sui-wrap">
+            <div class="sui-forms sui-container">
+                <form ng-controller="saveController" ng-submit="saveForm()" id="sui-form" enctype="multipart/form-data"
+                      method="post">
+                    <div class="form-body" ng-controller="fileuploader">
+                        <input type="hidden" name="form_key"
+                               value="<?php echo Mage::getSingleton('core/session')->getFormKey(); ?>"/>
+
+                        <div class="frm-row">
+                            <?php foreach ($themeData->sections as $section): ?>
+                                <div class="sections">
+
+                                    <div class="section-title">
+                                        <div class="tagline"><span><?php echo $section['title']; ?> </span></div>
+                                    </div>
+                                    <?php
+                                    foreach ($section['fields'] as $field) {
+                                        echo $this->draw_field($field);
+                                    }
+                                    ?>
+                                </div>
+                            <?php endforeach; ?>
+
+                        </div>
+
+                        <div class="form-footer">
+                            <button type="submit" class="button btn-primary">Save</button>
+                            <button type="reset" class="button" id="sui-reset">Reset</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- -->
+    <div ng-controller="iframeController" id="iframeContainer">
+        <iframe id="preview-iframe" iframe-onload="iframeLoadedCallBack()" ng-model="previewIframe" src=""
+                frameborder="0" scrolling="yes"/>
+    </div>
+</div>

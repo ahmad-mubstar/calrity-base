@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>	
+    <modules>    
+        <Shopgo_Quickview>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Catalog />
+            </depends>
+            <version>1.0.2</version>
+        </Shopgo_Quickview>
+    </modules>
+</config>

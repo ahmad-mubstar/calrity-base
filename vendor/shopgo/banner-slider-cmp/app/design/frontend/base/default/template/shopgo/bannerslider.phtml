@@ -1,0 +1,134 @@
+<?php
+    $helper = Mage::helper('bannerslider');
+    if ($bannersCollection = $this->getBannersliderCollection($this->getData('position'))):
+?>
+<?php if ($helper->getConfig('slider/type') == 'basic'): ?>
+<div id="banner-slider-b" class="flexslider">
+    <ul class="slides">
+        <?php foreach ($bannersCollection as $banner): ?>
+        <li>
+            <?php
+                $href = $banner->getLink() ? $helper->getLink($banner->getLink(), $banner->getLinkType()) : '';
+                if ($banner->getTitle()) {
+                    $alt   = strip_tags($banner->getTitle());
+                    $title = ' title="' . $alt . '"';
+                }
+                $bannerImg = $helper->getImage($banner->getImage());
+            ?>
+            <?php if ($href): ?>
+            <a href="<?php echo $href ?>" target="<?php echo $banner->getLinkTarget() ?>"<?php echo $title ?>><img src="<?php echo $bannerImg ?>" alt="<?php echo $alt ?>" /></a>
+            <?php else: ?>
+            <img src="<?php echo $bannerImg ?>" alt="<?php echo $alt ?>" />
+            <?php endif ?>
+            <?php if ($banner->getAddText() && ($banner->getTitle() || $banner->getDescription())): ?>
+            <div class="slider-text">
+                <div class="shadow"></div>
+                <div class="content">
+                    <?php if ($banner->getTitle()): ?>
+                    <h3><?php echo $banner->getTitle() ?></h3>
+                    <?php endif ?>
+                    <?php if ($banner->getDescription()): ?>
+                    <p><?php echo $banner->getDescription() ?></p>
+                    <?php endif ?>
+                </div>
+            </div>
+            <?php endif ?>
+        </li>
+        <?php endforeach ?>
+    </ul>
+</div>
+<?php endif ?>
+<?php if ($helper->getConfig('slider/type') == 'thumb'): ?>
+<div id="banner-slider-t" class="flexslider">
+    <ul class="slides">
+        <?php foreach ($bannersCollection as $banner): ?>
+        <li>
+            <?php
+                $href = $banner->getLink() ? $helper->getLink($banner->getLink(), $banner->getLinkType()) : '';
+                if ($banner->getTitle()) {
+                    $alt   = strip_tags($banner->getTitle());
+                    $title = ' title="' . $alt . '"';
+                }
+                $bannerImg = $helper->getImage($banner->getImage());
+            ?>
+            <?php if ($href): ?>
+            <a href="<?php echo $href ?>" target="<?php echo $banner->getLinkTarget() ?>"<?php echo $title ?>><img src="<?php echo $bannerImg ?>" alt="<?php echo $alt ?>" /></a>
+            <?php else: ?>
+            <img src="<?php echo $bannerImg ?>" alt="<?php echo $alt ?>" />
+            <?php endif ?>
+            <?php if ($banner->getAddText() && ($banner->getTitle() || $banner->getDescription())): ?>
+            <div class="slider-text">
+                <div class="shadow"></div>
+                <div class="content">
+                    <?php if ($banner->getTitle()): ?>
+                    <h3><?php echo $banner->getTitle() ?></h3>
+                    <?php endif ?>
+                    <?php if ($banner->getDescription()): ?>
+                    <p><?php echo $banner->getDescription() ?></p>
+                    <?php endif ?>
+                </div>
+            </div>
+            <?php endif ?>
+        </li>
+        <?php endforeach ?>
+    </ul>
+</div>
+<div id="banner-carousel-t" class="flexslider">
+    <ul class="slides">
+        <?php foreach ($bannersCollection as $banner): ?>
+        <?php $alt = $banner->getTitle() ? strip_tags($banner->getTitle()) : '' ?>
+        <li><img src="<?php echo $helper->getImage($banner->getImage()) ?>" alt="<?php echo $alt ?>" /></li>
+        <?php endforeach ?>
+    </ul>
+</div>
+<?php endif ?>
+<?php if ($helper->getConfig('slider/type') == 'thumb_cvp'): ?>
+<div id="banner-slider-tcvp" class="flexslider">
+    <ul class="slides">
+        <?php foreach ($bannersCollection as $banner): ?>
+        <?php $bannerImg = $helper->getImage($banner->getImage()) ?>
+        <li data-thumb="<?php echo $bannerImg ?>">
+            <?php
+                $href = $banner->getLink() ? $helper->getLink($banner->getLink(), $banner->getLinkType()) : '';
+                if ($banner->getTitle()) {
+                    $alt   = strip_tags($banner->getTitle());
+                    $title = ' title="' . $alt . '"';
+                }
+            ?>
+            <?php if ($href): ?>
+            <a href="<?php echo $href ?>" target="<?php echo $banner->getLinkTarget() ?>"<?php echo $title ?>><img src="<?php echo $bannerImg ?>" alt="<?php echo $alt ?>" /></a>
+            <?php else: ?>
+            <img src="<?php echo $bannerImg ?>" alt="<?php echo $alt ?>" />
+            <?php endif ?>
+            <?php if ($banner->getAddText() && ($banner->getTitle() || $banner->getDescription())): ?>
+            <div class="slider-text">
+                <div class="shadow"></div>
+                <div class="content">
+                    <?php if ($banner->getTitle()): ?>
+                    <h3><?php echo $banner->getTitle() ?></h3>
+                    <?php endif ?>
+                    <?php if ($banner->getDescription()): ?>
+                    <p><?php echo $banner->getDescription() ?></p>
+                    <?php endif ?>
+                </div>
+            </div>
+            <?php endif ?>
+        </li>
+        <?php endforeach ?>
+    </ul>
+</div>
+<?php endif ?>
+<script type="text/javascript">
+    <?php $sliderConfig = $this->getSliderConfig() ?>
+    var shopgoBannerslider = {
+        enabled: <?php echo $helper->getConfig('general/enabled') ?>,
+        type: '<?php echo $sliderConfig['type'] ?>',
+        animation: '<?php echo $sliderConfig['animation'] ?>',
+        easing: '<?php echo $sliderConfig['easing'] ?>',
+        timeout: <?php echo $sliderConfig['timeout'] ?>,
+        speed: <?php echo $sliderConfig['speed'] ?>,
+        pause: <?php echo $sliderConfig['pause'] ?>,
+        loop: <?php echo $sliderConfig['loop'] ?>
+    };
+</script>
+<?php endif ?>

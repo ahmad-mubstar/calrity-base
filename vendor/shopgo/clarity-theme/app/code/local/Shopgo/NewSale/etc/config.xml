@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shopgo_NewSale>
+            <version>1.0.0</version>
+        </Shopgo_NewSale>
+    </modules>
+
+	<global>
+		<helpers>
+			<NewSale><class>Shopgo_NewSale_Helper</class></NewSale>
+		</helpers>
+	</global>    
+</config>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shopgo_AdminLogin>
+            <version>1.0.1</version>
+        </Shopgo_AdminLogin>
+    </modules>
+    <global>
+        <helpers>
+            <adminlogin>
+                <class>Shopgo_AdminLogin_Helper</class>
+            </adminlogin>
+            <adminhtml>
+                <rewrite>
+                    <data>Shopgo_AdminLogin_Helper_Adminhtml_Data</data>
+                </rewrite>
+            </adminhtml>
+        </helpers>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <page_header>Shopgo_AdminLogin_Block_Adminhtml_Page_Header</page_header>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <adminlogin>
+                    <file>shopgo/adminlogin.xml</file>
+                </adminlogin>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

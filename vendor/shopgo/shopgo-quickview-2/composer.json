@@ -1,0 +1,15 @@
+{
+    "name": "shopgo/shopgo-quickview-2",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "ShopGo Quickview 2",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Talal Suhail",
+            "email": "talal@shopgo.me"
+        }
+    ]
+}

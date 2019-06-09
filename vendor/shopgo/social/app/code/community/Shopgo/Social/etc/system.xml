@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+     <tabs>
+        <shopgo translate="label">
+            <label>Shopgo Extensions</label>
+            <sort_order>250</sort_order>
+        </shopgo>
+    </tabs>
+    <sections>
+        <social translate="label">
+            <label>Shopgo Social</label>
+            <tab>shopgo</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>90</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <share_btns translate="label">
+                    <label>Share Buttons Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>2</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <icons translate="label comment">
+                            <label>Share Services</label>
+                            <comment>Select Services you want (Multi-select)</comment>
+                            <frontend_type>multiselect</frontend_type>
+                            <source_model>shopgo_social/system_config_source_icons</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </icons>
+                        <iconsize translate="label comment">
+                            <label>Icons Size</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>shopgo_social/system_config_source_iconsize</source_model>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </iconsize>
+                        <iconshape translate="label comment">
+                            <label>Icons Shape</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>shopgo_social/system_config_source_iconshape</source_model>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </iconshape>
+                        <iconscolor translate="label comment">
+                            <label>Icons Color</label>
+                            <comment>Icons Color</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>5</sort_order>
+                            <validate>color</validate>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </iconscolor>
+                        <background translate="label comment">
+                            <label>Background Color</label>
+                            <comment>Background Color of the Icons</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>6</sort_order>
+                            <validate>color</validate>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </background>
+                    </fields>
+                </share_btns>
+                <google translate="label" module="shopgo_social">
+                    <label>Social Connect Google Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>120</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <client_id translate="label" module="shopgo_social">
+                            <label>Google API Client ID</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><enabled>1</enabled></depends>
+                            <validate>required-entry</validate>
+                        </client_id>
+                        <client_secret translate="label" module="shopgo_social">
+                            <label>Google API Client Secret</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><enabled>1</enabled></depends>
+                            <validate>required-entry</validate>
+                        </client_secret>
+                        <links translate="label" module="shopgo_social">
+                            <label>Links</label>
+                            <frontend_type>label</frontend_type>
+                            <frontend_model>shopgo_social/google_adminhtml_system_config_form_field_links</frontend_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </links>
+                        <origin translate="label" module="shopgo_social">
+                            <label>JavaScript Origins</label>
+                            <frontend_type>label</frontend_type>
+                            <frontend_model>shopgo_social/google_adminhtml_system_config_form_field_origins</frontend_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </origin>
+                        <redirect translate="label" module="shopgo_social">
+                            <label>Redirect URIs</label>
+                            <frontend_type>label</frontend_type>
+                            <frontend_model>shopgo_social/google_adminhtml_system_config_form_field_redirects</frontend_model>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </redirect>
+                    </fields>
+                </google>
+                <facebook translate="label" module="shopgo_social">
+                    <label>Social Connect Facebook Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>130</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <client_id translate="label" module="shopgo_social">
+                            <label>Facebook App ID</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><enabled>1</enabled></depends>
+                            <validate>required-entry</validate>
+                        </client_id>
+                        <client_secret translate="label" module="shopgo_social">
+                            <label>Facebook App Secret</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><enabled>1</enabled></depends>
+                            <validate>required-entry</validate>
+                        </client_secret>
+                        <enable_og_tags translate="label">
+                            <label>Enable OpenGraph tags</label>
+                            <comment><![CDATA[ Allow the plugin to add <a href="http://ogp.me/">Open Graph</a> meta tags automatically ]]>
+                            </comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable_og_tags>
+                        <share_orders translate="label">
+                            <label>Share orders</label>
+                            <comment><![CDATA[ Enable share success orders on Facebook user profile ]]>
+                            </comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </share_orders>
+                        <show_comments translate="label">
+                            <label>Show comments</label>
+                            <comment><![CDATA[ Enable Facebook comments on the product view page ]]>
+                            </comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </show_comments>
+                        <links translate="label" module="shopgo_social">
+                            <label>Links</label>
+                            <frontend_type>label</frontend_type>
+                            <frontend_model>shopgo_social/facebook_adminhtml_system_config_form_field_links</frontend_model>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </links>
+                        <origin translate="label" module="shopgo_social">
+                            <label>App Domains</label>
+                            <frontend_type>label</frontend_type>
+                            <frontend_model>shopgo_social/facebook_adminhtml_system_config_form_field_origins</frontend_model>
+                            <sort_order>80</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </origin>
+                        <redirect translate="label" module="shopgo_social">
+                            <label>Site URL</label>
+                            <frontend_type>label</frontend_type>
+                            <frontend_model>shopgo_social/facebook_adminhtml_system_config_form_field_redirects</frontend_model>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </redirect>
+                    </fields>
+                </facebook>
+                <twitter translate="label" module="shopgo_social">
+                    <label>Social Connect Twitter Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>140</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <client_id translate="label" module="shopgo_social">
+                            <label>Consumer Key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><enabled>1</enabled></depends>
+                            <validate>required-entry</validate>
+                        </client_id>
+                        <client_secret translate="label" module="shopgo_social">
+                            <label>Consumer Secret</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><enabled>1</enabled></depends>
+                            <validate>required-entry</validate>
+                        </client_secret>
+                        <links translate="label" module="shopgo_social">
+                            <label>Links</label>
+                            <frontend_type>label</frontend_type>
+                            <frontend_model>shopgo_social/twitter_adminhtml_system_config_form_field_links</frontend_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </links>
+                        <origin translate="label" module="shopgo_social">
+                            <label>Website</label>
+                            <frontend_type>label</frontend_type>
+                            <frontend_model>shopgo_social/twitter_adminhtml_system_config_form_field_origins</frontend_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </origin>
+                        <redirect translate="label" module="shopgo_social">
+                            <label>Callback URL</label>
+                            <frontend_type>label</frontend_type>
+                            <frontend_model>shopgo_social/twitter_adminhtml_system_config_form_field_redirects</frontend_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </redirect>
+                    </fields>
+                </twitter>
+                <linkedin translate="label" module="shopgo_social">
+                    <label>Social Connect LinkedIn Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>150</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <client_id translate="label" module="shopgo_social">
+                            <label>LinkedIn API Key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><enabled>1</enabled></depends>
+                            <validate>required-entry</validate>
+                        </client_id>
+                        <client_secret translate="label" module="shopgo_social">
+                            <label>LinkedIn Secret Key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><enabled>1</enabled></depends>
+                            <validate>required-entry</validate>
+                        </client_secret>
+                        <links translate="label" module="shopgo_social">
+                            <label>Links</label>
+                            <frontend_type>label</frontend_type>
+                            <frontend_model>shopgo_social/linkedin_adminhtml_system_config_form_field_links</frontend_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </links>
+                        <origin translate="label" module="shopgo_social">
+                            <label>Website URL</label>
+                            <frontend_type>label</frontend_type>
+                            <frontend_model>shopgo_social/linkedin_adminhtml_system_config_form_field_origins</frontend_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </origin>
+                        <redirect translate="label" module="shopgo_social">
+                            <label>OAuth 2.0 Redirect URLs</label>
+                            <frontend_type>label</frontend_type>
+                            <frontend_model>shopgo_social/linkedin_adminhtml_system_config_form_field_redirects</frontend_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </redirect>
+                    </fields>
+                </linkedin>
+            </groups>
+        </social>
+    </sections>
+</config>

@@ -1,0 +1,37 @@
+<div class="social-icons">
+    <?php
+    $follow = Mage::helper('follow/data');
+
+    if ($follow->getField('social_status')) :
+
+        $items = $follow->getField('social_items');
+        $array_items = unserialize($items);
+        $id = 1;
+        $collect_items = array();
+        foreach ($array_items as $key => $item) {
+            $item['id'] = $id;
+            $item['link'] = Mage::helper('cms')->getBlockTemplateProcessor()->filter($item['link']);
+            $item['class'] = ($item['icon']) ? 'fa ' . $item['icon'] : '';
+            $collect_items[] = $item;
+            $id++;
+        }
+        ?>
+        <ul class="social-links">
+            <?php foreach ($collect_items as $item) : ?>
+                <li>
+                    <a
+                        id="social_item_<?php echo $item['id']; ?>"
+                        class="<?php echo $item['class']; ?>"
+                        data-toggle="tooltip"
+                        data-original-title="<?php echo $item['title']; ?>"
+                        href="<?php echo $item['link']; ?>"
+                        target="<?php echo $item['target']; ?>"
+                        title="<?php echo $item['title']; ?>"
+                        rel="nofollow">
+                        <?php //echo $item['title']; ?>
+                    </a>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    <?php endif; ?>
+</div>

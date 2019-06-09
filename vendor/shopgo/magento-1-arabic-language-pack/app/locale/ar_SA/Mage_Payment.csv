@@ -1,0 +1,43 @@
+--Please Select--,--أختر من فضلك--
+<label>Make Check payable to:</label> %s,<label>اجعل الشيك مدفوعا لـ:</label> %s
+<label>Make Check payable to</label>: %s,<label>اجعل الشيك مدفوعا لـ:</label> %s
+Automatically invoice all items,قم بإنشاء فاتورة لجميع السلع بشكل تلقائي
+Can not configuration for payment method with code: %s,لا يمكن تشكيل طريقة الدفع مع الرمز: %s
+Can not retrieve payment info model object.,لا يمكن استرداد كائن نموذج معلومات الدفع.
+Can not retrieve payment method instance,لا يمكن استرداد مثال طريقة الدفع.
+Can not retrieve payment method model object.,لا يمكن استرداد كائن نموذج طريقة الدفع.
+Card Verification Number,رقم تأكيد بطاقة الائتمان
+Check / Money order,شيك / طلب المال
+Credit Card Number,رقم بطاقة الائتمان
+Credit Card Number: %s,رقم بطاقة الائتمان: %s
+Credit Card Number: xxxx-%s,رقم بطاقة الائتمان: xxxx-%s
+Credit Card Type,نوع بطاقة الأئتمان
+Credit Card Type: %s,نوع بطاقة الأئتمان %s
+Credit Card Types,انواع بطاقات الإئتمان
+Credit Card Verification,تأكيد بطاقة الإئتمان
+Enabled,مفعل
+Expiration Date,تاريخ الانتهاء
+Expiration Date: %s/%s,تاريخ الإنتهاء: %s/%s
+Make Check payable to,اجعل الشيك مدفوعا الى
+Make Check payable to: %s,اجعل الشيك مدفوعا الى: %s
+Maximum Order Total,الحد الأقصى لمجموع الطلب
+Minimum Order Total,الحد االأدنى لمجموع الطلب
+Month,شهر
+Name on Card,الاسم على البطاقة
+Name on the Card: %s,الاسم على البطاقة: %s
+New order status,حالة الطلب الجديد
+Payment Methods,طرق الدفع
+Payment Methods Section,قسم طرق الدفع
+Payment from Specific countries,الدفع من بلدان معينة
+Payment from applicable countries,الدفع من البلدان المطبقه
+Purchase Order Number,رقم طلب الشراء
+Purchase Order Number: %s,رقم طلب الشراء: %s
+Purchase order,طلب الشراء
+Saved CC,بطاقات إئتمانية مخزنة
+Send Check to,ارسل الشيك الى
+Send Check to:,ارسل الشيك الى:
+Sort order,ترتيب
+Title,العنوان
+What is this?,ما هذا ؟
+Year,السنة
+Zero Subtotal Checkout,عملية شراء بمجموع فرعي صفر

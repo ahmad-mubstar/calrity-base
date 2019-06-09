@@ -1,0 +1,151 @@
+@import "../../bower_components/bootstrap/less/input-groups.less";
+
+.input-group-addon label {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+input.input-text, select, textarea {
+    background: #fff;
+    border: 1px solid #eee;
+    box-shadow: none !important;
+}
+
+input {
+    box-shadow: none !important;
+}
+
+.input-text:focus {
+    border: 1px solid #eee;
+}
+
+.input-text {
+    color: #888;
+    font-style: italic;
+    /* @replace: "JF Flat Regular", Arial, Helvetica, sans-serif */
+    font-family: @font-family-sans-serif;
+    font-size: 12px;
+    height: 30px;
+}
+
+.form-search {
+    width: 40px;
+    .input-text {
+        color: #bbb;
+        /* @replace: "JF Flat Regular", Arial, Helvetica, sans-serif */
+        font-family: @font-family-sans-serif;
+        font-size: 11px;
+    }
+    .input-group-addon {
+        display: none;
+    }
+    .btn-default {
+        height: 30px;
+        border: 1px solid #eee;
+        color: #aaa;
+        padding: 5px 12px !important;
+        //.transition(.3s);
+        &:hover {
+            background: #fff;
+        }
+        &:focus {
+            background: transparent;
+        }
+    }
+    button:focus {
+        outline: 0;
+    }
+    #search_autocomplete {
+        ul li {
+            padding: 3px 10px;
+            color: #ccc;
+            /* @replace: "JF Flat Regular", Arial, Helvetica, sans-serif */
+            font-family: @font-family-sans-serif;
+            font-size: 11px;
+        }
+        li.selected, li.selected:focus, li.selected:hover {
+            color: #fff;
+        }
+    }
+}
+
+.toolbar {
+    position: relative;
+    .select-wrapper {
+        i {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            color: #888;
+            z-index: -1;
+        }
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        border: 1px solid #ddd;
+        border-radius: 0;
+        height: 30px;
+    }
+    select {
+        padding-top: 0;
+        -webkit-appearance: initial;
+        background: transparent;
+        border: none;
+        width: 115px !important;
+        padding: 0 0 0 5px;
+        font-style: italic;
+        color: #888;
+        font-size: 11px;
+    }
+    .sort-by {
+        label {
+            position: absolute;
+        }
+        select {
+            width: 115px;
+        }
+        .select-wrapper {
+            width: 100px;
+            display: block;
+            float: left;
+            & + a {
+                position: relative;
+                display: block;
+                float: left;
+            }
+        }
+
+    }
+    .limiter {
+        display: inline-block;
+        label {
+            position: relative;
+            display: block;
+            float: left;
+        }
+        select {
+            width: 70px !important;
+        }
+        .select-wrapper {
+            display: block;
+            float: left;
+            width: 52px;
+        }
+    }
+}
+
+.product-options dd .input-text, .product-options dd select, .product-options dd textarea {
+    padding: 0 !important;
+}
+
+.chrome-target {
+    &.catalogsearch-advanced-index {
+        .multiselect {
+            overflow-y: scroll;
+        }
+    }
+}

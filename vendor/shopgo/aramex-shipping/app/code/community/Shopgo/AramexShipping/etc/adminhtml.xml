@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <sales>
+            <children>
+                <pickup translate="title" module="aramexshipping">
+                    <title>Pickups</title>
+                    <sort_order>35</sort_order>
+                    <children>
+                        <aramex translate="title" module="aramexshipping">
+                            <title>Aramex</title>
+                            <sort_order>10</sort_order>
+                            <action>adminhtml/aramex_pickup</action>
+                        </aramex>
+                    </children>
+                    <depends>
+                        <module>HideMe</module> <!-- Fake dependance to hide menu item -->
+                    </depends>
+                </pickup>
+            </children>
+        </sales>
+        <shopgo>
+            <children>
+                <shippingcore>
+                    <depends>
+                        <module>HideMe</module> <!-- Fake dependance to hide menu item -->
+                    </depends>
+                    <children>
+                        <aramex translate="title" module="aramexshipping">
+                            <title>Aramex</title>
+                            <sort_order>20</sort_order>
+                            <children>
+                                <supplier translate="title" module="aramexshipping">
+                                    <title>Manage Suppliers</title>
+                                    <sort_order>10</sort_order>
+                                    <action>adminhtml/aramex_supplier</action>
+                                </supplier>
+                                <pickup translate="title" module="aramexshipping">
+                                    <title>Manage Pickups</title>
+                                    <sort_order>20</sort_order>
+                                    <action>adminhtml/aramex_pickup</action>
+                                </pickup>
+                            </children>
+                        </aramex>
+                    </children>
+                </shippingcore>
+            </children>
+        </shopgo>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

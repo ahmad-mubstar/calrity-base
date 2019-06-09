@@ -1,0 +1,4 @@
+app/code/local/Craig/Tco/                          app/code/local/Craig/Tco/
+app/design/frontend/base/default/layout/tco.xml    app/design/frontend/base/default/layout/tco.xml
+app/design/frontend/base/default/template/tco/     app/design/frontend/base/default/template/tco/
+app/etc/modules/Craig_Tco.xml                      app/etc/modules/Craig_Tco.xml

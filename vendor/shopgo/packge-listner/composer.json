@@ -1,0 +1,13 @@
+{
+    "name": "shopgo/packge-listner",
+    "type": "magento-module",
+    "description": "Check SKUs number for shopgo packages ",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "shopgo"
+        }
+    ]
+}

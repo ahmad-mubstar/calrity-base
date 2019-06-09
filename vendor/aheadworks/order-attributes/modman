@@ -1,0 +1,8 @@
+app/code/local/AW/Orderattributes/                                      app/code/local/AW/Orderattributes/
+app/design/adminhtml/default/default/layout/aw_orderattributes.xml      app/design/adminhtml/default/default/layout/aw_orderattributes.xml
+app/design/adminhtml/default/default/template/aw_orderattributes/       app/design/adminhtml/default/default/template/aw_orderattributes/
+app/design/frontend/default/default/layout/aw_orderattributes.xml       app/design/frontend/default/default/layout/aw_orderattributes.xml
+app/design/frontend/default/default/template/aw_orderattributes/        app/design/frontend/default/default/template/aw_orderattributes/
+app/etc/modules/AW_Orderattributes.xml                                  app/etc/modules/AW_Orderattributes.xml
+app/locale/en_US/AW_Orderattributes.csv                                 app/locale/en_US/AW_Orderattributes.csv
+skin/frontend/default/default/aw_orderattributes/                       skin/frontend/default/default/aw_orderattributes/

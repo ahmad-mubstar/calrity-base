@@ -1,0 +1,15 @@
+app/code/local/Mana/InfiniteScrolling/                                  app/code/local/Mana/InfiniteScrolling/
+app/design/frontend/base/default/layout/mana_infinitescrolling.xml      app/design/frontend/base/default/layout/mana_infinitescrolling.xml
+app/design/frontend/base/default/template/mana/infinitescrolling/       app/design/frontend/base/default/template/mana/infinitescrolling/
+app/design/frontend/rwd/default/layout/mana_infinitescrolling.xml       app/design/frontend/rwd/default/layout/mana_infinitescrolling.xml
+app/etc/modules/Mana_InfiniteScrolling.xml                              app/etc/modules/Mana_InfiniteScrolling.xml
+js/mana/infinitescrolling.js                                            js/mana/infinitescrolling.js
+js/mana/infinitescrolling.js.map                                        js/mana/infinitescrolling.js.map
+js/mana/infinitescrolling.min.js                                        js/mana/infinitescrolling.min.js
+js/src/Mana/InfiniteScrolling/                                          js/src/Mana/InfiniteScrolling/
+skin/frontend/base/default/css/mana_infinitescrolling.css               skin/frontend/base/default/css/mana_infinitescrolling.css
+skin/frontend/base/default/images/mana_infinitescrolling/               skin/frontend/base/default/images/mana_infinitescrolling/
+skin/frontend/base/default/js/mana/infinitescrolling.js                 skin/frontend/base/default/js/mana/infinitescrolling.js
+skin/frontend/base/default/js/mana/infinitescrolling.js.map             skin/frontend/base/default/js/mana/infinitescrolling.js.map
+skin/frontend/base/default/js/mana/infinitescrolling.min.js             skin/frontend/base/default/js/mana/infinitescrolling.min.js
+skin/frontend/base/default/js/src/Mana/InfiniteScrolling/               skin/frontend/base/default/js/src/Mana/InfiniteScrolling/

@@ -1,0 +1,5 @@
+app/design/adminhtml/default/default/template/shopgo/follow/     app/design/adminhtml/default/default/template/shopgo/follow/
+app/design/frontend/base/default/template/shopgo/follow/         app/design/frontend/base/default/template/shopgo/follow/
+app/design/frontend/base/default/layout/shopgo/follow.xml        app/design/frontend/base/default/layout/shopgo/follow.xml
+app/etc/modules/Shopgo_Follow.xml                                app/etc/modules/Shopgo_Follow.xml
+app/code/local/Shopgo/Follow/                                    app/code/local/Shopgo/Follow/

@@ -1,0 +1,14 @@
+{
+    "name": "shopgo/follow",
+    "type": "magento-module",
+    "description": "ShopGo Follow adds sitewide links that link to various social networking sites",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "ShopGo",
+            "email": "talal@shopgo.me"
+        }
+    ]
+}

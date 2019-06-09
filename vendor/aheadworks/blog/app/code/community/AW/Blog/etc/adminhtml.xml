@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <cms>
+        <children>
+        <blog module="blog">
+            <title>Blog</title>
+            <sort_order>71</sort_order>
+            <children>
+                <new module="blog" translate="title">
+                    <title>Add Post</title>
+                    <sort_order>0</sort_order>
+                    <action>adminhtml/awblog_manage_blog/new</action>
+                </new>
+                <posts module="blog" translate="title">
+                    <title>Posts</title>
+                    <sort_order>10</sort_order>
+                    <action>adminhtml/awblog_manage_blog/index</action>
+                </posts>
+                <comment module="blog" translate="title">
+                    <title>Comments</title>
+                    <sort_order>20</sort_order>
+                    <action>adminhtml/awblog_manage_comment</action>
+                </comment>
+                <cat module="blog">
+                    <title>Categories</title>
+                    <sort_order>30</sort_order>
+                    <action>adminhtml/awblog_manage_cat</action>
+                </cat>
+                <settings translate="title" module="blog">
+                    <title>Settings</title>
+                    <action>adminhtml/system_config/edit/section/blog</action>
+                    <sort_order>40</sort_order>
+                </settings>
+            </children>
+        </blog>
+        </children>
+        </cms>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <cms>
+                        <children>
+                            <blog module="blog">
+                                <title>Blog</title>
+                                <children>
+                                    <new module="blog" translate="title">
+                                        <title>Add Post</title>
+                                    </new>
+                                    <posts module="blog" translate="title">
+                                        <title>Posts</title>
+                                    </posts>
+                                    <comment module="blog" translate="title">
+                                        <title>Comments</title>
+                                    </comment>
+                                    <cat module="blog">
+                                        <title>Categories</title>
+                                    </cat>
+                                    <settings translate="title">
+                                        <title>Settings</title>
+                                    </settings>
+                                </children>
+                            </blog>
+                        </children>
+                    </cms>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <blog>
+                                        <title>aheadWorks Blog Section</title>
+                                    </blog>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

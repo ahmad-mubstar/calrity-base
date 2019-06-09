@@ -1,0 +1,203 @@
+ was not delivered nor scanned,لم يتم تسليمها أو مسحها ضوئيا
+1 Day Freight,شحن بيوم واحد
+2 Day Freight,شحن بيومين
+2Day,يومين
+2nd Day Air,ثاني يوم للشحن الجوي
+2nd Day Air AM,ثاني يوم للشحن الجوي AM
+2nd Day Air AM Letter,ثاني يوم للشحن الجوي AM رسالة
+2nd Day Air Letter,ثاني يوم للشحن الجوي رسالة
+3 Day Freight,ثالث يوم شحن
+3 Day Select,اختيار ٣ أيام
+Access ID,معرف الدخول
+Access license number,رقم رخصة الدخول
+Account ID,معرف الحساب
+Account number,رقم الحساب
+Additional Protection Configuration Value,القيمة  لتكوين الحماية الإضافية
+Additional Protection Enabled,الحماية الإضافية مفعلة
+Additional Protection Min Subtotal,الحد الأدنى للمجموع الفرعي للحماية الإضافية
+Additional Protection Value,قيمة الحماية الإضافية
+Additional Protection Value Rounding Method,طريقة تقدير قيمة الحماية الإضافية
+All Services,جميع الخدمات
+Allowed methods,الطرق المسموح بها
+Bound Printed Matter,ملزمة مطبوعة المواد
+Business Service Center,مركز الخدمة التجاري
+Calculate Handling Fee,حساب رسوم التوصيل
+Canada Standard,معيار كندا
+Cannot retrieve shipping rates,لا يمكن استرجاع معدلات الشحن
+Commercial,تجاري
+Configuration,تكوين
+Container,حاوية
+Customer Packaging,التعبئة والتغليف للعملاء
+DHL,DHL
+Default Package Height,الإرتفاع الإفتراضي للطرد
+Default Package Length,الطول الإفتراضي للطرد
+Default Package Width,العرض الإفتراضي للطرد
+Delivered,تم التسليم
+Destination type,نوع المكان المقصود
+Displayed Error Message,رسالة الخطأ المعروضة
+Domestic Shipment Days,أيام الشحنة المحلية
+Drop Box,صندوق الإسقاط
+Dropoff,إنزال
+Empty response,رد فارغ
+Enable Negotiated Rates,تمكين المعدلات المتفاوض عليها
+Enabled,مفعل
+Error #%s : %s (%s),خطأ #%s : %s (%s)
+Error #%s: %s,خطأ #%s: %s
+Europe First Priority,اوروبا الاولوية الاولى
+Express,سريع
+Express 10:30 AM,سريع 10:30 صباحا
+Express Mail,البريد السريع
+Express Saturday,سريع يوم السبت
+Express Saver,سريع توفير
+FedEx,FedEx
+FedEx 10kg Box,صندوق FedEx ١٠ كلغ
+FedEx 25kg Box,صندوق FedEx ٢٥ كلغ
+FedEx Box,صندوق FedEx
+FedEx Envelope,ظرف FedEx
+FedEx Pak,صندوق FedEx Pak
+FedEx Tube,انبوب FedEx
+First Overnight,الليلة الاولى
+First-Class,الدرجة الاولى
+Flat,ثابت
+Flat-Rate Box,صندوق  معدل ثابت
+Flat-Rate Envelope,ظرف  معدل ثابت
+Free method,الطريقة المجانية
+Free shipping with minimum order amount,الشحن المجاني مع الحد الأدني لكمية طلب الشراء
+Gateway URL,رابط البوابة
+Gateway XML URL,رابط البوابة XML
+Ground,بري
+Ground Commercial,بري تجاري
+Ground Residential,بري سكني
+Handling Applied,تم تطبيق التوصيل
+Handling fee,رسوم التوصيل
+Home Delivery,التسليم للمنزل
+International Economy,الاقتصاد الدولي
+International Express,سريع دولي
+International First,اول عالمي
+International Priority,اولوية دولي
+International Shipment Days,أيام الشحن الدولي
+Intl Economy Freight,شحن تجاري دولي
+Intl Priority Freight,شحن أولوية دولي
+Invalid DHL XML code for type %s: %s,رمز DHL XML خاطئ لنوع %s: %s
+Invalid DHL XML code type: %s,رمز DHL XML خاطئ نوع %s: %s
+Invalid FedEx XML code for type %s: %s,رمز FedEx XML خاطئ لنوع %s: %s
+Invalid FedEx XML code type: %s,رمز FedEx XML خاطئ نوع %s: %s
+Invalid UPS CGI code for type %s: %s,رمز UPS CGI خاطئ لنوع %s: %s
+Invalid UPS CGI code type: %s,رمز UPS CGI خاطئ نوع %s: %s
+Invalid USPS XML code for type %s: %s,رمز USPS XML خاطئ لنوع %s: %s
+Invalid USPS XML code type: %s,رمز USPS XML خاطئ نوع %s: %s
+Kilograms,كلغ
+Large,كبير
+Letter,رسالة
+Library,مكتبة
+Machinable,مفهوم من قبل الآلة
+Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight),الحد الاقصى لوزن الطرد (يرجى استشارة ناقل الشحن الخاص بك للحصول على أقصى وزن شحن مدعوم)
+Media Mail,بريد وسائل الإعلام
+Minimum order amount for free shipping,الحد الأدنى للطلب للحصول على شحن مجاني
+Next Afternoon,بعد الظهر القادم
+Next Day Air,شحن جوي لليوم التالي
+Next Day Air Early AM,شحن جوي لليوم التالي AM مبكر
+Next Day Air Early AM Letter,شحن جوي لليوم التالي AM رسالة
+Next Day Air Intra (Puerto Rico),شحن جوي لليوم التالي داخلي (بورتو ريكو)
+Next Day Air Letter,شحن جوي لليوم التالي رسالة
+Next Day Air Saver,شحن جوي لليوم التالي توفير
+Next Day Air Saver Letter,شحن جوي لليوم التالي توفير رسالة
+No,لا
+Non-rectangular,غير مستطيل
+Order,طلب شراء
+Origin of the shipment,مصدر الشحنة
+Oversize,فوق الحجم
+Package,طرد
+Package Description,وصف الطرد
+Packaging,التعبئة والتغليف
+Parcel,طرد
+Parcel Post,طرد بريدي
+Password,كلمة المرور
+Pickup method,طريقة الإستلام
+Please enter the package weight,من فضلك أدخل وزن الطرد
+Please make sure to use only digits here. No dashes are allowed.,الرجاء التأكد من استخدام أرقام فقط. أدخال الشرطات غير مسموح
+Pounds,رطل
+Priority Mail,بريد أولوية
+Priority Overnight,أولوية حتى صباح اليوم التالي
+Receiver,المستلم
+Rectangular,مستطيل
+Regular,عادي
+Regular Pickup,استلام عادي
+Request Courier,طلب مزود التوصيل
+Residential,سكني
+Residential Delivery,توصيل سكني
+Response is in the wrong format,الاستجابة في تنسيق خاطئ
+Round,تقدير
+Second Day Service,خدمة اليوم الثاني
+Sender,المرسل
+Ship to Specific countries,الشحن إلى دول محددة
+Ship to applicable countries,الشحنة ينطبق على البلدان
+Shipment Contains Hazardous Materials,الشحنة تحتوي على مواد خطرة
+Shipment Dutiable,الشحنة خاضعة لرسوم الجمارك
+Shipment Duty Payment Type,نوع دفع رسوم الشحنة
+Shipment is not available.,الشحنة غير متوفرة
+Shipment picked up,تم استلام الشحنة
+Shipment type,نوع الشحنة
+Shipper Number,رقم الشاحن
+Shipping key,مفتاح الشحنة
+Shipping key (International),مفتاح الشحنة (دولي)
+Show method if not applicable,عرض الطريقة إذا كانت غير قابلة للتطبيق
+Size,الحجم
+Sort order,ترتيب
+Standard Overnight,أساسي حتى صباح اليوم التالي
+Station,محطة
+Subtotal,المجموع الفرعى
+Subtotal With Discount,المجموع الفرعى مع خصم
+There is no available method for selected shipping address.,لا يوجد طريقة لعنوان الشحن المختار.
+Third Party,طرف ثالث
+Title,العنوان
+To lower,لأدنى
+To upper,لأعلى
+Tracking XML URL,رابط تتبع XML
+UPS,UPS
+UPS Expedited,UPS مستعجل
+UPS Express,UPS سريع
+UPS Express Box,صندوق UPS سريع
+UPS Express Early A.M.,UPS سريع مبكر
+UPS Express Plus,UPS سريع  Plus
+UPS Ground,UPS بري
+UPS Letter Envelope,ظرف رسالة UPS
+UPS Next Day Air,UPS جوي اليوم التالي
+UPS Next Day Air Early A.M.,UPS جوي اليوم التالي مبكر
+UPS Next Day Air Saver,UPS جوي اليوم التالي توفير
+UPS Saver,UPS توفير
+UPS Second Day Air,UPS جوي اليوم الثاني
+UPS Second Day Air A.M.,UPS جوي اليوم الثاني مبكر
+UPS Standard,UPS اساسي
+UPS Three-Day Select,UPS اختيار ثلاثة أيام
+UPS Today Dedicated Courrier,UPS مزود مخصص لليوم
+UPS Today Express,UPS اليوم سريع
+UPS Today Express Saver,UPS اليوم سريع توفير
+UPS Today Intercity,UPS اليوم داخل المدينة
+UPS Today Standard,UPS اليوم اساسي
+UPS Tube,UPS انبوب
+UPS Worldwide 10 kilo,UPS دولي ١٠ كلغ
+UPS Worldwide 25 kilo,UPS دولي ٢٥ كلغ
+UPS Worldwide Expedited,UPS دولي مستعجل
+UPS Worldwide Express,UPS دولي سريع
+UPS Worldwide Express Plus,UPS دولي سريع Plus
+UPS Worldwide Express PlusSM,UPS دولي سريع PlusSM
+UPS type,نوع UPS
+USPS,USPS
+Unable to retrieve tracking,لا يمكن استرجاع التتبع
+United Parcel Service,خدمة الطرود المتحدة
+United Parcel Service XML,خدمة الطرود المتحدة XML
+Unknown error,خطأ غير معروف
+Used only when 'Additional Protection Value' is set to 'Configuration'. Can contain only numeric amount.,"يُستخدم فقط عندما يتم تعيين ""قيمة الحماية الإضافية"" على ""التهيئة"". يمكن أن تحتوي على كمية رقمية فقط."
+User ID,معرف المستخدم
+UserId,معرف المستخدم
+Variable,متغير
+Weight Unit,وحدة الوزن
+Worldwide Expedited,دولي مستعجل
+Worldwide Express,دولي سريع
+Worldwide Express Letter,دولي سريع رسالة
+Worldwide Express Plus,دولي سريع Plus
+Worldwide Express Plus Letter,دولي سريع Plus رسالة
+Worldwide Express Saver,دولي سريع توفير
+Yes,نعم
+Your Packaging,التعبئة والتغليف الخاص بك

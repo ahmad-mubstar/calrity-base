@@ -1,0 +1,15 @@
+<?php
+$vars = $this->getVars();
+?>
+
+<script type="text/javascript">
+
+    var baseUrl = '<?php echo $vars['base_url']; ?>';
+    var theme_dir = "<?php echo $vars['theme']; ?>";
+    var theme_custom = "<?php echo $vars['theme_custom']; ?>";
+    var theme_custom_images = "<?php echo $vars['theme_custom'] . 'images' . DS ?>";
+    var theme_images = "<?php echo $vars['theme'] . 'images' . DS ?>";
+    var upload_index = "<?php echo $vars['actions']['upload'] ; ?>";
+    var save_index = "<?php echo $vars['actions']['save']; ?>";
+
+</script>

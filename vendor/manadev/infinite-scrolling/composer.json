@@ -1,0 +1,15 @@
+{
+    "name": "manadev/infinite-scrolling",
+    "type": "magento-module",
+    "license": "EULA",
+    "description": "MANAdev Infinite Scrolling extension adds infinite scrolling to category pages, quick search page and other Magento pages containing product lists",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "manadev/core": "*"
+    },
+    "authors": [
+        {
+            "name": "MANAdev"
+        }
+    ]
+}

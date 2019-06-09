@@ -1,0 +1,35 @@
+{
+    "name": "shopgo/magento-totango-integration",
+    "type": "magento-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "description": "Magento Totango Integration extension",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "shopgo/core": "*"
+    },
+    "authors":[
+        {
+            "name": "Ammar",
+            "email": "ammar@shopgo.me"
+        },
+        {
+            "name": "Emad",
+            "email": "emad@shopgo.me"
+        },
+        {
+            "name": "Ahmad",
+            "email": "ahmadalkaid@shopgo.me"
+        },
+        {
+            "name": "Aya",
+            "email": "aya@shopgo.me"
+        },
+        {
+            "name": "ShopGo",
+            "email": "support@shopgo.me"
+        }
+    ]
+}

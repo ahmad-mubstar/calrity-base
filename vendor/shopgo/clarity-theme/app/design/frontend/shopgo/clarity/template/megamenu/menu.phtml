@@ -1,0 +1,13 @@
+<?php
+    $store = Mage::app()->getStore()->getId();
+    $block = $this->getLayout()->createBlock('cms/block')->setBlockId('megamenu_'.$store);
+    if(!$block->getId()){
+        Mage::helper('megamenu')->saveCacheHtml($store);
+        $block = $this->getLayout()->createBlock('cms/block')->setBlockId('megamenu_'.$store);
+    }
+    echo $this->getLayout()->createBlock('cms/block')->setBlockId('megamenu_'.$store)->toHtml();
+?>
+
+<script>
+   jQuery(".megamenu.nav-container ul").attr("style","background:fff","important");
+</script>

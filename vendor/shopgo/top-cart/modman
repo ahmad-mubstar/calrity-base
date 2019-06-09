@@ -1,0 +1,6 @@
+app/code/local/Minicart/Topcart/                       app/code/local/Minicart/Topcart/
+app/design/frontend/base/default/layout/topcart.xml    app/design/frontend/base/default/layout/topcart.xml
+app/design/frontend/base/default/template/topcart/     app/design/frontend/base/default/template/topcart/
+app/etc/modules/Minicart_Topcart.xml                   app/etc/modules/Minicart_Topcart.xml
+js/topcart/                                            js/topcart/
+skin/frontend/base/default/topcart/                    skin/frontend/base/default/topcart/

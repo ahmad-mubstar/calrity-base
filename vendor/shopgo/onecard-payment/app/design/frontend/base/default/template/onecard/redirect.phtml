@@ -1,0 +1,73 @@
+<?php
+// Retrieve order
+$_order = new Mage_Sales_Model_Order();
+$orderId = Mage::getSingleton('checkout/session')->getLastRealOrderId();
+$_order->loadByIncrementId($orderId);
+
+//var_dump($_order->getAllItems());
+$items_description = '';
+
+$items = $_order->getAllItems();
+
+foreach($items as $item){
+	
+	$items_description .= $item->getName();
+	
+	}
+	
+	//var_dump($items_description);
+/* we use current order_id as a transaction_id */
+$onecard_transid = $orderId;
+
+
+$onecard_timein = round(microtime(true) * 1000);
+
+$site_domain_name = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB);
+$onecard_return_url = $site_domain_name.'onecardpay/payment/response';
+
+/********************************/
+$onecard_keyword = Mage::getStoreConfig('payment/onecardpay/onecard_keyword',Mage::app()->getStore());
+$onecard_transkey = Mage::getStoreConfig('payment/onecardpay/onecard_transkey',Mage::app()->getStore());
+//$payment_gateway_url = Mage::getStoreConfig('payment/onecardpay/payment_gateway_url',Mage::app()->getStore());
+$language = Mage::getStoreConfig('payment/onecardpay/language',Mage::app()->getStore());
+$currency = Mage::getStoreConfig('payment/onecardpay/currency',Mage::app()->getStore());
+$merchant_id = Mage::getStoreConfig('payment/onecardpay/merchant_id',Mage::app()->getStore());
+
+$test_mode = Mage::getStoreConfig('payment/onecardpay/test',Mage::app()->getStore());
+$payment_gateway_url = '';
+
+if($test_mode) {
+	$payment_gateway_url = 'http://onecard.n2vsb.com/customer/integratedPayment.html';
+} else {
+	$payment_gateway_url = 'https://www.onecard.net/customer/integratedPayment.html';
+}
+
+//exit();
+
+/***
+ * 
+ * Staging environment URL http://onecard.n2vsb.com/customer/integratedPayment.html
+ * Production environment URL https://www.onecard.net/customer/integratedPayment.html
+ * 
+ * 
+ * 
+ * **/
+
+?>
+
+<form name="onecardpaymentform" action="<?php echo $payment_gateway_url;?>" method="post">
+<input type="hidden" id="OneCard_MerchID" name="OneCard_MerchID" value="<?php echo $merchant_id;?>" />
+<input type="hidden" id="OneCard_TransID" name="OneCard_TransID" value="<?php echo $onecard_transid;?>" />
+<input type="hidden" id="OneCard_Amount" name="OneCard_Amount" value="<?php echo round($_order->getBaseGrandTotal(),2);?>" />
+<input type="hidden" id="OneCard_Currency" name="OneCard_Currency" value="<?php echo $currency;?>" />
+<input type="hidden" id="OneCard_Timein" name="OneCard_Timein" value="<?php echo $onecard_timein;?>" />
+<input type="hidden" id="OneCard_MProd" name="OneCard_MProd" value="<?php echo $items_description;?>" />
+<input type="hidden" id="OneCard_ReturnURL" name="OneCard_ReturnURL" value = "<?php echo $onecard_return_url;?>" />
+<input type="hidden" id="OneCard_Field1" name="OneCard_Field1" value="<?php echo $orderId;?>" />
+<input type="hidden" id="OneCard_Field2" name="OneCard_Field2" value="Value2" />
+<input type="hidden" id="OneCard_HashKey" name="OneCard_HashKey" value="<?php echo md5($merchant_id.$onecard_transid.round($_order->getBaseGrandTotal(),2).$currency.$onecard_timein.$onecard_transkey);?>" />
+</form>
+<script type="text/javascript">
+document.onecardpaymentform.submit();
+</script>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <shopgo module="shopgo_social">
+            <title>ShopGo</title>
+            <sort_order>71</sort_order>
+            <children>
+                <social module="shopgo_social">
+                    <depends>
+                        <module>HideMe</module> <!-- Fake dependance to hide menu item -->
+                    </depends>
+                    <title>ShopGo Social</title>
+                    <sort_order>99</sort_order>
+                    <action>adminhtml/system_config/edit/section/social</action>
+                </social>
+            </children>
+        </shopgo>
+    </menu>
+	<acl>
+	    <resources>
+	        <all>
+	            <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <social>
+                                        <title>ShopGo Social</title>
+                                    </social>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+            
+        </resources>
+    </acl>
+</config>

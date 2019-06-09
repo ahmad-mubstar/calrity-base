@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shopgo_Clarity>
+            <version>0.1.0</version>
+        </Shopgo_Clarity>
+    </modules>
+    <global>
+        <models>
+            <shopgoclarity>
+                <class>Shopgo_Clarity_Model</class>
+            </shopgoclarity>
+        </models>
+        <blocks>
+            <shopgoclarity>
+                <class>Shopgo_Clarity_Block</class>
+            </shopgoclarity>
+            <catalog>
+                <rewrite>
+                    <product_list>Shopgo_Clarity_Block_Product_List</product_list>
+                </rewrite>
+            </catalog>
+        </blocks>
+        <helpers>
+            <shopgoclarity>
+                <class>Shopgo_Clarity_Helper</class>
+            </shopgoclarity>
+        </helpers>
+    </global>
+    <!-- <frontend>
+        <events>
+            <controller_action_predispatch_checkout_cart_add>
+                <observers>
+                    <shopgoclarity_observer>
+                        <type>singleton</type>
+                        <class>shopgoclarity/observer</class>
+                        <method>checkoutCartAdd</method>
+                    </shopgoclarity_observer>
+                </observers>
+            </controller_action_predispatch_checkout_cart_add>
+            <controller_action_postdispatch_checkout_cart_add>
+                <observers>
+                    <shopgoclarity_observer>
+                        <type>singleton</type>
+                        <class>shopgoclarity/observer</class>
+                        <method>checkoutCartAddAfter</method>
+                    </shopgoclarity_observer>
+                </observers>
+            </controller_action_postdispatch_checkout_cart_add>
+        </events>
+    </frontend> -->
+</config>

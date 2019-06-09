@@ -1,0 +1,12 @@
+{
+    "base": {
+        "shopgo/magento-1-arabic-language-pack": "dev-master",
+        "shopgo/magento-core-1-js-libraries": "dev-1.9.2.0/magento"
+    },
+    "optional": {
+        "shopgo/magento-core-1-toolbox": "dev-master",
+        "shopgo/magento-ce-1-patches": "dev-master",
+        "shopgo/magento-core-1-sample-data": "dev-1.9.2.0/magento",
+        "shopgo/magento-core-1-vendor-data": "dev-1.9.2.0/magento"
+    }
+}

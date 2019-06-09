@@ -1,0 +1,852 @@
+body {
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial",
+		sans-serif;
+}
+
+div.main-container {
+	/*width: 88%;*/
+	margin: auto;
+}
+
+.mtspace {
+	margin-top: 15px !important;
+}
+
+.mbspace {
+	margin-bottom: 15px !important;
+}
+
+.ui.segment>:nth-child(2) {
+	margin-top: 0;
+}
+
+.ui.form .field .error.dropdown {
+	background-color: #FFFAFA;
+	border-color: #E7BEBE;
+	border-left: 0;
+	color: #D95C5C;
+	padding-left: 1.2em;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	-webkit-box-shadow: .3em 0 0 0 #D95C5C inset;
+	-moz-box-shadow: .3em 0 0 0 #D95C5C inset;
+	box-shadow: .3em 0 0 0 #D95C5C inset;
+}
+
+.ui.form .ui.dropdown {
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.billing {
+	margin-top: 0 !important;
+}
+
+.shipping {
+	display: none;
+}
+
+.billingOpen ,.shippingOpen {
+	display: none;
+    cursor: pointer;
+}
+
+.payment_form_details {
+	margin-bottom: 15px;
+	display: none;
+}
+
+.form-list {
+	border: 0;
+}
+
+.cityDropdown {
+	padding: 0 !important;
+	box-shadow: none !important;
+}
+
+.cityDropdown .default.text {
+	display: none !important;
+}
+
+.cityDropdown .menu {
+	z-index: 10 !important;
+}
+
+.city_suggestions {
+	position: absolute;
+	max-height: 290px;
+	overflow-y: scroll;
+	background: #FFF;
+	width: 93%;
+	z-index: 11;
+	border: 1px solid #EEE;
+	margin-top: -14px;
+	display: none;
+}
+
+.city_suggestions .item {
+	cursor: pointer;
+}
+
+.city_suggestions .item:hover {
+	background: #f7f7f7;
+}
+
+.product-name {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#checkout-review-table {
+	width: 100%;
+}
+
+#checkout-review-table .qty {
+	width: 60px;
+}
+
+#checkout-review-table tr:nth-child(n + 2) {
+	color: #00B5AD;
+	border-top: 1px solid rgba(0, 0, 0, .03);
+	font-size: 16px;
+}
+
+#checkout-review-table tr:nth-child(n + 3) {
+	color: #00B5AD;
+	border-top: none;
+	font-size: 17px;
+}
+
+div .agreement-modal .agreement-content {
+	max-height: 300px;
+	overflow: visible;
+	overflow-x: hidden;
+}
+
+/**********/
+.main.container {
+	position: relative;
+	padding-bottom: 100px;
+	padding-top: 25px;
+	margin: auto;
+}
+
+@media only screen and (min-width: 1750px) {
+	.ui.page.grid {
+		padding: 0 13%;
+	}
+	.ui.basic.table td{	font-size: 16px!important;}
+	#paymentmodule_expiration_dropdown > .text{width:auto!important;}
+}
+
+#payment_form_phoenix_cashondelivery .item{
+    
+    margin-top: -10px;
+    margin-bottom: -15px;
+}
+
+.grid.stackable .row .column>.segment {
+	padding: 0
+}
+
+.ui.section.divider {
+	margin: 0;
+}
+
+.ui.form .ui.dropdown .dropdown.icon {
+	margin-left: 0;
+	float: right;
+}
+
+.ui.table thead {
+	font-size: 0.9em;
+}
+
+.ui.basic.table td {
+	/*font-size: 0.8em;*/
+}
+
+.truncate {
+	width: 250px !important;
+	white-space: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.nowrap {
+	white-space: nowrap !important;
+}
+
+.logo img {
+	max-height: 61px;
+}
+
+#loginMessage {
+	cursor: pointer;
+}
+
+.no-decoration {
+	text-decoration: none !important;
+}
+
+.k-icon {
+	vertical-align: top !important;
+    margin-top: 5px!important;
+}
+
+.field .k-dropdown {
+	width: 100%;
+}
+
+.field .k-dropdown-wrap {
+	
+}
+
+.k-dropdown .k-input {
+	padding: .3em 0.5em;
+}
+
+.field .k-autocomplete {
+	width: 100%;
+	border-color: #EEE;
+	background-color: #EEE;
+	border: none;
+}
+
+.field .k-input {
+	
+}
+
+.field .k-autocomplete .k-input {
+	height: 42px;
+}
+
+.field .k-dropdown .k-icon {
+	vertical-align: middle !important;
+}
+
+#loginModal .ui.bottom {
+	float: right;
+}
+
+#loginForm button {
+	float: left;
+}
+
+a:link {
+	color: #555;
+} /* unvisited link */
+a:visited {
+	color: #00B5AD;
+} /* visited link */
+a:hover {
+	color: #00B5AD;
+} /* mouse over link */
+a:active {
+	color: #00B5AD;
+} /* selected link */
+#checkout-review-table tr td:last-child {
+	text-align: right
+}
+
+.column .ui.checkbox label {
+	padding-left: 0
+}
+
+.column .checkout-agreements .checkbox label {
+	padding-left: 1.75em
+}
+
+.loading-icon {
+	position: absolute;
+	right: 13px;
+	top: 36px;
+}
+
+ul li { list-style:none; }
+
+.custom-review-text { font-size: 13px;color: rgba(0,0,0,.5);margin-bottom: 15px !important;text-align: justify; }
+
+/******* Alertify CSS *******/
+.alertify,.alertify-show,.alertify-log {
+	-webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	-moz-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	-ms-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	-o-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	/* easeOutBack */
+}
+
+.alertify-hide {
+	-webkit-transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
+	-moz-transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
+	-ms-transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
+	-o-transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
+	transition: all 250ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
+	/* easeInBack */
+}
+
+.alertify-log-hide {
+	-webkit-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
+	-moz-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
+	-ms-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
+	-o-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
+	transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
+	/* easeInBack */
+}
+
+.alertify-cover {
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: white;
+	filter: alpha(opacity = 0);
+	opacity: 0;
+}
+
+.alertify-cover-hidden {
+	display: none;
+}
+
+.alertify {
+	position: fixed;
+	z-index: 99999;
+	top: 50px;
+	left: 50%;
+	width: 550px;
+	margin-left: -275px;
+	opacity: 1;
+}
+
+.alertify-hidden {
+	-webkit-transform: translate(0, -150px);
+	-moz-transform: translate(0, -150px);
+	-ms-transform: translate(0, -150px);
+	-o-transform: translate(0, -150px);
+	transform: translate(0, -150px);
+	opacity: 0;
+	display: none;
+}
+/* overwrite display: none; for everything except IE6-8 */
+:root *>.alertify-hidden {
+	display: block;
+	visibility: hidden;
+}
+
+.alertify-logs {
+	position: fixed;
+	z-index: 5000;
+	bottom: 10px;
+	right: 10px;
+	width: 300px;
+}
+
+.alertify-logs-hidden {
+	display: none;
+}
+
+.alertify-log {
+	display: block;
+	margin-top: 10px;
+	position: relative;
+	right: -300px;
+	opacity: 0;
+}
+
+.alertify-log-show {
+	right: 0;
+	opacity: 1;
+}
+
+.alertify-log-hide {
+	-webkit-transform: translate(300px, 0);
+	-moz-transform: translate(300px, 0);
+	-ms-transform: translate(300px, 0);
+	-o-transform: translate(300px, 0);
+	transform: translate(300px, 0);
+	opacity: 0;
+}
+
+.alertify-dialog {
+	padding: 25px;
+}
+
+.alertify-resetFocus {
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.alertify-inner {
+	text-align: center;
+}
+
+.alertify-text {
+	margin-bottom: 15px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+.alertify-buttons {
+	
+}
+
+.alertify-button,.alertify-button:hover,.alertify-button:active,.alertify-button:visited
+	{
+	background: none;
+	text-decoration: none;
+	border: none;
+	/* line-height and font-size for input button */
+	line-height: 1.5;
+	font-size: 100%;
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+@media only screen and (max-width: 680px) {
+	.alertify,.alertify-logs {
+		width: 90%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.alertify {
+		left: 5%;
+		margin: 0;
+	}
+}
+
+/**
+ * Default Look and Feel
+ */
+.alertify,.alertify-log {
+	font-family: sans-serif;
+}
+
+.alertify {
+	background: #FFF;
+	border: 10px solid #333; /* browsers that don't support rgba */
+	border: 10px solid rgba(0, 0, 0, .7);
+	border-radius: 8px;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+	-webkit-background-clip: padding; /* Safari 4? Chrome 6? */
+	-moz-background-clip: padding; /* Firefox 3.6 */
+	background-clip: padding-box; /* Firefox 4, Safari 5, Opera 10, IE 9 */
+}
+
+.alertify-text {
+	border: 1px solid #CCC;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.alertify-button {
+	border-radius: 4px;
+	color: #FFF;
+	font-weight: bold;
+	padding: 6px 15px;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+	box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, .5);
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .3),
+		rgba(255, 255, 255, 0));
+	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .3),
+		rgba(255, 255, 255, 0));
+	background-image: -ms-linear-gradient(top, rgba(255, 255, 255, .3),
+		rgba(255, 255, 255, 0));
+	background-image: -o-linear-gradient(top, rgba(255, 255, 255, .3),
+		rgba(255, 255, 255, 0));
+	background-image: linear-gradient(top, rgba(255, 255, 255, .3),
+		rgba(255, 255, 255, 0));
+}
+
+.alertify-button:hover,.alertify-button:focus {
+	outline: none;
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .1),
+		rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, .1),
+		rgba(0, 0, 0, 0));
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, .1),
+		rgba(0, 0, 0, 0));
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, .1),
+		rgba(0, 0, 0, 0));
+	background-image: linear-gradient(top, rgba(0, 0, 0, .1),
+		rgba(0, 0, 0, 0));
+}
+
+.alertify-button:focus {
+	box-shadow: 0 0 15px #2B72D5;
+}
+
+.alertify-button:active {
+	position: relative;
+	box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px
+		rgba(0, 0, 0, .05);
+}
+
+.alertify-button-cancel,.alertify-button-cancel:hover,.alertify-button-cancel:focus
+	{
+	background-color: #FE1A00;
+	border: 1px solid #D83526;
+}
+
+.alertify-button-ok,.alertify-button-ok:hover,.alertify-button-ok:focus
+	{
+	background-color: #5CB811;
+	border: 1px solid #3B7808;
+}
+
+.alertify-log {
+	background: #1F1F1F;
+	background: rgba(0, 0, 0, .9);
+	padding: 15px;
+	border-radius: 4px;
+	color: #FFF;
+	text-shadow: -1px -1px 0 rgba(0, 0, 0, .5);
+}
+
+.alertify-log-error {
+	/*background: #FE1A00;
+	background: rgba(254, 26, 0, .9);*/
+	background: #D95C5C;
+}
+
+.alertify-log-success {
+	background: #5CB811;
+	background: rgba(92, 184, 17, .9);
+}
+
+@font-face {
+	font-family: 'bein-SPORT-AR';
+	/*src: url('../bein_sport_font/bein-SPORT-AR/bein-ar-normal.eot');*/
+	src: local('☺'), url('../bein_sport_font/bein-SPORT-AR/bein-ar-normal.woff')
+		format('woff'), url('../bein_sport_font/bein-SPORT-AR/bein-ar-normal.ttf');
+		/*format('truetype'), url('../bein_sport_font/bein-SPORT-AR/bein-ar-normal.svg')
+		format('svg');*/
+	font-weight: normal;
+	font-style: normal;
+}
+
+html[lang="ar"] body {
+	font-family: 'bein-SPORT-AR', "Open Sans", "Helvetica Neue",
+		"Helvetica", "Arial", sans-serif;
+}
+
+html[lang="ar"] .ui.page.grid {
+	direction: rtl;
+}
+
+html[lang="ar"] .ui.header .icon {
+	padding-left: .5em;
+	padding-right: 0;
+}
+
+html[lang="ar"] .ui.header .icon+.content,html[lang="ar"] .ui.form .field>label
+	{
+	text-align: right;
+	direction: rtl;
+}
+
+html[lang="ar"] .ui.form .fields>.field {
+	float: right;
+}
+
+html[lang="ar"] .ui.form .fields .field:first-child {
+	padding-left: 2%;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+html[lang="ar"] .dropdown.icon {
+	float: left;
+	margin: .2em 0 .2em 1em;
+}
+
+html[lang="ar"] .cityDropdown .ui.input {
+	float: right;
+}
+
+html[lang="ar"] .ui.checkbox {
+	direction: ltr;
+	margin-left: 2px;
+}
+
+html[lang="ar"] .ui.table,html[lang="ar"] .ui.table th,html[lang="ar"] .ui.basic.table td
+	{
+	text-align: right;
+	font-weight: normal;
+}
+
+html[lang="ar"] .ui.radio.checkbox {
+	margin: 0 0 0 .5em !important;
+}
+
+html[lang="ar"] .ui .radio label {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+html[lang="ar"] .ui.grid>.column,html[lang="ar"] .ui.grid>.row>.column,html[lang="ar"] .ui.dropdown .menu .item
+	{
+	text-align: right
+}
+
+html[lang="ar"] .ui.selection.dropdown>.dropdown.icon {
+	float: left;
+	margin-right: 0;
+}
+
+
+html[lang="ar"] .cityDropdown input {
+	float: right;
+}
+
+html[lang="ar"] .ui.message ul.list li {
+	margin: 0 1em .3em 0;
+}
+
+html[lang="ar"] .ui.message ul.list li:before {
+	right: -1em;
+}
+
+html[lang="ar"] .ui.checkbox .box:before,html[lang="ar"] .ui.checkbox label:before
+	{
+	right: 0;
+	left: auto;
+}
+
+html[lang="ar"] .ui.checkbox input {
+	right: 0;
+	left: auto;
+}
+
+html[lang="ar"] .ui.checkbox .box,html[lang="ar"] .ui.checkbox label {
+	padding: 0;
+}
+
+html[lang="ar"] .column .checkout-agreements .checkbox label {
+	padding-left: 0;
+	padding-right: 2em
+}
+
+html[lang="ar"] .field #coupon_code {
+/*	border-top-right-radius: .3125em !important;
+	border-bottom-right-radius: .3125em !important;*/
+	border-left: 0;
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	border-right: 1px solid rgba(0, 0, 0, .15);
+}
+
+html[lang="ar"] .field #applyCoupon {
+	padding-left: 4em !important;
+	padding-right: 1.4em !important;
+	text-align: right;
+	border-top-left-radius: .25em;
+	border-bottom-left-radius: .25em;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+html[lang="ar"] #applyCoupon .checkmark {
+	right: auto;
+	left: 0;
+}
+
+html[lang="ar"] .checkout-agreements .ui.checkbox label {
+	padding-right: 1.75em;
+}
+
+html[lang="ar"] .checkout-agreements .ui.teal.label {
+	margin: 1px 0;
+}
+
+html[lang="ar"] .row .column .ui.floated.header,html[lang="ar"] .row .column .ui.left.floated.header
+	{
+	float: right;
+}
+
+html[lang="ar"] .row .column .ui.right.floated.header {
+	float: left;
+}
+
+html[lang="ar"] .ui.checkbox .box:after,html[lang="ar"] .ui.checkbox label:after
+	{
+	left: auto;
+	right: .2em;
+}
+
+html[lang="ar"]  .ui.form .inline.field>:first-child {
+	margin: 0 0 0 .5em;
+}
+
+html[lang="ar"] #loginForm button {
+	float: right;
+	font-family: 'bein-SPORT-AR', "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang="ar"] #loginModal .ui.bottom {
+	float: left;
+	border-radius: .25em;
+}
+
+html[lang="ar"] .ui.modal>.header {
+	text-align: right;
+}
+
+html[lang="ar"] .ui.form.error .error.message {
+	direction: rtl;
+	text-align: right;
+}
+
+html[lang="ar"] #checkout-review-table tr td:last-child {
+	text-align: left
+}
+
+html[lang="ar"] .ui.message>.close.icon {
+	right: auto;
+	left: .5em
+}
+
+html[lang="ar"] .ui.icon.input input {
+	padding-right: 1em !important;
+}
+
+html[lang="ar"] .loading-icon {
+	position: absolute;
+	right: auto;
+	left: 13px;
+	top: 36px;
+}
+
+/******* End Arabic CSS !!   *******/
+
+.item-options dt {
+float: left;
+}
+
+@media only screen and (max-width: 768px){
+.ui.table tfoot, .ui.table thead {
+display: block;
+}
+.ui.table tr>td {display: table-cell;}
+#checkout-review-table td:last-child {box-shadow: none!important;}
+#checkout-review-table th{width: 100%;}
+}
+@media only screen and (max-width: 480px){
+	.ec-index-index {margin: 0;}
+}
+.k-picker-wrap #aw_oa_delivery_date,.k-picker-wrap #deliveryDate{padding:0;height:100%;border:0;border-radius:0;}
+html[lang="ar"] .deliveryDate > .ui.basic.segment {font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;}
+
+html[lang="ar"] .item-options dt{float: right;}
+
+/** new changes **/
+
+.ui.grid>.column, .ui.grid>.row>.column {font-size: 0.9555rem;}
+#payment-form .truncate img {vertical-align: middle;}
+.checkout-agreements .ui.teal.label {margin-left: 0;}
+td.a-center {text-align: center!important; }
+
+html[lang="ar"] .ui.form{line-height: 19px;}
+html[lang="ar"] .ui.form .billingNewAddressForm input[type=date],
+html[lang="ar"] .ui.form .billingNewAddressForm input[type=email], 
+html[lang="ar"] .ui.form .billingNewAddressForm input[type=number], 
+html[lang="ar"] .ui.form .billingNewAddressForm input[type=password],
+html[lang="ar"] .ui.form .billingNewAddressForm input[type=tel], 
+html[lang="ar"] .ui.form .billingNewAddressForm input[type=text], 
+html[lang="ar"] .ui.form .billingNewAddressForm input[type=url], 
+html[lang="ar"] .ui.form .billingNewAddressForm textarea
+{font-family: 'bein-SPORT-AR', "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;height: 39px;}
+html[lang="ar"] #placeOrderBtn{font-family: 'bein-SPORT-AR', "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;}
+
+html[lang="ar"] .ui.form input[type=date]:focus,
+html[lang="ar"] .ui.form input[type=email]:focus,
+html[lang="ar"] .ui.form input[type=number]:focus,
+html[lang="ar"] .ui.form input[type=password]:focus,
+html[lang="ar"] .ui.form input[type=tel]:focus,
+html[lang="ar"] .ui.form input[type=text]:focus,
+html[lang="ar"] .ui.form input[type=url]:focus,
+html[lang="ar"] .ui.form textarea:focus
+{border-bottom-right-radius: 0;
+border-top-right-radius: 0;
+-webkit-box-shadow: -0.2em 0 0 0 rgba(0,0,0,.2)inset;
+box-shadow: -0.2em 0 0 0 rgba(0,0,0,.2)inset;
+border-bottom-left-radius: .3125em;
+border-top-left-radius: .3125em;}
+
+
+html[lang="ar"] .ui.form .field.error input[type=date],
+html[lang="ar"] .ui.form .field.error input[type=email],
+html[lang="ar"] .ui.form .field.error input[type=number],
+html[lang="ar"] .ui.form .field.error input[type=password],
+html[lang="ar"] .ui.form .field.error input[type=tel],
+html[lang="ar"] .ui.form .field.error input[type=text],
+html[lang="ar"] .ui.form .field.error input[type=url],
+html[lang="ar"] .ui.form .field.error textarea,
+html[lang="ar"] .ui.form .fields.error .field input[type=date],
+html[lang="ar"] .ui.form .fields.error .field input[type=email],
+html[lang="ar"] .ui.form .fields.error .field input[type=number],
+html[lang="ar"] .ui.form .fields.error .field input[type=password],
+html[lang="ar"] .ui.form .fields.error .field input[type=tel],
+html[lang="ar"] .ui.form .fields.error .field input[type=text],
+html[lang="ar"] .ui.form .fields.error .field input[type=url],
+html[lang="ar"] .ui.form .fields.error .field textarea {
+background-color: snow;
+border-color: #E7BEBE;
+border-right: none;
+color: #D95C5C;
+padding-right: 1.2em;
+border-bottom-right-radius: 0;
+border-top-right-radius: 0;
+border-bottom-left-radius: .3125em;
+border-top-left-radius: .3125em;
+-webkit-box-shadow: -0.2em 0 0 0 #D95C5C inset;
+box-shadow: -0.2em 0 0 0 #D95C5C inset;
+border-left:1px solid rgba(0,0,0,.15);
+}
+
+html[lang="ar"] .ui.table th{vertical-align: bottom;}
+html[lang="ar"] .ui.left.icon.input>.icon {right: 1px; left: auto;}
+html[lang="ar"] .ui.input>.ui.corner.label {left: 1px; right: auto; }
+html[lang="ar"] .ui.corner.label .icon {margin: .5em 1.25em 0 0; }
+
+html[lang="ar"] .ui.corner.label:after {right: auto;left: 0;
+border-right: 0em solid transparent;
+border-left: 3em solid transparent;
+border-left-color: inherit;}
+html[lang="ar"] .ui.left.icon.input>input{padding-right: 3em!important;
+padding-left: 1.2em!important;
+font-family: 'bein-SPORT-AR', "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+height: 41px;}
+
+@media only screen and (max-width: 998px){
+html[lang="ar"] .ui.modal>.close {left: 1rem; right: auto; }
+}
+html[lang="ar"] .ui.modal>.close{right:auto;left: -1.75em; }
+
+html[lang="ar"] [name="billing[city]"]{line-height: 37px;}
+html[lang="ar"] .ui.labeled.input .corner.label {right:auto;left:1px;top: 1px;}
+
+html[lang="ar"] #agreement-1 >.content p{text-align:right}
+html[lang="ar"] #agreement-1 .actions {text-align:left}
+html[lang="ar"] #agreement-1 .actions>.button{margin-right: .75em;margin-left:0;}
+
+ @media only screen and (min-width: 992px){
+	.ui.basic.table td{	font-size: 0.8em;}
+	#paymentmodule_expiration_dropdown > .text {width: 85px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+}

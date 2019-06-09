@@ -1,0 +1,334 @@
+/* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font: 14px/1 'Open Sans', sans-serif;
+  color: #555;
+  background: #eee;
+}
+
+h1 {
+  padding: 50px 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+main {
+  min-width: 320px;
+  max-width: 1200px;
+  padding: 50px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+label[for*='1']:before {
+  content: '\f015';
+}
+
+label[for*='2']:before {
+  content: '\f0ed';
+}
+
+label[for*='3']:before {
+  content: '\f171';
+}
+
+label[for*='4']:before {
+  content: '\f171';
+}
+
+label[for*='5']:before {
+  content: '\f15c';
+}
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 0;
+  }
+
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+  }
+}
+
+#loading{
+
+  width: 4%; height: 10%; margin-left: 1240px; margin-top: 20px; position: absolute; display: none;
+}
+
+#wrapper{
+  width:100%;
+  text-align:center;
+
+}
+
+.flat-table {
+  display: block;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow: auto;
+  width: auto;}
+
+#content1 th {
+  background-color: rgb(47, 171, 38);
+  color: white;
+  font-weight: normal;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+#content2 th {
+  background-color: rgb(31, 129, 255);
+  color: white;
+  font-weight: normal;
+  padding: 20px 30px;
+  text-align: center;
+}
+#content3 th {
+  background-color: rgb(255, 169, 43);
+  color: white;
+  font-weight: normal;
+  padding: 20px 30px;
+  text-align: center;
+}
+#content4 th {
+  background-color: rgb(177, 15, 14);
+  color: white;
+  font-weight: normal;
+  padding: 20px 30px;
+  text-align: center;
+}
+td {
+  background-color: rgb(238, 238, 238);
+  color: rgb(111, 111, 111);
+  padding: 20px 30px;
+}
+
+
+.select-style {
+  border: 1px solid #ccc;
+  width: 120px;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fafafa url("img/icon-select.png") no-repeat 90% 50%;
+}
+
+.select-style {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-padding-end: 20px;
+  -moz-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -moz-padding-start: 2px;
+  background-color: rgba(170, 170, 170, 0.6); /* fallback color if gradients are not supported */
+  border: 1px solid #AAA;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.select-style select:focus {
+  outline: none;
+}
+
+.delete, .update, .reinstall {
+  background-color: #47b048;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  display:inline;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:13px;
+  font-weight:bold;
+  padding:7px 15px;
+  text-decoration:none;
+  text-shadow:0px 0px 8px #2f6627;
+}
+.delete:hover, .update:hover, .reinstall:hover {
+  background-color:#5cbf2a;
+}
+.delete:active, .update:active, .reinstall:active {
+  position:relative;
+  top:1px;
+}
+
+.install {
+  background-color: rgb(31, 129, 255);
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:13px;
+  font-weight:bold;
+  padding:7px 15px;
+  text-decoration:none;
+  text-shadow:0px 0px 8px #f5f4f2;
+}
+.install:hover {
+  background-color: #1f59ff;
+}
+.install:active {
+  position:relative;
+  top:1px;
+}
+
+.removemodgit {
+  background-color: rgb(255, 169, 43);
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:13px;
+  font-weight:bold;
+  padding:7px 15px;
+  text-decoration:none;
+  text-shadow:0px 0px 8px #f5f4f2;
+}
+.removemodgit:hover {
+  background-color: rgb(224, 154, 35);
+}
+.removemodgit:active {
+  position:relative;
+  top:1px;
+}
+
+.removemodman {
+  background-color: rgb(195, 17, 15);
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:13px;
+  font-weight:bold;
+  padding:7px 15px;
+  text-decoration:none;
+  text-shadow:0px 0px 8px #f5f4f2;
+}
+.removemodman:hover {
+  background-color: rgb(177, 15, 14);
+}
+.removemodman:active {
+  position:relative;
+  top:1px;
+}
+
+.symlinks {
+  background-color: rgb(170, 170, 170);
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:13px;
+  font-weight:bold;
+  padding:7px 15px;
+  text-decoration:none;
+  text-shadow:0px 0px 8px #f5f4f2;
+}
+.symlinks:hover {
+  background-color: rgb(136, 135, 133);
+}
+.symlinks:active {
+  position:relative;
+  top:1px;
+}
+
+
+
+#result{
+  background: #3f3f3f;
+  color: #dcdccc;
+  padding: 5px;
+  padding-left: 15px;
+}
+a{
+  text-decoration: none;
+}

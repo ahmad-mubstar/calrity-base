@@ -1,0 +1,8 @@
+{
+    "name": "shopgo/magento-core-1-js-libraries",
+    "type": "magento-module",
+    "description": "Magento Core 1.x JS libraries",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

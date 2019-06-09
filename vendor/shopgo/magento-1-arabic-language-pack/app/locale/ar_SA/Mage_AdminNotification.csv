@@ -1,0 +1,29 @@
+Actions,أفعال
+Are you sure?,هل أنت متأكد؟
+Date Added,تم إضافة التاريخ
+Error while marking as read. Please try again later.,خطأ أثناء وضع العلامات كقراءة. الرجاء معاودة المحاولة في وقت لاحق.
+Error while marking. Please try again later.,خطأ أثناء وضع العلامات. الرجاء معاودة المحاولة في وقت لاحق.
+Error while removing. Please try again later.,خطأ أثناء الحذف. الرجاء معاودة المحاولة في وقت لاحق.
+Last update,اخر تحديث
+Mark as Read,ضع إشارة مقروء
+Mark as read,ضع إشارة مقروء
+Message,رسالة
+Message was successfully marked as read,تم وضع علامة على مقروء على الرسالة بنجاح
+Message was successfully removed,تم حذف الرسالة بنجاح
+Messages Inbox,رسائل صندوق الوارد
+Notifications,تنبيهات
+Please select messages,الرجاء تحديد رسالة
+Read Details,قراءة التفاصيل
+Remove,حذف
+Severity,خطورة
+Show List,عرض القائمة
+Show Toolbar,إظهار شريط الأدوات
+Total of %d record(s) were successfully marked as read,تم تحديد إجمالي  %d سجل / سجلات كمقروء بنجاح 
+Total of %d record(s) were successfully removed,تم إزالة اجمالي %d سجل / سجلات بنجاح 
+"Unable to proceed. Please, try again",غير قادر على المضي قدما. حاول مرة اخرى
+Update frequency,تحديث متكرر
+Use HTTPS to get feed,استخدم HTTPS للحصول على الخلاصة
+critical,خطير
+major,هام
+minor,غير هام
+notice,تنويه

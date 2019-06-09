@@ -1,0 +1,160 @@
+English,Arabic
+Hidden pages won't be shown in blog but still can be accessed directly,سوف يتم عرض الصفحات المخفية في المدونة ولكن لا يزال من الممكن الوصول إليها مباشرة
+Add Category,إضافة فئة
+Add Comment,إضافة تعليق
+Add Post,أضف منشورا
+Advanced Options,خيارات متقدّمة
+Advanced Post Options,خيارات النشر المتقدمة
+Approved,موافق عليه
+"If enabled, all comments appear immediately without admin approval.",في حال تفعيله جميع التعليقات سو تنشر مباشرة بدون موافقة المدير
+An error occured. Please try again,حدث خطأ. حاول مرة اخرى
+Auto Approve Comments,الموافقة التلقائية على التعليقات
+Blog Comment Manager,إدارة تعليقات المدونة
+Blog Manager,إدارة المدوّنة
+Blog Post Manager,إدارة منشورات المدونة
+Blog Post Options,خيارات منشورات المدونة
+Blog Settings,إعدادت المدوّنة
+Blog Title,عنوان التدوينة
+Blog,المدوّنة
+blog,المدوّنة
+Bookmark with,اشارة مرجعية مع
+By,بواسطة
+Categories,فئات
+Category Comment Manager,ادارة تعليقات الفئات
+Category does not exist,الفئة غير موجودة
+Category Information,معلومات الفئة
+Category Manager,ادارة الفئات
+Category,الفئة
+click here,انقر هنا
+Comment Information,معلومات التعليق
+Comment Manager,إدارة التعليقات
+Comment Submitted,تم إضافة التعليق
+Comment was approved,تم الموافقة على التعليق
+Comment was successfully deleted,تم حذف التعليق بنجاح
+Comment was successfully saved,تم حفظ التعليق بنجاح
+Comment was unapproved,لم يتم الموافقة على التعليق
+Comment,تعليق
+Comments are Closed for this post,التعليقات مغلقة لهذا المنشور
+Comments are not enabled.,التليقات غير مفعّلة.
+Comments per Page,عدد التعليقات في الصفحة
+Comments,التعليقات
+comments,التعليقات
+Content,المحتوى
+Created on,أنشأت في
+Created,أنشأت
+Date Format,صيغة التاريخ
+Default Posts Sorting,ترتيب المنشورات الافتراضي
+Delete Category,حذف الفئة
+Delete Comment,حذف التعليق
+Delete Post,حذف المنشور
+Disabling will close the post to new comments,التعطيل سوف يغلق إمكانية إضافية تعليقات جديدة
+Duplicate Post,منشور مكرر
+Edit Category  '%s',تحرير الفئة '%s'
+Edit Comment By '%s',تحرير التعليق من قبل '%s'
+Edit Post '%s',تحرير المنشور '%s'
+"Must NOT contain any slashes. ""news"" makes the blog accessible from domain.com/news. Leave blank for default value.","يجب ان لا يحتوي على اي سلاش. ""الاخبار"" تجعل المدونة يمكن الوصول لها من خلال domain.com/news. اتركه فارغا للقيمة الافتراضية."
+Email Address,عنوان البريد الإلكتروني
+Email Sender,البريد الإلكتروني للمرسل
+Email Template,قالب البريد الإلكتروني
+Enable Blog RSS Feed,تفعيل RSS المدونة
+Enable Categories Menu,تفعيل قائمة الفئات
+Enable Comments,تفعيل التعليقات
+Enable Footer Link,تفعيل رابط تذييل الصفحة (فوتر)
+Enable Left Menu,تفعيل القائمة اليسرى
+Enable ReCAPTCHA,تفعيل ReCAPTCHA
+Enable Right Menu,تفعيل القائمة اليمنى
+Enable Top Link,تفعيل الرابط العلوي
+Error during generation sitemap,حدث خطأ أثناء توليد خريطة الموقع
+Frequency,التردد
+Full,ممتلئ
+"Go to <a href=""http://www.google.com/recaptcha/whyrecaptcha"">http://www.google.com/recaptcha/whyrecaptcha</a> to get keys","اذهب الى <a href=""http://www.google.com/recaptcha/whyrecaptcha"">http://www.google.com/recaptcha/whyrecaptcha</a> لتحصل على المفاتيح"
+Google Sitemap,خريطة جوجل
+Hidden,مخفي
+"If enabled, additional ""Short Content Field"" is taken instead of truncated main post.","في حال التفعيل، ""حقل المحتوى القصير"" عوضاً عن اقتصاص الخلاصة من النص الرئيس للتدوينة"
+Latest Posts,اخر المنشورات
+Leave blank to use current user name,ترك فارغا لاستخدام اسم المستخدم الحالي
+Link to Post,رابط الى المنشور
+Logged in Auto Approve Comments,الموافقة التلقائية على التعليقات للمشتركين
+Login Required to Comment,
+Long,طويل
+Medium,متوسط
+Menus and Links,القوائم والروابط
+Newer Posts,احدث المنشورات
+Newest first,الأحدث أولاً
+Number of characters in a post to be displayed before it is truncated and the Read More link is added. 0 for unlimited., عدد الاحرف التي سيتم عرضها قبل اقتصاص وتم اضافة رابط اقرآ المزيد. ٠ لعدد احرف غير محدود
+Number of post to display in the RSS feed.,عدد المنشورات التي سيتم عرضها في تغذية ال RSS.
+Older first,الأقدم أّولاً
+Older Posts,اقدم المنشورات
+Only comments added by logged in users will be approved automatically,التعليقات التي تم اضافتها من قبل المستخدمين المسجلين سيتم اضافتها تلقائيا
+Page Layout,هيكل الصفحة
+Parse CMS Tags in Post Contents,تحليل علامات ال CMS  في محتوى المنشور
+Please select categories,يرجى اختيار الفئات
+Please select comment(s),الرجاء اختيار التعليقات
+Please select post(s),الرجاء اختيار المنشورات
+"Please use only letters (a-z or A-Z), numbers (0-9) or symbols '-' and '_' in this field",الرجاء استخدام الحروف (أ-ي أو A-Z) والأرقام (0-9) أو  '-' و '_' في هذا المجال
+Post does not exist,المنشور غير موجود
+Post Identifier already exist.,معرف المنشور موجود بالفعل.
+Post Identifier cannot consist only of numbers.,معرف المنشور لا يمكن ان يتكون من ارقام فقط.
+Post information,معلومات المنشور
+Post Information,معلومات المنشور
+post was successfully deleted,تم حذف المنشور بنجاح
+Post was successfully deleted,تم حذف المنشور بنجاح
+Post was successfully saved,تم حفظ المنشور بنجاح
+Post,منشور
+Posted in,نشرت في
+posted on,تاريخ النشر: 
+Posted,نشرت
+Poster,المؤلّف
+Posts per Page,عدد المنشورات في الصفحة
+Posts,المنشورات
+Post Title,عنوان المنشور
+Read More,إقرأ المزيد
+ReCAPTCHA Private Key,مفتاح ReCAPTCHA خاص
+ReCAPTCHA Public Key,مفتاح ReCAPTCHA عام
+ReCAPTCHA,ReCAPTCHA
+Recent Posts,اخر المنشورات
+Related post,المنشورات المرتبطة
+"Relative to current skin directory, e.g. images/rsslogo.jpg",مرتبط في مجلد ال skin، على سبيل المثال images/rsslogo.jpg
+Return to,العودة إلى
+Route to Blog,رابط المدونة
+RSS Feed Image,صورة RSS
+RSS Feed,تغذية RSS
+RSS Posts to Show,منشورات ال RSS التي سيتم عرضها
+Save And Continue Edit,حفظ ومتابعة تحرير
+Save Category,حفظ الفئة
+Save Comment,حفظ تعليق
+Save Post,حفظ المنشور
+Send Emails to,إرسال رسائل البريد الإلكتروني
+Short Content,المحتوى القصير
+Short,قصير
+Show Bookmarks in Lists,عرض الإشارات المرجعية في قوائم
+Show Bookmarks in Posts,عرض الإشارات المرجعية في المنشورات
+Show Breadcrumbs,عرض Breadcrumbs
+Submit Comment,إضافة التعليق
+Summary Character Count,عدد الاحرف في الخلاصة
+"Tagged with %s""""","معلّمة بـ %s"""""
+Tags to Display,العلامات التي سيتم عرضها
+The number of recent post to be displayed in the menu. 0 to disable.,عدد اخر المنشورات التي سيتم عرضها في القائمة. اضف ٠ للتعطيل.
+The number of tags to display in tag cloud. 0 disables tag cloud,عدد العلامات الظاهرة في غيمة العلامات، أدخل 0 لإلغاء غيمة العلامات
+The number of posts displayed per page. Set 0 to disable pagination.,عدد التدوينات الظاهرة في الصفحة. ادخل 0 لإلغاء ترقيم الصفحات
+The requested page could not be found,لم يتم إيجاد الصفحة المطلوبة
+Total of %d comment(s) were successfully approved,تم الموافقة على %d تعليق بنجاح
+Total of %d comment(s) were successfully unapproved,تم إلغاء الموافقة على %d تعليق بنجاح
+Total of %d record(s) were successfully updated,تم تحديث %d مدخل بنجاح
+Unable to find category to save,لا يمكن إيجاد الفئة للحفظ
+Unable to find comment to save,لايمكن إيجاد التعليق للحفظ
+Unable to find post to save,لا يمكن إيجاد المنشور للحفظ
+Unapprove,غير موافق عليه
+Unapproved,غير موافق عليه
+Updated at,تم التحديث في
+Use Categories ID in Posts URLs,استخدام معرّف التصنيف في رابط المنشور
+Use Short Content Field,استخدام حقل المحتوى القصير
+Use comma as separator,استخدام الفاصلة كفاصل
+Valid values range from 0.0 to 1.0,مجال القيمة الصحيح هو من 0.0 إلى 1.0
+"Yes, all pages",نعم، كل الصفحات
+"Yes, only blog page",نعم، فقط صفحة المدوّنة
+You must be logged in to comment.,يجب عليك تسجيل الدخول للتعليق
+You must be logged in to post a comment.,يجب عليك تسجيل الدخول لإضافة تعليق
+Your comment has been submitted and is awaiting approval.,تم إضافة تعليقك وهي بانتظار الموافقة على النشر
+Your comment has been submitted.,تمّ إضافة تعليقك
+"Your Recaptcha solution was incorrect, please try again",الإجابة خاطئة يرجى إعادة المحاولة

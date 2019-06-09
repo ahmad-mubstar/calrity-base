@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+        <tabs>
+                <shopgo translate="label">
+            <label>Shopgo Extensions</label>
+            <sort_order>205</sort_order>
+        </shopgo>   
+            </tabs>
+        <sections>
+                <logoupload translate="label" module="logoupload">
+                        <label>Shopgo Logoupload</label>
+                        <tab>shopgo</tab>
+                        <sort_order>1000</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <groups>
+                                <options translate="label" module="logoupload">
+                                        <label>Shopgo Logoupload configuration</label>
+                                        <frontend_type>text</frontend_type>
+                                        <sort_order>1000</sort_order>
+                                        <show_in_default>1</show_in_default>
+                                        <show_in_website>1</show_in_website>
+                                        <show_in_store>1</show_in_store>
+                                        <fields>
+                                            <logo translate="label comment">
+                                                <label>Logo</label>
+                                                <comment>Allowed file types: jpeg, gif, png.</comment>
+                                                <frontend_type>image</frontend_type>
+                                                <backend_model>Shopgo_LogoUpload_Block_Logo</backend_model>
+                                                <upload_dir scope_info="1">/skin/frontend/base/default</upload_dir>
+                                                <base_url type="skin" scope_info="1">frontend/base/default</base_url>
+                                                <sort_order>1</sort_order>
+                                                <show_in_default>1</show_in_default>
+                                                <show_in_website>1</show_in_website>
+                                                <show_in_store>1</show_in_store>
+                                            </logo>
+<!--                                            <width translate="label comment">
+                                                <label>Logo width</label>
+                                                <comment></comment>
+                                                <frontend_type>text</frontend_type>
+                                                <sort_order>2</sort_order>
+                                                <show_in_default>1</show_in_default>
+                                                <show_in_website>1</show_in_website>
+                                                <show_in_store>1</show_in_store>
+                                            </width>
+                                            <height translate="label comment">
+                                                <label>Logo Height</label>
+                                                <comment></comment>
+                                                <frontend_type>text</frontend_type>
+                                                <sort_order>3</sort_order>
+                                                <show_in_default>1</show_in_default>
+                                                <show_in_website>1</show_in_website>
+                                                <show_in_store>1</show_in_store>
+                                            </height>-->
+                                        </fields>
+                                    </options>
+                            </groups>
+                    </logoupload>
+            </sections>
+</config>

@@ -1,0 +1,1761 @@
+PDF Templates,قوالب PDF
+Add New PDF Template,إضافة قالب PDF جديد
+Save and Countinue Edit,الحفظ ومتابعة التعديل
+Template Description,وصف القالب
+Edit PDF Template,تعديل قالب PDF
+PDF Settings,اعدادات ملف PDF
+Template Information,معلومات القالب
+Page Contents,محتويات الصفحة
+Template Body,محتوى القالب
+Header Contents,محتويات الرأس
+Template Header,رأس القالب
+Footer Contents,محتويات التذييل
+Template Footer,تذييل القالب
+Template Css,تنسيق القالب بصيغة CSS
+File Name,اسم الملف
+Page format ,تنسيق الصفحة
+Custom format,تنسيق مخصص
+Width,عرض
+Height,طول
+Page orientation,توجيه الصفحة
+Top,أعلى
+Bottom,أسفل
+Left,يسار
+Right,يمين
+Portrait,نمط صورة
+Landscape,نمط مشهد
+Created Time,تاريخ الإنشاء
+Updated Time,تاريخ التعديل
+Send Email,ارسال رسالة
+Purchased From (Store),تم شراؤها من (متجر)
+Show in Checkout Block,الظهور في صفحة الدفع
+Is Enabled ,مفعل ؟
+حركات,عمليات التحويل
+Rate Percent,معدل الضريبة
+Save Featured Products,حفظ المنتجات المتميزة
+Import Bulk Product Images,رفع صور المنتجات بالجملة
+Is Active,مفعل ؟
+Thumbnail Image,صورة مصغرة
+Include in Navigation Menu ,اضافته لنسق المتجر
+Display Settings,اعدادات العرض
+Display Mode,وضع العرض
+Available Product Listing Sort By *,ترتيب قائمة المنتجات بحسب
+Default Product Listing Sort By *,الترتيب الأفتراضي لقائمة المنتجات
+Layered Navigation Price Step,تقسيم السعر في نسق المتجر
+Use All Available Attributes,استخدام جميع السمات المتاحة
+Use Parent Category Settings,استخدام اعدادات الفئة الرئيسية
+Apply To Products,تطبيق على المنتجات
+Active From,فعال من تاريخ
+Active To,فعال الى تاريخ
+Custom Layout Update,تحديث التقسيم المخصص
+Categories Layout,تخطيط الفئات
+Category Items Management,إدارة عناصر الفئات
+Add Menu Item,إضافة عنصر في القائمة الرئيسية
+Menu Type,نوع القائمة
+Delete Menu,حذف القائمة
+Save Menu,حفظ القائمة
+Content Information,معلومات المحتوى
+Menu Item Icon,أيقونة عنصر القائمة
+Custom Content Position,المكان المخصص للمحتوى
+Custom Style,تنسيق مخصص
+General Style,التنسيق العام
+Background Color,لون الخلفية
+Border Color,لون الحدود
+Border Size,حجم الحدود
+Title Color,لون العنوان
+Font Family,نوع الخط
+Font Size,حجم الخط
+Text Color,لون النص
+Hover Color,لون التظليل
+Use value of template,استخدام تنسيق القالب
+Category Cache Management ,إدارة الذاكرة المؤقتة للفئات
+Brands Categories,فئات العلامات التجارية
+Add Manufacturer,إضافة علامة تجارية
+Update Manufacturer from Magento,تحديث العلامة التجارية من ماجينتو
+Reindex Manufacturer Name,إعادة فهرسة اسم العلامة التجارية
+Reindex Manufacturer URL,إعادة فهرسة رابط العلامة التجارية
+Is Featured,هل هو مميز؟
+Item information,معلومات العنصر
+URL Identifier,الرابط المعرف
+Featured Manufacturer,علامة تجارية مميزة
+Manufacturer Information,معلومات العلامة التجارية
+Manufacturer Products,منتجات العلامة التجارية
+Manufacturer Listing Page,صفحة قائمة العلامات التجارية
+Default manufacturer image,صورة العلامة التجارية الإفتراضية
+Alphabet sort order,الترتيب الأبجدي
+Show featured manufacturer in top,عرض العلامة التجارية في أعلى الصفحة
+Show manufacturer in product page,عرض العلامة التجارية في صفحة المنتجات
+Enable manufacturer navigation,تفعيل البحث بالعلامة التجارية
+Brand view on brands listing page,عرض العلامة التجارية في صفحة العلامات التجارية
+Show image and name,عرض الإسم والصورة
+Show image only,عرض الصورة فقط
+Show name only,عرض الإسم فقط
+Brand view on product page,عرض العلامة التجارية في صفحة المنتجات
+Please make sure to clear cache after changing this field value,الرجاء التأكد من مسح الذاكرة المؤقتة بعد تعديل هذا الحقل
+Manufacturer,علامة تجارية
+Layered Navigation Filters,ترشيح نسق المتجر
+In Category,في الفئة
+In Search,في البحث
+Display As,عرض ك
+Search Engine Optimization,تحسين محرك البحث
+Item Limit,حد العنصر
+Method of Showing All Items,طريقة لعرض جميع العناصر
+Show Option Search,عرض طريقة البحث
+Filterable (no results) Links Are Not Clickable,ترشيح (بدون نتائج) الروابط غير قابلة للنقل
+Popup Width,عرض النافذة المنبثقة
+Use in Layered Navigation,إستخدامها في نسق المتجر
+Values Required,القيمة مطلوبة
+Use in Quick Search,الإستخدام في البحث السريع
+Use in Advanced Search,الإستخدام في البحث المتقدم
+Use In Search Results Layered Navigation,الإستخدام في نتائج البحث الخاصة بنسق المتجر
+Use for Promo Rule Conditions,الإستخدام كشرط في قواعد الترويج
+Visible on Product View Page on Front-end,ظاهر في صفحة المنتج
+Used in Product Listing,الإستخدام في قائمة المنتجات
+Used for Sorting in Product Listing,الإستخدام كعنصر تصنيف في قائمة المنتجات
+Recurring Profiles,عمليات الشراء المتكررة
+Enable Discount to Subproducts,تفعيل التخفيض للمنتجات الفرعية
+Stop Further Rules Processing,إيقاف أي قواعد أخرى
+By Percentage of the Original Price,بنسبة مئوية من السعر الأصلي
+To Percentage of the Original Price,إلى النسبة المئوية من السعر الأصلي
+Coupon,قسيمة شرائية
+Uses per Customer,عدد الإستخدام بالنسبة للعميل
+Maximum Qty Discount is Applied To,العدد الأقصى من عدد المنتجات لتطبيق التخفيض
+Apply to Shipping Amount,تطبيقه على تكلفة الشحن
+Default Rule Label for All Store Views,تسمية إفتراضية للقاعدة لجميع واجهات المتجر
+Coupons Information,معلومات قسيمة الشراء
+Coupon Qty,عدد قسائم الشراء
+Code Length,طول رمز التخفيض
+Code Format,تنسيق رمز التخفيض
+Code Prefix,بداية الرمز
+Code Suffix,نهاية الرمز
+Customer First Name,الإسم الأول للعميل
+Customer Middle Name,الأسم الأوسط للعميل
+Customer Last Name,إسم العائلة
+Search and SEO,البحث وتحسين محركات البحث
+Banner Slider,اللافتات المتحركة
+Manage Sliders,إدارة اللافتات
+Banners Manager,إدارة اللافتات
+Identifier,معرف
+Title,عنوان
+Store View,واجهة المتجر
+Image,صورة
+Link,رابط
+Link Type,نوع الرابط
+Link Target,هدف الرابط
+Add Text,إضافة نص
+Description,وصف
+Sort Order,ترتيب
+Delete Banner,حذف اللافتة
+Save Banner,حفظ اللافتة
+Manage Forms,إدارة الإستمارات
+Form Information,بيانات الإستمارة
+Submit button text,نص أيقونة التقديم
+Display in menu,الظهور في القائمة
+Delete Form,حذف الإستمارة
+Add Field Set,إضافة مجموعة حقول
+Add Field,إضافة حقل
+Duplicate Form,تكرار الإستمارة
+Registered customers only,العملاء المسجلين فقط
+Result Approval Settings,إعدادات موافقة النتيجة
+Enable result approval controls,تفعيل عناصر التحكم في الموافقة على النتائج
+Enable approval status notification,تمكين إعلام حالة الموافقة
+Result approved notification email template,قالب البريد الإلكتروني للموافقة على النتيجة
+Result NOT approved notification email template,قالب البريد الإلكتروني لعدم الموافقة على النتيجة
+Print Settings,إعدادات الطباعة
+Print template,قالب الطباعة
+Attach PDF to email,إرفاق PDF للبريد الإلكتروني
+E-mail Settings,إعدادات البريد الإلكتروني
+Send results by e-mail to admin,إرسال النتائج بالإيميل للمسؤول على المتجر
+Field Sets,مجموعات الحقول
+Validation,التحقق
+Minimum length,الحد الأدني للطول
+Maximum length,الحد الأقصى للطول
+Validation error message,رسالة الخطأ الخاصة بالتحقق
+Fields,حقول
+Manage Quick Responses,إدارة الردود السريعة
+Number of results,عدد النتائج
+Statistics,إحصائيات
+Refresh Statistics,تحديث الإحصائيات
+Report,تقرير
+undefined,غير معرف
+Avg. Rating,متوسط التقييم
+Avg. Approved Rating,متوسط التقييم الموافق عليه
+All Reviews of Product,جميع المراجعات الخاصة بالمنتج
+Customers by Orders Total,عملاء بإجمالي طلبات الشراء
+Current Admin Password,كلمة المرور الحالية للمشرف على المتجر
+Store Setup,إعدادات المتجر
+Setup Payment,إعدادات الدفع
+Cash on Delivery,الدفع عند الإستلام
+Shipment to applicable countries,الشحن الى البلدان المحددة
+Cost calculation,حساب التكلفة
+Costs for inland shipping,التكلفة الشحن الداخلي
+Costs for shipping to foreign countries,تكلفة الشحن الخارجي
+Custom text for checkout page,نص مخصص لصفحة الدفع
+Disallow specific shipping methods,عدم السماح بطرق شحن محددة
+Cash On Delivery Payment,وسيلة الدفع عند الإستلام
+New Order Status,حالة الطلب الجديد
+Instructions,تعليمات
+Bank Transfer Payment,التحويل البنكي
+Payment Services,خدمات الدفع
+Manage Currency,إدارة العملة
+Manage Currency Symbols,إدارة رمزو العملات
+Symbols,رموز
+Store Maintenance,صيانة المتجر
+Store Maintenance?,صيانة المتجر؟
+Frontend Access for Admins?,تعطيل وضع الصيانة لمسؤول المتجر
+General Configuration,التكوينات العامة
+Countries Options,خيارات الدول
+Allow Countries,الدول المسموح بها
+Choose Store View:,إختر واجهة المتجر
+Taxes,الضرائب
+Tax Class for Cash on Delivery Fee,شريحة الضريبية لتكلفة الدفع عند الإستلام
+Calculation Settings,إعدادات حساب الضريبة
+Tax Calculation Method Based On,طريقة حساب الضريبة بناء على
+Tax Calculation Based On,حساب الضريبة بناء على
+Catalog Prices,أسعار الكتالوج
+Excluding Tax,لاتشمل الضريبة
+Including Tax,شاملة الضريبة
+Shipping Prices,أسعار الشحن
+Cash on Delivery fee include tax,الدفع عند الإستلام شامل الضريبة
+Apply Customer Tax,تطبيق ضريبة العملاء
+Before Discount,قبل الخصم
+After Discount,بعد الخصم
+Apply Discount On Prices,تطبيق الخصم على الأسعار
+Default Tax Destination Calculation,حساب الضريبة للوجهة الإفتراضية
+Price Display Settings,إعدادات عرض السعر
+Display Product Prices In Catalog,عرض أسعار المنتجات في كتالوج
+Display Cod Fee,عرض سعر الدفع عند الإستلام
+Shopping Cart Display Settings,إعدادات عرض سلة التسوق
+Display Prices,عرض الأسعار
+Display Subtotal,عرض المجموع الفرعي
+Display Shipping Amount,عرض سعر الشحن
+Include Tax In Grand Total,إضافة الضرائب في المجموع الكلي
+Display Full Tax Summary,عرض ملخص الضريبة الكاملة
+"Orders, Invoices, Credit Memos Display Settings","إعدادات العرض ل الطلبات , الفواتير , طلبات الإسترجاع"
+Fixed Product Taxes,الضرائب الثابتة للمنتجات
+Display Prices In Product Lists,عرض الأسعار في قوائم المنتجات
+Display Prices On Product View Page,عرض الأسعار في صفحة عرض المنتج
+Display Prices In Sales Modules,عرض الأسعار في وحدات المبيعات
+Display Prices In Emails,عرض الأسعار في رسائل البريد الإلكتروني
+Index Management,إدارة الفهرسة
+Reindex Data,إعادة فهرسة البيانات
+Update Required,التحديث مطلوب
+Postal Code is Optional for the following countries,الرمز البريدي اختياري للبلدان التالية
+European Union Countries,دول الإتحاد الأوروبي
+States Options,خيارات المحافظات
+State is required for,المحافظات مطلوبة ل
+Display not required State,عرض المحافظة غير مطلوب
+Locale Options,خيارات اللغة
+Store Contact Telephone,هاتف التواصل الخاص بالمتجر
+Store Hours of Operation,ساعات عمل المتجر
+VAT Number,الرقم الضريبي
+Store Contact Address,عنوان التواصل الخاص بالمتجر
+Default Web URL,العنوان الإفتراضي على الويب
+Show Breadcrumbs for CMS Pages,عرض Breadcrumbs لصفحات CMS
+Disallow Voting in a Poll Multiple Times from Same IP-address,عدم السماح بالتصويت في استطلاع رأي عدة مرات من نفس عنوان IP
+Session Cookie Management,Session Cookie إدارة
+Browser Capabilities Detection,كشف قدرات المتصفح
+Redirect to CMS-page if Cookies are Disabled,إعادة التوجيه إلى صفحة CMS إذا كانت ملفات تعريف الارتباط معطلة
+Show Notice if JavaScript is Disabled,إظهار الإشعار إذا تم تعطيل JavaScript
+Current Package Name,اسم الحزمة الحالية
+Favicon Icon,رمز Favicon
+Miscellaneous Scripts,نصوص متنوعة
+Display Demo Store Notice,عرض ملاحظة متجر تجريبي
+Small Logo Image Src,صورة الشعار الصغير Src
+Pagination,ترقيم الصفحات
+Pagination Frame,إطار ترقيم الصفحات
+Pagination Frame Skip,تخطي إطار ترقيم الصفحات
+Anchor Text for Previous,النص الدال على الصفحة السابقة
+Anchor Text for Next,النص الدال على الصفحة التالية
+Logo Image,صورة اللوجو
+Logo Width,عرض اللوجو
+Logo Height,طول اللوجو
+Email Header Template,قالب رأس رسالة البريد الإلكتروني
+Email Footer Template,قالب ذيل رسالة البريد الإلكتروني
+Base Currency,العملة الأساسية
+Default Display Currency,عملة العرض الافتراضية
+Allowed Currencies,العملات المسموح بها
+General Contact,التواصل العام
+Sales Representative,مندوب مبيعات
+Customer Support,خدمة العملاء
+Custom Email 1,بريد إلكتروني مخصص ١
+Custom Email 2,بريد إلكتروني مخصص ٢
+Enable Reports,تفعيل التقارير
+Current Month Starts,الشهر الحالي يبدأ من
+Select day of the month,إختر يوم من الشهر
+WYSIWYG Options, اختيارات WYSIWYG
+Enable WYSIWYG Editor,تفعيل محرر ال WYSIWYG
+ShopGo,شوب جو
+Customer Actions Tracker,تعقب إجراءات العملاء
+Tracking Enabled,تفعيل التعقب
+Shopgo Social,شوب جو سوشيال
+Share Buttons Options,خيارات أيقونة المشاركة
+Share Services,خدمات المشاركة
+Icons Size,حجم الأيقونات
+Icons Shape,شكل الأيقونات
+Icons Color,لون الأيقونات
+Background Color,لون الخلفية
+Social Connect Google Options,خيارات التواصل الإجتماعي لجوجل
+Social Connect Facebook Options,خيارات التواصل الإجتماعي للفيس بوك
+Enable OpenGraph tags,تفعيل ال OpenGraph tags
+Share orders,مشاركة الطلبات
+Show comments,عرض التعليقات
+Social Connect Twitter Options,خيارات التواصل الإجتماعي لتويتر
+Social Connect LinkedIn Options,خيارات التواصل الإجتماعي للينكد إن
+Admin Login,دخول المشرف
+Quickview,المشاهدة السريعة
+Enable Quickview Modul,تفعيل المشاهدة السريعة
+Popup Width,عرض النافذة المنبثقة
+Popup Height,إرتفاع النافذة المنبثقة
+Assistants,المساعدين
+Block,المساحة
+Allowed IPs (Separated by commas),السماح لعناوين ال IP (مفرق بفواصل)
+System Configurations,إعدادات النظام
+CMS Assistant,مساعد ال CMS
+Follow,متابعة
+Path to image link,المسار لرابط الصورة
+Pre-Loader,التحميل المسبق ل
+Effect,التأثير
+Effect duration,مدة التأثير
+Auto Related Products,الربط الأوتوماتيكي للمنتجات ذات الصلة
+Enable Auto Related Products,تفعيل الربط الأوتوماتيكي
+Enable on the backend,تفعيله على لوحة التحكم
+Limit,حد
+Shopgo Geo,شوب جو جيو
+Always show,العرض دائما
+Display duration,مدة العرض
+Use allowed countries,إستخدام الدول المتاحة
+Time in seconds until the notification message disappears,الوقت بالثواني الى أن تتوقف رسالة التنبيه
+Show the notification once every NO. day(s).,عرض التنبيه مرة كل يوم (أيام)
+Force the shipping notification to ignore cookies and always show.,إجبار تنبيه الشحن تجاهل الكوكيز والعرض دائما
+Enable auto currency switcher,تفعيل محول العملة أوتوماتيكيا
+This will allow you to switch the currency depends on the customer country automatically.,هذا سيسمح لك بتحويل العملة بناءأ على بلدة العميل
+This will allow you to switch the store depends on the customer country automatically.,هذا سيسمح لك بتحويل المتجر بناءا على بلدة العميل
+Style Editor,محرر التصميم
+Stylesheet Editor,صفحة محرر التصميم
+StyleEditor version,نسخة محرر التصميم
+ShopGo StyleEditor,محرر التصميم لدى شوب جو
+Logo,شعار المتجر
+Logo Position,موقع شعار المتجر
+Left,يسار
+Middle,وسط
+Right,يمين
+Slider,شريط التمرير
+Slider Style,تصميم شريط التمرير
+Full,كامل
+Left,يسار
+Middle,وسط
+Right,يمين
+None,بلا
+Static Block,المساحة الثابتة
+Images Flippers,الصورة المتغيرة
+Images Count,عدد الصور
+2 columns,عامودان
+3 Columns,ثلاث أعمدة
+4 columns,أربع أعمدة
+Speed,السرعة
+Brands,العلامات التجارية
+Bottom,الأسفل
+Top,الأعلى
+None ,بلا
+Open StyleEditor,فتح محرر التصميم
+Easy Checkout,صفحة الدفع Easy Checkout
+General Configuration,الإعدادات العامة
+Default ZIP/Postal Code,الرمو البريدي الإفتراضي
+Checkout Title,عنوان صفحة الدفع
+Checkout Description,وصف صفحة الدفع
+Enable Terms and Conditions,تفعيل الشروط والأحكام
+Enable delivery date option,تفعيل خيار تاريخ التوصيل
+EasyCheckout version,نسخة صفحة الدفع EasyCheckout
+Address Configuration,إعدادات العنوان
+Hide zip code for the following countries,إخفاء الرمز البريدي للبلدان التالية
+Use GeoIP for the default country,إستخدام GeoIP للبلد الإفتراضية
+Cities data source,مصدر بيانات المدن
+City field input type,نوع إدخال حقل المدينة
+Allow values other than autocomplete suggestions,السماح ببيانات غير إقتراحات المدن التلقائية
+Reload delay,مدة تأخير إعادة التحميل
+Delay interval,فترة التأخير
+Max input text length,الحد الأقصى لطول النص
+Numeric telephone,هاتف رقمي
+The maximum characters allowed to be entered in the checkout fields,الحد الأقصى لعدد الأحرف المسموح بإدخالها في حقول صفحة الدفع
+When set to yes only numeric entries will be allowed for the telephone number.,عند الضبط على نعم ، سيتم السماح فقط بإدخالات أرقام لرقم الهاتف.
+Shipping Configuration,إعدادات الشحن
+Default Shipping Method,طريقة الشحن الإفتراضية
+Payment Configuration,إعدادات الدفع
+Default Payment Method,طريقة الدفع الإفتراضية
+Default Payment Method when checkout,طريقة الدفع الإفتراضية في صفحة الدفع
+Default Shipping Method when checkout,طريقة الشحن الإفتراضية في صفحة الدفع
+Developers Configuration,إعدادات المبرمجين
+Show console log,إظهار سجل وحدة التحكم
+Output logs in the browser console,سجلات الإخراج في وحدة التحكم
+Advanced Configuration,إعدادات متقدمة
+Skip cart,تخطي السلة
+Redirect newly added items to checkout directly.,إعادة توجيه المنتجات المضافة حديثا الى صفحة الدفع مباشرة
+Allow only one item in the cart,السماح بإبقاء منتج واحد فقط في سلة التسوق
+This option will clear your store cart each time a customer add a new item to it results in allowing one item in the cart at a time.,هذا الخيار سيمسح سلة تسوق متجرك في كل مرة يقوم العميل بإضافة منتج جديد لسلة التسوق ليكون هناك منتج واحد فقط
+UX (Look and Feel) Configuration,إعدادات UX (المظهر والشكل)
+Place order button color,لون أيقونة إتمام طلب الشراء
+Show discount total,إظهار تفاصيل الخصم
+Show the discount on your total cart in checkout page.,إظهار الخصم في مجموع سلة التسوق في صفحة الدفع
+Show base grand total,إظهار الإجمالي الأساسي
+Show the base grand total in the review section if available.,إظهار الإجمالي الأساسي في قسم المراجعة في حال توفره
+Always show shipping methods,دائما إظهار وسائل الشحن
+Use default destination address to show the available shipping methods.,إستخدام عنوان الوجهة الأساسي لعرض طرق الشحن المتاحة
+Show custom text under review box,عرض نص مخصص تحت صندوق المراجعة
+Allow you to add custom text under the review box.,يسمح لك إضافة نص مخصص أسفل صندوق المراجعة
+Billing Information Sub Titles,العناوين الفرعية لمعلومات الدفع
+Change sub titles for billing Information label,تغيير العناوين الفرعية لقسم معلومات الدفع
+Shipping Information Sub Titles,العناوين الفرعية لمعلومات الشحن
+Change sub titles for shipping information label,تغيير العناوين الفرعية لقسم معلومات الشحن
+Payment Information Sub Titles,العناوين الفرعية لطرق الدفع
+Change sub titles for payment information label,تغيير العناوين الفرعية لقسم طرق الدفع
+Review Your Order Sub Titles,العناوين الفرعية لقسم مراجعة الطلب
+Change sub titles for review your order label,تغيير العناوين الفرعية لقسم مراجعة الطلب
+Shopgo Logoupload,شوب جو لرفع شعار المتجر
+Shopgo Logoupload configuration,إعدادات رفع شعار المتجر
+Auto Newsletter,النشرة الإخبارية التلقائية
+Extension is active:,الإضافة مفعلة
+Show price,إظهار السعر
+Show product price and addToCart button.,إظهار سعرر المنتجات و أيقونة أضف الى السلة
+Heading for CMS block,عنوان المساحة الثابتة للمنتجات المميزة
+Sort By in Main Block,الترتيب بحسب في المساحة الأساسية
+Number Of Items in Main Block,عدد المنتجات في المساحة الأساسية
+How many featured products will be showed in main block?,كم عدد المنتجات التي ستظهر في المساحة الأساسية؟
+Number Of Items per row in Main Block,عدد المنتجات في الصف الواحد في المساحة الأساسية
+How many featured products will be showed per row?,كم عدد المنتجات المميزة التي ستظهر في الصف؟
+Thumbnail image dimension (px),أبعاد الصورة المصغرة
+Standalone page,الصفحة المستقلة
+Heading,الرأس
+Meta Title,عنوان الميتا
+Keep me informed about important notifications:,إبفيني على إطلاع بالتنبيهات المهمة
+Installed Inchoo Extensions,تثبيت ملحقات Inchoo
+Easy Tabs,علامات التبويب السهلة
+Enable easy tabs,تفعيل علامات التبويب السهلة
+Enable description tab,تفعيل تبويبة الوصف
+Enable additional info tab,تفعيل تبويبة المعلومات الإضافية
+Enable upsell products tab,تفعيل تبويبة المنتجات الأعلى قيمة
+Enable related products tab,تفعيل تبويبة المنتجات ذات الصلة
+Enable tags products tab,تفعيل تبويبة علامات المنتجات
+Enable product's review tab,تفعيل تبويبة مراجعة المنتجات
+Custom tabs,تبويبات مخصصة
+Enable custom tab #1,تفعيل تبويبة مخصصة # ١
+Custom tab #1 attribute id,الرقم المعرف للسمة في التبويب المخصص رقم ١
+Custom tab #1 name,اسم التبويبة المخصصة رقم ١
+Enable custom tab #2,تفعيل التبويبة المخصصة #٢
+Custom tab #2 attribute,السمة الخاصة بالتبويبة المخصصة رقم ٢
+Show value of product attribute with following identifier,عرض قيمة سمة المنتج الخاصى بهذا المعرف
+Custom tab #2 name,اسم التبويبة المخصصة رقم ٢
+Enable custom tab #3,تفعيل تبويبة مخصصة # ٣
+Custom tab #3 attribute,السمة الخاصة بالتبويبة المخصصة رقم ٣
+Custom tab #3 name,اسم التبويبة المخصصة رقم ٣
+Enable custom tab #4,تفعيل التبويبة المخصصة #٤
+Custom tab #4 attribute id,الرقم المعرف للسمة في التبويب المخصص رقم ٤
+Custom tab #4 name,اسم التبويبة المخصصة رقم ٤
+Enable custom tab #5,تفعيل تبويبة مخصصة # ٥
+Custom tab #5 attribute id,الرقم المعرف للسمة في التبويب المخصص رقم ٥
+Custom tab #5 name,اسم التبويبة المخصصة رقم ٥
+Additional CMS tabs,تبويبات إضافية للمساحات الثابتة
+Enable cms tab #1,تفعيل تبويبة المساحة الثابتة رقم ١
+CMS tab #1 block id,الرقم المعرف للمساحة في تبويبة المساحة الثابتة رقم ١
+CMS tab #1 name,اسم تبويبة المساحة الثابتة رقم ١
+Enable cms tab #2,تفعيل تبويبة المساحة الثابتة رقم ٢
+CMS tab #2 block id,الرقم المعرف للمساحة في تبويبة المساحة الثابتة رقم ٢
+CMS tab #2 name,اسم تبويبة المساحة الثابتة رقم ٢
+Enable cms tab #3,تفعيل تبويبة المساحة الثابتة رقم ٣
+CMS tab #3 block id,الرقم المعرف للمساحة في تبويبة المساحة الثابتة رقم ٣
+CMS tab #3 name,اسم تبويبة المساحة الثابتة رقم ٣
+Enable cms tab #4,تفعيل تبويبة المساحة الثابتة رقم ٤
+CMS tab #4 block id,الرقم المعرف للمساحة في تبويبة المساحة الثابتة رقم ٤
+CMS tab #4 name,اسم تبويبة المساحة الثابتة رقم ٤
+Enable cms tab #5,تفعيل تبويبة المساحة الثابتة رقم ٥
+CMS tab #5 id,الرقم المعرف للمساحة في تبويبة المساحة الثابتة رقم ٥
+CMS tab #5 name,اسم تبويبة المساحة الثابتة رقم ٥
+Show value of static block with following identifier,إظهار القيمة الخاصة بالمساحة الثابتة الخاصة بالمعرف
+Products per Page on Grid Allowed Values,المنتجات لكل صفحة على قيم الشبكة المسموح بها
+Products per Page on Grid Default Value,المنتجات لكل صفحة على قيمة الشبكة الافتراضية
+Products per Page on List Allowed Values,المنتجات لكل صفحة في قائمة القيم المسموح بها
+Products per Page on List Default Value,المنتجات لكل صفحة في قائمة القيمة الافتراضية
+Allow All Products per Page,السماح بعرض جميع المنتجات للصفحة
+Product Listing Sort by,فرز قائمة المنتجات حسب
+Use Flat Catalog Category,استخدم كتالوج الفئة المسطح
+Use Flat Catalog Product,استخدام  كتالوج المنتج المسطح
+Allow Dynamic Media URLs in Products and Categories,السماح بعناوين URL الديناميكية للوسائط في المنتجات والفئات
+Allow Guests to Write Reviews,السماح للزائرين الغير مسجلين بكتابة المراجعات
+Product Image,صورة المنتج
+Base Image Width,عرض الصورة الأساسية
+Small Image Width,عرض الصورة الصغيرة
+Maximum resolution for upload image,الوضوحية القصوى لرفع الصورة
+Allow Alert When Product Price Changes,السماح بالتنبيه عند حدوث تغيير في سعر المنتج
+Price Alert Email Template,قالب الرسالة الإلكترونية الخاصة بتنبيه المنتجات
+Allow Alert When Product Comes Back in Stock,السماح بالتنبيه عند عودة المنتجات للمخزون مرة أخرى
+Stock Alert Email Template,قالب الرسالة الإلكترونية الخاصة بعودة المنتجات للمخزون
+Base Image ,الصورة الأساسية
+Small Image ,صورة صغيرة
+Flipper Image ,الصورة المتغيرة
+Default Recently Viewed Products Count,عدد المنتجات الإفتراضية التي شوهدت مؤخرا
+Default Recently Compared Products Count,عدد المنتجات الإفتراضية التي تم مقارنتها
+Layered Navigation,نسق المتجر
+Display Product Count,عرض عدد المنتجات
+Price Navigation Step Calculation,حساب خطوة نقل السعر
+Autogenerated Site Map,إنشاء تلقائي لخريطة الموقع
+Disable Guest Checkout if Cart Contains Downloadable Items,تعطيل صفحة الدفع الخاصة بالزائرين اذا احتوت سلة التسوق على منتجات يتم تحميلها
+Configurable Swatches,عينات منتجات التهيئة
+Product Attributes to Show as Swatches in Product Detail,سمة المنتج  التي سيتم عرضها كمحولات في تفاصيل المنتج
+Product Attribute to Use for Swatches in Product Listing,سمة المنتج التي سيتم استخدامها كمحول في قائمة المنتج
+Swatch Dimensions on Product Detail Page,أبعاد المحول في صفحة تفاصيل المنتج
+"Innermost dimensions, not including border, in pixels",الأبعاد الداخلية ، لا تشمل الحدود بالبكسل
+Swatch Dimensions in Product Listing,أبعاد المحول في قائمة المنتجات
+Swatch Dimensions in Layered Navigation,أبعاد المحول في نسق المتجر
+Display Out of Stock Products,عرض المنتجات منتهية المخزون
+Display products availability in stock in the frontend,عرض توفر المنتجات في الواجهة الأمامية
+Qty for Item's Status to Become Out of Stock,"عدد المسموح التي تصبح بعدها حالة المنتج ""غير متوفر"""
+Enable Qty Increments,تفعيل زيادة الكمية
+Automatically Return Credit Memo Item to Stock,تلقائيا إرجاع المنتجات في مذكرات الإسترجاع للمخزون
+Add Minimum Qty,إضافة حد أقصى للكمية
+Email Templates,قوالب الرسالة البريدية
+Select Email Template,إختيار قوالب الرسالة البريدية
+Show Category Filter As,عرض تصفية الفئة ك
+Show Price Filter As,عرض تصفية السعر ك
+Show Filters of Type 'Price' As,"عرض تصفيات النوع ""سعر"" ك"
+Show All Other Filters As,عرض جميع التصفيات الإخرى ك
+Sort Items By,ترتيب المنتجات بحسب
+Show Product Count,عرض عدد المنتجات
+Filterable (no results) Links Are Not Clickable,قابل للتصنيف (بدون نتائج) الروابط غير قابلة للنقر
+Hide CMS Page Content When Filters Are Applied,إخفاء محتوى صفحة CMS عند تطبيق التصفية
+Hide CMS Page Product List When No Filters Are Applied,إخفاء قائمة المنتجات في صفحة CMS عند عدم تطبيق التصفية
+Hide Filters With Single Visible Item,إخفاء التصفية عند وجود منتج واحد فقط
+Item Limit,حد المنتج
+Expand/Collapse Time in Milliseconds,توسيع / تضييق الوقت بالملي ثانية
+Method of Showing All Items,طريقة عرض جميع المنتجات
+Applied to system attribute 'price',"يطبق على سمة النظام ""السعر"""
+Applied to all other attributes of price type,"تطبق على جميع السمات الأخرى من النوع ""سعر"""
+Not applicable to category and price filters,لاتطبق على تصفيات السعر والفئة
+Applicable to all CMS pages including home page where layered navigation is present,تطبق على جميع صفحات CMS من ضمنهم صفحة المتجر الرئيسية عند تفعيل نسق المتجر
+"In case filter has more than specified number of items, only first items are displayed, as well as 'Show More' and 'Show Less' actions.","في حال التصفية تحتوي على عدد معين من المنتجات, فقط المنتجات الأولى سيتم عرضها, كما سيتم تفعيل ""مشاهدة المزيد"" و ""مشاهدة القليل"""
+Applied to 'Show More' and 'Show Less' actions when 'Preload All Items' parameter is enabled.,"تطبق على ""مشاهدة المزيد"" و ""مشاهدة القليل"" عند تفعيل ""تحميل مسبق لجميع المنتجات"""
+Advanced Display Settings,إعدادات متقدمة للعرض
+Enable Advanced Display Features,تفعيل مميزات العرض المتقدمة
+Show 'Clear' Action,"عرض خيار ""مسح"""
+Group Filters By,تجميع التصفيات بحسب
+Expand/Collapse Groups,توسيع / تضييق المجموعات
+Expand/Collapse/Dropdown Filters,توسيع/تضييق / إنزلاق التصفيات
+Help Hint Popup Width,عرض النافذة المنبثقة للتلميجات المساعدة
+Filter Positioning,موضع التصفيات
+Show Filters,عرض التصفيات
+In Left Column,في العامود الأيسر
+In Right Column,في العامود الأيمن
+Above Product List,فوق قائمة المنتجات
+Show Applied Filters in Left Column,عرض التصفيات التي تم تطبيقها في العامود الأيسر
+Show Applied Filters in Right Column,عرض التصفيات التي تم تطبيقها في العامود الأيمن
+Show Applied Filters Above Products,عرض التصفيات التي تم تطبيقها فوق المنتجات
+Categories Block Position,موضع مساحة الفئات
+Show 'Above Products' Filters As,"عرض  تصفية ""فوق المنتجات"" ك "
+Show 'Shop By' Text,"عرض نص ""تسوق بحسب"""
+Show 'Currently Shopping By' Text,"عرض نص ""حاليا تسوق بحسب"""
+Mobile Layered Navigation,نسق المتجر على واجهة الجوال
+Hide If Body Width Is More Or Equal To,إخفاء إذا كان عرض الصفحة أكثر أو مساوي ل
+in pixels. Leave empty to disable mobile layout feature. Note that mobile layout may require theme-related CSS changes.,"بالبيكسل , يترك فارغا ل تعطيل ميزة تنسيق الجوال. الرجاء ملاحظة أن واجهة الجوال قد تحتاج تغيير في ملف التصميم CSS"
+Left and Right Column Filters,العامود الأيسر والأيمن للتصفيات
+Behavior,سلوك
+Effect Duration,مدة التأثير
+Initially collapsed; expanded manually,البدء بالتضييق والتوسعة يدويا
+Initially expanded; collapsed manually,البدء بالتوسعة والتضييق يدويا
+Accordion: one filter expanded at a time,الأكورديون: فتح تصفية واحدة في كل مرة
+Leave in columns,تركه في الأعمدة
+Move to mobile layered navigation,النقل الى نسق المتجر الخاص بالجوال
+Copy to mobile layered navigation,النسخ الى نسق المتجر الخاصة بالجوال
+Other Settings,إعدادات أخرى
+Adjust Configurable Product Price Filtering,تعديل تصفية السعر الخاصة بمنتج التهيئة
+"If enabled, additional price tags of configurable product options are additionally checked","إذا تم تفعيلها , سيتم التحقق من علامات سعر إضافية خاصة بمنتجات التهيئة"
+Show 'All' option,"عرض خيار ""الجميع"""
+Category Tree,شجرة الفئات
+Expand All Tree Items on Initial Page Load,توسعة جميع عناصر الشجرة في تحميل الصفحة الأساسي
+Expand Currently Applied Item on Initial Page Load,توسعة العناصر الحالية في تحميل الصفحة الأساسي
+Show More Popup,مشاهدة المزيد
+Number of Rows in Popup,عدد الصفوف في النافذة
+Number of Columns in Popup,عدد الأعمدة في النافذة
+Show 'Please Wait',"عرض ""الرجاء الإنتظار"""
+Show Network Errors in Frontend,عرض أخطاء الشبكة في الواجهة الأمامية
+Colors and Images,ألوان وصور
+Width (Picker),"العرض ""منتقي"""
+Height (Picker),"الطول ""منتقي"""
+Globally Applied Filters,التصفيات المطبقة عالميا
+Remember Applied Category Filters,تذكر التصفيات المطبقة على الفئات
+Remember Applied Search Filters,تذكر التصفيات المطبقة على البحث
+Remember Applied CMS Page Filters,تذكر التصفيات المطبقة على صفحات CMS
+"If set, system remembers filters applied to each category so when customer navigates to a category to which he/she had applied filters earlier, those filtered are still applied.","إذا تم تحديدها, النظام سيتذكر التصفيات المطبقة على كل فئة"
+"If set, system remembers filters applied on search page so when customer uses search, those filtered are still applied.","إذا تم تحديدها , النظام سيتذكر التصفيات المطبقة على كل صفحة"
+Session Settings,إعدادات الSession
+Above Products' Filters As Drop Down Menu Options,"تصفيات ""فوق المنتجات"" كخيار قائمة منسدلة"
+Min Width,الحد الأدنى للعرض
+Max Width,الحد الأقصى للعرض
+Show Sliders,عرض السلايدر
+Above Products' Filters As Horizontally Laid Filter Options,"تصفيات ""فوق المنتجات"" كخيارات تصفية أفقية"
+Minimum Filter Height,الحد الأدنى لطول التصفية
+Two Columns Mode Maximum Width,الحد الأقصى لعرض وضعية العامودان
+Three Columns Mode Maximum Width,الحد الأقصى لعرض وضعية الثلاث أعمدة
+Four Columns Mode Maximum Width,الحد الأقصى لعرض وضعية الأربعة أعمدة
+Allow Guest Subscription,السماح للزوار الغير مسجلين بالإشتراك
+Enable Automatic Assignment to Customer Group,تفعيل التعيين التلقائي لمجموعات العملاء
+Show VAT Number on Frontend,عرض الرقم الضريبي في الواجهة الأمامية
+Generate Human-Friendly Customer ID,إنشاء رقم عميل صديق للإنسان
+Remind Email Template,قالب رسالة التذكير
+Forgot and Remind Email Sender,قالب رسالة فقدان كلمة المرور والتذكير بها
+Recovery Link Expiration Period (days),فترة انتهاء صلاحية رابط الاسترداد (بالأيام)
+Require admin user to change user password,مطلوب مشرف الموقع لتغيير كلمة السر الخاصة بالمستخدم
+Share Options,خيارات المشاركة
+My Wishlist Link,رابط قائمة أمنياتي
+Display Wishlist Summary,عرض ملخص قائمة الأمنيات
+Auto Generated Specific Coupon Codes,إنشاء قصائم خصم تلقائيا
+Persistent Shopping Cart,عربة التسوق الثابتة
+Enable Persistence,تثبيت عربة التسوق الثابتة
+Enable Left Menu,تفعيل القائمة يسار الشاشة
+Enable Right Menu,تفعيل القائمة يمين الشاشة
+Enable Footer Link,تفعيل رابط التذييل
+Enable Top Link,تفعيل الرابط الموجود في الأعلى
+Enable Categories Menu,تفعيل قائمة الفئات
+RSS Feed,تغذية RSS
+Enable Blog RSS Feed,تفعيل تغذية RSS للمدونة
+RSS Feed Image,صورة تغذية RSS
+RSS Posts to Show,مشاهدة المشاركات في RSS
+Number of post to display in the RSS feed.,عدد المشاهدات التي سيتم عرضها في تغذية RSS
+"Relative to current skin directory, e.g. images/rsslogo.jpg","مماثل لملف الصور الحالي , على سبيل المثال images/rsslogo.jpg"
+ReCAPTCHA,اختبار التحقق ReCAPTCHA
+Enable ReCAPTCHA,تفعيل ReCAPTCHA
+Go to http://www.google.com/recaptcha/intro/index.html to get keys,الذهاب الى http://www.google.com/recaptcha/intro/index.html  للحصول على المفاتيح
+ReCAPTCHA Site Key,مفتاح الموقع (Site key) الخاص بال ReCAPTCHA
+ReCAPTCHA Secret Key,المفتاح السري (Secret Key) الخاص بال ReCAPTCHA
+Info,معلومات
+Stored in the archive,مخزن في الأرشيف
+"Keep log for, days","الإحتفاظ بالسجلات لمدة , أيام"
+Additional Info,معلومات إضافية
+License Certificate Information,معلومات شهادة الترخيص
+List of License Certificates,قائمة بشهادات الترخيص
+License Key Management,إدارة مفتاح الترخيص
+Magestore Extension Key Management,إدارة مفتاح الترخيص الخاص بإضافة ميج ستور
+Mega Menu,ميجا مينيو
+Enable Mega Menu,تفعيل الميجا مينيو
+Menu Effect,تأثير القائمة
+Menu Direction,وجهة القائمة
+Content Position,موضع المحتوى
+Enable Mobile Menu,تفعيل قائمة الجوال
+Menu Width,عرض القائمة
+"pixel. If it's 0 or empty, the system will set vertical menu: 200px; horizontal menu: default Magento menu width",بالبيكسل إذا كان الحقل صفر أو فارغا النظام سيقوم بتعيين قائمة عامودية
+Menu Item Height,إرتفاع عناصر القائمة
+"pixel. This is height of a menu item. If it's 0 or empty, the system will set automatically default height is 55px.","بالبيكسل , هذا إرتفاع عناصر القائمة ز إذا كان صفر أو ترك فارغا النظام سيقوم بتحديد الإرتفاع تلقائيا للقيمة الإفتراضية وهي 55px"
+Implement Code,الكود الضمني
+MageNotification,تنبيهات ميج
+Currency Manager,إدارة العملة
+Currency Manager information,معلومات مدير العملة
+Frontend specific options,خيارات الواجهة الأمامية
+Exclude for checkout,إستبعاده في صفحة الدفع
+If Yes - options [Precision] and [Replace Zero Price] will not affect display of prices in checkout.,"اذا نعم, الخيارات (الدقة) و (استبدال سعر الصفر) لن تؤثر على عرض السعر في صفحة الدفع"
+Admin specific options,خيارات المشرف
+Currency options (global),خيارات العملة (عالميا)
+Display precision,مشاهدة الدقة
+"Number of decimal (e.g. 0, 1, 2). Default: 0","عدد الأعداد العشرية (٠,١,٢,٢) القيمة الإفتراضية هي ٠"
+Minimum number of digits after the decimal point,الحد الأقصى لعدد الأرقام بعد الفاصلة العشرية
+Cut Zero Decimals,قطع الصفر العشري
+Symbol position,موضع رمز العملة
+Currency symbol use,إستخدام رمز العملة
+Currency options (for specific currency),خيارات العملة (لعملة محددة)
+Currency specific options,خيارات محددة للعملات
+Add currency specific options,أضافة خيارات العملة المحددة
+Account details,تفاصيل الحساب
+Subscriber amount to be sent per run,عدد الأشتراكات التي يجب إرسالها في كل مرة
+Subscribe On Checkout,الإشتراك في صفحة الدفع
+Enable Log,تفعيل السجلات
+Hide Customer IP,إخفاء عنوان الIP الخاص بالعميل
+Checkout Totals Sort Order,ترتيب إجمالي الطلبات في صفحة الدفع
+Fixed Product Tax,ضريبة المنتجات الثابتة
+Cash on Delivery fee,قيمة الدفع عند الإستلام
+Logo for PDF Print-outs (200x50),شعار المتجر للفواتير المطبوعة (٢٠٠x٥٠)
+Minimum Order Amount,أقل مبلغ للطلب
+Minimum Amount,أقل مبلغ
+Description Message,رسالة الوصف
+This message will be shown in shopping cart when subtotal after discount less than minimum amount.,هذه الرسالة سيتم عرضها في صفحة عربة التسوق عندما يكون اجمالي المبلغ بعد التخفيض أقل من الحد الأدني
+Error to Show in Shopping Cart,الخطأ الذي سيتم إظهاره في سلة التسوق
+Validate Each Address Separately in Multi-address Checkout,تحقق من كل عنوان على حدى في صفحة الدفع متعددة العناوين
+Multi-address Description Message,رسالة الوصف الخاصة ب العناوين المتعددة
+Multi-address Error to Show in Shopping Cart,الخطأ الذي سيتم إظهاره في سلة التسوق للعناوين المتعددة
+"If empty, the default error above will be used.",إذا ترك فارغا رسالة الخطأ الإفتراضية في الأعلى سيتم استعمالها
+Gift Options,خيارات الهدية
+Minimum Advertised Price,السعر الأدنى المعلن عنه
+Enable MAP,تفعيل خاصية السعر الأدنى المعلن عنه
+Apply MAP (Default Value),تطبيق السعر الأدنى المعلن عنه (القيمة الإفتراضية)
+Display Actual Price,عرض السعر الفعلي
+Default Popup Text Message,نص الرسالة الخاص بالنافذة المنبثقة
+"Default ""What's This"" Text Message","نص رسالة ""ما هذا"" الإفتراضية"
+Send Invoice Email Copy Method,طريقة إرسال نسخة من رسالة الفاتورة
+Send Invoice Comments Email Copy Method,طريقة إرسال نسخة من رسالة تعليقات الفاتورة
+Send Credit Memo Email Copy Method,طريقة إرسال نسخة من رسالة إسترجاع المنتجات
+Enable Onepage Checkout,تفعيل صفحة الدفع الواحدة
+After Adding a Product Redirect to Shopping Cart,بعد إضافة المنتج الذهاب لصفحة سلة التسوق
+Allow Shipping to Multiple Addresses,السماح بالشحن لعناوين متعددة
+Maximum Qty Allowed for Shipping to Multiple Addresses,الحد الأقصى للكمية المسموح بها للشحن لعناوين متعددة
+Dimensional Weight Attributes,سمات الوزن والأبعاد
+Aramex Shipping Settings,إعدادات الشحن في أرامكس
+SkyNet Shipping Settings,إعدادات الشحن في سكاي نت
+Payment Services,خدمات الدفع
+Admin Theme,قالب المشرف
+Admin Theme Settings,إعدادات قالب المشرف
+Current Admin Theme,القالب الحالي للمشرف
+Startup Page,صفحة البدء
+Enable Charts,تفعيل الرسوم البيانية
+Login is Case Sensitive,تسجيل الدخول حساس لوضع الأحرف
+Allow Magento Backend to run in frame,السماح للوحة تحكم ماجينتو في التشغيل ضمن إطار
+Allow Magento Frontend to run in frame,السماح للواجهة الامامية لماجينتو في التشغيل ضمن إطار
+Use Custom Admin URL,إستخدام رابط لوحة تحكم مخصصة
+Use Custom Admin Path,إستخدام مسار لوحة تحكم مخصصة
+Storage Configuration for Media,إعدادات التخزين لوسائل الإعلام
+Media Storage,تخزين وسائل الإعلام
+Scheduled Backup Settings,إعدادات جدولة النسخ الإحتياطي
+Enable Scheduled Backup,تفعيل جدولة النسخ الإحتياطية
+Escape CSV fields,تخطي حقول CSV
+Disabling this setting can increase security risk.,تعطيل هذه الإعدادات يمكنه تزويد المخاطر الأمنية
+External Full Page Cache Settings,إعدادات ذاكرة التخزين المؤقت للصفحة الكاملة للصفحة
+Enable External Cache,تمكين ذاكرة التخزين المؤقت الخارجية
+Update Frequency,تحديث متكرر
+Last Update,أخر تحديث
+Enable Log Cleaning,تفعيل مسح السجلات
+"Save Log, Days","حفظ السجلات , أيام"
+Enable Log,تفعيل السجلات
+Log,السجل
+Mail Sending Settings,إعدادات إرسال البريد
+Disable Email Communications,تعطيل اتصالات البريد الإلكتروني
+Enable Scheduler,تفعيل المهام المجدولة
+Generate Schedules Every,إنشاء جدولة كل
+Schedule Ahead for,الجدول الزمني ل
+Success History Lifetime,تاريخ النجاح
+Failure History Lifetime,تاريخ الفشل
+Mark job as failed after,تحديد فشل الوظيفة بعد
+Maximum job runtime,أقصى وقت للعمل
+CSS Settings,إعدادات CSS
+Merge CSS Files,دمج ملفات CSS
+JavaScript Settings,إعدادات JavaScript
+Merge JavaScript Files,دمج ملفات JavaScript
+Keyboard Shortcut First,اختصار لوحة المفاتيح أولا
+Keyboard Shortcut Second,اختصار لوحة المفاتيح الثانية
+Keep empty to disable logging,البقاء فارغا لتعطيل التسجيل
+Maximum number of successful schedules to keep,الحد الأقصى لعدد الجداول الزمنية الناجحة للاحتفاظ بها
+"Enable ""run now""","تمكين ""التشغيل الآن"""
+Enable Job Output Buffering,تمكين التخزين المؤقت للمهمة
+Show cron user message,إظهار رسالة مستخدم cron
+Run only if cache prefix id matches,لا يتم تشغيله إلا إذا تمت مطابقة معرف بادئة ذاكرة التخزين المؤقت
+The customer doesn't exist in the system anymore,العميل غير موجود في النظام بعد الآن,
+and,و,
+"(Absolute path or Relative to Magento install root, ex. var/export)","(الطريق المطلقة او النسبيه لتثبيت جذور magento, مثلا. var/تصدير)",
+(For US 2-letter state names),(للولايات المتحدة استخدام 2-حرف لأسماء المحافظات),
+(If left empty will be auto-generated),(إذا تم تركه فارغًا سيتم إنشاؤه تلقائيًا),
+(Leave empty for first spreadsheet),(اترك فارغًا لجدول البيانات الأول),
+(Products will be added/updated to this store if 'store' column is blank or missing in the import file.),(سيتم إضافة / تحديث المنتجات في هذا المتجر اذا كان عامود 'المتجر' فارغ او مفقود في ملف الاستيراد.),
+(Shift-)Click or drag to change value,(Shift-)اضغط أو اسحب لتغيير القيمة,
+(Starting with),(يبدا ب),
+"(When 'No', only mapped fields will be imported. When mapping, use 'column1', 'column2', etc.)","(When 'No', only mapped fields will be imported. When mapping, use 'column1', 'column2', etc.)",
+(You have to increase php memory_limit before changing this value),يجب عليك زيادة حجم memory_limit قبل تغيير هذه القيمة,
+(\t for tab),(\t لترك مسافة),
+"* - If indexing is in progress, it will be killed and new indexing process will start",* - إذا كانت الفهرسة قيد التقدم ، فسيتم إلغاؤها وستبدأ عملية فهرسة جديدة,
+- Click on any of the time parts to increase it,- انقر على أي جزء من أجزاء الوقت لزيادته,
+- Hold mouse button on any of the above buttons for faster selection.,- ثبت زر الماوس على أي من الأزرار أعلاه لاختيار أسرع.,
+- Use the %s buttons to select month,استخدم أزرار الـ  %s لاختيار الشهر,
+"- Use the %s, %s buttons to select year","استخدم الـ %s, أزرار %s لاختيار السنة",
+- or Shift-click to decrease it,أو اضغط على -Shift- لانقاصه,
+- or click and drag for faster selection.,- أو انقر و اسحب لتحديد سريع,
+-- Please Select --,-- فضلا اختار --,
+-- Please select --,-- فضلا اختار --,
+-- Please select a category --,--  فضلا اختار فئة  --,
+--Please Select--,--فضلا اختار--,
+1 Hour,1 ساعة,
+12 Hours,12 ساعة,
+12h AM/PM,12 ساعة صباحاً/ مساءً,
+2 Hours,2 ساعة,
+24 Hours,24 ساعة,
+24h,24 ساعة,
+2YTD,منذ سنتين,
+6 Hours,6 ساعة,
+"<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">خطأ رقم 404</h1><p>الصفحة غير موجودة</p>",
+"<h1 class=""page-heading"">Access denied</h1><p>Access denied.</p>","<h1 class=""page-heading"">غير مسموح بالدخول</h1><p>غير مسموح بالدخول.</p>",
+A new password was sent to your email address. Please check your email and click Back to Login.,لقد تم ارسال كلمة سر جديدة لعنوان بريدك. الرجاء التحقق من بريدك الالكتروني والنقر على الرجوع لتسجيل الدخول,
+API Stability,API استقرار ال,
+API Version,API نسخة ال,
+API:,API:,
+About the calendar,حول التقويم,
+Access Denied.,الوصول ممنوع.,
+Access Deny,الوصول ممنوع,
+Account Created in:,أنشئ الحساب في:,
+Account Created on (%s):,الحساب انشئ على (%s):,
+Account Created on:,تم انشاء الحساب:,
+Account Information,بيانات الحساب,
+Account status,حالة الحساب,
+Account successfully saved,تم حفظ الحساب بنجاح,
+Action,عمل,
+Actions,أعمال,
+Actions XML,اعمال XML,
+Active,فعال,
+Add,إضافة,
+Add Contents Path,اضافة مسار المحتويات,
+Add Exception,اضافة استثناء,
+Add Field Mapping,أضف حقل الخرائط,
+Add Field with URL:,أضف حقل مع رابط URL,
+Add Maintainer,إضافة مشرف,
+Add New Image,إضافة صورة جديدة,
+Add New Profile,إضافة بروفايل جديد,
+Add New Role,إضافة دور جديد,
+Add New Template,اضافة قالب جديد,
+Add New Urlrewrite,إضافة اعادة كتابة عناوين جديدة,
+Add New User,إضافة مستخدم جديد,
+Add New osCommerce Profile,إضافة ملف شخصي جديد للـosCommerce,
+Add PHP Extension dependency,إضافة الاعتماد لإضافة للـ php,
+Add Package dependency,إضافة حزمة التابعة,
+Add Subpackage dependency,إضافة حزمة فرعية تابعة,
+Add Urlrewrite,إضافة اعادة توجيه الروابط,
+Add Urlrewrite for a Category,إضافة اعادة توجيه الروابط للفئات,
+Add Urlrewrite for a Product,إضافة اعادة توجيه الروابط للمنتجات,
+Add after,أضف بعد,
+Add new Role,إضافة دور جديد,
+Add new store view map,اضافة خريطة لواجهة المتجر ,
+Add new website map,إضافة خريطة للموقع,
+Address Type:,نوع العنوان:,
+Admin,الادارة,
+Advanced Admin Section,قسم الإدارة المتقدمة,
+Advanced Profiles,لمحات متقدمة,
+Advanced Section,قسم متقدم,
+Aggregate Order,الطلب الكلي,
+All,الكل,
+All Allowed Countries,جميع الدول المسموح بها,
+All Cache,كل ذاكرة التخزين المؤقت,
+All Files,جميع الملفات,
+All Store Views,جميع واجهات المنتجر,
+All Tags,كل الوسوم,
+All Websites,جميع المواقع,
+All countries,جميع البلدان,
+All fields,جميع الحقول,
+"All possible rates were fetched, click on ""Save"" to apply","تم جلب جميع المعدلات الممكنة  ، انقر على حفظ "" لتطبيق""",
+"All rates were fetched, click on ""Save"" to apply","تم جلب جميع المعدلات  ، انقر على حفظ "" لتطبيق""",
+All valid rates successfully saved,جميع الاسعار الصحيحة تم حفظها بنجاح,
+Amounts,كمية,
+Any,اي,
+Any Attribute Set,اي مجموعة سمات,
+Any Group,اي مجموعة,
+Any Status,اي حالة,
+Any Store,اي متجر,
+Any Type,اي نوع,
+Any Visibility,اي وضوحية,
+Api Key,مفتاح Api,
+Api Key Confirmation,تأكيد مفتاح واجهة برمجة التطبيقات,
+Archive file name:,اسم ملف الأرشيف,
+Are you sure that you want to delete this template?,هل انت متاكد انك تريد ان تحذف هذا القالب؟,
+Are you sure that you want to strip tags?,هل أنت متأكد من أنك تريد شريط الوسوم,
+Are you sure you want to do this?,هل انت متاكد انك تريد ان تفعل هذا؟,
+Are you sure you wish to INSTALL all selected packages?,هل انت متأكد من انك ترغب في تثبيت جميع مجموعات مختارة؟,
+Are you sure you wish to UNINSTALL all selected packages?,هل انت متأكد من انك تريد الغاء تثبيت جميع مجموعات مختارة؟,
+Are you sure you wish to UPGRADE all selected packages?,هل انت متأكد من انك ترغب في تحديث جميع المجموعات مختارة؟,
+Area,المنطقة,
+Assigned,المحال,
+Attribute Set Name:,اسم مجموعة السمات,
+Attribute set successfully saved.,تم حفظ وضع الصفات بنجاح.,
+Attribute set was successfully removed.,تم حذف وضع الصفات بنجاح.,
+Attributes,الصفات,
+Available Products,المنتجات المتاحة,
+Available Version,النسخة المتاحة,
+Average Order Amount,متوسط كمية الطلب,
+Average Orders,متوسط طلبات الشراء,
+Back,عودة,
+Back to Login,العودة لتسجيل الدخول,
+Back to local packages,عودة الى الحزمة الاصلية,
+Backup,نسخ احتياطية,
+Backup record was deleted,تم حذف النسخة الاحتياطية,
+Backup successfully created,تم إنشاء النسخة الإحتياطية بنجاح,
+Backups,النسخ الإحتياطية,
+Base currency,العملة الاساسية,
+Bcc,ارسال رسالة مخفية,
+Bestsellers,الأكثر مبيعاً,
+Big Image,صورة كبيرة,
+Billing Address,عنوان الفاتورة,
+Billing address,عنوان الفاتورة,
+Block Information,حجب المعلومه,
+Both (without and with tax),على حد سواء (بدون ومع الضريبة),
+Browse Available Extensions,استعراض التحويلات المتاحة,
+Browse Available Remote Extensions,استعراض الإضافات البعيدة المتاحة,
+Browse Files...,استعراض ملفات...,
+Bundle Items,حزمة منتجات,
+Bundle with dynamic pricing cannot include custom defined options. Options will not be saved.,لا يمكن أن تتضمن الحزمة ذات التسعير الديناميكي خيارات محددة مخصصة. لن يتم حفظ الخيارات.,
+CRITICAL,الحرجة,
+CSV,CSV,
+CSV / Tab separated,ملف CSV حسب المساحة الفارغة,
+Cache Control,التحكم بالذاكرة الداخلية المؤقتة,
+Cache Control (beta),التحكم بالذاكرة الداخلية المؤقتة,
+Cache Management,إدارة الذاكرة الداخلية المؤقتة,
+Can not add new comment.,لا تستطيع إضافة تعليق جديد,
+Can not add tracking number.,لا تستطيع إضافة رقم تتبع للشحنات.,
+Can not delete tracking number.,لا تستطيع حذف رقم تتبع للشحنات.,
+Can not do credit memo for order,لا تستطيع عمل ذاكرة إئتمانية لإرجاع للطلبية,
+Can not do invoice for order,لا تستطيع أن تعمل فاتورة للطلب,
+Can not do shipment for order.,لا يمكن تهيئة شحنة لإضافة تتبع شحن,
+Can not initialize shipment for adding tracking number.,لا يمكن تهيئة شحنة لإضافة تتبع شحن,
+Can not initialize shipment for delete tracking number.,لا يمكن تهيئة شحنة لحذف تتابع رقمي,
+Can not load track with retrieving identifier.,لا يمكن تحميل المسار مع استرداد المعرف.,
+Can not retrieve tracking number detail.,لا يمكن استرداد تتبع عدد من التفصيل.,
+Can not save credit memo,لا يمكن حفظ إرجاع الطلبية,
+Can not save invoice,لا يمكن حفظ الفاتورة,
+Can not save shipment.,لا يمكن حفظ الشحنة.,
+Can not send shipment information.,لايمكن ارسال معلوامات السحنة,
+Can not update item qty,لايمكن تحديث كمية العناصر,
+Can't delete design change,لا يمكن حذف تغيرات التصميم,
+Can't find email address.,لا يمكن العثور على عنوان بريد الكتروني.,
+Cancel,إلغاء,
+Card Verification Number,رقم بطاقة التحقيق,
+Catalog,دليل,
+Catalog Rewrites,إعادة كتابة الدليل,
+Catalog Rewrites was refreshed successfully,تم تحديث إعادة الكتابة للكتالوج بنجاح,
+Catalog Rewrites were refreshed successfully,تحديث إعادة الكتابة للكتالوج ناجحة,
+CatalogInventory Stock Status rebuild error. Please try again later,خطأ في إعادة بناء حالة دليل المخزون . الرجاء المحاولة مرة أخرى لاحقاً,
+CatalogInventory Stock Status was rebuilt successfully,تمت إعادة بناء مستودع مخزون الكتالوج بنجاح,
+Category,فئة,
+Category:,الفئة,
+Changelog,سجل التغير,
+Channel,قناة,
+Channel:,قناة:,
+Checkbox,مربع الخيار,
+Choose Store View,اختر واجهة المتجر,
+Choose an attribute,اختيار السمة,
+Clear,مسح,
+Close,إغلاق,
+Comment text field can not be empty.,حقل التعليقات النصي لايجب أن يكون فارغ.,
+Comments History,تاريخ التعليقات,
+Complete,مكتمل,
+Configuration,الإعدادت,
+Configuration successfully saved,تم حفظ الإعدادت بنجاح,
+Confirmed email:,تأكيد البريد الإلكتروني:,
+Conflicts,النزاعات,
+Connect with the Magento Community,Magento التواصل مع مجتمع,
+Contents,محتويات,
+Convert to Plain Text,تحويل الى نص عادي,
+Cookie (Unsafe),Cookie (غير مامونه),
+Country,بلد,
+Country:,بلد:,
+Coupon Code,رمز القسيمة,
+Coupons,القسائم,
+Create,انشاء,
+Create DB Backup,انشاء نسخة احتياطية لقاعدة البيانات,
+Create Extension Package,إنشاء حزمة من الملحقات,
+Create New Attribute,انشاء سمة جديدة,
+Create New Staging Store View,إنشاء واجهة متجر جديدة,
+Create Urlrewrite:,إنشاء إعادة كتابة رابط:,
+Create a backup,إنشاء نسخة إحتياطية,
+Created <strong>%s</strong> items,إنشاء <strong>%s</strong> عناصر,
+Created At,انشئة في,
+Credit Card Number,رقم بطاقة الائتمان,
+Credit Card Number: xxxx-%s,رقم بطاقة الائتمان: xxxx-%s,
+Credit Card Type,نوع بطاقة الائتمان,
+Credit Card Type: %s,نوع بطاقة الائتمان: %s,
+Credit Memo #%s comment added,مذكرة ائتمانية  #%s اضافة تعليق,
+Credit Memo #%s created,تم انشاء المذكرة الإئتمانية #%s,
+Credit Memo History,تاريخ المذكرة الائتمانية,
+Credit Memo Totals,مجموع المذكرة الاتمانية,
+Credit Memo cancel error.,خطأ إلغاء إعادة الطلبية.,
+Credit Memo total must be positive.,يجب أن يكون مجموع إعادة الطلبية موجب,
+Credit Memo void error,إعادة الطلبية باطلة,
+Credit Memo was successfully canceled.,.تم إلغاء اعادة الطلبية بنجاح,
+Credit Memo was successfully created,تم إنشاء المذكرة الائتمانية بنجاح,
+Credit Memo was successfully voided,لقد تم ابطال المذكرة الائتمانية بنجاح,
+Currency,العملة,
+Currency Information,معلومات العملة,
+Currency Setup Section,قسم إعدادات العملة,
+Current Configuration Scope:,التشكيل الحالي لنطاق:,
+Current Release Information,نسخة المعلومات الحالية,
+Custom,مخصص,
+Customer,العميل,
+Customer Group:,مجموعة العملاء:,
+Customer Name,اسم العميل,
+Customer Since:,عميل منذ:,
+Customer was deleted,لقد تم حذف العميل,
+Customer was successfully saved,تم حفظ العميل بنجاح,
+Customer with the same email already exists.,يوجد مستخدم بنفس البريد الإلكتروني سابقاً,
+Customers,عملاء,
+DHTML Date/Time Selector,DHTML تاريخ  الوقت المحدد,
+Dashboard,لوحة العدادات,
+Data Format,بنية البيانات,
+Data transfer:,نقل البيانات:,
+Date,تاريخ,
+Date & Time,الوقت والتاريخ,
+Date Added,اضافة تاريخ,
+Date Updated,تحديث التاريخ,
+Date selection:,اختر التاريخ:,
+Date selector,تاريخ محدد,
+Date:,تاريخ:,
+Day,اليوم,
+Decimal separator:,الفاصلة العشرية:,
+Default (Admin) Values,قيم (الادارة) افتراضية,
+Default Config,اعداد افتراضي,
+Default Template from Locale,القالب الافتراضي من الموقع,
+Default Values,قيم افتراضية,
+"Default display currency ""%s"" is not available in allowed currencies","العرض الإفتراضي للعملة ""%s"" غير متوفر في العملات المسموحة",
+Default scope,نطاق افتراضي,
+Delete,حذف,
+Delete %s,حذف %s,
+Delete %s '%s',حذف %s %s,
+Delete Profile,حذف البروفايل,
+Delete Role,حذف الدور,
+Delete Store View,حذف واجهة المتجر بهذه اللغة,
+Delete Template,حذف القالب,
+Delete User,حذف المستخدم,
+Delete Website,حذف الموقع,
+Dependencies,توابع,
+Description,الوصف,
+Description:,الوصف:,
+Design,تصميم,
+Design Section,قسم التصميم,
+Design change deleted,تم حذف التغييرات,
+Design change saved,تم حفظ التغييرات,
+Developer Section,قسم التطوير,
+Direction:,اتجاه:,
+Disable,تعطيل,
+Disabled,معطل,
+Discount Amount,تخفيض على الكمية,
+Display %s first,عرض%s الأول,
+Display default currency,عرض العملة الافتراضية,
+Distributed under GNU LGPL. See %s for details.,توزع تحت GNU LGPL. اظهار %s للتفاصيل,
+Do you really want to KILL parallel process and start new indexing process?,؟هل أنت متأكد من إنهاء العملية الموازية و بدأ عملية فهرسة جديدة,
+Done By:,تم بواسطة:,
+Done by:,تم بواسطة:,
+Download Remote File,بعد تنزيل الملف,
+Download and Install,تحميل و تثبيت,
+"Downloading and installing $pkg, please wait...","تنزيل وتركيب $pkg, رجاء انتظر...",
+Drag to move,اسحب للنقل,
+Drop-down,المنسدلة,
+Edit,تعديل,
+Edit Email Template,تعديل قالب البريد الالكتروني,
+Edit Poll,تعديل التصويت,
+Edit Role,تعديل الدور,
+Edit Store View,تعديل عرض المخزون,
+Edit System Template,تعديل قالب النظام,
+Edit Tag,تعديل الوسم,
+Edit Template,تعديل قالب,
+Edit Urlrewrite,تعديل اعادة كتابة العنوان,
+Edit User,تعديل مستخدم,
+Edit User '%s',تعديل المستخدم '%s',
+Edit Website,تعديل موقع,
+Email,البريد الالكتروني,
+Email Address:,عنوان البريد الالكتروني:,
+Email Preview,عرض البريد الإلكتروني,
+Email address is empty.,عنوان البريد الالكتروني فارغا.,
+Email to a Friend,أرسل إلى صديق,
+Email:,البريد الالكتروني:,
+Enable,فعّل,
+Enabled,تفعيل,
+Enclose Values In:,أرفق القيم في :,
+Entity Type,نوع العنصر,
+Entity type:,نوع العنصر :,
+Error uploading the file,خطأ في تحميل الملف,
+Error while cleared Image cache. Please try again later,خطأ عند حذف الذاكرة المخبأة للصورة . الرجاء حاول مرة أخرى,
+Error while create backup. Please try again later,خطأ عند إنشاء النسخة الإحتياطية. الرجاء حاول لاحقاً,
+Error while deleting this role. Please try again later.,خطأ في حذف هذه الوظيفة. الرجاء المحاولة لاحقاً,
+Error while deleting this set.,خطأ أثناء حذف هذه المجموعة.,
+Error while finished process. Please refresh cache,خطأ عند اكمال العملية. الرجاء تحديث الخابية,
+Error while refreshed Catalog Rewrites. Please try again later,خطأ أثناء تحديث دليل إعادة الكتابة. يرجى المحاولة مرة أخرى في وقت لاحقاً,
+Error while refreshed Layered Navigation Indices. Please try again later,خطأ أثناء تحديث الطبقات مؤشرات التنقل. يرجى المحاولة مرة أخرى في وقت لاحق,
+Error while saving account. Please check all required fields,خطأ أثناء حفظ الحساب . يرجى المحاولة مرة أخرى لاحقاً,
+Error while saving account. Please try again later,خطاء اثناء حفظ الحساب. يرجى المحاولة لاحقا,
+Error while saving this configuration:,خطأ أثناء حفط هذا الإعداد:,
+Error while saving this role. Please try again later.,خطاء اثناء حفظ هذا الدور. يرجى المحاولة لاحقا.,
+Error while updating selected review(s). Please try again later.,خطا اثناء تحديث استعراض مختارة . يرجى اعادة المحاوله لاحقا.,
+Excl. Tax,الضرائب الغير مشملولة,
+Exclude,عدم اظهار,
+Exclude (comma separated),استبعاد (مفصوله بفواصل),
+Expiration Date,تاريخ انتهاء الصلاحية,
+Expiration Date: %s/%s,تاريخ انتهاء الصلاحية: %s/%s,
+Export,تصدير,
+Export CSV,تصدير إلى ملف CSV,
+Export Filters,فلاتر التصدير,
+Export to:,تصدر الى:,
+Export:,تصدير:,
+Extension,تطبيق,
+Extension Name,اسم التطبيق,
+Extensions,التطبيقات,
+FTP Host[:Port],استضافة FTP [:منفذ],
+"Failed to add a product to cart by id ""%s""","فشل في إضافة المنتج إلى سلة التسوق بالرقم المعرف ""%s""",
+Failed to load %1$s.xml or %1$s.ser,فشل في تحميل %1$s.xml أو%1$s.ser,
+Field,حقل,
+Field Mapping,مجال رسم الخرائط,
+File,ملف,
+File Information,معلومات الملف,
+File name:,اسم الملف:,
+File size should be more than 0 bytes,حجم الملف يجب ان يكون اكبر من  0 بايت,
+Final Price,السعر النهائي,
+Finished items creation.,إنهاء بنود الإنشاء,
+Finished profile execution.,انهاء تنفيذ الملف التعريفي,
+First Name,الاسم الاول,
+First Name:,الاسم الاول:,
+Firstname,الاسم الاول,
+Fixed,ثابت,
+Flat Catalog Category rebuild error,خطأ في إعادة بناء سطح دليل التصنيفات,
+Flat Catalog Category was rebuilt successfully,تم إعادة بناء سطح دليل التصنيفات بنجاح,
+Flat Catalog Product rebuild error. Please try again later,خطأ في إعادة بناء سطح دليل التصنيفات . الرجاء المحاولة لاحقاً,
+Flat Catalog Product was rebuilt successfully,تم إعادة بناء سطح دليل التصنيفات بنجاح,
+For category,للتصنيفات,
+For latest version visit: %s,آخر إصدار للزيارة : %s,
+For product,للمنتجات,
+Forgot your password?,نسيت كلمة السر الخاصة بك؟,
+Forgot your user name or password?,نسيت كلمة السر او اسم المستخدم الخاص بك؟,
+From,من,
+Gb,جيكا بايت,
+General Information,معلومات عامة,
+General Section,قسم عام,
+Get Image Base64,للحصول على صورة Base64,
+Get help for this page,للحصول على مساعدة في هذه الصفحه,
+Global Attribute,السمة العالمية,
+Global Record Search,بحث سجل عالمي,
+Global Search,بحث شامل,
+Go Today,اذهب اليوم,
+Google Base,قاعدة جوجل,
+Google Base Items,عناصر قاعدة جوجل,
+Grand Total,المجموع الكلي,
+Grid (default) / List,الشبكه (افتراضي) / قائمة,
+Grid only,الشبكه فقط,
+Group:,مجموعة:,
+Guest,ضيف,
+HTTP (unsecure),HTTP (غير امن),
+HTTPS (SSL),بروتوكول نقل النص التشعبي الآمن,
+Help Us Keep Magento Healthy - Report All Bugs,تساعدنا على ابقاء صحيه magento -- الابلاغ عن جميع البق,
+Home,المنزل,
+ID,الرمز التعريفي,
+ID Path,طريق الرمز التعريفي,
+IP Address,عنوان الملكية الفكرية,
+Ignore,تجاهل,
+Image cache was cleared successfully,تم مسح الصورة المخبئة بنجاح,
+Images,صور,
+"Images (.gif, .jpg, .png)","صور (.gif, .jpg, .png)",
+Images Cache,الصور المخزن في الذاكرة المؤقتة,
+Import,استيراد,
+Import Service,خدمة الاستيراد,
+Import/Export,استيراد/تصدير,
+Import/Export Advanced,استيراد / تصدير متقدمة,
+Import/Export Profile,الاستيراد والتصدير بروفايل,
+Imported <strong>%s</strong> records,السجلات <strong>%s</strong> المستوردة,
+In,في,
+In Database:,في قاعدة البيانات:,
+In File:,في الملف:,
+Inactive,عدم تفعيل,
+Incl. Tax,الضرائب المشمولة,
+Include,تتضمن,
+Incoming Message,رسالة واردة,
+Individual Item,بند منفرد,
+Install,تثبيت,
+Install Package File,تثبيت مجموعة ملفات,
+Installed As,تثبت كا,
+Installed Extension Info,تثبيت ملحق معلومات,
+Installed Version,النسخه المثبتة,
+"Installing $pkg, please wait...","Iتثبيت $pkg, فضلا انتظر...",
+"Installing selected packages, please wait...",تركيب مجموعات مختارة ، يرجى الانتظار...,
+Instant Payment Notification (IPN),لحظة دفع الأخطار (IPN),
+Interactive,تفاعلي,
+Interface Locale: %s,واجهة الموقع: %s,
+Invalid Form Key. Please refresh the page.,مفتاح نموذج غير صالح الرجاء إعادة تحديث الصفحة,
+Invalid Import Service Specified,الخدمة المحدد غير صالح الاستيراد,
+Invalid POST data (please check post_max_size and upload_max_filesize settings in you php.ini file),بيانات غير صالة (الرجاء التحقق من )post_max_size and upload_max_filesize settings في الملف php.ini,
+Invalid Secret Key. Please refresh the page.,المفتاح السري غير صالح . الرجاء تحديث الصفحة.,
+Invalid URL,رابط غير صحيح,
+Invalid Username or Password.,اسم مستخدم او رقم سري غير صحيح,
+Invalid directory: %s,الدليل غير صحيح: %s,
+Invalid file: %s,الملف غير صحيح: %s,
+Invalid input data for %s => %s rate,بيانات المدخلات غير صالحة لل %s => %s rate,
+Invalid input:,ادخال غير صالح:,
+Invalid parrent block for this block,كتلة الأم لهذه المجموعة غير صالحة,
+Invalid section value,قيمة الفرع غير صحيحة,
+Invalid store value,قيمة المخزن غير صحيحة,
+Invalid website value,قيمة الموقع غير صحيحة,
+Inventory Stock Status,حالة مستودع المخزون,
+Invoice #%s comment added,فاتورة #%s اضافة تعليق,
+Invoice #%s created,فاتورة #%s انشاء,
+Invoice History,تاريخ الفاتورة,
+Invoice Totals,مجموع الفاتورة,
+Invoice and shipment was successfully created.,تم إنشاء الفاتورة و الشحنة بنجاح,
+Invoice cancel error.,خطأ في إلغاء الفاتورة,
+Invoice capture error,خطأ في صورة الفاتورة,
+Invoice void error,خطأ بفاتورة باطلة,
+Invoice was successfully canceled.,تم إلغاءالفاتورة بنجاح.,
+Invoice was successfully captured,تم مسك الفاتورة بنجاح,
+Invoice was successfully created.,تم بنجاح إنشاء الفاتورة.,
+Invoice was successfully voided,تم ابطال الفاتورة بنجاح,
+Issue Number,عدد المشاكل,
+Issuer: %s,المصدر: %s,
+Items,منتجات,
+Items to merge,دمج المنتجات,
+Kb,كيلو بايت,
+Last 24 hours,اخر 24 ساعة,
+Last 5 Orders,"اخر 5 طلبات""",
+Last 5 Search Terms,اخر 5 مصطلحات البحث,
+Last 7 days,اخر 7 ايام,
+Last Logged In (%s):,التسجيل الأخير في (%s):,
+Last Logged In:,اخر تسجيل للدخول:,
+Last Month,الشهر الاخير,
+Last Name,الاسم الأخير,
+Last Name:,الاسم الاخير:,
+Lastname,الاسم الاخير,
+Latest Message:,احدث رسالة,
+Layered Navigation Indices,طبقات مؤشرات الاستعراض,
+Layered Navigation Indices was refreshed successfully,تم تحديث طبقات مؤشرات الاستعراض بنجاح,
+Layered Navigation Indices were refreshed successfully,تم تحديث طبقات مؤشرات الاستعراض وكانت بنجاح,
+Layered Navigation indexing queue cancelled,تم إلغاء طبقات أرشفة رتل الاستعراض,
+Layered Navigation indexing queued,طبقات الاستعراض المفهرسة بقائمة الانتظار,
+Layered Navigation process queued to be killed,طبقات الاستعراض المفهرسة بقائمة الانتظار للقتل,
+Leave empty to use tax identifier,ترك فارغا لاستخدام معرف الضريبة,
+Level,مستوى,
+License,رخصة,
+License URI,رخصة موقع,
+License:,رخصة:,
+Lifetime Sales,عمر المبيعات,
+Links,روابط,
+List (default) / Grid,قائمة (افتراضي) / الشبكه,
+List only,قائمة فقط,
+Load Template,تحميل قالب,
+Load default template,تحميل قالب افتراضي,
+Load local Package,تحميل حزمة المحلية,
+Loading...,تحميل...,
+Local Server,نظام محلي,
+Local/Remote Server,المحلية / خادم نظام,
+Locale,محلي,
+Log Out,تسجيل الخروج,
+Log in to Admin Panel,تسجيل الدخول الى فريق الادارة,
+Log into Magento Admin Page,تسجيل الدخول الى صفحة ادارة magento,
+Logged in as %s,تسجيل الدخول بـ %s,
+Login,تسجيل الدخول,
+MAJOR,الرئيسية,
+MINOR,ثانوي,
+MS Excel XML,MS اكسل XML,
+Excel XML,اكسل XML,
+Magento Admin,Magento ادارة,
+Magento Commerce - Administrative Panel,Magento التجارة -- الفريق الاداري,
+Magento Connect,Magento تواصل,
+Magento Connect Manager,إدارة اتصال ماجنتو,
+Magento Logo,Magento شعار,
+Magento is a trademark of Irubin Consulting Inc. DBA Varien. Copyright &copy; %s Irubin Consulting Inc.,Magento هي العلامه التجارية للشركة استشاريه irubin ديسيبل varien. حقوق الطبع&copy; %s Irubin Consulting Inc.,
+Magento ver. %s,إصدار ماجنتو.  %s,
+Magento&trade; is a trademark of Irubin Consulting Inc. DBA Varien.<br/>Copyright &copy; %s Irubin Consulting Inc.,Magento &trade هي العلامه التجارية للشركة استشاريه irubin ديسيبل varien. حقوق الطبع&copy; %s Irubin Consulting Inc.,
+Maintainers,مشرفون,
+Manage Currency Rates,إدارة أسعار العملات,
+Manage Customers,ادارة العملاء,
+Manage Installed Extensions,ادارة تحميل التحويلات,
+Manage Ratings,ادارة التقديرات,
+Manage Stores,ادارة المخازن,
+Manage osCommerce Orders,إدارة طلبات osCommerce,
+Manage osCommerce Profiles,إدارة الملف الشخصي لـ osCommerce,
+Mapping Configuration,تعيين الإعدادات,
+Matched expression,مطابقة للتعبير,
+Max,الحد الاقصى,
+Maximum,الحد الاقصى,
+Mb,ميغا بايت,
+"Media (.avi, .flv, .swf)","اعلان (.avi, .flv, .swf)",
+Merge Now,دمج الآن,
+Messages Inbox,الصندوق البريدي,
+Min,أقل,
+Minimum,الحد الادنى,
+Module version conflict!,!اختلاف اصدار الوحدة,
+Month,شهر,
+Most Viewed Products,المنتجات الاكثر مشاهدة,
+Multiple Select,اختيار متعدد,
+My Account,حسابي,
+N/A,غير متاح,
+NOTICE,انتبه,
+Name,اسم,
+Name on Card,الاسم في البطاقة,
+Name on the Card: %s,الاسم في البطاقة: %s,
+Name:,الاسم:,
+New Accounts,حسابات جديدة,
+New Api Key,مفتاح Api جديد,
+New Customers,عملاء جدد,
+New Email Template,قالب بريد الكتروني جديد,
+New Extension,تطويرة جديدة,
+New Item Type,نوع المنتج الجديد,
+New Password,رقم سري جديد,
+New Profile,بروفايل جديد,
+New Store View,مشاهدة مخزن جديد,
+New System Template,نظام قالب جديد,
+New Tag,وسم جديد,
+New Template,قالب جديد,
+New User,مستخدم جديد,
+New Website,موقع جديد,
+New admin password,رقم سري جديد للادارة,
+Next month (hold for menu),الشهر القادم (عقد لمدة القائمة),
+Next page,الصفحة التالية,
+Next year (hold for menu),(ايقاف للقائمة)السنة القادمة,
+No,لا,
+No (price without tax),لا ( سعر بدون ضريبة).,
+No Data Found,لم يتم العثور على بيانات,
+No Extensions Found,لم يتم العثور على تحويلات,
+No Templates Found,لم يتم العثور على قوالب,
+No change,لاتغيير,
+No profile,لا يوجد بروفايل,
+No profile loaded...,لا يوجد تحميل بروفايل...,
+No records found for this period.,لا توجد تسجيلات في هذه اللحظه.,
+No records found.,لم يتم العثور على تسجيلات.,
+No search keywords.,لم يتم تنفيذ اي بحث الكلمات الرئيسية.,
+No search modules registered,لم يتم تنفيذ اي بحث الوحدات المسجله,
+None,بلا,
+Note:,ملاحظة:,
+Notes,ملاحظات,
+Notes:,ملاحظات:,
+Number of Orders,عدد الطلبات,
+Number of Use,عدد من الاستخدام,
+Number of Uses,عدد من الاستخدامات,
+Number of records:,عدد السجلات:,
+Old rate:,معدل العمر:,
+One of options row has error,خطأ في الصف الأول من الخيارات,
+"Only attributes with scope ""Global"", input type ""Dropdown"" and Use To Create Configurable Product ""Yes"" are available.","الا الخواص مع نطاق "" العالمي "" ، مساهمه نوع "" يدوي "" واستخدامها لايجاد منتج للتهيئة "" نعم "" متاحة.",
+Only mapped fields,رسمها الميداني فقط,
+Optional,اختياري,
+Options,خيارات,
+Order #%s,طلب #%s,
+Order #%s (%s),طلب #%s (%s),
+Order Totals,مجموع الطلب,
+Order confirmation email not sent,لم يتم إرسال رسالة تأكيد الطلب,
+Order confirmation email sent,تم ارسال رسالة تأكيد الطلب,
+Order not longer exist,الطلب غير موجود,
+Order not longer exist.,الطلب غير موجود,
+Orders,طلبات,
+Original Magento attribute names in first row:,Magento سمة الاسماء الاصليه في الصف الاول:,
+PEAR Configuration was successfully saved,بنجاح PEAR تم حفظ تشكيل ال,
+PEAR Console,PEAR مراقبة,
+PEAR config,PEAR اعداد,
+PHP Version,PHP نسخة ال,
+Package,مجموعة,
+Package %s data was successfully loaded,مجموعة %s تم تحميل البيانات بنجاح,
+Package Extensions,مجموعة التحويلات,
+Package File Name,اسم ملف الحزمة,
+Package Info,معلومات المجموعة,
+Package Information,معلومات المجموعة,
+Packages,مجموعات,
+Page,حقيبة,
+Parent Product Thumbnail,الأم المنتج المصغره,
+Passive mode,طريقة سلبية,
+Password,الرقم السري,
+Password Confirmation,"تشكيلة الرقم السري""",
+Password:,الرقم السري:,
+Path,طريق,
+Path:,طريق:,
+PayPal Email,بايبال البريد الالكتروني,
+Payment Data Transfer (PDT),تم تحويل بيانات الدفع (PDT),
+Payment method must be specified,طريقة الدفع يجب ان تكون محددة,
+Pending Tags,العلامات معلقة,
+Pending installation...,التثبيت معلق...,
+Per Item,لكل بند,
+Per Order,لكل طلب,
+Percent,بالمائة,
+Performed At,في أدائها,
+Period,الفترة,
+Permanent (301),دائم (301),
+Permissions,تصريحات,
+Personal Information,معلومات شخصية,
+Phone:,هاتف:,
+Please confirm site switching. All data that hasn't been saved will be lost.,يرجى تأكيد التحويل الموقع. جميع البيانات التي لم يتم حفظ سوف يضيع.,
+Please enter 6 or more characters.,الرجاء ادخال 6 احرف او اكثر.,
+Please enter a number greater than 0 in this field.,فضلا قم بادخال رقم اكبر من 0 في الحقل.,
+Please enter a valid $ amount. For example $100.00.,الرجاء ادخال $ من المبلغ. فعلى سبيل المثال 100،00 $.,
+Please enter a valid URL. For example http://www.example.com or www.example.com,الرجاء ادخال عنوان. فعلى سبيل المثال http://www.example.com او www.example.com,
+Please enter a valid URL. http:// is required,الرجاء ادخال عنوان. http:// مطلوب,
+Please enter a valid credit card number.,الرجاء ادخال رقم بطاقه الائتمان,
+Please enter a valid date.,الرجاء ادخال تاريخ صحيح.,
+Please enter a valid email address. For example johndoe@domain.com.,الرجاء ادخال عنوان بريد الكتروني صالح. فعلى سبيل المثال johndoe@domain.com .,
+Please enter a valid number in this field.,الرجاء ادخال عدد في هذا المجال.,
+Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.,يرجى ادخال رقم هاتف صحيح. على سبيل المثال (123) 456-7890 or 123-456-7890.,
+Please enter a valid social security number. For example 123-45-6789.,الرجاء ادخال رقم الضمان الاجتماعي. على سبيل المثال 123-45-6789.,
+Please enter a valid value from list,الرجاء ادخال قيمة من القائمة,
+"Please enter a valid value, ex: 10,20,30",الرجاء ادخال قيمة ، مثال : 10،20،30,
+Please enter a valid zip code.,الرجاء إدخال الرمز البريدي.,
+Please enter a valid zip code. For example 90602 or 90602-1234.,الرجاء إدخال الرمز البريدي. فعلى سبيل المثال 90602 او 90602-1234.,
+Please enter valid password.,الرجاء ادخال كلمة السر الصحيحه.,
+Please fill in 'email' field.,يرجى ملء 'البريد الالكتروني' الميدان.,
+Please make sure that all global admin search modules are installed and activated.,يرجى التأكد من ان جميع وحدات البحث العالمية الادارة تثبيت وتفعيل.,
+Please make sure that your changes were saved before running the profile.,يرجى التأكد من ان التغييرات التي قمت بها قبل تشغيل تم توفير صورة.,
+Please make sure your passwords match.,رجاء تاكد من ان الرقم السري يتطابق.,
+Please select State/Province.,الرجاء اختيار الدولة / الأقليم.,
+Please select a custmer,رجاء قم باختيار العميل,
+Please select a store,رجاء قم باختيار المخزن,
+Please select an option.,رجاء قم باختيار الميزة.,
+Please select catalog searches,رجاء قم باختيار دليل البحث,
+Please select customer(s),رجاء قم باختيار العميل(s),
+Please select one of the above options.,رجاء قم باختيار وحده من الخيارات الموجوده في الاعلى.,
+Please select one of the options.,رجاء قم باختيار وحده من الخيارات.,
+Please select review(s),يرجى اختيار استعراض(s),
+Please select tag(s),رجاء قم باختيار العلامة(s),
+Please specify admin custom URL,الرجاء تحديد عنوان معدل من قبل المدير URL,
+Please specify at least start or end date.,يرجى تحديد على الاقل بداية أو نهاية التاريخ.,
+"Please use in this field only ""a-z,0-9,_"".","الرجاء استخدام في هذا المجال فقط ""a-z,0-9,_"".",
+Please use letters only (a-z) in this field.,الرجاء استخدام خطابات فقط (a-z) في هذا المجال.,
+Please use numbers only in this field. please avoid spaces or other characters such as dots or commas.,الرجاء استخدام الأرقام فقط فى هذا المجال. يرجى تجنب فراغات او الشخصيات الأخرى مثل النقط أو الفواصل.,
+Please use only letters (a-z) or numbers (0-9) only in this field. No spaces or other characters are allowed.,الرجاء استخدام الحروف (من الالف الى الياء الاقامة) او ارقام (0-9) الا في هذا الميدان. أي فراغات او الشخصيات الأخرى يسمح.,
+Please use only letters (a-z) or numbers (0-9) or spaces and # only in this field.,الرجاء استخدام الحروف (من الالف الى الياء الاقامة) او ارقام (0-9) أو المساحات و# فقط فى هذا المجال.,
+"Please use this date format: dd/mm/yyyy. For example 17/03/2006 for the 17th of March, 2006.",الرجاء استخدام هذا الشكل حتى الآن : اليوم / الشهر / السنة. فعلى سبيل المثال 17/03/2006 للالسابع عشر من اذار / مارس ، 2006.,
+"Please wait, loading...",يرجى الانتظار ، وتحميل...,
+Please wait...,رجاء انتظر...,
+"Please, add a few answers to this poll first",يرجى ، ان اضيف بعض الردود على هذا الاستطلاع الاول,
+"Please, select a store view",الرجاء، اختيار مظهر المتجر,
+"Please, select visible in stores to this poll first",من فضلك اختر وضوحا في المخازن لهذا الاستطلاع الاول,
+Poll Manager,استطلاع المدير,
+Poll was successfully deleted,تم حذف الاستطلاع بنجاح,
+Poll was successfully saved,تم حفظ الاستطلاع بنجاح,
+Position of Watermark for %s,موقف المائي لل %s,
+Preferred state,الدولة المفضل,
+"Preparing to change $pkg, please wait...","تستعد للتغيير $pkg, رجاء انتظر...",
+Prev. month (hold for menu),السابق. شهر (عقد لمدة القائمة),
+Prev. year (hold for menu),السابق. السنة(عقد لمدة القائمة),
+Preview,اعادة المشاهدة,
+Preview Template,اعادة مشاهدة القالب,
+Previous page,الصفحة السابقة,
+Price,السعر,
+Price alert subscription was saved successfully,تم حفظ تنبيه السعر المشترك بنجاح,
+Price:,السعر:,
+Primary Billing Address,عنوان الفاتورة الاولية,
+Processed <strong>%s%% %s/%d</strong> items,معالجة  <strong>%s%% %s/%d</strong> المنتجات,
+Processed <strong>%s%% %s/%d</strong> records,اجرائات <strong>%s%% %s/%d</strong> تسجيلات,
+Product,منتج,
+Product Thumbnail Itself,صورة مصغرة للمنتج نفسه,
+Product:,المنتج:,
+Products,منتجات,
+Profile Action,فعل البروفايل,
+Profile Actions XML,افعال البروفايل XML,
+Profile Direction,اتجاه البروفايل,
+Profile History,تاريخ البروفايل,
+Profile Information,معلومات البروفايل,
+Profile Name,اسم البروفايل,
+Profile Wizard,معالج البروفايل,
+Profile was deleted,تم حذف البروفايل,
+Profile was successfully saved,تم حفظ البروفايل بنجاح,
+Profiles,بروفيلات,
+Promo,الترويج,
+Promotions,الترويج,
+Provided Files,تقديم ملفات,
+Qty,الكمية,
+Quantity,الكمية,
+Queue Refresh,تحديث الرتل,
+Queued... Cancel,الرتل ... إلغاء,
+Radio Buttons,أزرار الخيار,
+Rates,اسعار,
+Rating was successfully deleted,تم حذف التسعيرة بنجاح,
+Rating was successfully saved,تم حفظ التسعيرة بنجاح,
+Read details,اقرأ التفاصيل,
+Rebuild,إعادة بناء,
+Rebuild Flat Catalog Category,إعادة بناء تطابق التصنيف بالكتالوج,
+Rebuild Flat Catalog Product,إعادة بناء تطابق التصنيف بالمنتجات,
+Recent Orders,الطلبات التي صدرت مؤخرا,
+Recommended,اوصت,
+Recursive Dir,Recursive Dir,
+Redirect,اعادة توجيه,
+Refresh,تحديث,
+Refresh Now*,تحديث الجديد*,
+Region/State,المنطقة / الولايه,
+Release,تحرير,
+Release Info,معلومات التحرير,
+Release Stability,الافصاح عن التحرير,
+Release Version,اطلاق النسخه,
+Remote Extension Info,معلومات عن بعد التمديد,
+Remote FTP,النائية FTP,
+Remote URL:,الموقع النائي:,
+Remove,ازالة,
+Reports,تقريرات,
+Request Path,طريق الطلب,
+Required,مطلوب,
+Reset,اعادة تعين,
+Reset Filter,ترشيح اعادة تعين,
+Resize,اعادة تحجيم,
+Resource Access,دخول المصدر,
+Resources,مصادر,
+Results,نتائج,
+Retrieve Password,استرجاع كلمة السر,
+Return Html Version,العودة النسخه لغة تأشير النص الفائق,
+Revenue,دخل,
+Role,دور,
+Role ID,رمز تعريف الدور,
+Role Info,معلومات الدور,
+Role Information,معلومات الدور,
+Role Name,اسم الدور,
+Role Resources,مصادر الدور,
+Role Users,مستخدمين الدور,
+Role successfully deleted.,تم حذف الدور بنجاح.,
+Role successfully saved.,تم حفظ الدور بنجاح.,
+Roles,ادوار,
+Roles Resources,مصادر الادوار,
+Rotate CCW,تدوير CCW,
+Rotate CW,تدوير CW,
+Run,تشغيل,
+Run Profile,تشغيل البروفايل,
+Run Profile In Popup,تشغيل البروفايل في التعداد,
+Run Profile Inside This Window,تشغيل البروفايل داخل هذه الشاشة,
+Run in popup,تشغيل التعداد,
+Running... Kill,تشغيل ... إنهاء,
+Running:,مشغلة:,
+SKU,SKU,
+SKU:,SKU:,
+SSL Error: Invalid or self-signed certificate,SSL خطاء: غير صالحه او شهادة موقعة الذاتي,
+Sales Report,تقرير المبيعات,
+Samples,اقتراحات,
+Save,حفظ,
+Save & Generate,حفظ و توليد,
+Save Account,حفظ الحساب,
+Save And Continue Edit,حفظ و متابعة التحرير,
+Save As...,حفظ كـ...,
+Save Config,حفظ التشكيل,
+Save Currency Rates,حفظ الاسعار الحالية,
+Save PEAR Config,حفظ تشكيل ال  PEAR,
+Save Profile,حفظ البروفايل,
+Save Role,حفظ الدور,
+Save Template,حفظ القالب,
+Save User,حفظ المستخدم,
+Save and Continue Editing,حفظ و متابعة التحرير,
+Save cache settings,حفظ وضع الذاكرة,
+Save data and Create Package,حفظ البيانات و انشاء مجموعة,
+Save package with custom package file name,حفظ الحزمة مع حزمة مخصصة باسم الملف,
+Schedule Merge,جدول الدمج,
+Search,بحث,
+Search Index,بحث المفهرس,
+Search Index rebuild error. Please try again later,خطأ في إعادة بناء البحث المفهرس . الرجاء المحاولة مرة أخرى,
+Search Index was rebuilt successfully,تم إعادة بناء البحث المفهرس بنجاح,
+Search Term,البحث عن كلمة,
+Search Terms,البحث عن كلمات,
+Select,اختيار,
+Select All,اختيار الجميع,
+Select Category,اختر التصنيف,
+Select Date,اختيار التاريخ,
+Select Range,اختيار مجموعة,
+Select Visible,اختيار الظهور,
+Select date,اختر البيانات,
+Select website from map,اختر الموقع من الخريطة,
+Select website to map,اختيار الموقع للخريطة,
+"Selected allow currency ""%s"" is not available in installed currencies","اختر العملة المتاحة ""%s"" ليست متاحة من العملات التي تم تنزيلها",
+Selected base currency is not available in installed currencies,اخترت قاعدة العملة الغير متاحة من تنزيل العملات,
+Selected default display currency is not available in allowed currencies,اخترت عرض العملة الافتراضي الغير متاح في العملات المتاحة,
+Selected default display currency is not available in installed currencies,العملة المعروضة المختارة غير متوفرة مع العملات المثبتة,
+Sender,مرسل,
+Separate email,البريد الإلكتروني المنفصل,
+بعض المنتجات في هذه الطلبية تملك فواتير وشحنات مختلفة . أنت تستطيع إنشاء شحنة فقط بعد ,شحنه #%s اضافة تعليق,
+Shipment #%s created,شحنه #%s انشاء,
+Shipment Comments,تعليقات الشحنه,
+Shipment History,تاريخ الشحنه,
+Shipment was successfully created.,تم إنشاء الشحنة بنجاح.,
+Shipment was successfully sent.,الشحنة تم إرسالها بنجاح,
+Shipping,الشحن,
+Shipping Address,عنوان الشحن,
+Shipping Price,سعر الشحنه,
+Shipping address,عنوان الشحن,
+Shipping address selection is not applicable,عنوان الشحنة المختارة غير مطبقة,
+Shipping method must be specified,يجب تحديد طريق الشحنه,
+Shipping method selection is not applicable,طريقة الشحن المختارة غير مطبقة,
+Shipping origin,ترتيب الشحنه,
+Shopping Cart from %s,من سلة التسوق %s,
+Show Report for,يظهر تقرير الى,
+Show by,يظهر بواسطة,
+Show reviews,تبين الاستعراضات,
+Sitemap Information,معلومات خريطة الموقع,
+Size for %s,حجم الى %s,
+Skip category selection,تخطي اختيار التصنيف,
+Some items in this order have different invoice and shipment types. You can create shipment only after the invoice is created.,بعض المنتجات في هذه الطلبية تملك فاتورة مختلفة وأنواع الشحنة . أنت تستطيع إنشاء شحنة فقط بعد إنشاء الفاتورة,
+Some of the ordered items don't exist in the catalog anymore and will be removed if you try to edit the order.,بعض من العناصر المطلوبة ليست متوفرة في الكاتالوج حاليا وسوف يتم ازالتها اذا كنت تحاول تعديل الطلب.,
+"Sorry, this feature is coming soon...","عذرا, هذه الميزة ستاتي قريبا...",
+Sort Order,نوع الطلب,
+Specific Countries,بلدان مخصصة,
+Spreadsheet Name:,اسم جدول البيانات:,
+Stability,الاستقرار,
+Staging Store:,تدريج المتجر,
+Staging Website:,تدريج الموقع,
+Start Date,تاريخ البدء,
+"Starting profile execution, please wait...","نبذة عن بدء التنفيذ, يرجى الانتظار...",
+State/Province:,الدولة / الاقليم:,
+Status,الوضع,
+Status:,الوضع:,
+Stock Quantity:,كمية الاسهم:,
+Stock notification was saved successfully,تم حفظ تقيم الاخطار بنجاح,
+Store,متجر,
+Store Email Addresses Section,قسم عناوين البريد الإلكتروني للمتجر,
+Store View,مشاهدة المخزن,
+Store:,مخزن:,
+Store:,المتجر:,
+Subject,موضوع,
+Submit,يرسل,
+Subpackage,مجموعة فرعية,
+Subpackage can't be conflicting,مجموعة فرعية لا يمكن ان تكون متعارضه,
+Subpackages,مجموعات فرعية,
+Subtotal,المجموع الفرعي,
+Subtotal Amount,كمية المجموعة الفرعية,
+Summary,خلاصة,
+Summary:,خلاصة:,
+Switch/Solo Only,التبديل/ المنفرد فقط,
+Switch/Solo card issue number: %s,التبديل / بطاقه سولو العدد: %s,
+Switch/Solo card start Date: %s/%s,التبديل / تاريخ بداية بطاقه سولو: %s/%s,
+Switch/Solo/Maestro(UK Domestic) Only,التبديل / سولو / مايسترو (المملكه المتحدة المحلية) فقط,
+Switch/Solo/Maestro(UK Domestic) card issue number: %s,التبديل / سولو / مايسترو (المملكه المتحدة المحلي (بطاقه العدد: %s,
+Switch/Solo/Maestro(UK Domestic) card start Date: %s/%s,التبديل / سولو / مايسترو (المملكه المتحدة المحلي (تاريخ بدء بطاقه: %s/%s,
+System,نظام,
+System Section,قسم النظام,
+Tag was successfully deleted,تم حذف العلامة بنجاح,
+Tag was successfully saved,تم حفظ العلامة بنجاح,
+Tags,علامات,
+Target Path,طريق الهدف,
+Tax,ضريبة,
+Tb,تيرا بايت,
+Template,قالب,
+Template Content,محتوى القالب,
+Template Information,معلومات القالب,
+Template Name,اسم القالب,
+Template Subject,موضوع القالب,
+Template Type,نوع القالب,
+Temporary (302),المؤقتة (302),
+Text,نص,
+"The archive can be uncompressed with <a href=""%s"">%s</a> on Windows systems","الأرشيف سيكون غير مضغوط مع <a href=""%s"">%s</a> في نظام ويندوز",
+The information in this tab has been changed.,المعلومات التي توجد في علامة التبويب لقد تم تغيرها.,
+This account is,هذا الحساب هو,
+This account is inactive.,هذا الحساب غير مفعل.,
+This attribute set don't have attributes which we can use for configurable product,هذه السمة لا تملك مجموعة الصفات التي يمكن استخدامها لتهيئة المنتج,
+This attribute shares the same value in all the stores,هذه السمة الأسهم بنفس القيمه في جميع المخازن,
+This is a required field.,هذا هو الحقل المطلوب.,
+This product is currently disabled,هذا المنتج غير فعال حاليا,
+This section is not allowed.,هذا القسم غير متاح.,
+This tab contains invalid data. Please solve the problem before saving.,هذه علامة التبويب يتضمن بيانات غير صحيحة. الرجاء حل المشكلة قبل حفظ.,
+This user no longer exists,هذا المستخدم لا يستطيع الدخول مره اخرى,
+Thumbnail,صورة مصغره,
+Time,الوقت,
+Time selection:,اختيار الوقت:,
+Time:,الوقت:,
+To,الى,
+Toggle Editor,تحرير المسمار,
+Tools,ادوات,
+Top 5 Search Terms,أعلى 5 مصطلحات البحث,
+Total,المجموع,
+Total %d records found,المجموع %d ايجاد التسجيلات,
+Total Amount,مجموع الكمية,
+Total Invoiced,مجموع الفاتورة,
+Total Order Amount,مجموع كميات الطلبات,
+Total Refunded,اجمالي الاسترداد,
+Total of %d record(s) were successfully deleted,مجموع ال %d التسجيلات التي تم حذفها بنجاح,
+Total of %d record(s) were successfully updated,مجموع ال  %d التسجيلات التي تم تحديثها بنجاح,
+Track order,تتبع الطلب,
+Track this shipment,مسار هذه الشحنة,
+Tracking number %s for %s assigned,رقم المسار %s لل %s المحال,
+Tracking number can not be empty.,رقم تتبع الشحن يجب أن لايكون فارغ,
+Transactional Emails,معاملات رسائل البريد الالكتروني,
+Type,النوع,
+Type:,النوع:,
+Unable to find a poll to delete,لم تتمكن من العثور على استطلاع للحذف,
+Unable to find a tag to delete,لم تتمكن من العثور على اي علامة على حذف,
+Unable to find a user to delete,لم يتمكن من العثور على مستخدم للحذف,
+Unable to initialize import model,تعذر تهيئة نموذج الاستيراد,
+Unable to save Cron expression,غير قادر على حفظ التعبير Cron,
+Uninstall,المسح,
+"Uninstalling $pkg, please wait...","المسح $pkg, رجاء انتظر...",
+"Uninstalling selected packages, please wait...",الغاء تثبيت مجموعات مختارة ، يرجى الانتظار...,
+Unknown,غير معروف,
+Unknown error,خطاء غير معروف,
+Unselect All,غير منتقي للجميع,
+Unselect Visible,غير مختار الظاهر,
+Update,تحديث,
+Updated At,تحديث في,
+Upgrade,ترقيه,
+Upgrade All Available Packages,ترقية جميع المجموعات المسموحة,
+Upgrade all available packages,ترقيه جميع المجموعات المسموحة,
+Upgrade all packages,ترقية جميع المجموعات,
+"Upgrading $pkg, please wait...","ترقية $pkg, رجاء انتظر...",
+"Upgrading all available packages, please wait...",ترقية كل ما هو متاح من مجموعات ، يرجى الانتظار...,
+"Upgrading all packages, please wait...",رفع مستوى جميع الحزم ، يرجى الانتظار...,
+"Upgrading selected packages, please wait...",رفع مستوى مجموعات مختارة ، يرجى الانتظار...,
+Upload File,تحميل الملف,
+Upload Files,تحميل الملف,
+Upload HTTP Error,خطأ في تحميل بروتوكول انتقال النص المتشعب,
+Upload I/O Error,تحميل  I/O خطاء,
+Upload Local File,تحميل الملف المحلية,
+Upload Security Error,تحميل الأمن خطأ,
+Upload and Install,تحميل و تثبيت,
+Upload import file,تحميل ملف الاستيراد,
+Upload local file:,تحميل الملف المحلية:,
+Url Rewrite Management,إعادة كتابة موقع الادارة,
+Urlrewrite Information,معلومات إعادة كتابة الرابط,
+Use Config Settings,استخدام إعدادات التكوين,
+Use Default Value,استخدام قيمة افتراضية,
+Use default,استخدام افتراضي,
+Use website,استخدام موقع,
+User,مستخدم,
+User Email,مستخدم البريد الالكتروني,
+User ID,رمز التعريفي للمستخدم,
+User Info,معلومات المستخدم,
+User Information,معلومات المستخدم,
+User Name,اسم المستخدم,
+User Name:,اسم المستخدم:,
+User Role,دور المستخدم,
+User Roles,ادوار المستخدم,
+User Roles Information,معلومات ادوار المستخدمين,
+User name,اسم المستخدم,
+User was successfully deleted,تم حذف المستخدم بنجاح,
+User was successfully saved,تم حفظ المستخدم بنجاح,
+User with the same User Name or Email aleady exists,تم دخول المستخدم الذي يملك نفس اسم المستخدم او البريد الالكتروني,
+Users,مستخدمين,
+Value,قيمة,
+Value Delimiter:,قيمة محدد:,
+Version,النسخة,
+Version:,النسخة:,
+View,مشاهدة,
+View Actions XML,مشاهدة الافعال XML,
+View Statistics for,مشاهدة الاحصائات ل,
+Visibility:,ظهور:,
+Warning! Empty value can cause problems with CSV format.,تحذير ! قيمة فارغة قد تسبب مشاكل مع تطبيق CSV  .,
+Warning!rnThis action will remove this user from already assigned rolernAre you sure?,تحذير! rn هذا الإجراء سيؤدي إلى إزالة هذا المستخدم من الدور المعينrn هل أنت متأكد؟,
+Warning!rnThis action will remove those users from already assigned rolesrnAre you sure?,تحذير! rn هذا الإجراء سيؤدي إلى إزالة المستخدمين من الدور المعينrn هل أنت متأكد؟,
+Warning: Please don't close window during importing/exporting data,تحذير : الرجاء عدم اغلاق النافذة خلال استيراد / تصدير البيانات,
+Watermark File for %s,الملف المائي لل %s,
+"We're in our typing table, coding away more features for Magento. Thank you for your patience.",نحن لدينا في الجدول الطباعه على الآلة الكاتبه ، بعيدا الترميز ميزات أكثر لmagento. شكرا لك على الصبر.,
+Web Section,قسم الويب,
+Web Services,خدمات الويب,
+Web services,خدمات الويب,
+Website,موقع إلكتروني,
+Website:,موقع إلكتروني:,
+Websites,مواقع إلكترونية,
+Websites / Stores,مواقع إلكترونية / المتاجر,
+What is this?,ما هذا؟,
+Wishlist Report,تقرير الأماني,
+Wrong column format,خطاء في شكل العمود,
+Wrong tab configuration,خطاء في تشكيل العلامة,
+XML,XML,
+YTD,منذ بداية العام,
+Year,سنة,
+Yes,نعم,
+Yes (only price with tax),نعم (السعر فقط مع الضريبه),
+You can not delete self assigned roles.,لا يمكنك حذف الادوار المسنده الذاتية.,
+You cannot delete account of yourself,انت لا تستطيع ان تحذف حساب من تلقاء نفسك,
+You have,أنت لديك,
+You have not enought permissions to login.,انت لا تملك تصريحات كافية لتسجيل الدخول.,
+You have not enought permissions to use this functionality.,انت لا تمتلك التصريحات الكافية لاستخدام هذه الوظائف.,
+You need specify carrier.,انت بحاجة لتحديد شركة الشحن,
+You need to specify order items,يجب تحديد منتجات الطلب,
+You successfully logged out.,لقد سجلت الخروج بنجاح.,
+Your answers contain duplicates.,"اجاباتك تحتوي على تكرار.""",
+Your server PHP settings allow you to upload files not more than %s at a time. Please modify post_max_size (currently is %s) and upload_max_filesize (currently is %s) values in php.ini if you want to upload larger files.,مخدم الـPHP لديك يسمح برفع ملفات ليس أكبر من %s في الوقت الحالي. الرجاء تعديل  post_max_size قيم   (حاليا هي %s) و upload_max_filesize (حاليا هي %s) في الملف php.ini إذا كنت تريد رفع ملفات أكبر,
+Zip/Postal Code,الرمز البريدي,
+Zip/Postal Code:,الرمز البريدي:,
+[ deleted ],[ حذف ],
+[deleted],[حذف],
+b,b,
+close,إغلاق,
+critical,خطير,
+"example: ""sitemap/"" or ""/"" for base path (path must be writeable)","مثال: ""sitemap/"" أو ""/"" لقاعدة المسار (المسار يمكن إعادة الكتابة عليه)",
+example: sitemap.xml,مثال: sitemap.xml,
+from,نموذج,
+images/logo.gif,صور / شعار.gif,
+items selected,العناصر المختارة,
+major,أساسي,
+md5sum,md5sum,
+minor,ثانوي,
+notice,إشعار,
+of %s pages,الصفحة %s من,
+or,أو,
+per page,لكل صفحة,
+store(%s) scope,هدف (%s) المتجر ,
+to,الى,
+website(%s) scope,هدف (%s) الموقع,
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure Url / Base Secure Url. It is highly recommended to change this value in your Magento <a href=""%s"">configuration</a>.","{{base_url}} ليس من الموصى به للاستخدام في الانتاج البيئي لتصريح القاعدة غير الامنUrl / Base Secure Url. إنها موصى بها جدا لتغيير هذه القيمة في ماجنتو الخاص بك<a href=""%s"">الإعدادات</a>.",
+Content Management,إدارة المحتوى,
+Content Management,إدارة المحتوى,
+Manage Apps,تطبيقات الهواتف الذكية,
+Orders,طلبات الشراء,
+Catalog,المنتجات,
+Theme Settings,الإعدادات الخاصة بالقالب,
+View Store,واجهة المتجر حسب اللغة,
+Show / Hide Editor,اظهار / اخفاء الكود,
+Any edits done here can block access to certain paths,which cannot be undone. Be careful!,رسالة مهمة: يمكن لأي تعديلات تم إجراؤها هنا منع الدخول إلى مسارات معينة، والتي لا يمكن التراجع عنها. كن حذرا!

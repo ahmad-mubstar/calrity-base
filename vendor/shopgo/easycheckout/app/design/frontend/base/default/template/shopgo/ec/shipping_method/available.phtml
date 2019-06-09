@@ -1,0 +1,66 @@
+<?php if (!($_shippingRateGroups = $this->getShippingRates())): ?>
+    <?php if ($this->getAddressShippingMethod()): ?>
+        <p class="shipping-error-message"><?php echo $this->__('Please specify the shipping address to see available options.') ?></p>
+    <?php else: ?>
+        <p class="shipping-error-message"><?php echo $this->__('Check the required fields in the billing and shipping information section in order to show the available shipping methods.') ?></p>
+    <?php endif; ?>
+<?php else: ?>
+    <?php //var_dump($this->getShippingRates()) ?>
+    <dl class="sp-methods">
+        <?php
+        $_sole = count($_shippingRateGroups) == 1;
+        foreach ($_shippingRateGroups as $code => $_rates):
+            ?>
+            <dt><?php echo $this->getCarrierName($code) ?></dt>
+            <div class="ui form">
+                <div class="grouped inline fields">
+                    <?php
+                    $_sole = $_sole && count($_rates) == 1;
+                    foreach ($_rates as $_rate):
+                        ?>
+                        <?php if ($_rate->getErrorMessage()): ?>
+                            <p><?php echo $_rate->getErrorMessage() ?></p>
+                        <?php else: ?>
+                            <?php if ($_sole) : ?>
+                                <div class="field">
+                                    <div class="ui radio checkbox">
+                                        <input type="radio" name="shipping_method" value="<?php echo $_rate->getCode() ?>" id="s_method_<?php echo $_rate->getCode() ?>" checked="checked">
+                                        <label></label>
+                                    </div>
+                                    <label for="s_method_<?php echo $_rate->getCode() ?>"><?php echo $_rate->getMethodTitle() ?>
+                                        <?php $_excl = $this->getShippingPrice($_rate->getPrice(), $this->helper('tax')->displayShippingPriceIncludingTax()); ?>
+                                        <?php $_incl = $this->getShippingPrice($_rate->getPrice(), true); ?>
+                                        <?php echo $_excl; ?>
+                                        <?php if ($this->helper('tax')->displayShippingBothPrices() && $_incl != $_excl): ?>
+                                            (<?php echo $this->__('Incl. Tax'); ?> <?php echo $_incl; ?>)
+                                        <?php endif; ?>
+                                    </label>
+                                </div>
+                            <?php else: ?>
+                                <div class="field">
+                                    <div class="ui radio checkbox">
+                                        <input type="radio" name="shipping_method" value="<?php echo $_rate->getCode() ?>" id="s_method_<?php echo $_rate->getCode() ?>"<?php if ($_rate->getCode() === $this->getAddressShippingMethod()) echo ' checked="checked"' ?> class="radio validate-one-required-by-name">
+                                        <label></label>
+                                    </div>
+                                    <label for="s_method_<?php echo $_rate->getCode() ?>"><?php echo $_rate->getMethodTitle() ?>
+                                        <?php $_excl = $this->getShippingPrice($_rate->getPrice(), $this->helper('tax')->displayShippingPriceIncludingTax()); ?>
+                                        <?php $_incl = $this->getShippingPrice($_rate->getPrice(), true); ?>
+                                        <?php echo $_excl; ?>
+                                        <?php if ($this->helper('tax')->displayShippingBothPrices() && $_incl != $_excl): ?>
+                                            (<?php echo $this->__('Incl. Tax'); ?> <?php echo $_incl; ?>)
+                                        <?php endif; ?>
+                                    </label>
+                                </div>
+                            <?php endif; ?>
+                        <?php endif ?>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        <?php endforeach; ?>
+        <script type="text/javascript">
+            //<![CDATA[
+            
+            //]]>
+        </script>
+    </dl>
+<?php endif; ?>

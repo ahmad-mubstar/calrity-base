@@ -1,0 +1,320 @@
+/* Taking font for text in buttons */
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+div.shopgo-social-register,
+div.shopgo-social-checkout,
+div.shopgo-social-login {
+    margin: 28px 0;
+}
+
+div.shopgo-social-login .content {
+    min-height: 100px;
+}
+
+div.shopgo-social-register .fieldset {
+    margin: 0px;
+}
+
+div.shopgo-social-account .col3-set .col-1 {
+    width: 29%
+}
+
+div.shopgo-social-account .col3-set .col-2 {
+    width: 49%
+}
+
+div.shopgo-social-account .col3-set .col-3 {
+    width: 19%
+}
+
+div.shopgo-social-account .col2-set .col-1 {
+    width: 79%
+}
+
+div.shopgo-social-account .col2-set .col-2 {
+    width: 19%
+}
+
+/* Facebook */
+.fb-icon-bg {
+  background: #354f88;
+  height: 37px;
+  margin: 0 0 -37px 0;
+  width: 41px; 
+}
+
+.fb-icon-bg:after {
+  content: url(../images/fb-icon.png);
+  display: block;
+  padding: 9px 10px 5px 15px;
+}
+
+.fb-bg {
+  background: #3b5998;
+  display: block;
+  height: 37px;
+  /*margin: 0 0 30px 41px;
+  width: 175px; */
+  margin: 0 0 0 40px;
+  -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+  transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+  text-align: center;
+}
+
+.fb-bg span {
+  color: #fff;
+  /*content: "sign in with facebook";*/
+  font-family: 'Oswald', sans-serif;
+  height: 37px;
+  line-height: 37px;
+  text-transform: uppercase;
+  width: 41px; 
+}
+
+.fb-bg:hover{
+  cursor: pointer;
+  background: #FFF;
+}
+
+.fb-bg:hover span {
+  color: #3b5998;
+}
+
+.fb-bg:active{
+  background: #354f88;
+}
+
+/* Twitter */
+.twi-icon-bg:after {
+  content: url(../images/twi-icon.png);
+  display: block;
+  padding: 11px 10px 6px 11px;
+}
+
+.twi-icon-bg {
+  background: #40a2d1;
+  height: 37px;
+  margin: 0 0 -37px 0;
+  width: 41px; 
+}
+
+.twi-bg {
+  background: #45b0e3;
+  height: 37px;
+  /*margin: 0 0 30px 41px;
+  width: 175px; */
+  margin: 0 0 0 40px;
+  -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+  transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+  text-align: center;
+}
+
+.twi-bg span {
+  color: #fff;
+  /*content: "sign in with facebook";*/
+  font-family: 'Oswald', sans-serif;
+  height: 37px;
+  line-height: 37px;
+  text-transform: uppercase;
+  width: 41px; 
+}
+ 
+.twi-bg:after {
+  color: #fff;
+  /*content: "sign in with twitter";*/
+  font-family: 'Oswald', sans-serif;
+  height: 37px;
+  left: 11%;
+  position: relative;
+  text-transform: uppercase;
+  top: 29%;
+  width: 41px; 
+}
+
+.twi-bg:hover {
+  cursor: pointer;
+  background: #FFF;
+}
+
+.twi-bg:hover span {
+  color: #45b0e3;
+}
+
+.twi-bg:active {
+  background: #40a2d1;
+}
+
+/* Google+ */
+.g-icon-bg:after {
+  content: url(../images/g-icon.png);
+  display: block;
+  padding: 11px 10px 6px 13px;
+}
+
+.g-icon-bg {
+  background: #ce3e26;
+  height: 37px;
+  margin: 0 0 -37px 0;
+  width: 41px; 
+}
+ 
+.g-bg {
+  background: #de4c34;
+  height: 37px;
+  /*margin-left: 41px;
+  width: 175px; */
+  margin: 0 0 0 40px;
+  -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+  transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+  text-align: center;
+}
+
+.g-bg span {
+  color: #fff;
+  /*content: "sign in with facebook";*/
+  font-family: 'Oswald', sans-serif;
+  height: 37px;
+  line-height: 37px;
+  text-transform: uppercase;
+  width: 41px; 
+}
+ 
+.g-bg:after {
+  color: #fff;
+  /*content: "sign in with google+";*/
+  font-family: 'Oswald', sans-serif;
+  height: 37px;
+  left: 10%;
+  position: relative;
+  text-transform: uppercase;
+  top: 29%;
+  width: 41px; 
+}
+
+.g-bg:hover {
+  cursor: pointer;
+  background: #FFF;
+}
+
+.g-bg:hover span {
+  color: #de4c34;
+}
+
+.g-bg:active {
+  background: #ce3e26;
+}
+
+/* Linkedin */
+
+.in-icon-bg {
+  background: #3160A1;
+  height: 37px;
+  margin: 0 0 -37px 0;
+  width: 41px; 
+}
+ 
+.in-bg {
+  background: #4875B4;
+  height: 37px;
+  /*margin-left: 41px;
+  width: 175px; */
+  margin: 0 0 0 40px;
+  -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+  transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+  text-align: center;
+}
+
+.in-bg span {
+  color: #fff;
+  /*content: "sign in with facebook";*/
+  font-family: 'Oswald', sans-serif;
+  height: 37px;
+  line-height: 37px;
+  text-transform: uppercase;
+  width: 41px; 
+}
+ 
+.in-bg:after {
+  color: #fff;
+  /*content: "sign in with google+";*/
+  font-family: 'Oswald', sans-serif;
+  height: 37px;
+  left: 10%;
+  position: relative;
+  text-transform: uppercase;
+  top: 29%;
+  width: 41px; 
+}
+
+.in-bg:hover {
+  cursor: pointer;
+  background: #FFF;
+}
+
+.in-bg:hover span {
+  color: #4875F6;
+}
+
+.in-bg:active {
+  background: #ce3e26;
+}
+
+/*  */
+.sg-social-btn {
+  position: relative;
+  display: inline-block;
+  width: 195px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.sg-social-btn:hover {
+  text-decoration: none;
+}
+
+/*  */
+
+#googleLogin a {
+    background: #de4c34;
+    padding: 3px 4px 3px 4px!important;
+    border-radius: 2px;
+    color: #fff!important;
+ 
+    border: 0;
+}
+
+#facebookLogin a {
+  background: #3b5998;
+  padding: 3px 4px 3px 4px!important;
+  border-radius: 2px;
+  color: #fff!important;
+  border: 0;
+}
+
+#twitterLogin a {
+  background: #45b0e3;
+  padding: 3px 4px 3px 4px!important;
+  border-radius: 2px;
+  color: #fff!important;
+  border: 0;
+}
+
+#linkedinLogin a {
+  background: #4875B4;
+  padding: 3px 4px 3px 4px!important;
+  border-radius: 2px;
+  color: #fff!important;
+  border: 0;
+}
+
+.big-icon{ background: #3160A1;  height: 37px!important;  margin: 0 0 -37px 0;  width: 41px!important; display: block!important;}
+.big-icon::before {
+    font-size: 20px;
+    text-align: center;color: #fff;
+    display: block!important;  
+    padding: 9px 8px 7px 9px;
+}
+
+.big-icon.icon-googleplus {background: #ce3e26;}
+.big-icon.icon-facebook{background: #354f88;}
+.big-icon.icon-twitter{background: #40a2d1;}

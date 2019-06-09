@@ -1,0 +1,15 @@
+{
+    "name": "shopgo/probadge",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "ProBadge (Product Labels) Magento extension",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Ali Halabyah",
+            "email": "ali@shopgo.me"
+        }
+    ]
+}

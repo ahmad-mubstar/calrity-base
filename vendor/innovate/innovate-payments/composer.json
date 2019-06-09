@@ -1,0 +1,15 @@
+{
+    "name": "innovate/innovate-payments",
+    "type": "magento-module",
+    "license": "OSL 3.0",
+    "description": " Telr | innovate payments Magento payment extension",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Telr | innovate payments",
+            "email": "support@innovatepayments.com"
+        }
+    ]
+}

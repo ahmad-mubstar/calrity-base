@@ -1,0 +1,11 @@
+{
+    "name": "tm-shopgo/easy-tabs",
+    "type": "magento-module",
+    "description": "This small extension will help to add informational tabs on product page.",
+    "authors": [
+        {
+            "name": "Template Masters",
+            "email": "support@templates-master.com"
+        }
+    ]
+}

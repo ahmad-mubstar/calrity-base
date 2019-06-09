@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><?php echo Mage::helper('adminhtml')->__('Log into Magento Admin Page') ?></title>
+    <link type="text/css" rel="stylesheet" href="<?php echo $this->getSkinUrl('reset.css') ?>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<?php echo $this->getSkinUrl('boxes.css') ?>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<?php echo $this->getSkinUrl('shopgo/adminlogin/css/login.css') ?>" media="all" />
+    <link rel="icon" href="<?php echo $this->getSkinUrl('shopgo/adminlogin/images/favicon.ico') ?>" type="image/x-icon" />
+    <link rel="shortcut icon" href="<?php echo $this->getSkinUrl('shopgo/adminlogin/images/favicon.ico') ?>" type="image/x-icon" />
+
+    <script type="text/javascript" src="<?php echo $this->getJsUrl('prototype/prototype.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo $this->getSkinUrl('shopgo/adminlogin/js/lib/jquery/jquery.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo $this->getSkinUrl('shopgo/adminlogin/js/lib/jquery/jquery.noconflict.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo $this->getJsUrl('prototype/validation.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo $this->getJsUrl('scriptaculous/effects.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo $this->getJsUrl('mage/adminhtml/form.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo $this->getJsUrl('mage/captcha.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo $this->getSkinUrl('shopgo/adminlogin/js/lib/jquery/jquery.ezpz_hint.js') ?>"></script>
+
+    <!--[if IE]> <link rel="stylesheet" href="<?php echo $this->getSkinUrl('iestyles.css') ?>" type="text/css" media="all" /> <![endif]-->
+    <!--[if lt IE 7]> <link rel="stylesheet" href="<?php echo $this->getSkinUrl('below_ie7.css') ?>" type="text/css" media="all" /> <![endif]-->
+    <!--[if IE 7]> <link rel="stylesheet" href="<?php echo $this->getSkinUrl('ie7.css') ?>" type="text/css" media="all" /> <![endif]-->
+</head>
+<body id="page-login" onload="document.forms.loginForm.username.focus();">
+    <div class="login-container">
+        <div class="login-logo"><img src="<?php echo $this->getSkinUrl('shopgo/adminlogin/images/logo.png') ?>" width="130"/></div>
+        <div class="login-box-tip"></div>
+        <div class="login-box">
+            <form method="post" action="" id="loginForm">
+                <div class="login-form">
+                    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
+                    <div id="messages">
+                        <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+                    </div>
+                    <div class="input-box input-username">
+                        <input type="text" id="username" name="login[username]" class="required-entry input-text" title="<?php echo Mage::helper('adminhtml')->__('Username') ?>" /></div>
+                    <div class="input-box input-password">
+                        <input type="password" id="login" name="login[password]" class="required-entry input-text" value="" title="<?php echo Mage::helper('adminhtml')->__('Password') ?>" /></div>
+                    <?php echo $this->getChildHtml('form.additional.info'); ?>
+                    <div class="clear"></div>
+                    <div class="form-buttons">
+                        <a href="<?php echo Mage::helper('adminhtml')->getUrl('adminhtml/index/forgotpassword', array('_nosecret' => true)) ?>"><?php echo Mage::helper('adminhtml')->__('Forgot your password?') ?></a>
+                        <input type="submit" class="form-button" value="<?php echo Mage::helper('adminhtml')->__('Login') ?>" title="<?php echo Mage::helper('adminhtml')->__('Login') ?>" /></div>
+                </div>
+            </form>
+            <script type="text/javascript">
+                 var loginForm = new varienForm('loginForm');
+                 jQuery("input.input-text").ezpz_hint();
+            </script>
+        </div>
+    </div>
+    <span class="login-tip" ><?php echo $this->__("Use the login details sent to your email after creating your store."); ?></span>
+    <span class="login-tip arabic" ><?php echo $this->__(".استخدم بيانات الدخول المرسلة إلى بريدك الإلكتروني بعد أن أنشأت متجرك"); ?></span>
+</body>
+</html>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+//        val = "admin";
+//        var username = document.getElementById('username');
+//        username.value = val;
+    });
+</script>

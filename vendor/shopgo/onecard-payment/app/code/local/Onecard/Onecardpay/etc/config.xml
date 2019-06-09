@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Onecard_Onecardpay>
+            <version>1.0.0</version>
+        </Onecard_Onecardpay>
+    </modules>
+    <global>
+        <blocks>
+            <onecardpay>
+                <class>Onecard_Onecardpay_Block</class>
+            </onecardpay>
+        </blocks>
+        <helpers>
+            <onecardpay>
+                <class>Onecard_Onecardpay_Helper</class>
+            </onecardpay>
+        </helpers>
+        <models>
+            <onecardpay>
+                <class>Onecard_Onecardpay_Model</class>
+            </onecardpay>
+            <onecardpay_adminhtml>
+                <class>Onecard_Onecardpay_Adminhtml_Model</class>
+            </onecardpay_adminhtml>
+        </models>
+        <resources>
+            <onecardpay_setup>
+                <setup>
+                    <module>Onecard_Onecardpay</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </onecardpay_setup>
+            <onecardpay_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </onecardpay_write>
+            <onecardpay_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </onecardpay_read>
+        </resources>
+    </global>
+    <default>
+        <payment>
+            <onecardpay>
+                <active>1</active>
+                
+                <order_status>pending</order_status>
+                
+                <model>onecardpay/pay</model>
+                
+                <title>Onecard Payment Method</title>
+                
+                <payment_action>sale</payment_action>
+                
+                <allowspecific>0</allowspecific>
+                
+                <sort_order>1</sort_order>
+            </onecardpay>
+        </payment>
+    </default>
+    <frontend>
+        <routers>
+            <onecardpay>
+                <use>standard</use>
+                <args>
+                    <module>Onecard_Onecardpay</module>
+                    <frontName>onecardpay</frontName>
+                </args>
+            </onecardpay>
+        </routers>
+    </frontend>
+</config>

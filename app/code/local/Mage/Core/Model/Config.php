@@ -1,0 +1,1 @@
+../../../../../../vendor/shopgo/config-corrupted-cache/app/code/local/Mage/Core/Model/Config.php

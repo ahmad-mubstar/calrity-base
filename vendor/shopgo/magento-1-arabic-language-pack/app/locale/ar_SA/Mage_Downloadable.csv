@@ -1,0 +1,68 @@
+Add New Row,إضافة صف جديد
+An error occurred while saving the file(s).,حدث خطأ أثناء حفظ الملف (الملفات)
+Availability: In stock.,التوفر: متوفر في المخزن
+Availability: Out of stock.,التوفر: غير متوفر في المخزن
+Back,الخلف
+"Can't connect to remote host, error: %s","لا يمكن الإتصال بالمضيف عن بعد , خطأ : %s"
+Canceled,تم إلغاؤها
+Date,تاريخ
+Default Link Title,عنوان الرابط الإفتراضي
+Default Maximum Number of Downloads,الحد الأقصى الإفتراضي لعدد مرات التحميل
+Default Sample Title,عنوان العينة الإفتراضي
+Disable Guest Checkout if cart contains downloadable items,تعطيل صفحة الدفع للزائر إذا كانت سلة التسوق تحتوي على منتجات قابلة للتحميل
+Downloadable Information,معلومات للتحميل
+Downloadable Product,منتج قابل للتحميل
+Downloadable Product Options,خيارات المنتج القابل للتحميل
+Downloadable product Section,قسم المنتج القابل للتحميل
+Excl. Tax,غير شامل الضريبة
+File,ملف
+File does not exists,الملف غير موجود
+From:,من 
+Gift Message,رسالة الهدية
+"Go to <a href=""%s"">My Downloadable Products</a>","الذهاب إلى <a href=""٪s""> منتجاتي القابلة للتحميل </A>"
+Guest checkout will only work with shareable,صفحة الدفع الخاصة بالزوار تعمل فقط مع المشاركة
+Incl. Tax,شامل الضريبة
+Invalid download URL host,مضيف URL قابل للتحميل غير صالح
+Invalid download URL scheme,URL قابل للتحميل غير صالح
+Invalid download link type,نوع رابط قابل للتحميل غير صالح
+Invoiced,تم فوترته
+Link has expired.,انتهت صلاحية الرابط
+Link is not available.,الرابط غير متوفر.
+Links can be purchased separately,الروابط يمكن شراؤها بشكل منفصل
+Max. Downloads,الحد الأقصى لعدد مرات التحميل
+Message:,رسالة
+My Downloadable Products,منتجاتي القابلة للتحميل
+Open Links in New Window,فتح الروابط في نافذة جديدة
+Order #,طلب #
+Order Item Status to enable Downloads,حالة طلب لتمكين التحميل
+Ordered,طلب
+Pending,قيد الانتظار
+Please log in to download your product.,يرجى تسجيل الدخول لتحميل المنتج الخاص بك.
+Please set resource file and link type,الرجاء تحديد الملف ونوع الرابط
+Please specify product link(s).,يرجى تحديد رابط (روابط) المنتج
+Price,السعر
+Refunded,مرتجع
+Remaining Downloads,المتبقي من التحميل
+Remove item,حذف العنصر
+Requested link doesn't exist.,الرابط المطلوب غير متوفر
+Sample,عينة
+Shareable,المشاركة
+Shipped,تم شحنه
+"Sorry, the was an error getting requested content. Please contact store owner.",آسف، هناك خطأ في الحصول على المحتوى المطلوب. يرجى التواصل مع صاحب متجر.
+"Sorry, there was an error getting requested content",عذرا،هناك خطأ في الحصول على المحتوى المطلوب
+"Sorry, there was an error getting requested content. Please contact store owner.",آسف، هناك خطأ في الحصول على المحتوى المطلوب. يرجى التواصل مع صاحب متجر.
+Sort Order, ترتيب
+Start Download,بدء التحميل
+Status,الحالة
+Title,عنوان
+To:,إلى:
+U,U
+Unlimited,غير محدود
+View Order,مشاهدة الطلب
+You have not purchased any downloadable products yet.,لم تشتر أي من المنتجات القابلة للتحميل حتى الان.
+attachment,المرفق
+download,تحميل
+inline,في النسق
+sample,عينة
+My Downloadable Products,منتجاتي القابلة للتحميل
+You have not purchased any downloadable products yet.,لم تقم بشراء أي منتجات قابلة للتحميل حتى الآن.

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    Mage
+ * @package     Mage_Shipping
+ * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <shipping translate="title" module="shipping">
+                                        <title>Shipping Settings Section</title>
+                                        <sort_order>0</sort_order>
+                                    </shipping>
+                                    <carriers translate="title" module="shipping">
+                                        <title>Shipping Methods Section</title>
+                                        <sort_order>0</sort_order>
+
+                                        <children>
+                                            <tablerate translate="title" module="shippingcore">
+                                                <title>Table Rates</title>
+                                                <sort_order>10</sort_order>
+                                            </tablerate>
+                                            <freeshipping translate="title" module="shippingcore">
+                                                <title>Free Shipping</title>
+                                                <sort_order>10</sort_order>
+                                            </freeshipping>
+                                            <skynet translate="title" module="shippingcore">
+                                                <title>SkyNet</title>
+                                                <sort_order>10</sort_order>
+                                            </skynet>
+                                            <aramex translate="title" module="shippingcore">
+                                                <title>Aramex</title>
+                                                <sort_order>10</sort_order>
+                                            </aramex>
+                                            <ups translate="title" module="shippingcore">
+                                                <title>UPS</title>
+                                                <sort_order>10</sort_order>
+                                            </ups>
+                                            <flatrate translate="title" module="shippingcore">
+                                                <title>Flat Rate 1</title>
+                                                <sort_order>10</sort_order>
+                                            </flatrate>
+                                            <flatrate2 translate="title" module="shippingcore">
+                                                <title>Flat Rate 2</title>
+                                                <sort_order>10</sort_order>
+                                            </flatrate2>
+                                            <flatrate3 translate="title" module="shippingcore">
+                                                <title>Flat Rate 3</title>
+                                                <sort_order>10</sort_order>
+                                            </flatrate3>
+                                            <flatrate4 translate="title" module="shippingcore">
+                                                <title>Flat Rate 4</title>
+                                                <sort_order>10</sort_order>
+                                            </flatrate4>
+                                            <flatrate5 translate="title" module="shippingcore">
+                                                <title>Flat Rate 5</title>
+                                                <sort_order>10</sort_order>
+                                            </flatrate5>
+                                            <usps translate="title" module="shippingcore">
+                                                <title>USPS</title>
+                                                <sort_order>10</sort_order>
+                                            </usps>
+                                            <fedex translate="title" module="shippingcore">
+                                                <title>FedEx</title>
+                                                <sort_order>10</sort_order>
+                                            </fedex>
+                                            <dhl translate="title" module="shippingcore">
+                                                <title>DHL (Deprecated)</title>
+                                                <sort_order>10</sort_order>
+                                            </dhl>
+                                            <dhlint translate="title" module="shippingcore">
+                                                <title>DHL</title>
+                                                <sort_order>10</sort_order>
+                                            </dhlint>
+                                            <fetcher translate="title" module="shippingcore">
+                                                <title>Fetcher</title>
+                                                <sort_order>10</sort_order>
+                                            </fetcher>
+                                            <matrixrate translate="title" module="shippingcore">
+                                                <title>Matrix Rate</title>
+                                                <sort_order>10</sort_order>
+                                            </matrixrate>
+                                        </children>
+
+                                    </carriers>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

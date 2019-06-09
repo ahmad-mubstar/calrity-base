@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<config>
+    <menu>
+        <catalog>
+            <children>
+                <products>
+                    <children>
+                        <shopgo_bulkprodimages translate="title" module="bulkprodimages">
+                            <title>Import Bulk Product Images</title>
+                            <action>adminhtml/shopgo_bpi_index/index</action>
+                            <sort_order>70</sort_order>
+                        </shopgo_bulkprodimages>
+                    </children>
+                </products>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+        <resources>
+            <!--<all>-->
+                <!--<title>Allow Everything</title>-->
+            <!--</all>-->
+            <admin>
+                <children>
+                    <catalog>
+                        <children>
+                            <products>
+                                <children>
+                                    <shopgo_bulkprodimages module="bulkprodimages" translate="title">
+                                        <title>Bulk Products Images</title>
+                                        <sort_order>50</sort_order>
+                                    </shopgo_bulkprodimages>
+                                </children>
+                            </products>
+                        </children>
+                    </catalog>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

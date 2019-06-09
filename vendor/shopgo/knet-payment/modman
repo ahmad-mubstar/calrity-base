@@ -1,0 +1,5 @@
+app/design/frontend/base/default/template/knet/pg/        app/design/frontend/base/default/template/knet/pg/
+app/design/frontend/base/default/layout/knet/pg.xml       app/design/frontend/base/default/layout/knet/pg.xml
+app/etc/modules/Knet_PG.xml                               app/etc/modules/Knet_PG.xml
+app/code/community/Knet/PG/                               app/code/community/Knet/PG/
+lib/Knet/PG/                                              lib/Knet/PG/

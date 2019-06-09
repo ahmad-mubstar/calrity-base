@@ -1,0 +1,118 @@
+<?php
+/**
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2011-2014 Webcomm Pty Ltd
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+?>
+<?php
+/**
+ * Product list template
+ *
+ * @see Mage_Catalog_Block_Product_List
+ */
+?>
+<?php
+$_productCollection = $this->getLoadedProductCollection();
+$_helper = $this->helper('catalog/output');
+$_product = $this->getProduct();
+?>
+<?php if (!$_productCollection->count()): ?>
+    <p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
+<?php else: ?>
+    <div class="flexslider3 featured-products">
+        <h2 class="arrivals-subtitle"><?php echo Mage::getModel('catalog/category')->load($this->getCategoryId())->getName() ?></h2>
+        <?php // Grid Mode ?>
+
+        <?php $_collectionSize = $_productCollection->count() ?>
+        <?php $_columnCount = $this->getColumnCount(); ?>
+            <ul class="slides">
+
+                <?php $i = 0;
+                foreach ($_productCollection as $_product): ?>
+
+
+                    <li class="item<?php if (($i - 1) % $_columnCount == 0): ?> first<?php elseif ($i % $_columnCount == 0): ?> last<?php endif; ?>">
+                    <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->escapeHtml($_product->getName()) ?>" class="product-image">
+                        <img src="<?php echo $this->helper('adaptiveResize/image')->init($_product, 'small_image')->adaptiveResize(280, 320) ?>" alt="<?php echo $this->escapeHtml
+                        ($_product->getName()) ?>"/></a>
+                            <?php if (class_exists('Shopgo_Quickview_Helper_Data') && Mage::getStoreConfigFlag('quickview/general/enable') == 1) { ?>
+                                 <div class="quickview-wrap quick-view">
+                                    <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" style="display:none"></a>
+                                </div>
+                            <?php } ?>
+
+                    <?php echo MAGE::helper('NewSale')->getProductLabels($_product, 'new'); ?>
+                    <?php if (!MAGE::helper('NewSale')->getProductLabels($_product, 'new')) : ?>
+                    <div class="no-label-new">
+                            <?php endif; ?>
+                            <?php echo MAGE::helper('NewSale')->getProductLabels($_product, 'sale'); ?>
+                            <?php if (!MAGE::helper('NewSale')->getProductLabels($_product, 'new')) : ?>
+                        </div>
+                    <?php endif; ?>
+
+                    <?php if ($_product->isSaleable()): ?>
+                        <button type="button" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                    <?php else: ?>
+                        <div class="out-of-stock"><?php echo $this->__('Out of stock') ?></div>
+                    <?php endif; ?>
+
+                    <div class="product-description">
+                        <p>
+                            <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>)">
+                                <?php echo $this->htmlEscape($_product->getName()) ?>
+                            </a>
+                        </p>
+                        <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+
+                        <?php if (Mage::getStoreConfig('featuredproducts/general/price_visible')): ?>
+
+                            <?php echo $this->getPriceHtml($_product, true, '-new') ?>
+
+                            <?php if ($_product->isSaleable()): ?>
+                                <button type="button" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')" style="display:inline-block !important;">
+                                    <span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                            <?php else: ?>
+                                <div class="out-of-stock"><?php echo $this->__('Out of stock') ?></div>
+                            <?php endif; ?>
+
+                        <?php endif; ?>
+
+                    </div>
+                </li>
+                <?php endforeach ?>
+            </ul>
+
+            <script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd', 'even', 'first', 'last'])</script>
+    </div>
+<?php endif; ?>
+
+<script type="text/javascript" charset="utf-8">
+    jQuery(document).ready(function () {
+        jQuery('.flexslider3').flexslider({
+            animation: "slide",
+            touch: true,
+            itemWidth: 263,
+            itemMargin: 30,
+            minItems: 2
+        });
+    });
+</script>

@@ -1,0 +1,47 @@
+%s is not supported currency.,%s عملة غير معتمدة
+Accept,قبول
+Basic,الأساسية
+Cannot retreive rate from strikeirion.,لا يمكن إستعادة معدل من strikeirion.
+Cannot retrieve rate from %s to %s,لا يمكن استرداد معدل من٪ s إلى٪ s
+Check all email servers,تحقق من كافة خوادم البريد الإلكتروني
+Complete,اكتمال
+Country/Region/Postal code combination,البلد / المنطقة / مزيج الكود البريدى
+Customer Tax Class,شرائح العملاء الضريبية
+Email Verification,تأكيد بواسطة البريد الالكتروني
+Email address cannot be verified. Please check again and make sure your email address entered correctly.,لايمكن التحقق من عنوان البريد الإلكتروني. يرجى التحقق مرة أخرى والتأكد من إدخال عنوان البريد الإلكتروني بشكل صحيح.
+Enable US address verification,تمكين التحقق من عنوان الولايات المتحدة
+Enable email verification,تمكين التحقق من البريد الإلكتروني
+Enable foreign exchange rate,تمكين سعر صرف العملات الأجنبية
+Enable global address verification,تمكين التحقق من العنوان العالمي
+Enable sales and use tax,تمكين المبيعات واستخدام الضرائب
+Error Email Recipient,مستلم البريد الإلكتروني خاطئ
+Error Email Sender,مرسل البريد الإلكتروني خاطئ
+Error Email Template, قالب بريد إلكتروني خاطئ
+Error address action,عمل عنوان خاطئ
+Foreign Exchange Rates,أسعار صرف العملات الأجنبية
+Global Address Verification,التحقق من العنوان العالمي
+"If type is complete and zip code belongs to multiple tax rates, choose to charge minimum tax rate or maximum tax rate.",إذا كان نوع كاملة والرمز البريدي ينتمي إلى معدلات الضرائب المتعددة، قم بإختيارالحد الأدنى لمعدل الضريبة أو الحد الأقصى لمعدل الضريبة.
+Invalid email address,عنوان البريد الإلكتروني غير صالح
+Maximum tax rate,الحد الأقصى لمعدل الضريبة
+Minimum tax rate,الحد الأدنى معدل الضريبة
+Password,كلمه السر
+Pop up warning and accept, ظهور التحذير، وقبول
+Product Tax Class,شرائح المنتجات الضريبية
+Reject,رفض
+Sales and Use Tax,مبيعات واستخدام الضرائب
+Sales and Use Tax Type,المبيعات ونوع استخدام الضرائب
+Strikeiron,Strikeiron
+Strikeiron Config,التكوين Strikeiron
+Strikeiron Section,قسم Strikeiron
+Strikeiron foreign exchange rate is disabled,تم تعطيل أسعار صرف العملات الأجنبية Strikeiron
+Tax,ضريبة
+There is an error in retrieving tax rate. Please contact us,يوجد خطأ في استرداد معدل الضريبة. الرجاء التواصل معنا
+There is an error in verifying an email. Please contact us.,يوجد خطأ في التحقق من البريد الإلكتروني. الرجاء التواصل معنا.
+There is no more hits remaining for the foreign Exchange Rate Service.,لا يوجد المزيد من الزيارات المتبقية للخدمة أسعار صرف العملات الأجنبية.
+There is no response back from Strikeiron server,لايوجد استجابة من خادم Strikeiron
+US Address Verification,التحقق من عنوان الولايات المتحدة
+Undetermined email action,عمل البريد الإلكتروني غير محدد
+Use,استخدام
+User ID,معرف المستخدم
+Verify address in admin,التحقق من العنوان عند المشرف
+Verify email in admin,التحقق من البريد الإلكتروني عند المشرف

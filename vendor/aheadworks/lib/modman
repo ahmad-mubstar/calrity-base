@@ -1,0 +1,5 @@
+app/code/local/AW/Lib/                                                  app/code/local/AW/Lib/
+app/design/adminhtml/default/default/layout/aw_lib.xml                  app/design/adminhtml/default/default/layout/aw_lib.xml
+app/etc/modules/AW_Lib.xml                                              app/etc/modules/AW_Lib.xml
+app/locale/en_US/AW_Lib.csv                                             app/locale/en_US/AW_Lib.csv
+skin/adminhtml/default/default/aw_lib/                                  skin/adminhtml/default/default/aw_lib/

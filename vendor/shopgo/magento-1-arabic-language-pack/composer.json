@@ -1,0 +1,15 @@
+{
+    "name": "shopgo/magento-1-arabic-language-pack",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "Magento 1.x Arabic language pack",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name": "Talal Suhail",
+            "email": "talal@shopgo.me"
+        }
+    ]
+}

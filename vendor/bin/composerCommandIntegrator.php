@@ -1,0 +1,1 @@
+../magento-hackathon/composer-command-integrator/bin/composerCommandIntegrator.php

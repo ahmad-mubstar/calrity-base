@@ -1,0 +1,1 @@
+../../../../../vendor/rockwells/logviewer/skin/adminhtml/default/default/logviewer/load.js

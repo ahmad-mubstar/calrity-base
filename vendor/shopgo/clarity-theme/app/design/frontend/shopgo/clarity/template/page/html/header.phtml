@@ -1,0 +1,235 @@
+<?php
+/**
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2011-2014 Webcomm Pty Ltd
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+?>
+<?php
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<div class="show-for-large-up">
+    <a href="#" class="scrollToTop"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
+</div>
+
+<header role="banner" id="header">
+    <?php echo Mage::helper('store')->getDemoExpireMessage(); ?>
+    <div id="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-8">
+                    <div class="quick-access">
+                        <div class="clearfix">
+                            <?php echo $this->getChildHtml('topLinks') ?>
+                            <div class="switchers">
+                                <?php echo $this->getChildHtml("shopgo_store_language") ?>
+                                <?php echo $this->getChildHtml('shopgo_store_currency_selector') ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visible-lg col-lg-2">
+                    <p class="welcome-msg"><?php echo $this->getWelcome() ?><?php echo $this->getAdditionalHtml() ?></p>
+                </div>
+                <div class="col-lg-5 col-sm-4 header-cart">
+                    <?php echo $this->getChildHtml('topContainer'); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php
+        $logo_align = Mage::getStoreConfig('styleeditor/logo/position');
+        $menu_align = "";
+        $locale = Mage::app()->getLocale()->getLocaleCode();
+
+        if ($logo_align == "left") {
+            $menu_align = "float:right;width:80%";
+            if (substr( $locale, 0, 2 ) == "ar") {
+                $menu_align = "float:left;width:80%";
+                if ($logo_align == "left") $logo_align = "right"; else $logo_align = "left";
+            }
+        } elseif ($logo_align == "right") {
+            $menu_align = "float:left;width:80%";
+            if (substr( $locale, 0, 2 ) == "ar") {
+                $menu_align = "float:right;width:80%";
+                if ($logo_align == "left") $logo_align = "right"; else $logo_align = "left";
+            }
+        } else {
+            $logo_align = "";
+            $menu_align = "";
+        }
+
+    ?>
+
+    <div id="header-logo" style="">
+        <div class="container">
+            <?php if ($this->getIsHomePage() or true): ?>
+                <h1 class="logo <?php echo $logo_align ?>"><strong><?php echo $this->getLogoAlt() ?></strong>
+                    <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo">
+                        <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>"/>
+                    </a>
+                </h1>
+                <h1 class="logo-sticky"><a href="<?php echo $this->getUrl('') ?>"
+                                           title="<?php echo $this->getLogoAlt() ?>" class="logo"><img
+                            src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>"/></a>
+                </h1>
+            <?php else: ?>
+                <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>"
+                   class="logo"><strong><?php echo $this->getLogoAlt() ?></strong>
+                    <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>"/></a>
+                <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>"
+                   class="logo-nohome-sticky"><img src="<?php echo $this->getLogoSrc() ?>"
+                                                   alt="<?php echo $this->getLogoAlt() ?>"/></a>
+            <?php endif ?>
+
+
+            <?php if ($menu_align != ""): ?>
+                <?php if ($logo_align == "right"): ?>
+                    <?php if (substr( $locale, 0, 2 ) == "ar"): ?>
+                        <style>
+                            #search_mini_form {
+                                right: 150px;
+                            }
+                        </style>
+                    <?php else: ?>
+                        <style>
+                            #search_mini_form {
+                                left: 150px;
+                            }
+                        </style>
+
+                    <?php endif; ?>
+                <?php endif; ?>
+            <div class="menu-search">
+                <div class="container">
+                    <div style="<?php echo $menu_align ?>">
+                        <?php echo $this->getChildHtml('topMenu') ?>
+                        <?php echo $this->getChildHtml('topSearch') ?>
+                    </div>
+
+                </div>
+            </div>
+            <?php endif; ?>
+
+        </div>
+    </div>
+</header>
+
+<?php if ($menu_align == ""): ?>
+<div class="menu-search">
+    <div class="container">
+        <?php echo $this->getChildHtml('topMenu') ?>
+        <?php echo $this->getChildHtml('topSearch') ?>
+    </div>
+</div>
+<?php endif; ?>
+<?php
+
+    $block = Mage::getStoreConfig('styleeditor/slider/block');
+    $slider = Mage::getStoreConfig('styleeditor/slider/position');
+?>
+
+<?php if (Mage::getSingleton('cms/page')->getIdentifier() == 'home' && Mage::app()->getFrontController()->getRequest()->getRouteName() == 'cms'):  ?>
+
+<div class="<?php if ($slider != 'full') echo 'container'; ?>">
+    <div class="row">
+        <?php if ($slider == "left"): ?>
+            <?php if (substr( $locale, 0, 2 ) == "ar"): ?>
+                <div class="col-lg-3">
+                    <?php echo $this->getLayout()->createBlock("cms/block")->setBlockId($block)->toHtml(); ?>
+                </div>
+                <div class="col-lg-9">
+                    <?php echo $this->getChildHtml('top_bannerslider'); ?>
+                </div>
+            <?php else: ?>
+                <div class="col-lg-9">
+                    <?php echo $this->getChildHtml('top_bannerslider'); ?>
+                </div>
+                <div class="col-lg-3">
+                    <?php echo $this->getLayout()->createBlock("cms/block")->setBlockId($block)->toHtml(); ?>
+                </div>
+            <?php endif; ?>
+
+        <?php elseif ($slider == "right"): ?>
+            <?php if (substr( $locale, 0, 2 ) == "ar"): ?>
+                <div class="col-lg-9">
+                    <?php echo $this->getChildHtml('top_bannerslider'); ?>
+                </div>
+                <div class="col-lg-3">
+                    <?php echo $this->getLayout()->createBlock("cms/block")->setBlockId($block)->toHtml(); ?>
+                </div>
+            <?php else: ?>
+                <div class="col-lg-3">
+                    <?php echo $this->getLayout()->createBlock("cms/block")->setBlockId($block)->toHtml(); ?>
+                </div>
+                <div class="col-lg-9">
+                    <?php echo $this->getChildHtml('top_bannerslider'); ?>
+                </div>
+            <?php endif; ?>
+        <?php elseif ($slider == "middle"): ?>
+            <div class="col-lg-12">
+                <?php echo $this->getChildHtml('top_bannerslider'); ?>
+            </div>
+        <?php elseif ($slider == "full"): ?>
+            <div class="col-lg-12">
+                <?php echo $this->getChildHtml('top_bannerslider'); ?>
+            </div>
+
+        <?php endif; ?>
+    </div>
+</div>
+<?php endif; ?>
+
+
+<?php
+    $brands = Mage::getStoreConfig('styleeditor/brands/position');
+?>
+
+<?php if($brands == "top" && Mage::getSingleton('cms/page')->getIdentifier() == 'home' && Mage::app()->getFrontController()->getRequest()->getRouteName() == 'cms'): ?>
+<div class="container">
+    <?php echo $this->getChildHtml('manufacturerSlider') ?>
+</div>
+<?php endif; ?>
+
+<script type="text/javascript">
+    //Scroll to the top
+    jQuery(window).scroll(function () {
+        if (jQuery(this).scrollTop() > 200) {
+            jQuery('.scrollToTop').fadeIn();
+        } else {
+            jQuery('.scrollToTop').fadeOut();
+        }
+    });
+    //Click event to scroll to top
+    jQuery('.scrollToTop').click(function () {
+        jQuery('html, body').animate({scrollTop: 0}, 800);
+        return false;
+    });
+
+    jQuery(document).ready(function () {
+        jQuery(".shopgoSwitcher > a").click(function (event) {
+            event.preventDefault();
+        })
+    })
+
+</script>

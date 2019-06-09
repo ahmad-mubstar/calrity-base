@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="1.0">
+    <default>
+        <reference name="head">
+            <block type="core/template" name="follow_style" as="follow_style" template="shopgo/follow/style.phtml"/>
+        </reference>
+        <reference name="footer">
+            <block type="core/template" name="follow_list" as="follow_list" template="shopgo/follow/list.phtml"/>
+        </reference>
+    </default>
+</layout>

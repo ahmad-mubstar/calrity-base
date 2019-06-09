@@ -1,0 +1,3 @@
+app/code/community/Cashu/Prepaid/										app/code/community/Cashu/Prepaid/
+app/design/frontend/base/default/template/cashu/prepaid/                app/design/frontend/base/default/template/cashu/prepaid/
+app/etc/modules/Cashu_Prepaid.xml                                       app/etc/modules/Cashu_Prepaid.xml

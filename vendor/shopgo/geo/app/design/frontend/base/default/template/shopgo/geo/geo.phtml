@@ -1,0 +1,54 @@
+<?php 
+if(Mage::getStoreConfig('geo/general/active')):
+$geoIP = Mage::getSingleton('geo/country');
+$currentCountryCode = $geoIP->getCountry();
+$allowedCountries = array();
+if(!Mage::getStoreConfig('geo/general/use_allow_countries')) {
+	$allowedCountries = explode(',', Mage::getStoreConfig('geo/general/geo_specificcountry'));
+} else {
+	$allowedCountries = explode(',', Mage::getStoreConfig('general/country/allow'));
+}
+$cookie = Mage::getSingleton('core/cookie');
+$countryName = Mage::app()->getLocale()->getCountryTranslation($currentCountryCode);
+$showTime = Mage::getStoreConfig('geo/general/showtime') ? Mage::getStoreConfig('geo/general/showtime') * 1000 : 10 * 1000;
+?>
+
+<?php if(Mage::getStoreConfig('geo/general/geo_debug')) { ?>
+	<script type="text/javascript">
+		var geoData = {
+			remoteAddr: '<?php echo Mage::helper('core/http')->getRemoteAddr(); ?>',
+			currentCountryCode: '<?php echo $currentCountryCode; ?>',
+			allowedCountries: <?php echo json_encode($allowedCountries); ?>,
+			countryName: '<?php echo $countryName; ?>'
+		}
+	</script>
+<?php } ?>
+
+<?php if(!empty($countryName)) { ?>
+<?php if(in_array($currentCountryCode, $allowedCountries)) { ?>
+<div id="geo-box">
+	<h2>
+		<span class="Geo-shipping-icon"><?php echo $this->__('We Come To You!'); ?></span><span class="Geo-countryName"><?php echo $this->__('Now Shipping To ' ); ?><span class="Geo-bold"><?php echo $this->__($countryName);  ?></span></span>
+	</h2>
+	<!-- <div class="truck"><span class="flag-icon flag-icon-<?php// echo mb_strtolower($currentCountryCode); ?> large-flag vlm" title="<?php// echo $countryName; ?>"></span></div> -->
+</div>
+<?php if($cookie->get('geo_shipping_notification') != 1 || Mage::getStoreConfig('geo/general/alwaysshow')):?>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		geoBox = jQuery('#geo-box');
+		showTime = <?php echo $showTime;?>;
+		setTimeout(function(){
+			geoBox.addClass("active");
+			setTimeout(function(){
+				geoBox.removeClass('active');
+				setTimeout(function(){
+					geoBox.remove();
+				},500);
+			},showTime);
+		},3000);
+	});
+</script>
+<?php $cookie->set('geo_shipping_notification', '1' , 86400 * Mage::getStoreConfig('geo/general/geo_cookie_lifetime'), '/'); ?>
+<?php endif;?>
+<?php }} ?>
+<?php endif;?>

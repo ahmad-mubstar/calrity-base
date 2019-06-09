@@ -1,0 +1,519 @@
+ The customer doesn't exist in the system anymore, العميل غير موجود في النظام بعد الان
+"""%s"" coupon code is not valid.","رمز القسيمة الشرائية ""%s"" غير صالح"
+%s / %s rate:,%s / %s معدل: 
+%s for %s,%s لـ %s
+%s order(s) successfully canceled,لقد تم إلغاء %s طلب\طلبات بنجاح
+%s order(s) successfully put on hold,لقد تم وضع %s طلب\طلبات في حالة معلقة بنجاح
+%s order(s) successfully released from holding status,لقد تم تحرير %s طلب\طلبات من حالة معلقة بنجاح
+* - Enter custom price excluding tax,* - قم بإدخال السعر المخصص غير شامل للضريبة
+* - Enter custom price including tax,* - قم بإدخال السعر المخصص شامل للضريبة
+About This Order:,عن هذا الطلب:
+About Your Order,عن طلب شارئك:
+Account Information,بيانات الحساب
+Action,إجراء
+Actions,إجراءات
+Add,إضافة
+Add Gift Messsage,إضافة رسالة هدية
+Add New Address,إضافة عنوان جديد
+Add Order Comments,إضافة تعليقات طلب الشراء
+Add Products,إضافة منتجات
+Add Selected Product(s) to Option,إضافة المنتج\المنتجات المختار الى الخيار
+Add Selected Product(s) to Order,إضافة المنتج\المنتجات المختار الى طلب الشراء
+Add To Order,إضافة الى طلب الشراء
+Add Tracking Number,إضافة رقم التتبع
+Add a gift message for <strong>each gift item</strong>,أضف رسالة هدية لـ<strong>كل سلعة هدية</strong>
+Add a gift message for the <strong>entire order</strong>,أضف رسالة هدية لـ<strong>طلب الشراء كامل</strong>
+Add comment to order,إضافة تعليق لطلب الشراء
+Add new comment to shipment,إضافة تعليق للشحنة
+Add new tracking number,إضافة رقم تتبع جديد
+Add to Cart,إضافة إلى السلّة
+Address,عنوان
+Adjustment Fee,رسوم التعديل
+Adjustment Fee:,رسوم التعديل:
+Adjustment Refund,إعادة رسوم التعديل
+Adjustment Refund:,إعادة رسوم التعديل:
+Allow Reorder,السماح لإعادة طلب الشراء
+Amount,الكمية
+Append Comments,إلحاق تعليقات
+Apply,تطبيق
+Apply Coupon Code,تطبيق رمز قسيمة الشراء
+Are you sure you want to cancel this order?,هل أنت متأكد أنك تريد إلغاء طلب الشراء هذا؟
+Are you sure?,هل أنت متأكد؟
+Are you sure? This order will be cancelled and a new one will be created instead,هل أنت متأكد؟ سيتم إلغاء هذا الطلب وإنشاء طلب شراء جديد بدلا عنه
+Back to My Orders,الرجوع الى طلبات شرائي
+Backordered,طلب بشكل مؤجل
+Bill to First name,فاتورة الى الاسم الاول
+Bill to Last name,فاتورة الى الاسم الاخير
+Bill to Name,فاتورة الى الاسم
+Billing Address,عنوان الفاتورة
+Buy %s for price %s,قم بشراء %s بسعر %s
+Can not add order history.,لا يمكن اضافة تاريخ طلب الشراء
+"Can not create block ""%s""","لا يمكن إنشاء مساحة ""%s"""
+Can not do invoice for order.,لايمكن إصدار فاتورة لطلب الشراء
+Can not do shipment for order.,لا يمكن إصدار شحنة لطلب الشراء
+Can not register existing creditmemo,لايمكن تسجيل مذكرة إئتمانية موجودة من قبل
+Can not register existing invoice,لايمكن تسجيل فاتورة موجودة من قبل
+Can not register existing shipment,لايمكن تسجيل شحنة موجودة من قبل
+Can't get order instance,لا يمكن الحصول على نمط الطلب
+Cancel,إلغاء
+Cancel invoice,إلغاء الفاتورة
+Cancel order,إلغاء طلب الشراء
+Canceled,تم الإلغاء
+Cannot create an empty shipment.,لايمكن إنشاء شحنة فارغة
+Capture,حجز
+Capture Amount,حجز المبلغ
+Capture Offline,حجز بشكل غير متصل
+Capture Online,حجز بشكل متصل
+Capture invoice,حجز الفاتورة
+Carrier,الناقل
+Change Status,تغيير الحالة
+"Change status, add comments",تغيير الحالة، إضافة تعليق
+Checkout totals sort order,ترتيب قسم المجموع في عملية الشراء
+Click to change shipping method,اضغط لتغيير طريقة الشحن
+Closed,مغلق
+Comment,تعليق
+Comment Text,نص التعليق
+Comments,تعليقات
+Comments History,تاريخ التعليقات
+Complete,مكتمل
+Country,الدولة
+Coupons,قسائم شرائية
+Create,إنشاء
+Create New Customer,إنشاء عميل جديد
+Create New Order,إنشاء طلب شراء جديد
+Create New Order for %s,إنشاء طلب شراء جديد لـ %s
+Create New Order for %s in %s,إنشاء طلب شراء جديد لـ %s في %s
+Create New Order for New Customer,إنشاء طلب شراء جديد لعميل جديد
+Create New Order for New Customer in %s,إنشاء طلب شراء جديد لعميل جديد في %s
+Create Shipment,إنشاء شحنة
+Create new invoice for order,إنشاء فاتورة جديدة لطلب
+Create new shipment for order,إنشاء شحنة جديدة لطلب
+Created At,انشئت في 
+Credit Memo,مذكرة إئتمانية
+Credit Memo #,مذكرة إئتمان #
+Credit Memo # ,مذكرة إئتمان #
+Credit Memo Comment Email Sender,عنوان البريد الإلكتروني لمرسل تعليق مذكرة الإئتمان
+Credit Memo Comment Email Template,قالب البريد الإلكتروني لتعليق مذكرة الإئتمان
+Credit Memo Comment Email Template for Guest,قالب البريد الإلكتروني لتعليق مذكرة الإئتمان للعملاء غير المسجلين
+Credit Memo Comments,تعليقات مذكرة الإئتمان
+Credit Memo Email Sender,عنوان البريد الإلكتروني لمرسل مذكرة الإئتمان
+Credit Memo Email Template,قالب البريد الإلكتروني لمذكرة الإئتمان
+Credit Memo Email Template for Guest,قالب البريد الإلكتروني لمذكرة الإئتمان للعملاء غير المسجلين
+Credit Memo Update,تحديث مذكرة الإئتمان
+Credit Memo Update for Guest,تحديث مذكرة الإئتمان للعملاء غير المسجلين
+Credit Memo email not sent,لم يتم إرسال البريد الإلكتروني لمذكرة الإئتمان
+Credit Memo email sent,تم إرسال البريد الإلكتروني لمذكرة الإئتمان
+Credit Memos,مذكرات الإئتمان
+Creditmemo,مذكرة إئتمان
+Custom Options,خيارات مخصصة
+Custom Price,سعر مخصص
+Custom Value,قيمة مخصصة
+Customer,عميل
+Customer Group,مجموعة العملاء
+Customer Name,اسم العميل
+Customer's Current Activities,الأنشطة الحالية للعميل
+Date,التاريخ
+Date Shipped,تاريخ الشحن
+Date of Birth,تاريخ الميلاد
+"Default logo, will be used in PDF and HTML documents.<br />(jpeg, tiff, png)","سوف يتم إستخدام شعار المتجر الإفتراضي في ملفات PDF و HTML<br />(jpeg, tiff, png)"
+Delete,حذف
+Description message,رسالة الوصف
+Discount,خصم
+Discount ,خصم 
+Discount (%s),خصم (%s)
+Discount :,خصم :
+Discount Amount,كمية الخصم
+Discount%s,خصم %s
+Display Order ID in Header,إظهار تعريف طلب الشراء في الرأس
+Document,مستند
+Edit,تحرير
+Edit Gift Messsage,تحرير رسالة الهدية
+Edit Order #%s,تحرير طلب الشراء #%s
+Email,عنوان البريد الإلكتروني
+Email Copy of Credit Memo,إرسال نسخة من المذكرة الإئتمانية
+Email Copy of Invoice,إرسال نسخة من الفاتورة
+Email Copy of Shipment,إرسال نسخة من الشحنة
+Email Order Confirmation,إرسال تأكيد طلب الشراء
+Enable,تفعيل
+Enabled,مفعل
+Error to show in shopping cart,خطأ لعرضه في عربة التسوق
+Excl. Tax,غير شامل للضريبة
+From,من
+From Name,من الاسم
+From:,من:
+G.T. (Base),المبلغ الإجمالي (رئيسي)
+G.T. (Purchased),المبلغ الإجمالي (شراء)
+Get shipping methods and rates,الحصول على طرق ومعدلات الشحن
+Gift,هدية
+Gift Certificate,شهادة هدية
+Gift Message,رسالة هدية
+Gift Message for Entire Order,رسالة هدية لطلب الشراء كامل
+Gift Message for this Order,رسالة هدية لطلب الشراء هذا
+Grand Total,المبلغ الإجمالي
+Grand Total to be charged,المبلغ الإجمالي المستحق دفعه
+Grand Total:,المبلغ الإجمالي:
+Guest,زائر
+Hold,تعليق
+Hold action is not available,إجراء تعليق الطلب غير متوفر
+Hold order,تعليق طلب الشراء
+ID,الرمز التعريفي
+"If empty, the default description above will be used",اذا كان فارغا، سوف يتم استخدام الوصف الإفتارضي أعلاه
+"If empty, the default error above will be used",اذا كان فارغا، سوف يتم استخدام وصف الخطأ الإفتارضي أعلاه
+Incl. Tax,شامل للضريبة
+Information,بيانات
+Invalid carrier specified.,لقد تم إختيار ناقل غير صالح
+Invalid item option format,تنسيق خيار سلعة غير صالح
+"Invalid qty to invoice item ""%s""","كمية غير صالحة لفوترة السلعة ""%s"""
+"Invalid qty to refund item ""%s""","كمية غير صالحة لإعادة دفعة السلعة ""%s"""
+"Invalid qty to ship for item ""%s""","كمية غير صالحة لشحن السلعة ""%s"""
+Invalid renderer model,نموذج العارض غير صالح
+Invalid request for adding product to quote,طلب غير صالح لإضافة المنتج الى الإقتباس
+Invoice,فاتورة
+Invoice #,فاتورة #
+Invoice # ,فاتورة # 
+Invoice #%s,فاتورة #%s
+Invoice Comment Email Sender,عنوان البريد الإلكتروني لمرسل تعليق الفاتورة
+Invoice Comment Email Template,قالب البريد الإلكتروني لتعليق الفاتورة
+Invoice Comment Email Template for Guest,قالب البريد الإلكتروني لتعليق فاتورة للعملاء غير المسجلين
+Invoice Comments,تعليقات الفاتورة
+Invoice Date,تاريخ الفاتورة
+Invoice Email Sender,عنوان البريد الإلكتروني لمرسل الفاتورة
+Invoice Email Template,قالب البريد الإلكتروني للفاتورة
+Invoice Email Template for Guest,قالب البريد الإلكتروني لفاتورة العملاء غير المسجلين
+Invoice Update,تحديث الفاتورة
+Invoice Update for Guest,تحديث الفاتورة للعميل الغير مسجل
+Invoice and Packing Slip Design,تصميم ملصق الفاتورة والرزمة
+Invoice can not be canceled,لا يمكن إلغاء الفاتورة
+Invoice can not be captured,لا يمكن حجز الفاتورة
+Invoice can not be void,لا يمكن إبطال الفاتورة
+Invoice cancel problem,مشكلة في إلغاء الفاتورة
+Invoice capture problem,مشكلة في حجز الفاتورة
+Invoice email not sent,لم يتم إرسال البريد الإلكتروني للفاتورة
+Invoice email sent,تم إرسال البريد الإلكتروني للفاتورة
+Invoice void problem,مشكلة في إبطال الفاتورة
+Invoiced,مفوترة
+Invoices,فواتير
+Item,سلعة
+Item Status,وضع السلعة
+Item object is not specified.,عنصر السلعة غير محدد
+Item option with code %s already exist,خيار السلعة بالرمز %s متواجد من قبل
+Item options declare error,إعلان خطأ في خيارات السلعة
+Item ordered qty,كمية السلعة المطلوبة
+Item qty declare error,إعلان خطأ في كمية السلعة
+Items Invoiced,سلع مفوترة
+Items Ordered,سلع مطلوبة
+Items Refunded,سلع تم إسترجاع دفعتها
+Items Shipped,سلع تم شحنها
+Items options declare error.,إعلان خطأ في خيارات السلع
+Items to Invoice,سلع للفوترة
+Items to Refund,سلع لإسترجاع دفعتها
+Items to Ship,سلع للشحن
+Last ordered items,آخر سلع تم طلبها
+Link to the new order,رابط لطلب الشراء الجديد
+Link to the previous order,رابط لطلب الشراء السابق
+"Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)","شعار المتجر لمستند HTML فقط. اذا كا فارغا، سوف يتم إستخدام الشعار الإفتراضي. <br />(jpeg, gif, png)"
+Logo for HTML print view,شعار المتجر لعرض طباعة HTML
+Logo for PDF print-outs (200x50),شعار المتجر لطباعة ملفات PDF (200x50)
+Message,رسالة
+Message:,رسالة:
+Minimum amount,الحد الأدنى للمبلغ
+Minimum order amount,الحد الأدنى لمبلغ طلب الشراء
+Mixed,مختلط
+Move to Shopping Cart,نقل الى عربة التسوق
+Move to Wishlist,نقل الى لائحة الأمنيات
+Multi-address description message,رسالة وصف العنوان المتعدد
+Multi-address error to show in shopping cart,خطأ العنوان المتعدد للإظهار في عربة التسوق
+My Orders,طلبات شرائي
+My Orders - Details,طلبات شرائي - تفاصيل
+Name,اسم
+New,جديد
+New Credit Memo,مذكرة إئتمانية جديدة
+New Credit Memo for Guest,مذكرة إئتمانية جديدة لعميل غير مسجل
+New Invoice,فاتورة جديدة
+New Invoice for Guest,فاتورة جديدة لعميل غير مسجل
+New Order,طلب شراء جديد
+New Order Confirmation Email Sender,عنوان البريد الإلكتروني لمرسل تأكيد الطلب الجديد
+New Order Confirmation Template,قالب البريد الإلكتروني لتأكيد الطلب الجديد
+New Order Confirmation Template for Guest,قالب البريد الإلكتروني لتأكيد الطلب الجديد للعملاء غير المسجلين
+New Order RSS,طلب شراء جديد RSS
+New Order for Guest,طلب شراء جديد لعميل غير مسجل
+New Shipment,شحنة جديدة
+New Shipment for Guest,شحنة جديدة لعميل غير مسجل
+New Status,حالة جديدة
+Newsletter Subscription,الاشتراك في النشرة الإخبارية
+No Items,لا يوجد سلع
+No Items To Refund,لا يوجد سلع لإعادة دفعنها
+No Payment Methods,لا يوجد طرق للدفع
+"No detail for number ""%s""","لا توجد تفاصيل للرقم""%s"""
+No items,لا يوجد سلع
+No ordered items,لايوجد سلع تم شرائها
+No shipping information available,لايوجد معلومات شحن متوفرة
+Not Capture,الحجز لم يتم
+Not Notified,لم يتم الإشعار
+Notified,تم الإشعار
+Notify Customer,إشعار العميل
+Number,رقم
+On Hold,معلق
+Order,طلب شراء
+Order #,طلب شراء #
+Order # ,طلب شراء # 
+Order # %s,طلب شراء #%s
+Order #%s,طلب شراء # %s
+Order #%s - %s,طلب شراء #%s - %s
+Order API,نظام API لطلب الشراء
+Order Comment,تعليق طلب الشراء
+Order Comment Email Sender,عنوان البريد الإلكتروني لمرسل تعليق طلب الشراء
+Order Comment Email Template,قالب البريد الإلكتروني لتعليق طلب الشراء
+Order Comment Email Template for Guest,قالب البريد الإلكتروني لتعليق طلب الشراء للعميل غير المشترك
+Order Comments,تعليقات طلب الشراء
+Order Credit Memos,مذكرة إئتمانية لطلب الشراء
+Order Currency:,عملة طلب الشراء:
+Order Date,تاريخ طلب الشراء
+Order Date (%s),تاريخ طلب الشراء (%s)
+Order Date: ,تاريخ طلب الشراء:
+Order Date: %s,تاريخ طلب الشراء: (%s)
+Order Details,تفاصيل طلب الشراء
+Order Grand Total,المجموع الكلي لطلب الشراء
+Order History,تاريخ طلب الشراء
+Order Information,بيانات طلب الشراء
+Order Invoices,فواتير طلب الشراء
+Order Shipments,شحنات طلب الشراء
+Order Status,حالة طلب الشراء
+Order Subtotal,المجموع الفرعي لطلب الشراء
+Order Subtotal:,المجموع الفرعي لطلب الشراء:
+Order Total,مجموع طلب الشراء
+Order Totals,مجموعات طلب الشراء
+Order Update,تحديث طلب الشراء
+Order Update for Guest,تحديث طلب الشراء لعميل غير مشترك
+Order View,عرض طلب الشراء
+Order invoice,فاتورة طلب الشراء
+Order object is not specified.,عنصر طلب الشراء غير محدد
+Order saving error: %s,خطأ في حفظ طلب الشراء %s
+Order shipments,شحنات طلب الشراء
+Order was not cancelled.,لم يتم إلغاء طلب الشراء
+Order was not put on hold.,لم يتم تعليق طلب الشراء
+Order was not unholded.,لم يتم تحربر طلب الشراء من حالة التعليق
+Order was placed using %s,تم وضع طلب الشراء بإستخدام %s
+Order was successfully cancelled.,تم إلغاء طلب الشراء بنجاح.
+Order was successfully put on hold.,تم تعليق طلب الشراء بنجاح.
+Order was successfully released from holding status.,تم تحربر طلب الشراء من حالة التعليق بنجاح
+Ordered,تم الطلب
+"//""Orders""","//""طلبات الشراء"""
+Orders List,لائحة طلبات الشراء
+Aramex Pickups,مستلمات أرامكس
+Original Price,السعر الأصلي
+Order Statuses,أوضاع طلبات الشراء
+Manage Order Attributes,إدارة سمات طلبات الشراء
+PDF Credit Memos,مذكرات إئتمانية PDF
+PDF Invoices,فواتير PDF
+PDF Packingslips,ملصق الرزمة PDF
+PDF Print-outs,مطبوعات PDF
+PDF object is not specified.,عنصر ملف PDF غير محدد
+PDF page object is not specified.,عنصر صفحة ملف PDF غير محددة
+Packingslip # ,ملصق الرزمة #
+Paid,مدفوع
+Paid Amount,الكمية المدفوعة
+Partial,جزئي
+Payment Failed,خطأ في عملية الدفع
+Payment Information,بيانات الدفع
+Payment Method,طريقة الدفع
+Payment Method:,طريقة الدفع:
+Pending,قيد الإنتظار
+Pending PayPal,قيد إنتظار PayPal
+Pending Payment,قيد إنتظار الدفعة
+Placed from IP,وضعت بإستخدام عنوان IP
+Please enter positive number in this field.,الرجاء إدخال رقم إيجابي في هذا الحقل
+Please select a customer,الرجاء إختيار عميل
+Please select a store,الرجاء إختيار المتجر
+Please select products to add,الرجاء إختيار المنتجات لإضافتها
+Price,السعر
+Print,طباعة
+Print All,طباعة الكل
+Print All Invoices,طباعة جميع الفواتير
+Print All Refunds,طباعة جميع المدفوعات المستردة
+Print All Shipments,طباعة جميع الشحنات
+Print Credit Memos,طباعة المذكرات الإئتمانية
+Print Invoice,طباعة الفاتورة
+Print Invoices,طباعة الفواتير
+Print Order,طباعة طلب الشراء
+Print Order # %s,طباعة طلب الشراء # %s
+Print Packingslips,طباعة ملصقات الرزم
+Print Refund,طباعة الدفعة المستردة
+Print Shipment,طباعة الشحنة
+Processing,تحت المعالجة
+Processing data problem,مشكلة في معالجة البيانات
+Product,منتج
+Product Name,اسم المنتج
+Products,المنتجات
+Products in Compare List,المنتجات في قائمة المقارنة
+Purchased From,تم شرائها من
+Purchased On,تم شرائها في
+Purchased from (store),تم شرائها من (متجر)
+QTY,كمية
+Qty,كمية
+Qty Invoiced,الكمية المفوترة
+Qty Ordered,الكمية المطلوبة
+Qty Shipped,الكمية المشحونة
+Qty To Add,كمية للإضافة
+Qty to Invoice,كمية للفوترة
+Qty to Refund,كمية لإسترداد الدفعة
+Qty to Ship,كمية للشحن
+Recent Orders,آخر طلبات الشراء
+Recently Compared Products,المنتجات المقارنة حديثا
+Recently Viewed,مشاهدة حديثا
+Recently Viewed Products,المنتجات المشاهدة حديثا
+Refresh,تحديث
+Refund,استرداد الدفعة
+Refund #,استرداد الدفعة #
+Refund #%s,استرداد الدفعة #%s
+Refund Amount,قيمة الدفعة المستردة
+Refund Offline,إسترداد الدفعة بشكل غير متصل
+Refund Shipping,إسترداد دفعة الشحن
+Refund Totals,مجموعات الدفعات المستردة
+Refunded,تم إسترداد الدفعة
+Refunds,دفعات مستردة
+Remove,حذف
+Remove Coupon Code,حذف رمز القسيمة الشرائية
+Remove tracking number,حذف رقم التتبع
+Reorder,إعادة طلب الشراء
+Transactions,حركات
+Retrieve invoice info,إسترداد معلومات الفاتورة
+Retrieve invoice information,إسترداد معلومات الفاتورة
+Retrieve list of invoices by filters,إسترداد لائحة الفواتير حسب الفلاتر
+Retrieve list of orders by filters,إسترداد لائحة طلبات الشراء حسب الفلاتر
+Retrieve list of shipments by filters,إسترداد لائحة الشحنات حسب الفلاتر
+Retrieve order information,إسترداد معلومات طلب الشراء
+Retrieve orders info,إسترداد معلومات طلبات الشراء
+Retrieve shipment info,إسترداد معلومات الشحنة
+Retrieve shipment information,إسترداد معلومات الشحنة
+Return to Stock,إعادة الى المخزون
+Returned,تمت الإعادة
+Row Subtotal,المجموع الفرعي للصف
+Row Total,مجموع الصف
+SHIP TO:,شحن الى:
+SKU,رمز المنتج SKU
+SOLD TO:,تم البيع لـ:
+Sales,المبيعات
+Sales Emails,رسائل البريد الإلكتروني للمبيعات
+Sales Emails Section,قسم رسائل البريد الإلكتروني للمبيعات
+Sales Section,قسم المبيعات
+Same As Billing Address,تماما كعنوان الدفع
+Save and Close Message,حفظ وإغلاق الرسالة
+Save in address book,حفظ في دفتر العناوين
+Select from existing customer addresses:,قم بالإختيار من عناوين العملاء المتوفرة:
+Send Credit Memo Comment Email Copy To,ارسال نسخة ملاحظة المذكرة الإئتمانية للبريد الالكتروني
+Send Credit Memo Email Copy To,ارسال نسخة المذكرة الإئتمانية للبريد الالكتروني
+Send Invoice Comment Email Copy To,ارسال نسخة ملاحظة الفاتورة للبريد الالكتروني
+Send Invoice Email Copy To,ارسال نسخة الفاتورة للبريد الالكتروني
+Send Order Comment Email Copy To,ارسال نسخة تعليق طلب الشراء للبريد الالكتروني
+Send Order Email Copy Method,طريقة إرسال نسخة البريد الإلكتروني لطلب الشراء
+Send Order Email Copy To,ارسال نسخة طلب الشراء للبريد الالكتروني
+Send Shipment Comment Email Copy To,ارسال نسخة تعليق الشحنة للبريد الالكتروني
+Send Shipment Email Copy To,ارسال نسخة الشحنة للبريد الالكتروني
+Send Tracking Information,إرسال بيانات التتبع
+Ship,شحن
+Ship to,شحن الى
+Ship to First name,شحن الى الاسم الاول
+Ship to Last name,شحن الى الاسم الاخير
+Ship to Name,شحن الى الاسم
+Shipment,شحنة
+Shipment #,شحنة #
+Shipment #%s,شحنة #%s
+Shipment Comment Email Sender,عنوان البريد الإلكتروني لمرسل تعليق الشحنة
+Shipment Comment Email Template,قالب البريد الإلكتروني لتعليق الشحنة
+Shipment Comment Email Template for Guest,قالب البريد الإلكتروني لتعليق الشحنة للعميل غير المشترك
+Shipment Comments,تعليقات الشحنة
+Shipment Email Sender,عنوان البريد الإلكتروني لمرسل الشحنة
+Shipment Email Template,قالب البريد الإلكتروني الشحنة
+Shipment Email Template for Guest,قالب البريد الإلكتروني الشحنة للعميل غير المشترك
+Shipment Update,تحديث الشحنة
+Shipment Update for Guest,تحديث الشحنة للعميل غير المشترك
+Shipment email not sent,لم يتم إرسال رسالة البريد الالكتروني للشحنة
+Shipment email sent,تم إرسال رسالة البريد الالكتروني للشحنة
+Shipments,شحنات
+Shipped,تم الشحن
+Shipped By,تم الشحن بواسطة
+Shipping,الشحن
+Shipping & Handling,الشحن والتسليم
+Shipping & Handling:,الشحن والتسليم:
+Shipping &amp; Handling,الشحن والتسليم
+Shipping &amp; Handling Information,معلومات الشحن والتسليم
+Shipping Address,عنوان الشحن
+Shipping Amount,قيمة الشحن
+Shipping Information,بيانات الشحن
+Shipping Method,طريقة الشحن
+Shipping Method:,طريقة الشحن:
+Shipping Refund,إسترداد دفعة الشحن
+Shipping and Tracking Information,معلومات الشحن والتتبع
+Shopping Cart,عربة التسوق
+Signed Up From,تم الإشتراك من
+Sku,رمز المنتج SKU
+Some items have quantities exceeding allowed quantities. Please select a lower quantity to checkout.,بعض السلع بكميات تتجاوز الحد المسموح، الرجاء إختيار كمية أقل لإكمال عملية الشراء.
+Some of the products below don't have all the required options. Please remove them and add again with all the required options.,بعض المنتجات أدناه لا تحتوي على جميع الخيارات المطلوبة. الرجاء الحذف والإضافة مجددا مع جميع الخيارات المطلوبة.
+"Sorry, no quotes are available for this order at this time.",عذرا، لايوجد أي إقتباس متوفر لطلب الشراء هذا حاليا.
+Source object is not specified.,عنصر المصدر غير محدد.
+State/Province,ولاية/مقاطعة
+Status,الحالة
+Store Credit,رصيد المتجر
+Submit Comment,وضع تعليق
+Submit Credit Memo,وضع ذاكرة إئتمانية
+Submit Invoice,وضع فاتورة
+Submit Order,وضع طلب الشراء
+Submit Shipment,وضع الشحنة
+Subscribe to Newsletter,الاشتراك في النشرة الإخبارية
+Subscribe to Order Status,الاشتراك في وضع الطلب
+Subtotal,المجموع الفرعي
+Subtotal after discount,المجموع الفرعي بعد الخصم
+Subtotal:,المجموع الفرعي:
+TAX/VAT Number,رقم الضريبة\الضريبة المضافة
+Tax,الضريبة
+Tax :,الضريبة :
+Tax Amount,قيمة الضريبة
+Tax Percent,النسبة المئوية للضريبة
+Telephone,الهاتف
+The item %s (SKU %s) doesn't exist in the catalog anymore,السلعة %s (رمز المنتج %s) غير متوفرة في الكتالوج
+There are no printable documents related to selected orders,لايوجد مستندات قابلة للطباعة للطلبات الشرائية المختارة
+This message will be shown in shopping cart when subtotal after discount less than minimum amount,سوف تظهر هذه الرسالة في عربة التسوق عندما يكون المجموع الفرعي بعد الخصم أقل من الحد الأدنى لطلب الشراء
+This order no longer exists.,طلب الشراء هذا لم يعد موجودا.
+Tier Pricing,تسعير طبقي
+Title,العنوان
+To,إلى
+To Name,إلى اسم
+To:,إلى:
+Total %d product(s),مجموع %d منتج\منتجات
+Total Due,مجموع مستحق
+Total Paid,مجموع المدفوعات
+Total Qty,مجموع الكميات
+Total Refund,مجموع إسترداد الدفعة
+Total Refunded,مجموع الدفعات المستردة
+Total Shipping Charges,مجموع رسوم الشحن
+Total Tax,مجموع الضريبة
+Total(ex),المجموع (غير شامل)
+Total(inc),المجموع (شامل)
+Track Order,تتبع طلب الشراء
+Track all shipment(s),تتبع الشحنة\جميع الشحنات
+Track all shipments,تتبع جميع الشحنات
+Track this shipment,تتبع هذه الشحنة
+Track your order,تتبع طلب شرائك
+Tracking,تتبع
+Tracking Number,رقم التتبع
+Tracking Number(s),أرقام التتبع
+Unhold,تحربر من حالة التعليق
+Unhold order,تحربر الطلب من حالة التعليق
+Unknown State,دولة غير معروفة
+Unknown Status,حالة غير معروفة
+Update Changes,تحديث التغييرات
+Update Items and Qty's,تحديث السلع والكميات
+Update Qty's,تحديث الكمية
+Validate each address separately in multi-address checkout,التحقق من صحة كل عنوان على حدة في عملية الشراء متعددة العناوين
+View,عرض
+View All,عرض الكل
+View Order,عرض طلب الشراء
+Void,إبطال
+Void invoice,إبطال الفاتورة
+Website,الموقع
+Wishlist,قائمة الأمنيات
+You have placed no orders.,لم يتم وضع أي طلبات شراء.
+ZIP/Post Code,الرمز البريدي
+"separate by "",""","فصل بواسطة"","""
+My Orders,طلبات شرائي

@@ -1,0 +1,1 @@
+../../../../vendor/shopgo/clarity-theme/skin/frontend/shopgo/clarity_custom/README.md

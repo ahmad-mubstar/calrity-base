@@ -1,0 +1,10 @@
+app/code/local/Magestore/Magenotification/                           app/code/local/Magestore/Magenotification/
+app/design/adminhtml/default/default/layout/magenotification.xml     app/design/adminhtml/default/default/layout/magenotification.xml
+app/design/adminhtml/default/default/template/magenotification/      app/design/adminhtml/default/default/template/magenotification/
+app/etc/modules/Magestore_Magenotification.xml                       app/etc/modules/Magestore_Magenotification.xml
+js/tinybox/tinybox.js                                                js/tinybox/tinybox.js
+skin/adminhtml/default/default/css/magestore/magenotification.css    skin/adminhtml/default/default/css/magestore/magenotification.css
+skin/adminhtml/default/default/css/magestore/notice_price.gif        skin/adminhtml/default/default/css/magestore/notice_price.gif
+skin/adminhtml/default/default/css/tinybox/style.css                 skin/adminhtml/default/default/css/tinybox/style.css
+skin/adminhtml/default/default/css/tinybox/images/preload.gif        skin/adminhtml/default/default/css/tinybox/images/preload.gif
+skin/adminhtml/default/default/css/tinybox/images/rhino.jpg          skin/adminhtml/default/default/css/tinybox/images/rhino.jpg

@@ -1,0 +1,1 @@
+../../vendor/manadev/infinite-scrolling/js/mana/infinitescrolling.js

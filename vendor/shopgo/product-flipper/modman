@@ -1,0 +1,6 @@
+skin/frontend/base/default/shopgo/flipper/                          skin/frontend/base/default/shopgo/flipper/
+app/design/frontend/base/default/template/shopgo/flipper/           app/design/frontend/base/default/template/shopgo/flipper/
+app/design/frontend/base/default/layout/shopgo/shopgo_flipper.xml   app/design/frontend/base/default/layout/shopgo/shopgo_flipper.xml
+app/locale/en_US/Shopgo_ProductFlipper.csv                          app/locale/en_US/Shopgo_ProductFlipper.csv
+app/etc/modules/Shopgo_ProductFlipper.xml                           app/etc/modules/Shopgo_ProductFlipper.xml
+app/code/community/Shopgo/ProductFlipper/                           app/code/community/Shopgo/ProductFlipper/

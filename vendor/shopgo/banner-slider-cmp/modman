@@ -1,0 +1,6 @@
+skin/frontend/base/default/shopgo/bannerslider/                         skin/frontend/base/default/shopgo/bannerslider/
+app/design/adminhtml/default/default/layout/shopgo/bannerslider.xml     app/design/adminhtml/default/default/layout/shopgo/bannerslider.xml
+app/design/frontend/base/default/template/shopgo/bannerslider.phtml     app/design/frontend/base/default/template/shopgo/bannerslider.phtml
+app/design/frontend/base/default/layout/shopgo/bannerslider.xml         app/design/frontend/base/default/layout/shopgo/bannerslider.xml
+app/etc/modules/Shopgo_Bannerslider.xml                                 app/etc/modules/Shopgo_Bannerslider.xml
+app/code/local/Shopgo/Bannerslider/                                     app/code/local/Shopgo/Bannerslider/

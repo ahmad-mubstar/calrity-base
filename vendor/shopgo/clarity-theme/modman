@@ -1,0 +1,15 @@
+app/code/local/Shopgo/NewSale/                            app/code/local/Shopgo/NewSale/
+app/etc/modules/Shopgo_NewSale.xml                        app/etc/modules/Shopgo_NewSale.xml
+
+app/design/frontend/shopgo/clarity/                       app/design/frontend/shopgo/clarity/
+
+app/design/frontend/shopgo/clarity_custom/.gitkeep        app/design/frontend/shopgo/clarity_custom/.gitkeep
+app/design/frontend/shopgo/clarity_custom/README.md       app/design/frontend/shopgo/clarity_custom/README.md
+
+skin/frontend/shopgo/clarity/                             skin/frontend/shopgo/clarity/
+
+skin/frontend/shopgo/clarity_custom/.gitkeep              skin/frontend/shopgo/clarity_custom/.gitkeep
+skin/frontend/shopgo/clarity_custom/README.md             skin/frontend/shopgo/clarity_custom/README.md
+
+app/code/local/Shopgo/Clarity/                            app/code/local/Shopgo/Clarity/
+app/etc/modules/Shopgo_Clarity.xml                        app/etc/modules/Shopgo_Clarity.xml

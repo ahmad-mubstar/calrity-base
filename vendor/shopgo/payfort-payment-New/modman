@@ -1,0 +1,8 @@
+app/code/community/Payfort/Pay/                                         app/code/community/Payfort/Pay/
+app/design/frontend/base/default/layout/payfort/pay.xml                 app/design/frontend/base/default/layout/payfort/pay.xml
+app/design/frontend/base/default/template/payfort/                      app/design/frontend/base/default/template/payfort/
+app/etc/modules/Payfort_Pay.xml                                         app/etc/modules/Payfort_Pay.xml
+js/payfort/checkout-submit.js						js/payfort/checkout-submit.js
+skin/frontend/base/default/css/payfort/                                 skin/frontend/base/default/css/payfort/
+skin/frontend/base/default/images/payfort/                              skin/frontend/base/default/images/payfort/
+app/locale/en_US/Payfort_Pay.csv                                        app/locale/en_US/Payfort_Pay.csv

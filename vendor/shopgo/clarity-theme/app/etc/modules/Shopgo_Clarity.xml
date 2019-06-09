@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shopgo_Clarity>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Shopgo_ProBadge />
+            </depends>
+        </Shopgo_Clarity>
+    </modules>
+</config>

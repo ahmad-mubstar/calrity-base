@@ -1,0 +1,15 @@
+{
+    "name": "shopgo/logo-upload",
+    "type": "magento-module",
+    "license": "OSL 3.0",
+    "description": "Logo upload Magento extension",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "ShopGo",
+            "email": "ali@shopgo.me"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+@import "../../bower_components/font-awesome/less/font-awesome.less";
+
+// @import "../../bower_components/bootstrap/less/glyphicons.less";
+
+#cartHeader i {
+    color: @color-second-color;
+    font-size: 24px;
+}
+
+.scrollToTop {
+    position: fixed;
+    display: none;
+    color: #444;
+    right: 10px;
+    bottom: 170px;
+    z-index: 10000;
+}
+
+@media (max-width: @screen-md) {
+    .scrollToTop {
+        display: none !important;
+    }
+}

@@ -1,0 +1,1 @@
+../../vendor/shopgo/magento-core-1-js-libraries/jquery/jquery.js

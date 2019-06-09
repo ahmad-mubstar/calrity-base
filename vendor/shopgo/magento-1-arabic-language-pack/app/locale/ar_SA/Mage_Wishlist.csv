@@ -1,0 +1,56 @@
+"%1$s was successfully added to your wishlist. Click <a href=""%2$s"">here</a> to continue shopping","%1$s تم اضافتها بنجاح في قائمة الأمنيات. انقر <a href=""%2$s"">هنا</a> لإكمال التسوق"
+%s's Wishlist,%s's قائمة الامنيات
+* Required Fields,* حقول مطلوب تعبئتها
+Add All to Cart,إضافة الكل إلى السلّة
+Add to Cart,إضافة إلى السلّة
+Add to Wishlist,إضافة إلى قائمة الأمنيات
+Added On,اضافة على
+Are You sure?,هل انت متاكد؟
+Are you sure you want to remove this product from your wishlist?,هل أنت متأكد أنك تريد إزالة هذا المنتج من قائمة أمنياتك؟
+Are you sure you would like to remove this item from the wishlist?,هل أنت متأكد أنك تود  إزالة هذاالمنتج من قائمة الأمنيات؟
+Back,الخلف
+Can't save description %s,لا يمكن حفظ الوصف %s
+Cannot create wishlist,لا يمكن إنشاء قائمة الأمنيات
+Cannot specify product,لا يمكن تحديد المنتج
+Check this checkbox if you want to add a link to an rss feed to your wishlist.,تحديد مربع الاختيار اذا كنت تريد إضافة رابط ال RSS Feed الخاصة بك الى قائمة الأمنيات.
+Comment,تعليق
+Email Sender,المرسل 
+Email Template,قالب البريد الإلكتروني
+Email address can't be empty.,عنوان رسالة البريد الالكتروني لا يمكن تركه فارغاً.
+"Email addresses, separated by commas",عناوين البريد الالكتروني ، تفصل بينها بفواصل
+Enabled,مفعل
+General Options,خيارات عامة
+Go to Wishlist,الذهاب إلى قائمة الأمنيات
+Last Added Items,أخر السلع المضافة
+Message,رسالة
+My Wishlist,قائمة أمنياتي
+My Wishlist (%d item),قائمة أمنياتي (%d سلعة)
+My Wishlist (%d items),قائمة أمنياتي (%d سلع)
+"Please enter a valid email addresses, separated by commas. For example johndoe@domain.com, johnsmith@domain.com.",الرجاء ادخال عناوين البريد الالكتروني ، تفصل بينها فواصل. فعلى سبيل المثال johndoe@domain.com ، johnsmith@domain.com.
+"Please, enter your comments...",الرجاء إدخال تعليقاتك...
+Product,المنتج
+RSS Feed,RSS Feed
+RSS link to %s's wishlist,RSS رابطة الى %s's قائمة الامنيات
+Remove Item,إزالة سلعة
+Share Wishlist,مشاركة قائمة الأمنيات
+Share Your Wishlist,شارك قائمة أمنياتك
+Share options,خيارات المشاركة
+Sharing Information,بيانات المشاركة
+There was an error while adding item to wishlist.,هناك خطأ أثناء إضافة سلعة إلى قائمة الأمنيات.
+There was an error while adding item to wishlist: %s,هناك خطأ أثناء إضافة سلعة إلى قائمة الأمنيات: %s
+There was an error while deleting item from wishlist.,هناك خطأ أثناء حذف سلعة من قائمة الأمنيات.
+There was an error while deleting item from wishlist: %s,هناك خطأ أثناء حذف سلعة من قائمة الأمنيات: %s
+This product(s) is currently out of stock:,هذه المنتجات غير موجوده في المخزن حالياً:
+Update Wishlist,تحديث قائمة الأمنيات
+View Product,عرض المنتج
+Wishlist,قائمة الأمنيات
+Wishlist Section,قسم قائمة الأمنيات
+Wishlist Sharing,مشاركة قائمة الأمنيات
+Wishlist is empty now.,قائمة الأمنيات فارغة الآن.
+You have no items in your wishlist.,ليس لديك أي سلع في قائمة الأمنيات.
+You input not valid email address.,عنوان البريد الإلكتروني غير صحيح.
+Your Wishlist was successfully shared,تم مشاركة قائمة أمنياتك بنجاح
+"My Wishlist - <a href=""%s"">%d Item(s)</a>","قائمة أمنياتي - <a href=""%s"">%d Item(s)</a>"
+My Wishlist,قائمة أمنياتي
+"Please, enter your comments...",يرجى إدخال تعليق...
+Are you sure you would like to remove this item from the wistlist ?,هل أنت متأكدّ أنك تريد حذف هذا المنتج من قائمة الأمنيات

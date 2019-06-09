@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<config>
+  <tabs>
+    <magebuzz translate="label">
+      <label>MageBuzz Add-ons</label>
+      <sort_order>400</sort_order>
+    </magebuzz>
+  </tabs>
+  <sections>
+    <manufacturer translate="label" module="manufacturer">
+      <class>separator-top</class>
+      <label>Manufacturer</label>
+      <tab>magebuzz</tab>
+      <frontend_type>text</frontend_type>
+      <sort_order>350</sort_order>
+      <show_in_default>1</show_in_default>
+      <show_in_website>1</show_in_website>
+      <show_in_store>1</show_in_store>
+      <groups>
+        <general translate="label">
+          <label>Manufacturer Listing Page</label>
+          <frontend_type>text</frontend_type>
+          <sort_order>1</sort_order>
+          <show_in_default>1</show_in_default>
+          <show_in_website>1</show_in_website>
+          <show_in_store>1</show_in_store>
+          <fields>
+            <default_manufacturer_image>
+              <label>Default manufacturer image</label>
+              <frontend_type>image</frontend_type>
+              <backend_model>adminhtml/system_config_backend_image_pdf</backend_model>
+              <upload_dir config="system/filesystem/media" scope_info="1">manufacturer/default</upload_dir>
+              <base_url type="media" scope_info="1">manufacturer/default</base_url>
+              <sort_order>3</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </default_manufacturer_image>
+            <alphabet_sorting>
+              <label>Alphabet sort order</label>
+              <frontend_type>select</frontend_type>
+              <sort_order>4</sort_order>
+              <source_model>adminhtml/system_config_source_yesno</source_model>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </alphabet_sorting>
+            <show_featured_manufacturer>
+              <label>Show featured manufacturer in top</label>
+              <frontend_type>select</frontend_type>
+              <sort_order>6</sort_order>
+              <source_model>adminhtml/system_config_source_yesno</source_model>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </show_featured_manufacturer>
+            <show_manufacturer_in_product_page>
+              <label>Show manufacturer in product page</label>
+              <frontend_type>select</frontend_type>
+              <sort_order>7</sort_order>
+              <source_model>adminhtml/system_config_source_yesno</source_model>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </show_manufacturer_in_product_page>
+            <show_top_nav>
+              <label>Enable manufacturer navigation</label>
+              <frontend_type>select</frontend_type>
+              <sort_order>8</sort_order>
+              <source_model>adminhtml/system_config_source_yesno</source_model>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </show_top_nav>
+            <brand_view>
+              <label>Brand view on brands listing page</label>
+              <comment>Please make sure to clear cache after changing this field value</comment>
+              <frontend_type>select</frontend_type>
+              <sort_order>9</sort_order>
+              <source_model>manufacturer/system_config_source_brandview</source_model>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </brand_view>
+            <brand_view_product>
+              <label>Brand view on product page</label>
+              <comment>Please make sure to clear cache after changing this field value</comment>
+              <frontend_type>select</frontend_type>
+              <sort_order>10</sort_order>
+              <source_model>manufacturer/system_config_source_brandview</source_model>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </brand_view_product>
+          </fields>
+        </general>
+      </groups>
+    </manufacturer>
+  </sections>
+</config>

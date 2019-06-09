@@ -1,0 +1,19 @@
+{
+    "name": "magestore-shopgo/mega-menu",
+    "type": "magento-module",
+    "license": "EULA",
+    "description": "Magestore Mega Menu Magento extension (Shopgo Edition)",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "magestore/notification": "*"
+    },
+    "authors":[
+        {
+            "name": "Magestore",
+            "email": "support@magestore.com"
+        }
+    ],
+    "replace": {
+        "magestore/mega-menu": "*"
+    }
+}

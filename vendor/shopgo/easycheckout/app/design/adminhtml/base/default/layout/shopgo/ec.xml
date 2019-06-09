@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <!-- <action method="addItem"><type>skin_js</type><name>shopgo/ec/javascripts/jquery-2.1.1.min.js</name></action> -->
+            <!-- <action method="addItem"><type>skin_js</type><name>shopgo/ec/javascripts/jquery.noConflict.js</name></action> -->
+            <!-- <action method="addItem"><type>skin_js</type><name>shopgo/ec/jquery.growl/javascripts/jquery.growl.js</name></action> -->
+            <!-- <action method="addItem"><type>skin_js</type><name>shopgo/ec/javascripts/ec_loader.js</name></action> -->
+            <!-- <action method="addItem"><type>skin_css</type><name>shopgo/ec/jquery.growl/stylesheets/jquery.growl.css</name></action> -->
+        </reference>
+        <reference name="js">
+            <!-- <block type="ec/adminhtml_downloader" as="ec_js" name="ec_js" template="shopgo/ec/js/growler.phtml" /> -->
+        </reference>
+    </default>
+</layout>

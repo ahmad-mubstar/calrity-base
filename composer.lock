@@ -1,0 +1,3106 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "785bb25190ab8e949b3eceb0f249f919",
+    "content-hash": "4da44f36856f003728a0cb3228fe87ab",
+    "packages": [
+        {
+            "name": "aheadworks/all",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/aheadworks-all.git",
+                "reference": "3b00037cff5d96faa2e184780e699418705780a0"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "EULA"
+            ],
+            "authors": [
+                {
+                    "name": "aheadWorks"
+                }
+            ],
+            "description": "aheadWorks all Magento extension.",
+            "time": "2016-09-07 15:04:01"
+        },
+        {
+            "name": "aheadworks/blog",
+            "version": "1.3.18",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/aheadworks-blog.git",
+                "reference": "5c5e0ba8634078c33b22f659dfbebd38b0105978"
+            },
+            "require": {
+                "aheadworks/all": "dev-master",
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "EULA"
+            ],
+            "authors": [
+                {
+                    "name": "aheadWorks"
+                }
+            ],
+            "description": "The Blog extension for Magento gives you a noteworthy opportunity to communicate with your regular customers and casual visitors. With Magento Blog you can create an interactive two-way communication platform to provide official information on your store news, upcoming products, promotions, and get customers’ feedback.",
+            "time": "2016-09-07 14:58:02"
+        },
+        {
+            "name": "aheadworks/lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/aheadworks-lib.git",
+                "reference": "200c91e0deb2dadb2643581d1d1032c9247042e5"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "EULA"
+            ],
+            "authors": [
+                {
+                    "name": "aheadWorks"
+                }
+            ],
+            "description": "aheadWorks lib Magento extension.",
+            "time": "2015-10-30 23:30:25"
+        },
+        {
+            "name": "aheadworks/order-attributes",
+            "version": "dev-checkout_awoa",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/aheadworks-order-attributes.git",
+                "reference": "d6d8741a77967738947854d654a9080bb581ddf2"
+            },
+            "require": {
+                "aheadworks/all": "dev-master",
+                "aheadworks/lib": "dev-master",
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "EULA"
+            ],
+            "authors": [
+                {
+                    "name": "aheadWorks"
+                }
+            ],
+            "description": "The Order Attributes Pro extension for Magento allows you to add custom fields to any checkout steps. You can insert fields of any types (text, dropdown, checkbox, etc.) for filling in and fasten the process of order completion. You will not have to call or email customers to find out the best time for delivery or ask to leave feedback annoying them.",
+            "time": "2015-10-30 22:46:00"
+        },
+        {
+            "name": "aoepeople/aoe_scheduler",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
+                "reference": "6fb8bf1524145fe5b6775305932e1dd0d7d5f6c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AOEpeople/Aoe_Scheduler/zipball/6fb8bf1524145fe5b6775305932e1dd0d7d5f6c5",
+                "reference": "6fb8bf1524145fe5b6775305932e1dd0d7d5f6c5",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "php": ">=5.3"
+            },
+            "replace": {
+                "fbrnc/aoe_scheduler": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Fabrizio Branca",
+                    "email": "firstname.lastname@aoe.com",
+                    "role": "Author/Maintainer"
+                },
+                {
+                    "name": "Lee Saferite",
+                    "email": "lee.saferite@aoe.com",
+                    "role": "Contributor/Maintainer"
+                }
+            ],
+            "description": "Magento Cron Scheduler",
+            "homepage": "https://github.com/AOEpeople/Aoe_Scheduler",
+            "support": {
+                "source": "https://github.com/AOEpeople/Aoe_Scheduler/tree/v1.5.0",
+                "issues": "https://github.com/AOEpeople/Aoe_Scheduler/issues"
+            },
+            "time": "2016-06-15 04:46:40"
+        },
+        {
+            "name": "astorm/pulsestorm-launcher",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/astorm/PulsestormLauncher.git",
+                "reference": "05ebcedef9fbfa4e343427ce2755169490c66706"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/astorm/PulsestormLauncher/zipball/05ebcedef9fbfa4e343427ce2755169490c66706",
+                "reference": "05ebcedef9fbfa4e343427ce2755169490c66706",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alan Storm",
+                    "email": "alanstorm@alanstorm.com",
+                    "homepage": "http://alanstorm.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Pulse storm launcher provides the Magento admin console with a Quicksilver like plugin for immediate access to Magento navigation items, system configuration sections, and the Magento global search",
+            "support": {
+                "source": "https://github.com/astorm/PulsestormLauncher/tree/master",
+                "issues": "https://github.com/astorm/PulsestormLauncher/issues"
+            },
+            "time": "2016-10-20 19:57:16"
+        },
+        {
+            "name": "balke-technologies/magento-module-storemaintenance",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/magento-module-storemaintenance.git",
+                "reference": "504ec45d9d61bb3439b322b06af0c1c0c081d901"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Balke",
+                    "email": "magento@balke-technologies.de"
+                }
+            ],
+            "description": "Store Maintenance allows you to put each store view separately into maintenance mode. It can be configured from backend, so no need to hack any of your files (e.g. index.php) on your server",
+            "time": "2015-05-07 09:23:22"
+        },
+        {
+            "name": "checkoutapi/chargePayment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/checkout.com-js.git",
+                "reference": "a91f9a454f4c19eb5c8207e500bc70ab7ba93566"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "Dhiraj Gangoosirdar",
+                    "email": "dhiraj.gangoosirdar@checkout.com"
+                }
+            ],
+            "description": "Magento payment modules for checkout gateway 3.0.",
+            "time": "2016-01-25 10:51:50"
+        },
+        {
+            "name": "composer/composer",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/composer.git",
+                "reference": "a4a0546ece469cae984219f920c75437820064ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/composer/zipball/a4a0546ece469cae984219f920c75437820064ff",
+                "reference": "a4a0546ece469cae984219f920c75437820064ff",
+                "shasum": ""
+            },
+            "require": {
+                "composer/semver": "^1.0",
+                "composer/spdx-licenses": "^1.0",
+                "justinrainbow/json-schema": "^1.6",
+                "php": "^5.3.2 || ^7.0",
+                "seld/cli-prompt": "^1.0",
+                "seld/jsonlint": "^1.4",
+                "seld/phar-utils": "^1.0",
+                "symfony/console": "^2.5 || ^3.0",
+                "symfony/filesystem": "^2.5 || ^3.0",
+                "symfony/finder": "^2.2 || ^3.0",
+                "symfony/process": "^2.1 || ^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.5 || ^5.0.5",
+                "phpunit/phpunit-mock-objects": "2.3.0 || ^3.0"
+            },
+            "suggest": {
+                "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages",
+                "ext-zip": "Enabling the zip extension allows you to unzip archives",
+                "ext-zlib": "Allow gzip compression of HTTP requests"
+            },
+            "bin": [
+                "bin/composer"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\": "src/Composer"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Composer helps you declare, manage and install dependencies of PHP projects, ensuring you have the right stack everywhere.",
+            "homepage": "https://getcomposer.org/",
+            "keywords": [
+                "autoload",
+                "dependency",
+                "package"
+            ],
+            "time": "2016-04-29 15:30:16"
+        },
+        {
+            "name": "composer/semver",
+            "version": "1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/semver.git",
+                "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/semver/zipball/c7cb9a2095a074d131b65a8a0cd294479d785573",
+                "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.5 || ^5.0.5",
+                "phpunit/phpunit-mock-objects": "2.3.0 || ^3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Semver\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                },
+                {
+                    "name": "Rob Bast",
+                    "email": "rob.bast@gmail.com",
+                    "homepage": "http://robbast.nl"
+                }
+            ],
+            "description": "Semver library that offers utilities, version constraint parsing and validation.",
+            "keywords": [
+                "semantic",
+                "semver",
+                "validation",
+                "versioning"
+            ],
+            "time": "2016-08-30 16:08:34"
+        },
+        {
+            "name": "composer/spdx-licenses",
+            "version": "1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/spdx-licenses.git",
+                "reference": "96c6a07b05b716e89a44529d060bc7f5c263cb13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/96c6a07b05b716e89a44529d060bc7f5c263cb13",
+                "reference": "96c6a07b05b716e89a44529d060bc7f5c263cb13",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.5 || ^5.0.5",
+                "phpunit/phpunit-mock-objects": "2.3.0 || ^3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Spdx\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                },
+                {
+                    "name": "Rob Bast",
+                    "email": "rob.bast@gmail.com",
+                    "homepage": "http://robbast.nl"
+                }
+            ],
+            "description": "SPDX licenses list and validation library.",
+            "keywords": [
+                "license",
+                "spdx",
+                "validator"
+            ],
+            "time": "2016-09-28 07:17:45"
+        },
+        {
+            "name": "craigchristenson/magento-2checkout",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shopgo-magento1/magento-2checkout.git",
+                "reference": "0e2af17f618e9f4b32f34334ef01dc6301f3f48c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shopgo-magento1/magento-2checkout/zipball/0e2af17f618e9f4b32f34334ef01dc6301f3f48c",
+                "reference": "0e2af17f618e9f4b32f34334ef01dc6301f3f48c",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Craig Christenson",
+                    "email": "christensoncraig@gmail.com"
+                }
+            ],
+            "description": "This extension utilizes 2Checkouts back office API and Instant Notification Service to provide you with the ability to do all of your sales management from Magento. Additionally, this extension supports the 2Checkout Sandbox, so you can use this extension with your 2CO Sandbox account",
+            "support": {
+                "source": "https://github.com/shopgo-magento1/magento-2checkout/tree/master"
+            },
+            "time": "2015-06-11 13:22:20"
+        },
+        {
+            "name": "eloquent/composer-config-reader",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/composer-config-reader.git",
+                "reference": "b79319806e1bcc101c89a023b3aeee9e5931e463"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/composer-config-reader/zipball/b79319806e1bcc101c89a023b3aeee9e5931e463",
+                "reference": "b79319806e1bcc101c89a023b3aeee9e5931e463",
+                "shasum": ""
+            },
+            "require": {
+                "eloquent/enumeration": "~5",
+                "eloquent/liberator": "~1",
+                "icecave/isolator": "~2",
+                "justinrainbow/json-schema": "~1",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "icecave/archer": "~1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Eloquent\\Composer\\Configuration\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "A light-weight component for reading Composer configuration files.",
+            "homepage": "https://github.com/eloquent/composer-config-reader",
+            "keywords": [
+                "composer",
+                "configuration",
+                "parser",
+                "reader"
+            ],
+            "time": "2014-01-22 01:05:31"
+        },
+        {
+            "name": "eloquent/enumeration",
+            "version": "5.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/enumeration.git",
+                "reference": "0242859435d9b135939816858348556d3cde9e3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/enumeration/zipball/0242859435d9b135939816858348556d3cde9e3c",
+                "reference": "0242859435d9b135939816858348556d3cde9e3c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "icecave/archer": "dev-develop",
+                "phpunit/phpunit": "^4",
+                "sami/sami": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Eloquent\\Enumeration\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "An enumeration implementation for PHP.",
+            "homepage": "https://github.com/eloquent/enumeration",
+            "keywords": [
+                "class",
+                "enum",
+                "enumeration",
+                "multiton",
+                "set",
+                "type"
+            ],
+            "time": "2015-11-03 22:21:38"
+        },
+        {
+            "name": "eloquent/liberator",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/liberator.git",
+                "reference": "a85435066850ab47acc61296c5d20732ff4c9655"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/liberator/zipball/a85435066850ab47acc61296c5d20732ff4c9655",
+                "reference": "a85435066850ab47acc61296c5d20732ff4c9655",
+                "shasum": ""
+            },
+            "require": {
+                "eloquent/pops": "~3",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "icecave/archer": "~0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Eloquent\\Liberator": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "A proxy for circumventing PHP access modifier restrictions.",
+            "homepage": "https://github.com/eloquent/liberator",
+            "keywords": [
+                "access",
+                "modifier",
+                "object",
+                "private",
+                "protected",
+                "proxy",
+                "reflection"
+            ],
+            "time": "2013-03-03 23:02:47"
+        },
+        {
+            "name": "eloquent/pops",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/pops.git",
+                "reference": "b14090a3478f544d1b3a3b9389cb03415cf4f37f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/pops/zipball/b14090a3478f544d1b3a3b9389cb03415cf4f37f",
+                "reference": "b14090a3478f544d1b3a3b9389cb03415cf4f37f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "icecave/archer": "~0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Eloquent\\Pops": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "PHP object proxy system.",
+            "homepage": "https://github.com/eloquent/pops",
+            "keywords": [
+                "escaping",
+                "object",
+                "proxy"
+            ],
+            "time": "2013-03-04 10:10:43"
+        },
+        {
+            "name": "etws/et_currencymanager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/shopgo/et_currencymanager.git",
+                "reference": "f8c5bd350f630d3849c7941861ba484c37f7a9a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/shopgo/et_currencymanager/get/f8c5bd350f630d3849c7941861ba484c37f7a9a9.zip",
+                "reference": "f8c5bd350f630d3849c7941861ba484c37f7a9a9",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "EFL-1.0"
+            ],
+            "authors": [
+                {
+                    "name": "ET Web Solutions",
+                    "email": "support@etwebsolutions.com",
+                    "homepage": "http://www.etwebsolutions.com/"
+                }
+            ],
+            "description": "Currency Manager lets shop owner manage price display in an easy and convenient way: show custom currency symbol, change its position, change number of decimals and etc.",
+            "homepage": "http://shop.etwebsolutions.com/eng/magento-extensions/et-currency-manager.html",
+            "keywords": [
+                "currency",
+                "magento"
+            ],
+            "support": {
+                "email": "support@etwebsolutions.com",
+                "issues": "https://bitbucket.org/etws/et_currencymanager/issues?status=new&status=open",
+                "source": "https://bitbucket.org/etws/et_currencymanager"
+            },
+            "time": "2015-06-16 11:56:33"
+        },
+        {
+            "name": "gate2play/payment-gateway",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/gate2play.git",
+                "reference": "e5c9fe66f2248897e8bde96c807217e3c004ac35"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gate2play"
+                }
+            ],
+            "description": "Gate2play payment Magento extension",
+            "time": "2015-09-01 08:07:39"
+        },
+        {
+            "name": "icecave/isolator",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IcecaveStudios/isolator.git",
+                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IcecaveStudios/isolator/zipball/97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
+                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "icecave/archer": "~1"
+            },
+            "suggest": {
+                "eloquent/asplode": "Drop-in exception-based error handling."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Icecave\\Isolator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Harris",
+                    "email": "james.harris@icecave.com.au",
+                    "homepage": "https://github.com/jmalloc"
+                }
+            ],
+            "description": "Dependency injection for global functions.",
+            "homepage": "https://github.com/IcecaveStudios/isolator",
+            "keywords": [
+                "fake",
+                "mock",
+                "phake",
+                "phpunit",
+                "test",
+                "unit"
+            ],
+            "time": "2014-08-12 03:16:11"
+        },
+        {
+            "name": "inchoo/featured-products",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/buric/Inchoo_FeaturedProducts.git",
+                "reference": "75ab057c409239a2847eb02c54fd2cd4b3d615b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/buric/Inchoo_FeaturedProducts/zipball/75ab057c409239a2847eb02c54fd2cd4b3d615b8",
+                "reference": "75ab057c409239a2847eb02c54fd2cd4b3d615b8",
+                "shasum": ""
+            },
+            "type": "magento-module",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Zvonimir Burić",
+                    "email": "zvonimir.buric@gmail.com"
+                }
+            ],
+            "description": "This extension gives your Magento ability for easy management of featured products.",
+            "support": {
+                "source": "https://github.com/buric/Inchoo_FeaturedProducts/tree/master",
+                "issues": "https://github.com/buric/Inchoo_FeaturedProducts/issues"
+            },
+            "time": "2016-07-08 10:50:41"
+        },
+        {
+            "name": "innovate/innovate-payments",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/telr-innovate-payments.git",
+                "reference": "620434ed1e71104eea10687c8f4d02d3744ae2b4"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Telr | innovate payments",
+                    "email": "support@innovatepayments.com"
+                }
+            ],
+            "description": " Telr | innovate payments Magento payment extension",
+            "time": "2015-04-28 12:20:06"
+        },
+        {
+            "name": "justinrainbow/json-schema",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/justinrainbow/json-schema.git",
+                "reference": "cc84765fb7317f6b07bd8ac78364747f95b86341"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/cc84765fb7317f6b07bd8ac78364747f95b86341",
+                "reference": "cc84765fb7317f6b07bd8ac78364747f95b86341",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.29"
+            },
+            "require-dev": {
+                "json-schema/json-schema-test-suite": "1.1.0",
+                "phpdocumentor/phpdocumentor": "~2",
+                "phpunit/phpunit": "~3.7"
+            },
+            "bin": [
+                "bin/validate-json"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JsonSchema\\": "src/JsonSchema/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Prieto Reis",
+                    "email": "bruno.p.reis@gmail.com"
+                },
+                {
+                    "name": "Justin Rainbow",
+                    "email": "justin.rainbow@gmail.com"
+                },
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                },
+                {
+                    "name": "Robert Schönthal",
+                    "email": "seroscho@googlemail.com"
+                }
+            ],
+            "description": "A library to validate a json schema.",
+            "homepage": "https://github.com/justinrainbow/json-schema",
+            "keywords": [
+                "json",
+                "schema"
+            ],
+            "time": "2016-01-25 15:43:01"
+        },
+        {
+            "name": "magebuzz/shop-by-manufacturer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shopgo-magento1/Magebuzz_ShopByManufacturer.git",
+                "reference": "35cf7eff21e8cb90ba0f206145b48cbca187260f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shopgo-magento1/Magebuzz_ShopByManufacturer/zipball/35cf7eff21e8cb90ba0f206145b48cbca187260f",
+                "reference": "35cf7eff21e8cb90ba0f206145b48cbca187260f",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "Magebuzz",
+                    "email": "support@magebuzz.com"
+                }
+            ],
+            "description": "A Magento 1 extension that adds the ability to shop by brand",
+            "support": {
+                "source": "https://github.com/shopgo-magento1/Magebuzz_ShopByManufacturer/tree/master"
+            },
+            "time": "2016-11-21 08:30:13"
+        },
+        {
+            "name": "magento-hackathon/composer-command-integrator",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-hackathon/composer-command-integrator.git",
+                "reference": "826aa5a2a68d10d991b457c397b98773793f0f4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-hackathon/composer-command-integrator/zipball/826aa5a2a68d10d991b457c397b98773793f0f4c",
+                "reference": "826aa5a2a68d10d991b457c397b98773793f0f4c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "*"
+            },
+            "require-dev": {
+                "composer/composer": "*",
+                "phpunit/phpunit": "*"
+            },
+            "bin": [
+                "bin/composerCommandIntegrator.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MagentoHackathon\\Composer\\Command": "src/"
+                }
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Fahlke aka Flyingmana",
+                    "email": "daniel@digitalmanufaktur.com"
+                }
+            ],
+            "description": "module to create binaries and scripts which get executed in context of composer so they are able to access content from the composer.json ",
+            "support": {
+                "source": "https://github.com/magento-hackathon/composer-command-integrator/tree/1.0",
+                "issues": "https://github.com/magento-hackathon/composer-command-integrator/issues"
+            },
+            "time": "2013-07-31 03:10:25"
+        },
+        {
+            "name": "magento-hackathon/magento-composer-installer",
+            "version": "3.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Cotya/magento-composer-installer.git",
+                "reference": "a98dbae53a51ccfc22b0fb8bedce2422f1691c36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Cotya/magento-composer-installer/zipball/a98dbae53a51ccfc22b0fb8bedce2422f1691c36",
+                "reference": "a98dbae53a51ccfc22b0fb8bedce2422f1691c36",
+                "shasum": ""
+            },
+            "archive": {
+                "exclude": [
+                    "vendor",
+                    "/tests/FullStackTest/"
+                ]
+            },
+            "require": {
+                "composer-plugin-api": "~1.0",
+                "eloquent/composer-config-reader": "2.*",
+                "php": ">=5.5",
+                "symfony/console": "^2.5|^3.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*",
+                "cotya/composer-test-framework": "dev-master",
+                "mikey179/vfsstream": "~1.4",
+                "phpunit/phpunit": "~4.3",
+                "phpunit/phpunit-mock-objects": "~2.3",
+                "squizlabs/php_codesniffer": "~2.1",
+                "symfony/process": "~2.5"
+            },
+            "suggest": {
+                "colinmollenhour/modman": "*",
+                "theseer/autoload": "~1.14"
+            },
+            "bin": [
+                "bin/magento-composer-installer.php"
+            ],
+            "type": "composer-plugin",
+            "extra": {
+                "class": "MagentoHackathon\\Composer\\Magento\\Plugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "MagentoHackathon\\Composer": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-0": {
+                    "MagentoHackathon\\Composer\\Magento": "tests/"
+                }
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Fahlke aka Flyingmana",
+                    "email": "flyingmana@googlemail.com"
+                },
+                {
+                    "name": "Jörg Weller",
+                    "email": "weller@flagbit.de"
+                },
+                {
+                    "name": "Karl Spies",
+                    "email": "karl.spies@gmx.net"
+                },
+                {
+                    "name": "Tobias Vogt",
+                    "email": "tobi@webguys.de"
+                },
+                {
+                    "name": "David Fuhr",
+                    "email": "fuhr@flagbit.de"
+                },
+                {
+                    "name": "Vinai Kopp",
+                    "email": "vinai@netzarbeiter.com"
+                }
+            ],
+            "description": "Composer installer for Magento modules",
+            "homepage": "https://github.com/magento-hackathon/magento-composer-installer",
+            "keywords": [
+                "composer-installer",
+                "magento"
+            ],
+            "support": {
+                "source": "https://github.com/Cotya/magento-composer-installer/tree/3.0.7",
+                "issues": "https://github.com/Cotya/magento-composer-installer/issues"
+            },
+            "time": "2016-08-29 20:34:08"
+        },
+        {
+            "name": "magestore-shopgo/mega-menu",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/magestore-mega-menu-shopgo-edition.git",
+                "reference": "cde1751ed82253c8aa28891422b3bdcf8896dca4"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "magestore/notification": "*"
+            },
+            "replace": {
+                "magestore/mega-menu": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "EULA"
+            ],
+            "authors": [
+                {
+                    "name": "Magestore",
+                    "email": "support@magestore.com"
+                }
+            ],
+            "description": "Magestore Mega Menu Magento extension (Shopgo Edition)",
+            "time": "2016-08-01 12:19:48"
+        },
+        {
+            "name": "magestore/notification",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/magestore-notification.git",
+                "reference": "c54c26ed5dae5118da0ba0bd54d98f2b93763713"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "Magestore",
+                    "email": "support@magestore.com"
+                }
+            ],
+            "description": "Magestore Notification Magento extension",
+            "time": "2015-10-30 23:08:29"
+        },
+        {
+            "name": "manadev-shopgo/core",
+            "version": "15.02.10.18",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/manadev-core-cmp-edition.git",
+                "reference": "33605a422460b0b1f26328e1cc00eb1625242370"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "replace": {
+                "manadev/core": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "MANAdev"
+                }
+            ],
+            "description": "MANAdev Core Magento extension (CMP Compatible)",
+            "time": "2015-06-27 15:18:27"
+        },
+        {
+            "name": "manadev-shopgo/seo-layered-navigation-plus",
+            "version": "14.11.14.16-p2",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/manadev-seo-layered-navigation-plus-shopgo-edition.git",
+                "reference": "0223966465424e41a4a69526940af8d5d6b7fcbb"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "manadev/core": "*"
+            },
+            "replace": {
+                "manadev/seo-layered-navigation-plus": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "EULA"
+            ],
+            "authors": [
+                {
+                    "name": "MANAdev"
+                }
+            ],
+            "description": "Extends Layered Navigation with fast SEO friendly AJAX, Multiple Select, Checkboxes, SEO incl. paging and sorting, Price Slider, Show More / Show Less, Radio Buttons, Drop-Down list. (CMP Compatible)",
+            "time": "2016-09-06 12:19:28"
+        },
+        {
+            "name": "manadev/infinite-scrolling",
+            "version": "14.06.20.06",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/manadev-infinite-scrolling.git",
+                "reference": "4b2b9aa09810e1b2a0970e9c2e259223699be57c"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "manadev/core": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "EULA"
+            ],
+            "authors": [
+                {
+                    "name": "MANAdev"
+                }
+            ],
+            "description": "MANAdev Infinite Scrolling extension adds infinite scrolling to category pages, quick search page and other Magento pages containing product lists",
+            "time": "2015-06-18 09:51:49"
+        },
+        {
+            "name": "msp/flat-shipping5",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magespecialist/MSP_FlatShipping5.git",
+                "reference": "9709aaa4f7307e58c08c8076b66b0eab533d8893"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magespecialist/MSP_FlatShipping5/zipball/9709aaa4f7307e58c08c8076b66b0eab533d8893",
+                "reference": "9709aaa4f7307e58c08c8076b66b0eab533d8893",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "MageSpecialist",
+                    "email": "info@magespecialist.it"
+                }
+            ],
+            "description": "MSP FlatShipping5 is an easy extension allowing you to create 5 flat rate shipping methods with different prices and conditions. It will also add a custom HTML message you can show in the checkout page to inform your customers about your shipping methods.",
+            "support": {
+                "source": "https://github.com/magespecialist/MSP_FlatShipping5/tree/master",
+                "issues": "https://github.com/magespecialist/MSP_FlatShipping5/issues"
+            },
+            "time": "2015-06-16 10:13:56"
+        },
+        {
+            "name": "obukhow/adaptive-resize",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/obukhow/AdaptiveResize.git",
+                "reference": "1fb6fb4483b826d612596ecf33fb8ef654ff3a01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/obukhow/AdaptiveResize/zipball/1fb6fb4483b826d612596ecf33fb8ef654ff3a01",
+                "reference": "1fb6fb4483b826d612596ecf33fb8ef654ff3a01",
+                "shasum": ""
+            },
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Provides automatic installation of this extension"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Denis Obukhov",
+                    "email": "denis.obukhov@oggettoweb.com"
+                }
+            ],
+            "description": "Adaptive imagesresize with crop for ideal proportions fit Magento plugin",
+            "homepage": "https://github.com/obukhow/AdaptiveResize",
+            "keywords": [
+                "catalog",
+                "image"
+            ],
+            "support": {
+                "source": "https://github.com/obukhow/AdaptiveResize/tree/master",
+                "issues": "https://github.com/obukhow/AdaptiveResize/issues"
+            },
+            "time": "2016-06-29 08:24:21"
+        },
+        {
+            "name": "phoenix-media/magento-cashondelivery",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHOENIX-MEDIA/Magento-CashOnDelivery.git",
+                "reference": "e8e80cd35cc23793e6e96279bdceac0e37b317ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHOENIX-MEDIA/Magento-CashOnDelivery/zipball/e8e80cd35cc23793e6e96279bdceac0e37b317ad",
+                "reference": "e8e80cd35cc23793e6e96279bdceac0e37b317ad",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "Phoenix Media",
+                    "email": "info@phoenixmedia.com"
+                }
+            ],
+            "description": "Phoenix media cash on delivery",
+            "support": {
+                "source": "https://github.com/PHOENIX-MEDIA/Magento-CashOnDelivery/tree/master",
+                "issues": "https://github.com/PHOENIX-MEDIA/Magento-CashOnDelivery/issues"
+            },
+            "time": "2015-05-07 09:48:22"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10 12:19:37"
+        },
+        {
+            "name": "ras/paytabs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/paytabs-payment-module.git",
+                "reference": "462bd68c104e423a7019dd9d40665dd9f4ea87ba"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "PayTabs",
+                    "email": "info@paytabs.com"
+                }
+            ],
+            "description": "Paytabs payment gateway Magento payment extension",
+            "time": "2016-05-31 08:46:54"
+        },
+        {
+            "name": "rockwells/logviewer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/rockwells-logviewer.git",
+                "reference": "84676e1b5dbd52a102f675c442abfdd93804fa5f"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Murkeli"
+                }
+            ],
+            "description": "A Magento extension that provides an easy way to view and truncate log files in the backend",
+            "homepage": "http://www.magentocommerce.com/magento-connect/log-viewer-1.html",
+            "time": "2015-11-01 00:11:43"
+        },
+        {
+            "name": "seld/cli-prompt",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/cli-prompt.git",
+                "reference": "8cbe10923cae5bcd7c5a713f6703fc4727c8c1b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/cli-prompt/zipball/8cbe10923cae5bcd7c5a713f6703fc4727c8c1b4",
+                "reference": "8cbe10923cae5bcd7c5a713f6703fc4727c8c1b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Seld\\CliPrompt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be"
+                }
+            ],
+            "description": "Allows you to prompt for user input on the command line, and optionally hide the characters they type",
+            "keywords": [
+                "cli",
+                "console",
+                "hidden",
+                "input",
+                "prompt"
+            ],
+            "time": "2016-04-18 09:31:41"
+        },
+        {
+            "name": "seld/jsonlint",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/jsonlint.git",
+                "reference": "19495c181d6d53a0a13414154e52817e3b504189"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/19495c181d6d53a0a13414154e52817e3b504189",
+                "reference": "19495c181d6d53a0a13414154e52817e3b504189",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3 || ^7.0"
+            },
+            "bin": [
+                "bin/jsonlint"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Seld\\JsonLint\\": "src/Seld/JsonLint/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "JSON Linter",
+            "keywords": [
+                "json",
+                "linter",
+                "parser",
+                "validator"
+            ],
+            "time": "2016-11-14 17:59:58"
+        },
+        {
+            "name": "seld/phar-utils",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/phar-utils.git",
+                "reference": "7009b5139491975ef6486545a39f3e6dad5ac30a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/7009b5139491975ef6486545a39f3e6dad5ac30a",
+                "reference": "7009b5139491975ef6486545a39f3e6dad5ac30a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Seld\\PharUtils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be"
+                }
+            ],
+            "description": "PHAR file format utilities, for when PHP phars you up",
+            "keywords": [
+                "phra"
+            ],
+            "time": "2015-10-13 18:44:15"
+        },
+        {
+            "name": "shopgo/admin-simple-blocker",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/admin-simple-blocker.git",
+                "reference": "da372bbf4f8280c1c93dbd20c4a7be3d4f072f54"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                },
+                {
+                    "name": "ShopGo",
+                    "email": "support@shopgo.me"
+                }
+            ],
+            "description": "A simple Magento 1 extension that blocks some parts of admin panel",
+            "time": "2016-06-19 16:43:38"
+        },
+        {
+            "name": "shopgo/advanced-ifconfig",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shopgo-magento1/advanced-ifconfig.git",
+                "reference": "8e3f2200fcf27fc0d1d0a75722cec150277d1b23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shopgo-magento1/advanced-ifconfig/zipball/8e3f2200fcf27fc0d1d0a75722cec150277d1b23",
+                "reference": "8e3f2200fcf27fc0d1d0a75722cec150277d1b23",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "shopgo/core": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                }
+            ],
+            "description": "Advanced Ifconfig Magento extension",
+            "support": {
+                "source": "https://github.com/shopgo-magento1/advanced-ifconfig/tree/1.0.3",
+                "issues": "https://github.com/shopgo-magento1/advanced-ifconfig/issues"
+            },
+            "time": "2015-08-05 12:42:50"
+        },
+        {
+            "name": "shopgo/aramex-shipping",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-aramex-shipping.git",
+                "reference": "0cac39a55a15e2a5d3d5d16436889de8fe088a99"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "shopgo/shipping-core": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                }
+            ],
+            "description": "Aramex shipping Magento extension",
+            "time": "2016-08-03 07:39:59"
+        },
+        {
+            "name": "shopgo/auto-newsletter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-auto-newsletter.git",
+                "reference": "098dc85bc8c7809d3256f0078b0010c0600ad990"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                }
+            ],
+            "description": "Auto Newsletter Subscription Magento extension",
+            "time": "2015-07-27 13:53:12"
+        },
+        {
+            "name": "shopgo/auto-related-products",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-auto-related-products.git",
+                "reference": "c9346a40a2968706988ad9f53c0db8244f15e11f"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "ShopGo",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "Auto related products Magento extension",
+            "time": "2015-04-27 11:03:52"
+        },
+        {
+            "name": "shopgo/banner-slider-cmp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-banner-slider-cmp-edition.git",
+                "reference": "bac55992155cd6422474c2f953c3ea698b57560a"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "shopgo/core": "*"
+            },
+            "replace": {
+                "shopgo/banner-slider": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                }
+            ],
+            "description": "Banner slider Magento extension (CMP Compatible)",
+            "time": "2016-08-03 11:56:45"
+        },
+        {
+            "name": "shopgo/cashu-payment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/cashu-prepaid-payment.git",
+                "reference": "9b08307f3188fc3cd1d6359fefd631b6e8afd52d"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Aya Mousa",
+                    "email": "aya@shopgo.me"
+                }
+            ],
+            "description": "CashU prepaid payment Magento extension",
+            "time": "2016-02-03 10:42:07"
+        },
+        {
+            "name": "shopgo/clarity-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/clarity-theme-minimalism.git",
+                "reference": "466ca59eacc43036233425e2161903b2e962776a"
+            },
+            "require": {
+                "inchoo/featured-products": "dev-master",
+                "magento-hackathon/magento-composer-installer": "*",
+                "magestore/mega-menu": "dev-master",
+                "manadev/infinite-scrolling": "~14.06",
+                "manadev/seo-layered-navigation-plus": "~14.11",
+                "obukhow/adaptive-resize": "dev-master",
+                "shopgo/banner-slider": "dev-master",
+                "shopgo/follow": "~1.0",
+                "shopgo/probadge": "dev-master",
+                "shopgo/product-flipper": "dev-master",
+                "shopgo/shopgo-quickview-2": "dev-master",
+                "shopgo/swinxy-zoom": "dev-master",
+                "shopgo/top-cart": "dev-master",
+                "tm-shopgo/easy-tabs": "1.2.2"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Talal",
+                    "email": "talal@shopgo.me"
+                },
+                {
+                    "name": "ShopGo",
+                    "email": "support@shopgo.me"
+                }
+            ],
+            "description": "ShopGo Clarity theme",
+            "time": "2016-11-20 08:58:15"
+        },
+        {
+            "name": "shopgo/cms-assistant",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shopgo-magento1/cms-assistant.git",
+                "reference": "c7ff13f381ea9191344d624b335597a9ebc29c2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shopgo-magento1/cms-assistant/zipball/c7ff13f381ea9191344d624b335597a9ebc29c2a",
+                "reference": "c7ff13f381ea9191344d624b335597a9ebc29c2a",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "shopgo/core": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                }
+            ],
+            "description": "A Magento extension that allows users to easily access CMS pages/blocks admin panel pages from the frontend",
+            "support": {
+                "source": "https://github.com/shopgo-magento1/cms-assistant/tree/master",
+                "issues": "https://github.com/shopgo-magento1/cms-assistant/issues"
+            },
+            "time": "2015-10-28 22:08:53"
+        },
+        {
+            "name": "shopgo/config-corrupted-cache",
+            "version": "dev-1.9.2.4/magento",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/config-corrupted-cache.git",
+                "reference": "cf726e6f7af2e2bcfe9daecb360d43c8ffd21a1a"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "ShopGo",
+                    "email": "support@shopgo.me"
+                }
+            ],
+            "description": "A patch that fixes a config corruption bug in Magento 1, explained here: https://github.com/AmpersandHQ/magento-ce-ee-config-corruption-bug",
+            "time": "2016-06-07 11:16:07"
+        },
+        {
+            "name": "shopgo/core",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shopgo-magento1/shopgo-core.git",
+                "reference": "b7efb9291b03765c5d7510225f8245b5a86a707f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shopgo-magento1/shopgo-core/zipball/b7efb9291b03765c5d7510225f8245b5a86a707f",
+                "reference": "b7efb9291b03765c5d7510225f8245b5a86a707f",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                }
+            ],
+            "description": "Contains functions commonly used in Shopgo Magento extensions",
+            "support": {
+                "source": "https://github.com/shopgo-magento1/shopgo-core/tree/1.0.7",
+                "issues": "https://github.com/shopgo-magento1/shopgo-core/issues"
+            },
+            "time": "2015-08-18 21:03:04"
+        },
+        {
+            "name": "shopgo/currency-import-service",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shopgo-magento1/currency-import-service.git",
+                "reference": "1e55be90bf41312906aaea46c2fe946bb1ccea4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shopgo-magento1/currency-import-service/zipball/1e55be90bf41312906aaea46c2fe946bb1ccea4f",
+                "reference": "1e55be90bf41312906aaea46c2fe946bb1ccea4f",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                }
+            ],
+            "description": "An extension that adds more currency import services to Magento",
+            "support": {
+                "source": "https://github.com/shopgo-magento1/currency-import-service/tree/master",
+                "issues": "https://github.com/shopgo-magento1/currency-import-service/issues"
+            },
+            "time": "2015-04-09 23:54:46"
+        },
+        {
+            "name": "shopgo/easycheckout",
+            "version": "2.3.3",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-checkout-v2.git",
+                "reference": "29bd82bf52165dbca3a13ac022f71d11b779b764"
+            },
+            "require": {
+                "aheadworks/order-attributes": "*",
+                "magento-hackathon/magento-composer-installer": "*",
+                "phoenix-media/magento-cashondelivery": "dev-master",
+                "shopgo/geo": "dev-master"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ali Halabyah",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "The one step checkout page by ShopGo",
+            "time": "2015-12-30 00:28:58"
+        },
+        {
+            "name": "shopgo/extenstionsManager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/embc-base-installation.git",
+                "reference": "48a3df59a88b7de01ad55a0f8304b46aab24677b"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "shopgo"
+                }
+            ],
+            "description": "Extensions Manager by Composer",
+            "time": "2016-03-10 13:38:54"
+        },
+        {
+            "name": "shopgo/facebook-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-facebookapi.git",
+                "reference": "41ad8ced82e8c4dacb5913b7f5f7b94b3f384038"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "ShopGo",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "Facebook API Magento extension",
+            "time": "2015-10-28 11:47:00"
+        },
+        {
+            "name": "shopgo/faturah-payment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/faturah-payment-module.git",
+                "reference": "5676045f15472624f9bbe3518bcf07908ea7e7e9"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ali Halabyah",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "Faturah payment",
+            "time": "2015-06-09 11:03:11"
+        },
+        {
+            "name": "shopgo/follow",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-follow.git",
+                "reference": "e23530984b07733cbf4d0a3f492e9aa2db8fa104"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "ShopGo",
+                    "email": "talal@shopgo.me"
+                }
+            ],
+            "description": "ShopGo Follow adds sitewide links that link to various social networking sites",
+            "time": "2015-06-18 13:57:20"
+        },
+        {
+            "name": "shopgo/geo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-geo.git",
+                "reference": "ede34fc8f698ad46c5588cef1adc3fe59b35e99e"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "ShopGo",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "Automatically show shipping available notifications for specific countries depends on the geolocation",
+            "time": "2015-04-28 13:39:23"
+        },
+        {
+            "name": "shopgo/gtm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-google-tag-manager-gtm.git",
+                "reference": "e68dc045cee253338eb8784ecfe19450567f4007"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ali Halabyah",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "Google tag manager",
+            "time": "2016-05-05 08:49:54"
+        },
+        {
+            "name": "shopgo/knet-payment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/knet-payment-module.git",
+                "reference": "37d3e3c917aecacc2eb8aff7b4c817f641745b41"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ali Halabyah",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "Knet payment",
+            "time": "2016-10-26 23:46:59"
+        },
+        {
+            "name": "shopgo/logo-upload",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-logoupload.git",
+                "reference": "ecb4da72a75faa96acb0a248db086ac61d084b39"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "ShopGo",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "Logo upload Magento extension",
+            "time": "2015-10-28 12:35:51"
+        },
+        {
+            "name": "shopgo/mage-branding",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-mage-branding.git",
+                "reference": "f1b61ac9990dfe00067b5d59f3ef19963ad03166"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                }
+            ],
+            "description": "Mage Branding Magento extension",
+            "time": "2016-09-22 10:51:31"
+        },
+        {
+            "name": "shopgo/magento-1-arabic-language-pack",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/magento-1.x-arabic-language-pack.git",
+                "reference": "19bf554e64bed46050dab01f77f561e5b0a901b6"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Talal Suhail",
+                    "email": "talal@shopgo.me"
+                }
+            ],
+            "description": "Magento 1.x Arabic language pack",
+            "time": "2015-09-21 12:12:29"
+        },
+        {
+            "name": "shopgo/magento-core-1-htaccess",
+            "version": "dev-custom",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/magento-core-1.x-.htaccess.git",
+                "reference": "bae3bb360d8f0338d546b0945026a76440ca4780"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "extra": {
+                "map": [
+                    [
+                        ".htaccess",
+                        ".htaccess"
+                    ]
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Shopgo",
+                    "email": "support@shopgo.me"
+                }
+            ],
+            "description": "Magento Core 1.x .htaccess",
+            "time": "2016-10-13 10:06:43"
+        },
+        {
+            "name": "shopgo/magento-core-1-js-libraries",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/magento-core-1.x-js-libraries.git",
+                "reference": "6724299bbb4520dadab5168ce0374fa9a28d635f"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "description": "Magento Core 1.x JS libraries",
+            "time": "2015-07-25 22:24:26"
+        },
+        {
+            "name": "shopgo/magento-core-1-robots",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/magento-core-1.x-robots.txt.git",
+                "reference": "4c882c0d9dca4bb747166bc40766b29ec0c15cae"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "extra": {
+                "map": [
+                    [
+                        "robots.txt",
+                        "robots.txt"
+                    ]
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Shopgo",
+                    "email": "support@shopgo.me"
+                }
+            ],
+            "description": "Magento Core 1.x Robots.txt",
+            "time": "2015-09-02 14:30:28"
+        },
+        {
+            "name": "shopgo/magento-totango-integration",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shopgo-magento1/magento-totango-integration.git",
+                "reference": "ac5dfde5421de10e6e0f55c7798eb8b282e187a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shopgo-magento1/magento-totango-integration/zipball/ac5dfde5421de10e6e0f55c7798eb8b282e187a9",
+                "reference": "ac5dfde5421de10e6e0f55c7798eb8b282e187a9",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "shopgo/core": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                },
+                {
+                    "name": "Emad",
+                    "email": "emad@shopgo.me"
+                },
+                {
+                    "name": "Ahmad",
+                    "email": "ahmadalkaid@shopgo.me"
+                },
+                {
+                    "name": "Aya",
+                    "email": "aya@shopgo.me"
+                },
+                {
+                    "name": "ShopGo",
+                    "email": "support@shopgo.me"
+                }
+            ],
+            "description": "Magento Totango Integration extension",
+            "support": {
+                "source": "https://github.com/shopgo-magento1/magento-totango-integration/tree/1.0.1",
+                "issues": "https://github.com/shopgo-magento1/magento-totango-integration/issues"
+            },
+            "time": "2015-10-01 09:54:36"
+        },
+        {
+            "name": "shopgo/magento-totango-integration-persist-config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/magento-totango-integration-persist-config.git",
+                "reference": "ff885cc9097857398bd3fc2c49a3f3f6d12cc0d4"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "shopgo/magento-totango-integration": "*"
+            },
+            "type": "magento-module",
+            "extra": {
+                "map": [
+                    [
+                        "persist.xml",
+                        "var/shopgo/totango/persist.xml"
+                    ]
+                ]
+            },
+            "license": [
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                },
+                {
+                    "name": "Emad",
+                    "email": "emad@shopgo.me"
+                },
+                {
+                    "name": "Ahmad",
+                    "email": "ahmadalkaid@shopgo.me"
+                },
+                {
+                    "name": "Aya",
+                    "email": "aya@shopgo.me"
+                },
+                {
+                    "name": "ShopGo",
+                    "email": "support@shopgo.me"
+                }
+            ],
+            "description": "Magento Totango Integration extension persist config file",
+            "time": "2015-10-13 08:55:05"
+        },
+        {
+            "name": "shopgo/onecard-payment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/onecard-payment-module.git",
+                "reference": "447f2ded82e03c49600b71fa2530fcd21a237c33"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "ShopGo",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "Onecard payment gateway Magento payment extension",
+            "time": "2015-04-29 07:29:39"
+        },
+        {
+            "name": "shopgo/packge-listner",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/package-listener.git",
+                "reference": "3c35063731bc8087447612476b6472c4786b4191"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "shopgo"
+                }
+            ],
+            "description": "Check SKUs number for shopgo packages ",
+            "time": "2015-12-31 18:35:21"
+        },
+        {
+            "name": "shopgo/payfort-payment-New",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/payfort-payment-module-2016.git",
+                "reference": "b761f0933e650e577455fe8df2b386ca6b833914"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Shopgo Team",
+                    "email": "support@shopgo.me"
+                }
+            ],
+            "description": "Payfort payment 2016",
+            "time": "2016-06-26 12:23:32"
+        },
+        {
+            "name": "shopgo/probadge",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-productlabels.git",
+                "reference": "45da55fb6fb6bbf2ab7013dd557ceff4b72baa5c"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ali Halabyah",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "ProBadge (Product Labels) Magento extension",
+            "time": "2015-10-29 09:07:56"
+        },
+        {
+            "name": "shopgo/product-flipper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-product-flipper.git",
+                "reference": "cd559c5a3e47cccd963faa99aa2d44cfc7317e79"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Talal Suhail",
+                    "email": "talal@shopgo.me"
+                }
+            ],
+            "description": "ShopGo Product Flipper",
+            "time": "2015-09-07 09:22:43"
+        },
+        {
+            "name": "shopgo/shipping-core",
+            "version": "1.3.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shopgo-magento1/shipping-core.git",
+                "reference": "19ec52d0db5fe052d5ed8c2d5cbf509f90880091"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shopgo-magento1/shipping-core/zipball/19ec52d0db5fe052d5ed8c2d5cbf509f90880091",
+                "reference": "19ec52d0db5fe052d5ed8c2d5cbf509f90880091",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "shopgo/advanced-ifconfig": "*",
+                "shopgo/core": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                }
+            ],
+            "description": "Contains functions commonly used in Shopgo Magento shipping extensions",
+            "support": {
+                "source": "https://github.com/shopgo-magento1/shipping-core/tree/1.3.10",
+                "issues": "https://github.com/shopgo-magento1/shipping-core/issues"
+            },
+            "time": "2015-08-24 07:37:20"
+        },
+        {
+            "name": "shopgo/shopgo-quickview-2",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-quickview-2.git",
+                "reference": "6a01e15b27148d270a7d74621b3bf9cbae157039"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Talal Suhail",
+                    "email": "talal@shopgo.me"
+                }
+            ],
+            "description": "ShopGo Quickview 2",
+            "time": "2015-09-06 22:58:50"
+        },
+        {
+            "name": "shopgo/skynet-shipping",
+            "version": "1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shopgo-magento1/skynet-shipping.git",
+                "reference": "3e2ee72ed9be2c990c0b7cd2fa170103d0c654c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shopgo-magento1/skynet-shipping/zipball/3e2ee72ed9be2c990c0b7cd2fa170103d0c654c4",
+                "reference": "3e2ee72ed9be2c990c0b7cd2fa170103d0c654c4",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "shopgo/shipping-core": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                }
+            ],
+            "description": "SkyNet Worldwide Express Magento shipping extension",
+            "support": {
+                "source": "https://github.com/shopgo-magento1/skynet-shipping/tree/1.0.8",
+                "issues": "https://github.com/shopgo-magento1/skynet-shipping/issues"
+            },
+            "time": "2016-06-06 11:18:53"
+        },
+        {
+            "name": "shopgo/social",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-social.git",
+                "reference": "ac160e8c0d326384aa59874151dbfc132eb12e96"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "shopgo/facebook-api": "dev-master"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "ShopGo",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "Social Magento extension",
+            "time": "2015-10-28 14:10:05"
+        },
+        {
+            "name": "shopgo/style-editor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-style-editor.git",
+                "reference": "0c4a36959c8931b401b91f323139a941a5cb89bf"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "Talal",
+                    "email": "talal@shopgo.me"
+                },
+                {
+                    "name": "Ali",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "Style editor Magento extension",
+            "time": "2016-07-14 10:11:57"
+        },
+        {
+            "name": "shopgo/swinxy-zoom",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-zoom-v3.git",
+                "reference": "adf2bfb70624a089ee8a6819a0ac9a106e2b0385"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "ShopGo",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "SwinxyZoom (Zoom V3) Magento extension",
+            "time": "2015-10-28 11:10:01"
+        },
+        {
+            "name": "shopgo/switcher",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-switcher.git",
+                "reference": "3a1b039d5a1e6ea76772234a1ee541f739d26acd"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "ShopGo",
+                    "email": "ali@shopgo.me"
+                }
+            ],
+            "description": "Switcher Magento extension",
+            "time": "2015-10-29 08:46:32"
+        },
+        {
+            "name": "shopgo/top-cart",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/shopgo-top-cart.git",
+                "reference": "4a1018423f2d87b254e1b72ebb5406a33ba3a33b"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ammar",
+                    "email": "ammar@shopgo.me"
+                }
+            ],
+            "description": "Top Cart Magento extension",
+            "time": "2015-06-18 10:39:12"
+        },
+        {
+            "name": "shopgo/zain-iraq-payment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/zain-iraq-payment.git",
+                "reference": "5c8e7f4b6bede0610ba3b36501572fd31bfddfa2"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Shopgo Team",
+                    "email": "support@shopgo.me"
+                }
+            ],
+            "description": "Zain Cash payemnt in Iraq",
+            "time": "2016-10-06 09:10:56"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v3.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "5be36e1f3ac7ecbe7e34fb641480ad8497b83aa6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/5be36e1f3ac7ecbe7e34fb641480ad8497b83aa6",
+                "reference": "5be36e1f3ac7ecbe7e34fb641480ad8497b83aa6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/debug": "~2.8|~3.0",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.8|~3.0",
+                "symfony/process": "~2.8|~3.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-11-16 22:17:09"
+        },
+        {
+            "name": "symfony/debug",
+            "version": "v3.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/debug.git",
+                "reference": "c058661c32f5b462722e36d120905940089cbd9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/c058661c32f5b462722e36d120905940089cbd9a",
+                "reference": "c058661c32f5b462722e36d120905940089cbd9a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "psr/log": "~1.0"
+            },
+            "conflict": {
+                "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
+            },
+            "require-dev": {
+                "symfony/class-loader": "~2.8|~3.0",
+                "symfony/http-kernel": "~2.8|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Debug\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Debug Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-11-15 12:55:20"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v3.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/filesystem.git",
+                "reference": "0565b61bf098cb4dc09f4f103f033138ae4f42c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/0565b61bf098cb4dc09f4f103f033138ae4f42c6",
+                "reference": "0565b61bf098cb4dc09f4f103f033138ae4f42c6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-10-18 04:30:12"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v3.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "9925935bf7144f9e4d2b976905881b4face036fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/9925935bf7144f9e4d2b976905881b4face036fb",
+                "reference": "9925935bf7144f9e4d2b976905881b4face036fb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Finder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-11-03 08:04:31"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2016-11-14 01:06:16"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v3.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "66de154ae86b1a07001da9fbffd620206e4faf94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/66de154ae86b1a07001da9fbffd620206e4faf94",
+                "reference": "66de154ae86b1a07001da9fbffd620206e4faf94",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-09-29 14:13:09"
+        },
+        {
+            "name": "tm-shopgo/easy-tabs",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "git@m1.bitbucket.org:shopgo/tm-easy-tabs-shopgo.git",
+                "reference": "da651dc561c24ce2b61bb84939045a0b57373327"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "Template Masters",
+                    "email": "support@templates-master.com"
+                }
+            ],
+            "description": "This small extension will help to add informational tabs on product page.",
+            "time": "2015-09-06 09:23:09"
+        },
+        {
+            "name": "wigman/ajax-swatches",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shopgo-magento1/AjaxSwatches.git",
+                "reference": "f7f10ddcb62218f304fbfce5b1a155b2a2ad9f81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shopgo-magento1/AjaxSwatches/zipball/f7f10ddcb62218f304fbfce5b1a155b2a2ad9f81",
+                "reference": "f7f10ddcb62218f304fbfce5b1a155b2a2ad9f81",
+                "shasum": ""
+            },
+            "type": "magento-module",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Willem Wigman"
+                }
+            ],
+            "description": "Wigman AjaxSwatches",
+            "support": {
+                "source": "https://github.com/shopgo-magento1/AjaxSwatches/tree/develop"
+            },
+            "time": "2016-11-17 09:48:26"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "composer/composer": 15,
+        "shopgo/magento-core-1-htaccess": 20,
+        "shopgo/magento-core-1-robots": 20,
+        "shopgo/magento-1-arabic-language-pack": 20,
+        "shopgo/magento-core-1-js-libraries": 20,
+        "shopgo/mage-branding": 20,
+        "shopgo/currency-import-service": 20,
+        "shopgo/cms-assistant": 20,
+        "phoenix-media/magento-cashondelivery": 20,
+        "astorm/pulsestorm-launcher": 20,
+        "ras/paytabs": 20,
+        "shopgo/faturah-payment": 20,
+        "shopgo/onecard-payment": 20,
+        "shopgo/auto-related-products": 20,
+        "shopgo/geo": 20,
+        "shopgo/facebook-api": 20,
+        "innovate/innovate-payments": 20,
+        "gate2play/payment-gateway": 20,
+        "shopgo/knet-payment": 20,
+        "shopgo/gtm": 20,
+        "shopgo/cashu-payment": 20,
+        "craigchristenson/magento-2checkout": 20,
+        "shopgo/auto-newsletter": 20,
+        "aheadworks/all": 20,
+        "aheadworks/lib": 20,
+        "aheadworks/order-attributes": 20,
+        "msp/flat-shipping5": 20,
+        "etws/et_currencymanager": 20,
+        "shopgo/social": 20,
+        "rockwells/logviewer": 20,
+        "balke-technologies/magento-module-storemaintenance": 20,
+        "shopgo/magento-totango-integration-persist-config": 20,
+        "obukhow/adaptive-resize": 20,
+        "inchoo/featured-products": 20,
+        "magestore-shopgo/mega-menu": 20,
+        "shopgo/top-cart": 20,
+        "shopgo/swinxy-zoom": 20,
+        "shopgo/banner-slider-cmp": 20,
+        "shopgo/probadge": 20,
+        "shopgo/product-flipper": 20,
+        "shopgo/shopgo-quickview-2": 20,
+        "magestore/notification": 20,
+        "shopgo/packge-listner": 20,
+        "checkoutapi/chargepayment": 20,
+        "shopgo/clarity-theme": 20,
+        "shopgo/extenstionsmanager": 20,
+        "shopgo/payfort-payment-new": 20,
+        "shopgo/config-corrupted-cache": 20,
+        "shopgo/style-editor": 20,
+        "shopgo/zain-iraq-payment": 20,
+        "magebuzz/shop-by-manufacturer": 20,
+        "wigman/ajax-swatches": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

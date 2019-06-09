@@ -1,0 +1,80 @@
+<?php
+/**
+ * aheadWorks Co.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://ecommerce.aheadworks.com/AW-LICENSE.txt
+ *
+ * =================================================================
+ *                 MAGENTO EDITION USAGE NOTICE
+ * =================================================================
+ * This software is designed to work with Magento community edition and
+ * its use on an edition other than specified is prohibited. aheadWorks does not
+ * provide extension support in case of incorrect edition use.
+ * =================================================================
+ *
+ * @category   AW
+ * @package    AW_Shopbybrand
+ * @version    1.3.1
+ * @copyright  Copyright (c) 2010-2012 aheadWorks Co. (http://www.aheadworks.com)
+ * @license    http://ecommerce.aheadworks.com/AW-LICENSE.txt
+ */
+?><?php if ($this->getBrandsBarConfig() && $this->getBrandCollection()->getSize() > 0): ?>
+    <div class="block shopbybrands-block">
+        <div class="block-title">
+            <strong><span><?php echo $this->__('Shop By Brand'); ?></span></strong>
+        </div>
+        <div class="block-content">
+            <ul class="brands-list">
+                <?php if ($this->getBrandsBarConfig() == AW_Shopbybrand_Model_Source_Displaymode_Brandslist::DISPLAY_BRAND_NAME): ?>
+                    <?php foreach ($this->getBrandCollection() as $brand): ?>
+                        <li class="brands-item">
+                            <a href="<?php echo $this->getBrandUrl($brand); ?>">
+                                <?php echo $this->escapeHtml($brand->getTitle()); ?>
+                            </a>
+                        </li>
+                    <?php endforeach;?>
+                <?php endif; ?>
+
+                <?php if ($this->getBrandsBarConfig() == AW_Shopbybrand_Model_Source_Displaymode_Brandslist::DISPLAY_BOTH): ?>
+                    <?php foreach ($this->getBrandCollection() as $brand): ?>
+                            <li class="brands-item">
+                                <a href="<?php echo $this->getBrandUrl($brand); ?>">
+                                    <img class='brands-item-list-image'
+                                         src="<?php echo $this->getImageUrl($brand, 100, 40); ?>"
+                                         width="100"
+                                         alt="<?php echo $this->escapeHtml($brand->getTitle()); ?>"
+                                         title="<?php echo $this->escapeHtml($brand->getTitle()); ?>"/>
+                                    <span class="brand-name"><?php echo $this->escapeHtml($brand->getTitle()); ?></span>
+                                </a>
+                            </li>
+                    <?php endforeach;?>
+                <?php endif; ?>
+
+                <?php if ($this->getBrandsBarConfig() == AW_Shopbybrand_Model_Source_Displaymode_Brandslist::DISPLAY_BRAND_LOGO): ?>
+                    <?php foreach ($this->getBrandCollection() as $brand):?>
+                            <li class="brands-item">
+                                <a href="<?php echo $this->getBrandUrl($brand); ?>">
+                                    <img class='brands-item-list-image'
+                                         src="<?php echo $this->getImageUrl($brand, 100, 40); ?>"
+                                         width="100"
+                                         alt="<?php echo $this->escapeHtml($brand->getTitle()); ?>"
+                                         title="<?php echo $this->escapeHtml($brand->getTitle()); ?>"/>
+                                </a>
+                            </li>
+                    <?php endforeach;?>
+                <?php endif; ?>
+
+                <li class="brands-item all-brands-page">
+                    <a href="<?php echo $this->getAllBrandsUrlKey(); ?>">
+                        <?php echo $this->__('All Brands'); ?>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+<?php endif; ?>

@@ -1,0 +1,39 @@
+<div class="megamenu-mobile MobNav">
+    <span class="menuTrigger"><?php echo $this->__('Menu') ?><span class="arrow"></span></span>
+    <div class="innerMobMenu">
+        <div class="MenuContainer Home">
+            <h2><a href="<?php echo $this->getUrl() ?>"><?php echo $this->__('Home') ?></a></h2>
+        </div>
+        <?php foreach ($this->getLinkItems() as $linkItem): ?>
+        <?php if ($linkItem->getLink() != $this->getUrl() && $linkItem->getLink()): ?>
+        <div class="MenuContainer mm-link">
+            <h2><a href="<?php echo $this->parseAnchorTextLink($linkItem->getLink()) ?>"><?php echo $linkItem->getNameMenu() ?></a></h2>
+        </div>
+        <?php endif ?>
+        <?php endforeach ?>
+        <?php foreach ($this->getCategoryTree() as $category): ?>
+        <div class="MenuContainer Parent SubMenu">
+            <h2><a href="<?php echo $category->getUrl() ?>"><?php echo $category->getName() ?></a></h2>
+            <div class="SubMenuParent">
+                <?php foreach ($this->getCategoryTree($category) as $childCategory): ?>
+                <?php
+                    $childChildCategories = $this->getCategoryTree($childCategory);
+                    if (!count($childChildCategories)):
+                ?>
+                <div class="menu no-parent"><a href="<?php echo $childCategory->getUrl() ?>"><?php echo $childCategory->getName() ?></a></div>
+                <?php else: ?>
+                <div class="MenuContainer Parent subSubMenu">
+                    <h2><a href="<?php echo $childCategory->getUrl() ?>"><?php echo $childCategory->getName() ?></a></h2>
+                    <div class="SubMenuItem">
+                        <?php foreach ($childChildCategories as $childChildCategory): ?>
+                            <div class="subSubMenuItem"><a href="<?php echo $childChildCategory->getUrl() ?>"><?php echo $childChildCategory->getName() ?></a></div>
+                        <?php endforeach ?>
+                    </div>
+                </div>
+                <?php endif ?>
+                <?php endforeach ?>
+            </div>
+        </div>
+        <?php endforeach ?>
+    </div>
+</div>

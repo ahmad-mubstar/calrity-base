@@ -1,0 +1,19 @@
+h1.logo-sticky-visible a.logo img {
+    width: 120px !important;
+}
+
+#currency-switcher, #language-switcher {
+    z-index:10000
+}
+
+.std p {
+    font-size: 1.0em;
+}
+
+.breadcrumb li * {
+    font-size: 1.1em;
+}
+
+dd .time-picker select, dd select.datetime-picker {
+    display: inline-block;
+}

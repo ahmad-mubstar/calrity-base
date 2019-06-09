@@ -1,0 +1,16 @@
+<?php
+$_product = $this->getProduct();
+$configSwatchesListAttribute = Mage::getStoreConfig('configswatches/general/product_list_attribute',Mage::app()->getStore());
+
+if (Mage::helper('configurableswatches')->isEnabled() && $_product && $_product->getTypeID()=='configurable') {
+    $_attributes = $_product->getTypeInstance(true)->getConfigurableAttributes($_product);
+
+    foreach ($_attributes as $_attribute) {
+        if ($_attribute->getAttributeId() == $configSwatchesListAttribute) {
+?>
+<div class="swatch-loader" style="text-align:center;"><img src="<?php echo $this->getSkinUrl('wigman/ajaxswatches/images/ajax-loader.gif');?>" width="17" height="17" style="display:inline;" /></div>
+<?php
+        }
+    }
+
+}

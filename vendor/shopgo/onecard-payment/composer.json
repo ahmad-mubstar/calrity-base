@@ -1,0 +1,14 @@
+{
+    "name": "shopgo/onecard-payment",
+    "type": "magento-module",
+    "description": "Onecard payment gateway Magento payment extension",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "ShopGo",
+            "email": "ali@shopgo.me"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shopgo_AutoNewsletter>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Shopgo_AutoNewsletter>
+    </modules>
+</config>

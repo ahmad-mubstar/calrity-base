@@ -1,0 +1,3 @@
+<?php if ( Mage::getStoreConfig('social/facebook/enabled') && Mage::getStoreConfig('social/facebook/show_comments') ) : ?>   
+<div class="fb-comments" data-href="<?php echo $this->helper('core/url')->getCurrentUrl();?>" data-numposts="5" data-colorscheme="light"></div>
+<?php endif; ?>

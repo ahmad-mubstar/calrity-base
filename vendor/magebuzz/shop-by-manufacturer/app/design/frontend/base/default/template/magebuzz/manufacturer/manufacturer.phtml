@@ -1,0 +1,33 @@
+<?php
+/*
+* Copyright (c) 2016 www.magebuzz.com
+*/
+if ($this->showFeaturedManufacturers()):?>
+  <div class="featured-manufacturers">
+    <?php $featuredManufacturers = $this->getFeaturedManufacturers(); ?>
+    <?php if (count($featuredManufacturers)): ?>
+      <h1><?php echo $this->__("All Brands"); ?></h1>
+        <?php $i = 0;
+        $brandView = $this->getBrandView();
+        foreach ($featuredManufacturers as $featuredManu): $i++ ?>
+            <div class="mage_brand_container">
+                <a href="<?php echo $this->getManufacturerUrl($featuredManu->getId()); ?>"
+                   title="<?php echo $featuredManu->getName(); ?>" class="img">
+                    <?php if ($brandView == 1 || $brandView == 0): ?>
+                      <div class="mage_brand_logo">
+                        <img id="img<?php echo $i; ?>"
+                               src="<?php echo Mage::helper('manufacturer')->resizeManufacturerImage($featuredManu->getImage(), 150, 63) ?>"
+                               alt="<?php echo $featuredManu->getName(); ?>" />
+                      </div>
+                    <?php endif; ?>
+                    <?php if ($brandView == 2 || $brandView == 0): ?>
+                      <div class="mage_brand_title"><?php echo $featuredManu->getName(); ?></div>
+                    <?php endif; ?>  
+                </a>
+            </div>
+        <?php endforeach ?>
+    <?php endif; ?>
+  </div>
+<?php else: ?>
+    <p class="note-msg"><?php echo $this->__('There are no manufacturer matching the selection.') ?></p>
+<?php endif; ?>

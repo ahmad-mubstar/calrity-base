@@ -1,0 +1,99 @@
+{
+    "require": {
+        "composer/composer": "~1.0.0-alpha",
+        "magento-hackathon/magento-composer-installer": "*",
+        "magento-hackathon/composer-command-integrator": "*",
+        "shopgo/magento-core-1-htaccess": "dev-custom",
+        "shopgo/magento-core-1-robots": "dev-master",
+        "shopgo/magento-1-arabic-language-pack": "dev-master",
+        "shopgo/magento-core-1-js-libraries": "dev-master",
+        "shopgo/core": "*",
+        "shopgo/shipping-core": "*",
+        "shopgo/advanced-ifconfig": "*",
+        "shopgo/mage-branding": "dev-master",
+        "shopgo/currency-import-service": "dev-master",
+        "shopgo/cms-assistant": "dev-master",
+        "shopgo/aramex-shipping": "*",
+        "shopgo/skynet-shipping": "*",
+        "phoenix-media/magento-cashondelivery": "dev-master",
+        "aoepeople/aoe_scheduler": "~1.0",
+        "astorm/pulsestorm-launcher": "dev-master",
+        "ras/paytabs": "dev-master",
+        "shopgo/faturah-payment": "dev-master",
+        "shopgo/onecard-payment": "dev-master",
+        "shopgo/auto-related-products": "dev-master",
+        "shopgo/geo": "dev-master",
+        "shopgo/switcher": "~0.0.1",
+        "shopgo/facebook-api": "dev-master",
+        "innovate/innovate-payments": "dev-master",
+        "gate2play/payment-gateway": "dev-master",
+        "shopgo/knet-payment": "dev-master",
+        "shopgo/logo-upload": "~0.0.1",
+        "shopgo/gtm": "dev-master",
+        "shopgo/easycheckout": "*",
+        "shopgo/cashu-payment": "dev-master",
+        "craigchristenson/magento-2checkout": "dev-master",
+        "shopgo/auto-newsletter": "dev-master",
+        "aheadworks/all": "dev-master",
+        "aheadworks/lib": "dev-master",
+        "aheadworks/order-attributes": "dev-checkout_awoa",
+        "aheadworks/blog": "~1.3",
+        "msp/flat-shipping5": "dev-master",
+        "etws/et_currencymanager": "dev-master",
+        "shopgo/social": "dev-master",
+        "rockwells/logviewer": "dev-master",
+        "balke-technologies/magento-module-storemaintenance": "dev-master",
+        "shopgo/magento-totango-integration": "*",
+        "shopgo/magento-totango-integration-persist-config": "dev-master",
+        "obukhow/adaptive-resize": "dev-master",
+        "inchoo/featured-products": "dev-master",
+        "magestore-shopgo/mega-menu": "dev-master",
+        "shopgo/top-cart": "dev-master",
+        "shopgo/follow": "~1.0",
+        "shopgo/swinxy-zoom": "dev-master",
+        "shopgo/banner-slider-cmp": "dev-master",
+        "shopgo/probadge": "dev-master",
+        "tm-shopgo/easy-tabs": "~1.2",
+        "manadev-shopgo/core": "~15.02",
+        "manadev/infinite-scrolling": "~14.06",
+        "manadev-shopgo/seo-layered-navigation-plus": "~14.11",
+        "shopgo/product-flipper": "dev-master",
+        "shopgo/shopgo-quickview-2": "dev-master",
+        "magestore/notification": "dev-master",
+        "shopgo/packge-listner": "dev-master",
+        "checkoutapi/chargePayment": "dev-master",
+        "shopgo/clarity-theme": "dev-master",
+        "shopgo/extenstionsmanager": "dev-master",
+        "shopgo/payfort-payment-new": "dev-master",
+        "shopgo/config-corrupted-cache": "dev-1.9.2.4/magento",
+        "shopgo/admin-simple-blocker": "0.*",
+        "shopgo/style-editor": "dev-master",
+        "shopgo/zain-iraq-payment": "dev-master",
+        "magebuzz/shop-by-manufacturer": "dev-master",
+        "wigman/ajax-swatches": "dev-develop"
+    },
+    "config": {
+      "discard-changes": true
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://magento1.satis.shopgo.io",
+            "options": {
+                "ssh2": {
+                    "username": "composer",
+                    "pubkey_file": "~/.ssh/satis/packages.pub",
+                    "privkey_file": "~/.ssh/satis/packages"
+                }
+            }
+        }
+    ],
+    "extra": {
+        "magento-root-dir": "./",
+        "magento-core-deploy" : {
+            "excludes": [
+                "composer.json"
+            ]
+         }
+    }
+}

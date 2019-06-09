@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+	<!-- <menu>
+	    <shopgo module="probadge">
+			<title>Shopgo</title>
+			<sort_order>100</sort_order>               
+			<children>
+				<probadge module="probadge">
+					<title>Products Badges</title>
+					<sort_order>0</sort_order>
+					<action>probadge/adminhtml_probadge</action>
+				</probadge>
+			</children>
+		</shopgo>
+	</menu> -->
+	<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+				<admin>
+					<children>
+						<probadge>
+							<title>ProBadge Module</title>
+							<sort_order>10</sort_order>
+						</probadge>
+						<system>
+							<children>
+								<config>
+									<children>
+										<probadge translate="title" module="probadge"> 
+											<title>ProBadge Settings</title>
+											<sort_order>50</sort_order>
+										</probadge>
+									</children>							
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+	</acl>
+</config>

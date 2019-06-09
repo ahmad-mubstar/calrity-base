@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    Mage
+ * @package     Mage_CatalogRule
+ * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+-->
+<config>
+    <menu>
+         <promo translate="title" module="catalogrule">
+            <title>Marketing</title>
+            <sort_order>50</sort_order>
+             <children>
+                 <promo translate="title" module="catalogrule">
+                     <title>Promotions</title>
+                     <sort_order>10</sort_order>
+                     <children>
+                         <catalog translate="title" module="catalogrule">
+                             <title>Catalog Price Rules</title>
+                             <action>adminhtml/promo_catalog/</action>
+                             <depends><module>Mage_Catalog</module></depends>
+                         </catalog>
+                         <quote translate="title" module="salesrule">
+                             <!-- isalem : todo : this should be deleted-->
+                             <title>Shopping Cart Price Rules</title>
+                             <action>adminhtml/promo_quote/</action>
+                             <depends><module>Mage_Sales</module></depends>
+                         </quote>
+                     </children>
+                 </promo>
+                 <cauc translate="title" module="newsletter">
+                     <title>Communications and User Content</title>
+                     <sort_order>20</sort_order>
+                     <children>
+                         <subscriber translate="title" module="newsletter">
+                             <title>Newsletter Subscribers</title>
+                             <action>adminhtml/newsletter_subscriber/</action>
+                         </subscriber>
+                         <reviews_ratings translate="title" module="review">
+                             <title>Reviews and Ratings</title>
+                             <children>
+                                 <ratings translate="title" module="review">
+                                     <title>Manage Ratings</title>
+                                     <action>adminhtml/rating/</action>
+                                 </ratings>
+                                 <reviews translate="title" module="review">
+                                     <title>Customer Reviews</title>
+                                     <children>
+                                         <pending translate="title" module="review">
+                                             <title>Pending Reviews</title>
+                                             <action>adminhtml/catalog_product_review/pending/</action>
+                                         </pending>
+                                         <all translate="title" module="review">
+                                             <title>All Reviews</title>
+                                             <action>adminhtml/catalog_product_review/</action>
+                                         </all>
+                                     </children>
+                                 </reviews>
+                             </children>
+                             <sort_order>50</sort_order>
+                         </reviews_ratings>
+
+                         <ratings translate="title" module="review">
+                             <title>Manage Ratings</title>
+                             <action>adminhtml/rating/</action>
+                             <depends>
+                                 <module>HideMe</module> <!-- Fake dependance to hide menu item -->
+                             </depends>
+                         </ratings>
+                         <customer translate="title" module="review">
+                             <title>Customers Reviews</title>
+                             <action>adminhtml/report_review/customer</action>
+                             <depends>
+                                 <module>HideMe</module> <!-- Fake dependance to hide menu item -->
+                             </depends>
+                         </customer>
+                     </children>
+                 </cauc>
+
+                <sas translate="title" module="tag">
+                     <title>Search and SEO</title>
+                     <sort_order>30</sort_order>
+                     <children>
+                         <tag translate="title" module="tag">
+                             <title>Tags</title>
+                             <children>
+                                 <!--
+                                     childrens should be in the order (All Tags, Pending Tags)
+                                     for correct menu building in "None Secret Key" mode
+                                 -->
+                                 <all translate="title" module="tag">
+                                     <title>All Tags</title>
+                                     <action>adminhtml/tag/index</action>
+                                 </all>
+                                 <pending translate="title" module="tag">
+                                     <title>Pending Tags</title>
+                                     <action>adminhtml/tag/pending</action>
+                                 </pending>
+                             </children>
+                             <sort_order>60</sort_order>
+                         </tag>
+                         <sitemap translate="title" module="sitemap">
+                             <title>Google Sitemap</title>
+                             <sort_order>70</sort_order>
+                             <action>adminhtml/sitemap/</action>
+                         </sitemap>
+                         <search translate="title" module="catalogsearch">
+                             <title>Search Terms</title>
+                             <action>adminhtml/catalog_search/</action>
+                             <sort_order>80</sort_order>
+                         </search>
+
+                     </children>
+                 </sas>
+             </children>
+         </promo>
+     </menu>
+     <acl>
+        <resources>
+            <admin>
+                <children>
+                    <promo translate="title">
+                        <title>Marketing</title>
+                        <children>
+                            <promo translate="title">
+                                <title>Promotions</title>
+                                <children>
+                                    <catalog translate="title">
+                                        <title>Catalog Price Rules</title>
+                                    </catalog>
+                                    <quote translate="title">
+                                        <!-- isalem : todo : this should be deleted-->
+                                        <title>Shopping Cart Price Rules</title>
+                                    </quote>
+                                </children>
+                            </promo>
+                            <cauc translate="title">
+                                <title>Communications and User Content</title>
+                                <children>
+                                    <subscriber translate="title">
+                                        <title>Newsletter Subscribers</title>
+                                    </subscriber>
+                                    <reviews_ratings translate="title">
+                                        <title>Reviews and Ratings</title>
+                                        <children>
+                                            <ratings translate="title">
+                                                <title>Manage Ratings</title>
+                                            </ratings>
+                                            <reviews translate="title">
+                                                <title>Customer Reviews</title>
+                                                <children>
+                                                    <pending translate="title">
+                                                        <title>Pending Reviews</title>
+                                                    </pending>
+                                                    <all translate="title">
+                                                        <title>All Reviews</title>
+                                                    </all>
+                                                </children>
+                                            </reviews>
+                                        </children>
+                                    </reviews_ratings>
+                                </children>
+                            </cauc>
+
+                            <sas translate="title">
+                                <title>Search and SEO</title>
+                                <sort_order>30</sort_order>
+                                <children>
+                                    <tag translate="title">
+                                        <title>Tags</title>
+                                        <children>
+                                            <all translate="title">
+                                                <title>All Tags</title>
+                                            </all>
+                                            <pending translate="title">
+                                                <title>Pending Tags</title>
+                                            </pending>
+                                        </children>
+                                        <sort_order>60</sort_order>
+                                    </tag>
+                                    <sitemap translate="title">
+                                        <title>Google Sitemap</title>
+                                    </sitemap>
+                                    <search translate="title">
+                                        <title>Search Terms</title>
+                                    </search>
+
+                                </children>
+                            </sas>
+                        </children>
+                    </promo>
+                </children>
+            </admin>
+        </resources>
+     </acl>
+</config>

@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shopgo_Switcher>
+            <version>0.0.1</version>
+        </Shopgo_Switcher>
+    </modules>
+    <frontend>
+        <routers>
+            <switcher>
+                <use>standard</use>
+                <args>
+                    <module>Shopgo_Switcher</module>
+                    <frontName>switcher</frontName>
+                </args>
+            </switcher>
+            
+        </routers>
+        <layout>
+            <updates>
+                <switcher>
+                    <file>shopgo/switcher.xml</file>
+                </switcher>
+            </updates>
+        </layout>
+    </frontend>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <switcher after="Mage_Adminhtml">Shopgo_Switcher_Adminhtml</switcher>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <switcher>
+                    <file>shopgo/switcher.xml</file>
+                </switcher>
+            </updates>
+        </layout>
+        <!-- <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <switcher>
+                                            <title>ProBadge</title>
+                                        </switcher>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <menu>
+            <switcher translate="title" module="adminhtml">
+                <title>Products Slider</title>
+                <sort_order>100</sort_order>
+                <children>
+                    <switchermenu>
+                        <title>Manage Sliders</title>
+                        <action>adminhtml_switcher/index/index</action>
+                    </switchermenu>
+                </children>
+            </switcher>
+        </menu> -->
+    </adminhtml>   
+    <global>
+        <models>
+            <switcher>
+                <class>Shopgo_Switcher_Model</class>
+                <resourceModel>switcher_mysql4</resourceModel>
+            </switcher>
+            <switcher_mysql4>
+                <class>Shopgo_Switcher_Model_Mysql4</class>
+                <entities>
+                    <switcher>
+                        <table>switcher</table>
+                    </switcher>
+                </entities>
+            </switcher_mysql4>
+        </models>
+        <events>
+            
+        </events>
+        <resources>
+            <switcher_setup>
+                <setup>
+                    <module>Shopgo_Switcher</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </switcher_setup>
+            <switcher_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </switcher_write>
+            <switcher_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </switcher_read>
+        </resources>
+        <blocks>
+            <switcher>
+                <class>Shopgo_Switcher_Block</class>
+            </switcher>
+        </blocks>
+        <helpers>
+            <switcher>
+                <class>Shopgo_Switcher_Helper</class>
+            </switcher>
+        </helpers>
+    </global>
+    
+    <!-- <stores>
+        <default>
+            <web>
+                <routers>
+                    <standard>
+                        <area>frontend</area>
+                        <class>Shopgo_Switcher_Controller_Router_Standard</class>
+                    </standard>
+                </routers>
+            </web>
+        </default>
+    </stores> -->
+    
+    <default>
+        <!-- <web>
+        <routers> 
+                <standard>
+                <area>frontend</area>
+                <class>Shopgo_Switcher_Controller_Router_Standard</class>
+                </standard>
+        </routers>
+        </web> -->
+        <switcher>
+            <settings>
+					
+            </settings>
+        </switcher>
+    </default>
+</config>

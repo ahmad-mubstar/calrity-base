@@ -1,0 +1,91 @@
+.social-heading {
+    border: 0 none;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 0;
+    width: 100%;
+
+    > p {
+        width: 100%;
+        color: #c2c2c2;
+        margin: 0;
+        font-size: 14px;
+        span {
+            display: inline-block;
+            position: relative;
+        }
+
+        span:after, span:before {
+            content: "";
+            position: absolute;
+            top: 70%;
+            height: 1px;
+            width: 9999px;
+            display: block;
+            margin-top: -1px;
+            background-color: @divider;
+        }
+
+        span:after {
+            left: 100%;
+            margin-left: 1em;
+        }
+
+        span:before {
+            right: 100%;
+            margin-right: 1em;
+        }
+
+    }
+}
+
+
+.shopgo-social-register {
+    text-align: center;
+}
+
+.shopgo-social-login-upper {
+    .buttons-set {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .shopgo-social-register {
+        .col2-set, .shopgo-social-login-upper.col2-set {
+            width: 40%;
+            margin-left: 30%;
+        }
+        .col3-set, .shopgo-social-login-upper.col3-set {
+            width: 60%;
+            margin-left: 20%;
+        }
+        .col4-set, .shopgo-social-login-upper.col4-set {
+            width: 80%;
+            margin-left: 10%;
+        }
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+    .account-login, .shopgo-social-register {
+        .col2-set, .shopgo-social-login-upper.col2-set {
+            width: 50%;
+            margin-left: 25%;
+        }
+        .col3-set, .shopgo-social-login-upper.col3-set {
+            width: 80%;
+            margin-left: 10%;
+        }
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .account-login, .shopgo-social-register {
+        .col2-set, .shopgo-social-login-upper.col2-set {
+            width: 70%;
+            margin-left: 15%;
+        }
+    }
+}

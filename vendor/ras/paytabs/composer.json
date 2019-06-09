@@ -1,0 +1,16 @@
+{
+    "name": "ras/paytabs",
+    "type": "magento-module",
+    "license": "OSL 3.0",
+    "description": "Paytabs payment gateway Magento payment extension",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "PayTabs",
+            "email": "info@paytabs.com"
+        }
+    ]
+}
+

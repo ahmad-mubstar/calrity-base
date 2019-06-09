@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category	Innovate
+ * @package	Innovate_InnovatePayments
+ * @copyright	Copyright (c) 2011 Innovate Payments (http://www.innovatepayments.com/)
+ */
+-->
+<config>
+  <modules>
+    <Innovate_InnovatePayments>
+      <version>0.1.0</version>
+    </Innovate_InnovatePayments>
+  </modules>
+
+  <global>
+    <models>
+      <innovatepayments>
+        <class>Innovate_InnovatePayments_Model</class>
+      </innovatepayments>
+    </models>
+    <helpers>
+      <innovatepayments>
+        <class>Innovate_InnovatePayments_Helper</class>
+      </innovatepayments>
+    </helpers>
+    <resources>
+      <innovatepayments_setup>
+        <setup>
+          <module>Innovate_InnovatePayments</module>
+        </setup>
+        <connection>
+          <use>core_setup</use>
+        </connection>
+      </innovatepayments_setup>
+      <innovatepayments_write>
+        <connection>
+          <use>core_write</use>
+        </connection>
+      </innovatepayments_write>
+      <innovatepayments_read>
+        <connection>
+          <use>core_read</use>
+        </connection>
+      </innovatepayments_read>
+    </resources>
+    <blocks>
+      <innovatepayments><class>Innovate_InnovatePayments_Block</class></innovatepayments>
+    </blocks>
+    <payment>
+      <url>http://www.innovatepayments.com/</url>
+    </payment>
+  </global>
+
+  <frontend>
+    <secure_url>
+      <innovatepayments_processing>/innovatepayments/processing</innovatepayments_processing>
+    </secure_url>
+    <routers>
+      <innovatepayments>
+        <use>standard</use>
+        <args>
+          <module>Innovate_InnovatePayments</module>
+          <frontName>innovatepayments</frontName>
+        </args>
+      </innovatepayments>
+    </routers>
+    <layout>
+      <updates>
+        <innovatepayments>
+          <file>innovatepayments.xml</file>
+        </innovatepayments>
+      </updates>
+    </layout>
+  </frontend>
+
+  <default>
+    <payment>
+      <innovatepayments_cc>
+        <active>0</active>
+        <model>innovatepayments/cc</model>
+        <order_status>1</order_status>
+        <title>Credit Card (InnovatePayments)</title>
+	<allowspecific>0</allowspecific>
+        <transaction_testmode>1</transaction_testmode>
+        <autocapture>1</autocapture>
+        <order_status>processing</order_status>
+	<payment_action>authorize</payment_action>
+	<server_ip>91.75.72.164, 91.75.72.165, 91.75.72.166</server_ip>
+	<tran_desc>Your order from StoreName</tran_desc>
+      </innovatepayments_cc>
+    </payment>
+  </default> 
+</config>

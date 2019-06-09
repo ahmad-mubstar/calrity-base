@@ -1,0 +1,6 @@
+app/code/community/Shopgo/Swinzoom/                                       app/code/community/Shopgo/Swinzoom/
+app/design/frontend/base/default/layout/shopgo/swinzoom.xml               app/design/frontend/base/default/layout/shopgo/swinzoom.xml
+app/design/frontend/base/default/template/shopgo/swinzoom/media.phtml     app/design/frontend/base/default/template/shopgo/swinzoom/media.phtml
+app/etc/modules/Shopgo_Swinzoom.xml                                       app/etc/modules/Shopgo_Swinzoom.xml
+js/shopgo/swinzoom/                                                       js/shopgo/swinzoom/
+skin/frontend/base/default/shopgo/swinzoom/                               skin/frontend/base/default/shopgo/swinzoom/

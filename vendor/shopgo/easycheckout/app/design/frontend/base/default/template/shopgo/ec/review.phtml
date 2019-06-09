@@ -1,0 +1,95 @@
+<div class="ui form segment review">
+	<div class="ui inverted dimmer">
+		<div class="ui text loader"><?php echo $this->__('Loading'); ?></div>
+	</div>
+	<h3 class="ui small header reviewTop">
+		<i class="cart icon large"></i>
+		<div class="content">
+            <?php echo $this->__('Review your order'); ?>
+            <div class="sub header"><?php echo $this->__(Mage::getStoreConfig('ec/ux/review_your_order_tag')); ?></div>
+		</div>
+	</h3>
+    <?php echo $this->getChildHtml('info'); ?>
+    <?php echo $this->getChildHtml('agreements'); ?>
+    <?php echo $this->getChildHtml('additional'); ?>
+    <?php /* this comment is temporary until resolving the javascript conflict between Kendo and Semantic Library
+    <?php if(Mage::getStoreConfig('ec/general/enable_coupon')): ?>
+        <div class="field">
+        	<label><?php echo $this->__('Coupon Code'); ?></label>
+        	<div class="ui action small input">
+  				<input id="coupon_code" type="text" value="">
+  				<div id="applyCoupon" class="ui teal right mini labeled icon button"><i class="checkmark icon"></i> <?php echo $this->__('Apply Coupon'); ?></div>
+			</div>
+		</div>
+   	<?php endif; ?>
+    */?>
+    <?php
+		$collection = Mage::helper('ec')->getAttributeCollection();
+		$collection->addShowInOrderReviewBlockFilter();
+	?>
+	<?php if ($collection->getSize() > 0) : ?>
+    	<div id="aw-orderattributes-checkoutonepage-attributes-container-order-review" class="ui form">    
+            <?php foreach($collection as $attribute):?>
+                <?php
+                $html = $attribute->unpackData()->getTypeModel()->getFrontendFormRenderer()
+                    ->setValue($this->getValueByAttributeId($attribute->getId()))
+                    ->getHtml(true);
+                ?>
+                <?php if(strlen(trim($html)) > 0) :?>    
+                	<div class="field"><?php echo $html;?></div>
+                <?php endif;?>
+            <?php endforeach;?>
+    	</div>
+	<?php endif;?>
+	<div class="ui error message"></div>
+</div>
+<?php if(Mage::getStoreConfig('ec/general/enable_delivery_date')): ?>
+	<div class="ui form segment deliveryDate">
+		<div class="ui inverted dimmer">
+			<div class="ui text loader"><?php echo $this->__('Loading')?></div>
+		</div>
+		<h3 class="ui small header deliveryDateTop">
+			<i class="time icon large"></i>
+			<div class="content">
+            	<?php echo $this->__('Preferable date for shipment')?>
+            	<div class="sub header"><?php echo $this->__('When do you want to get your order ?')?></div>
+			</div>
+		</h3>
+		<div id="" class="ui basic segment">
+			<div id="">
+				<input id="deliveryDate" name="deliveryDate" />
+			</div>
+			 <script type="text/javascript">
+                $(document).ready(function () {
+                    // create DateTimePicker from input HTML element
+                    <?php if((Mage::getStoreConfig('ec/advanced/capture_time'))){?>
+                            $("#deliveryDate").kendoDateTimePicker({
+                            <?php  if((Mage::getStoreConfig('ec/advanced/same_day'))){?>        
+                                     value:new  Date(),
+                                     min: new Date(),<?php }
+                                   else { ?>  
+                                     value:new  Date(new Date().getTime() + 24 * 60 * 60 * 1000),
+                                     min: new Date(new Date().getTime() + 24 * 60 * 60 * 1000),<?php
+                                    }?>
+                            
+                            format : "<?php echo Mage::getStoreConfig('ec/advanced/date_format') ?>"
+                    });
+                    <?php }else {$dateOnly=substr(Mage::getStoreConfig('ec/advanced/date_format'),0,10);?>
+                             $("#deliveryDate").kendoDatePicker({<?php 
+                             if((Mage::getStoreConfig('ec/advanced/same_day'))) {?>        
+                                value:new  Date(),
+                                min: new Date(),<?php }
+                             else { ?>  
+                                    value:new  Date(new Date().getTime() + 24 * 60 * 60 * 1000),
+                                    min: new Date(new Date().getTime() + 24 * 60 * 60 * 1000), <?php
+                                    }?>
+                            format : "<?php echo $dateOnly  ?>"
+                             });
+                        <?php } ?>
+                });
+            </script>
+		</div>
+	</div>
+<?php endif; ?>
+<?php echo $this->getChildHtml('button'); ?>
+	

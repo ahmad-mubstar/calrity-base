@@ -1,0 +1,900 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    Mage
+ * @package     Mage_Adminhtml
+ * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+-->
+<config>
+    <menu>
+        <dashboard translate="title" module="adminhtml">
+            <title>Dashboard</title>
+            <sort_order>10</sort_order>
+            <action>adminhtml/dashboard</action>
+        </dashboard>
+        <system translate="title" module="adminhtml">
+            <title>System</title>
+            <sort_order>90</sort_order>
+            <!-- action>adminhtml/system</action -->
+            <children>
+                <myaccount translate="title">
+                    <title>Account Information</title>
+                    <sort_order>0</sort_order>
+                    <children>
+                        <myaccount translate="title">
+                            <title>My Account</title>
+                            <action>adminhtml/system_account</action>
+                            <sort_order>10</sort_order>
+                        </myaccount>
+                        <acl translate="title">
+                            <title>Permissions</title>
+                            <sort_order>20</sort_order>
+                            <children>
+                                <users translate="title">
+                                    <title>Users</title>
+                                    <action>adminhtml/permissions_user</action>
+                                </users>
+                                <roles translate="title">
+                                    <title>Roles</title>
+                                    <action>adminhtml/permissions_role</action>
+                                </roles>
+                                <variables translate="title">
+                                    <title>Variables</title>
+                                    <action>adminhtml/permissions_variable</action>
+                                    <depends>
+                                        <module>HideMe</module> <!-- Fake dependance to hide menu item -->
+                                    </depends>
+                                </variables>
+                                <blocks translate="title">
+                                    <title>Blocks</title>
+                                    <action>adminhtml/permissions_block</action>
+                                    <depends>
+                                       <!-- <module>HideMe</module> Fake dependance to hide menu item -->
+                                    </depends>
+                                </blocks>
+                            </children>
+                        </acl>
+                        <trans_email>
+                            <title>Store Email Addresses</title>
+                            <sort_order>30</sort_order>
+                            <action>adminhtml/system_config/edit/section/trans_email</action>
+                        </trans_email>
+                    </children>
+                </myaccount>
+
+                <store translate="title" module="core">
+                    <title>Store Setup</title>
+                    <sort_order>1</sort_order>
+                    <children>
+                        <store translate="title" module="core">
+                            <title>Setup Payment</title>
+                            <sort_order>10</sort_order>
+                            <children>
+                                <payment translate="title" module="payment">
+                                    <title>Payment Methods</title>
+                                    <action>adminhtml/system_config/edit/section/payment</action>
+                                </payment>
+                                <payment_services translate="title" module="payment">
+                                    <title>Payment Services</title>
+                                    <action>adminhtml/system_config/edit/section/payment_services</action>
+                                </payment_services>
+                                <currency translate="title" module="currencysymbol">
+                                    <title>Manage Currency</title>
+                                    <children>
+                                        <rates translate="title">
+                                            <title>Rates</title>
+                                            <action>adminhtml/system_currency</action>
+                                            <sort_order>10</sort_order>
+                                        </rates>
+                                        <symbols translate="title">
+                                            <title>Symbols</title>
+                                            <action>adminhtml/system_currencysymbol</action>
+                                            <sort_order>20</sort_order>
+                                        </symbols>
+                                        <currency-setup translate="title" module="payment">
+                                            <action>adminhtml/system_config/edit/section/currency</action>
+                                            <title>Currency Setup</title>
+                                            <sort_order>30</sort_order>
+                                        </currency-setup>
+                                        <currency-manager translate="title" module="payment">
+                                            <action>adminhtml/system_config/edit/section/currencymanager</action>
+                                            <title>ET Currency Manager</title>
+                                            <sort_order>40</sort_order>
+                                        </currency-manager>
+                                    </children>
+                                </currency>
+                                <tax translate="title">
+                                    <action>adminhtml/system_config/edit/section/tax</action>
+                                    <title>Taxes</title>
+                                </tax>
+                            </children>
+                        </store>
+                        <shipping translate="title">
+                            <title>Setup Shipping</title>
+                            <sort_order>20</sort_order>
+                            <children>
+                                <shipping_settings translate="title">
+                                    <action>adminhtml/system_config/edit/section/shipping</action>
+                                    <title>Shipping Settings</title>
+                                </shipping_settings>
+                                <shipping_methods translate="title">
+                                    <action>adminhtml/system_config/edit/section/carriers</action>
+                                    <title>Shipping Methods Section</title>
+                                </shipping_methods>
+                                <aramex translate="title" module="aramexshipping">
+                                    <title>Aramex Extra</title>
+                                    <sort_order>20</sort_order>
+                                    <children>
+                                        <supplier translate="title" module="aramexshipping">
+                                            <title>Manage Suppliers</title>
+                                            <sort_order>10</sort_order>
+                                            <action>adminhtml/aramex_supplier</action>
+                                        </supplier>
+                                    </children>
+                                </aramex>
+                            </children>
+                        </shipping>
+                        <!--<ec translate="title" module="ec">-->
+                            <!--<title>Checkout</title>-->
+                            <!--<sort_order>30</sort_order>-->
+                            <!--<children>-->
+                                <!--<configuration>-->
+                                    <!--<title>Configuration</title>-->
+                                    <!--<sort_order>1</sort_order>-->
+                                    <!--<action>adminhtml/system_config/edit/section/ec</action>-->
+                                <!--</configuration>-->
+                            <!--</children>-->
+                        <!--</ec>-->
+                        <storem translate="title">
+                            <action>adminhtml/system_config/edit/section/storeMaintenance</action>
+                            <sort_order>40</sort_order>
+                            <title>Store Maintenance</title>
+                        </storem>
+                    </children>
+                </store>
+
+                <generalc translate="title" module="core">
+                    <title>General Configuration</title>
+                    <sort_order>11</sort_order>
+                    <children>
+                        <sales translate="title">
+                            <title>Sales</title>
+                            <sort_order>10</sort_order>
+                            <children>
+                                <salese>
+                                    <title>Sales Emails</title>
+                                    <sort_order>1</sort_order>
+                                    <action>adminhtml/system_config/edit/section/sales_email</action>
+                                </salese>
+                                <email_template translate="title">
+                                    <title>Transactional Emails</title>
+                                    <action>adminhtml/system_email_template</action>
+                                    <sort_order>20</sort_order>
+                                </email_template>
+                                <pdf translate="title">
+                                    <title>PDF Print-outs</title>
+                                    <action>adminhtml/system_config/edit/section/sales_pdf</action>
+                                    <sort_order>20</sort_order>
+                                </pdf>
+                                <order_statuses translate="title" module="sales">
+                                    <title>Order Statuses</title>
+                                    <action>adminhtml/sales_order_status</action>
+                                    <sort_order>105</sort_order>
+                                </order_statuses>
+                            </children>
+                        </sales>
+
+                        <catalog translate="title">
+                            <title>Catalog</title>
+                            <sort_order>20</sort_order>
+                            <children>
+                                <cats translate="title">
+                                    <title>Catalog Section</title>
+                                    <action>adminhtml/system_config/edit/section/catalog</action>
+                                    <sort_order>10</sort_order>
+                                </cats>
+                                <products translate="title">
+                                    <title>Products</title>
+                                    <sort_order>10</sort_order>
+                                    <children>
+                                        <featured translate="title">
+                                            <title>Featured Products Settings</title>
+                                            <action>adminhtml/system_config/edit/section/featuredproducts</action>
+                                            <sort_order>10</sort_order>
+                                        </featured>
+                                        <arp translate="title">
+                                            <title>ShopGo Auto Related Products </title>
+                                            <action>adminhtml/system_config/edit/section/arp</action>
+                                            <sort_order>20</sort_order>
+                                        </arp>
+                                        <shopgo_flipper translate="title">
+                                            <title>Product Flipper</title>
+                                            <action>adminhtml/system_config/edit/section/shopgo_flipper</action>
+                                            <sort_order>30</sort_order>
+                                        </shopgo_flipper>
+                                        <quickview translate="title">
+                                            <title>ShopGo Quickview Settings</title>
+                                            <action>adminhtml/system_config/edit/section/quickview</action>
+                                            <sort_order>40</sort_order>
+                                        </quickview>
+                                        <configswatches translate="title">
+                                            <title>Configurable Swatches</title>
+                                            <action>adminhtml/system_config/edit/section/configswatches</action>
+                                            <sort_order>50</sort_order>
+                                        </configswatches>
+                                        <cataloginventory translate="title">
+                                            <title>Inventory Section</title>
+                                            <action>adminhtml/system_config/edit/section/cataloginventory</action>
+                                            <sort_order>60</sort_order>
+                                        </cataloginventory>
+                                    </children>
+                                </products>
+                                <categories translate="title">
+                                    <title>Categories</title>
+                                    <sort_order>20</sort_order>
+                                    <children>
+                                        <manufacturer translate="title">
+                                            <title>Manufacturer</title>
+                                            <action>adminhtml/system_config/edit/section/manufacturer</action>
+                                            <sort_order>10</sort_order>
+                                        </manufacturer>
+                                        <megamenu translate="title">
+                                            <title>Megamenu</title>
+                                            <action>adminhtml/system_config/edit/section/megamenu</action>
+                                            <sort_order>20</sort_order>
+                                        </megamenu>
+                                    </children>
+                                </categories>
+                                <mana_filters translate="title">
+                                    <title>Layered Navigation</title>
+                                    <action>adminhtml/system_config/edit/section/mana_filters</action>
+                                    <sort_order>30</sort_order>
+                                </mana_filters>
+                                <logoupload translate="title">
+                                    <title>Logo Upload</title>
+                                    <action>adminhtml/system_config/edit/section/logoupload</action>
+                                    <sort_order>40</sort_order>
+                                </logoupload>
+                                <styleeditor translate="title" module="styleeditor">
+                                    <title>Style Editor</title>
+                                    <action>adminhtml/system_config/edit/section/styleeditor</action>
+                                    <sort_order>50</sort_order>
+                                </styleeditor>
+                            </children>
+                        </catalog>
+                        <customers  translate="title">
+                            <title>Customers</title>
+                            <sort_order>30</sort_order>
+                            <children>
+                                <customer translate="title">
+                                    <title>Customers Section</title>
+                                    <action>adminhtml/system_config/edit/section/customer</action>
+                                    <sort_order>10</sort_order>
+                                </customer>
+                                <wishlist translate="title">
+                                    <title>Wishlist</title>
+                                    <action>adminhtml/system_config/edit/section/wishlist</action>
+                                    <sort_order>20</sort_order>
+                                </wishlist>
+                            </children>
+
+                        </customers>
+                        <marketing  translate="title">
+                            <title>Marketing</title>
+                            <sort_order>40</sort_order>
+                            <children>
+                                <promo translate="title">
+                                    <title>Promotions</title>
+                                    <sort_order>10</sort_order>
+                                    <children>
+                                        <quote translate="title" module="salesrule">
+                                            <title>Shopping Cart Price Rules</title>
+                                            <action>adminhtml/promo_quote/</action>
+                                            <depends><module>Mage_Sales</module></depends>
+                                        </quote>
+                                        <persistent translate="title">
+                                            <title>Persistent Shopping Cart</title>
+                                            <action>adminhtml/system_config/edit/section/persistent</action>
+                                        </persistent>
+                                    </children>
+                                </promo>
+                                <cauc translate="title">
+                                    <title>Communications and User Content</title>
+                                    <sort_order>20</sort_order>
+                                    <children>
+                                        <persistent translate="title">
+                                            <title>Newsletter Section</title>
+                                            <action>adminhtml/system_config/edit/section/newsletter</action>
+                                        </persistent>
+                                    </children>
+                                </cauc>
+                                <saseo translate="title">
+                                    <title>Search and SEO</title>
+                                    <sort_order>30</sort_order>
+                                    <children>
+                                        <sitemap translate="title">
+                                            <title>Google Sitemap Section</title>
+                                            <action>adminhtml/system_config/edit/section/sitemap</action>
+                                        </sitemap>
+                                        <social translate="title">
+                                            <title>ShopGo Social</title>
+                                            <action>adminhtml/system_config/edit/section/social</action>
+                                        </social>
+                                        <google translate="title">
+                                            <title>Google API</title>
+                                            <action>adminhtml/system_config/edit/section/google</action>
+                                        </google>
+                                        <shopgo_follow_cfg translate="title">
+                                            <title>Shopgo Follow</title>
+                                            <action>adminhtml/system_config/edit/section/shopgo_follow_cfg</action>
+                                        </shopgo_follow_cfg>
+                                        <sendfriend translate="title">
+                                            <title>Email to a Friend</title>
+                                            <action>adminhtml/system_config/edit/section/sendfriend</action>
+                                        </sendfriend>
+                                        <blog translate="title">
+                                            <title>aheadWorks Blog Section</title>
+                                            <action>adminhtml/system_config/edit/section/blog</action>
+                                        </blog>
+                                        <geo translate="title"  module="geo">
+                                            <title>Geo Module/ ShopGo Geo</title>
+                                            <action>adminhtml/system_config/edit/section/geo</action>
+                                        </geo>
+                                    </children>
+                                </saseo>
+                            </children>
+                        </marketing>
+                        <content translate="title">
+                            <title>Content</title>
+                            <sort_order>50</sort_order>
+                            <children>
+                                <shopgo_cmsassistant translate="title">
+                                    <title>CMS Assistant</title>
+                                    <action>adminhtml/system_config/edit/section/shopgo_cmsassistant</action>
+                                </shopgo_cmsassistant>
+                                <bannerslider translate="title">
+                                    <title>Shopgo Banner Slider</title>
+                                    <action>adminhtml/system_config/edit/section/bannerslider</action>
+                                </bannerslider>
+                            </children>
+                        </content>
+                        <reports translate="title">
+                            <title>Reports</title>
+                            <action>adminhtml/system_config/edit/section/reports</action>
+                            <sort_order>60</sort_order>
+                        </reports>
+                    </children>
+                </generalc>
+
+                <managestores translate="title">
+                    <title>Manage Stores</title>
+                    <action>adminhtml/system_store/index</action>
+                    <sort_order>12</sort_order>
+                </managestores>
+
+                <config translate="title">
+                    <title>Advanced</title>
+                    <sort_order>13</sort_order>
+                    <children>
+                        <cache translate="title">
+                            <title>Cache Management</title>
+                            <action>adminhtml/cache</action>
+                            <sort_order>10</sort_order>
+                        </cache>
+                        <index translate="title" module="index">
+                            <title>Index Management</title>
+                            <action>adminhtml/process/list</action>
+                            <sort_order>20</sort_order>
+                        </index>
+                        <api translate="title" module="api">
+                            <title>Web Services</title>
+                            <sort_order>30</sort_order>
+                            <children>
+                                <users translate="title">
+                                    <title>SOAP/XML-RPC - Users</title>
+                                    <action>adminhtml/api_user</action>
+                                    <sort_order>10</sort_order>
+                                </users>
+                                <oauth_consumer translate="title" module="oauth">
+                                    <title>REST - OAuth Consumers</title>
+                                    <sort_order>15  </sort_order>
+                                    <action>adminhtml/oauth_consumer</action>
+                                </oauth_consumer>
+                                <roles translate="title">
+                                    <title>SOAP/XML-RPC - Roles</title>
+                                    <action>adminhtml/api_role</action>
+                                    <sort_order>20</sort_order>
+                                </roles>
+                                <rest_roles translate="title" module="api2">
+                                    <title>REST - Roles</title>
+                                    <action>adminhtml/api2_role</action>
+                                    <sort_order>30</sort_order>
+                                </rest_roles>
+                                <rest_attributes translate="title" module="api2">
+                                    <title>REST - Attributes</title>
+                                    <sort_order>40</sort_order>
+                                    <action>adminhtml/api2_attribute</action>
+                                </rest_attributes>
+                                <oauth_admin_token translate="title" module="oauth">
+                                    <title>OAuth Admin My Apps - My Apps</title>
+                                    <sort_order>50</sort_order>
+                                    <action>adminhtml/oauth_admin_token</action>
+                                </oauth_admin_token>
+                            </children>
+                        </api>
+                        <convert translate="title">
+                            <title>Import/Export</title>
+                            <sort_order>40</sort_order>
+                            <children>
+                                <gui translate="title">
+                                    <title>Dataflow - Profiles</title>
+                                    <action>adminhtml/system_convert_gui</action>
+                                    <sort_order>30</sort_order>
+                                </gui>
+                                <profiles translate="title">
+                                    <title>Dataflow - Advanced Profiles</title>
+                                    <action>adminhtml/system_convert_profile</action>
+                                    <sort_order>40</sort_order>
+                                </profiles>
+                            </children>
+                        </convert>
+                        <advanceds translate="title">
+                            <title>Settings</title>
+                            <action>adminhtml/system_config</action>
+                            <sort_order>100</sort_order>
+                        </advanceds>
+                    </children>
+                </config>
+
+                <tools translate="title">
+                    <depends>
+                        <module>HideMe</module> <!-- Fake dependance to hide menu item -->
+                    </depends>
+                    <title>Tools</title>
+                    <sort_order>20</sort_order>
+                </tools>
+                <design translate="title">
+                    <depends>
+                        <module>HideMe</module> <!-- Fake dependance to hide menu item -->
+                    </depends>
+                    <title>Design</title>
+                    <action>adminhtml/system_design</action>
+                    <sort_order>30</sort_order>
+                </design>
+                <currency translate="title">
+                    <depends>
+                        <module>HideMe</module> <!-- Fake dependance to hide menu item -->
+                    </depends>
+                    <title>Manage Currency Rates</title>
+                    <action>adminhtml/system_currency</action>
+                    <sort_order>50</sort_order>
+                </currency>
+                <variable translate="title">
+                    <depends>
+                        <module>HideMe</module> <!-- Fake dependance to hide menu item -->
+                    </depends>
+                    <title>Custom Variables</title>
+                    <action>adminhtml/system_variable</action>
+                    <sort_order>65</sort_order>
+                </variable>
+            </children>
+        </system>
+    </menu>
+
+    <acl>
+        <resources>
+            <all>
+                <title>Allow everything</title>
+            </all>
+            <admin translate="title">
+                <title>Magento Admin</title>
+                <children>
+                    <dashboard translate="title">
+                        <title>Dashboard</title>
+                    </dashboard>
+                    <system translate="title">
+                        <title>System</title>
+                        <sort_order>6500</sort_order>
+                        <children>
+                            <myaccount translate="title">
+                                <title>Account Information</title>
+                                <children>
+                                    <myaccount translate="title">
+                                        <title>My Account</title>
+                                    </myaccount>
+                                    <acl translate="title">
+                                        <title>Permissions</title>
+                                        <children>
+                                            <users translate="title">
+                                                <title>Users</title>
+                                            </users>
+                                            <roles translate="title">
+                                                <title>Roles</title>
+                                            </roles>
+                                            <variables translate="title">
+                                                <title>Variables</title>
+                                            </variables>
+                                            <blocks translate="title">
+                                                <title>Blocks</title>
+                                            </blocks>
+                                        </children>
+                                    </acl>
+                                    <trans_email>
+                                        <title>Store Email Addresses</title>
+                                    </trans_email>
+                                </children>
+                            </myaccount>
+
+                            <store translate="title" module="core">
+                                <title>Store Setup</title>
+                                <children>
+                                    <store translate="title">
+                                        <title>Setup Payment</title>
+                                        <children>
+                                            <payment translate="title" module="payment">
+                                                <title>Payment Methods</title>
+                                            </payment>
+                                            <payment_services translate="title" module="payment">
+                                                <title>Payment Services</title>
+                                            </payment_services>
+                                            <currency translate="title">
+                                                <title>Manage Currency</title>
+                                                <children>
+                                                    <rates translate="title">
+                                                        <title>Rates</title>
+                                                    </rates>
+                                                    <symbols translate="title">
+                                                        <title>Symbols</title>
+                                                    </symbols>
+                                                    <currency-setup translate="title">
+                                                        <title>Currency Setup</title>
+                                                    </currency-setup>
+                                                    <currency-manager translate="title">
+                                                        <title>ET Currency Manager</title>
+                                                    </currency-manager>
+                                                </children>
+                                            </currency>
+                                            <tax translate="title">
+                                                <title>Taxes</title>
+                                            </tax>
+                                        </children>
+                                    </store>
+                                    <shipping translate="title">
+                                        <title>Setup Shipping</title>
+                                        <children>
+                                            <shipping_settings translate="title">
+                                                <title>Shipping Settings</title>
+                                            </shipping_settings>
+                                            <shipping_methods translate="title">
+                                                <title>Shipping Methods</title>
+                                            </shipping_methods>
+                                            <aramex translate="title">
+                                                <title>Aramex Extra</title>
+                                                <children>
+                                                    <supplier translate="title">
+                                                        <title>Manage Suppliers</title>
+                                                    </supplier>
+                                                </children>
+                                            </aramex>
+                                        </children>
+                                    </shipping>
+                                    <ec translate="title">
+                                        <title>Checkout</title>
+                                        <children>
+                                            <configuration>
+                                                <title>Configuration</title>
+                                            </configuration>
+                                        </children>
+                                    </ec>
+                                    <storem translate="title">
+                                        <title>Store Maintenance</title>
+                                    </storem>
+                                </children>
+                            </store>
+                            <generalc translate="title">
+                                <title>General Configuration</title>
+                                <children>
+                                    <sales translate="title">
+                                        <title>Sales</title>
+                                        <children>
+                                            <salese>
+                                                <title>Sales Emails</title>
+                                            </salese>
+                                            <email_template translate="title">
+                                                <title>Transactional Emails</title>
+                                            </email_template>
+                                            <pdf translate="title">
+                                                <title>PDF Print-outs</title>
+                                            </pdf>
+                                            <order_statuses translate="title">
+                                                <title>Order Statuses</title>
+                                            </order_statuses>
+                                        </children>
+                                    </sales>
+                                    <catalog translate="title">
+                                        <title>Catalog</title>
+                                        <children>
+                                            <cats translate="title">
+                                                <title>Catalog Section</title>
+                                            </cats>
+                                            <products translate="title">
+                                                <title>Products</title>
+                                                <children>
+                                                    <featured translate="title">
+                                                        <title>Featured Products Settings</title>
+                                                    </featured>
+                                                    <arp translate="title">
+                                                        <title>ShopGo Auto Related Products </title>
+                                                    </arp>
+                                                    <shopgo_flipper translate="title">
+                                                        <title>Product Flipper</title>
+                                                    </shopgo_flipper>
+                                                    <quickview translate="title">
+                                                        <title>ShopGo Quickview Settings</title>
+                                                    </quickview>
+                                                    <configswatches translate="title">
+                                                        <title>Configurable Swatches</title>
+                                                    </configswatches>
+                                                    <cataloginventory translate="title">
+                                                        <title>Inventory Section</title>
+                                                    </cataloginventory>
+                                                </children>
+                                            </products>
+                                            <categories translate="title">
+                                                <title>Categories</title>
+                                                <children>
+                                                    <manufacturer translate="title">
+                                                        <title>Manufacturer</title>
+                                                    </manufacturer>
+                                                    <megamenu translate="title">
+                                                        <title>Megamenu</title>
+                                                    </megamenu>
+                                                </children>
+                                            </categories>
+                                            <mana_filters translate="title">
+                                                <title>Layered Navigation</title>
+                                            </mana_filters>
+                                            <logoupload translate="title">
+                                                <title>Logo Upload</title>
+                                            </logoupload>
+                                            <styleeditor translate="title">
+                                                <title>Style Editor</title>
+                                            </styleeditor>
+                                        </children>
+                                    </catalog>
+                                    <customers  translate="title">
+                                        <title>Customers</title>
+                                        <children>
+                                            <customer translate="title">
+                                                <title>Customers Section</title>
+                                            </customer>
+                                            <wishlist translate="title">
+                                                <title>Wishlist</title>
+                                            </wishlist>
+                                        </children>
+                                    </customers>
+                                    <marketing  translate="title">
+                                        <title>Marketing</title>
+                                        <children>
+                                            <promo translate="title">
+                                                <title>Promotions</title>
+                                                <children>
+                                                    <quote translate="title">
+                                                        <title>Shopping Cart Price Rules</title>
+                                                    </quote>
+                                                    <persistent translate="title">
+                                                        <title>Persistent Shopping Cart</title>
+                                                    </persistent>
+                                                </children>
+                                            </promo>
+                                            <cauc translate="title">
+                                                <title>Communications and User Content</title>
+                                                <children>
+                                                    <persistent translate="title">
+                                                        <title>Newsletter Section</title>
+                                                    </persistent>
+                                                </children>
+                                            </cauc>
+                                            <saseo translate="title">
+                                                <title>Search and SEO</title>
+                                                <children>
+                                                    <sitemap translate="title">
+                                                        <title>Google Sitemap Section</title>
+                                                    </sitemap>
+                                                    <social translate="title">
+                                                        <title>ShopGo Social</title>
+                                                    </social>
+                                                    <google translate="title">
+                                                        <title>Google API</title>
+                                                    </google>
+                                                    <shopgo_follow_cfg translate="title">
+                                                        <title>Shopgo Follow</title>
+                                                    </shopgo_follow_cfg>
+                                                    <sendfriend translate="title">
+                                                        <title>Email to a Friend</title>
+                                                    </sendfriend>
+                                                    <blog translate="title">
+                                                        <title>aheadWorks Blog Section</title>
+                                                    </blog>
+                                                    <geo translate="title">
+                                                        <title>Geo Module/ ShopGo Geo</title>
+                                                    </geo>
+                                                </children>
+                                            </saseo>
+                                        </children>
+                                    </marketing>
+                                    <content translate="title">
+                                        <title>Content</title>
+                                        <children>
+                                            <shopgo_cmsassistant translate="title">
+                                                <title>CMS Assistant</title>
+                                            </shopgo_cmsassistant>
+                                            <bannerslider translate="title">
+                                                <title>Shopgo Banner Slider</title>
+                                            </bannerslider>
+                                        </children>
+                                    </content>
+                                    <reports translate="title">
+                                        <title>Reports</title>
+                                    </reports>
+                                </children>
+                            </generalc>
+                            <managestores translate="title">
+                                <title>Manage Stores</title>
+                            </managestores>
+                            <config translate="title">
+                                <title>Advanced</title>
+                                <children>
+                                    <cache translate="title">
+                                        <title>Cache Management</title>
+                                    </cache>
+                                    <index translate="title" module="index">
+                                        <title>Index Management</title>
+                                    </index>
+                                    <api translate="title">
+                                        <title>Web Services</title>
+                                        <children>
+                                            <users translate="title">
+                                                <title>SOAP/XML-RPC - Users</title>
+                                            </users>
+                                            <consumer translate="title">
+                                                <title>OAuth Consumers</title>
+                                                <children>
+                                                    <edit translate="title">
+                                                        <title>Edit</title>
+                                                    </edit>
+                                                    <delete translate="title">
+                                                        <title>Delete</title>
+                                                    </delete>
+                                                </children>
+                                            </consumer>
+
+                                            <authorizedTokens translate="title">
+                                                <title>OAuth Authorized Tokens</title>
+                                            </authorizedTokens>
+
+                                            <oauth_consumer translate="title">
+                                                <title>REST - OAuth Consumers</title>
+                                            </oauth_consumer>
+                                            <roles translate="title">
+                                                <title>SOAP/XML-RPC - Roles</title>
+                                            </roles>
+                                            <rest_roles translate="title">
+                                                <title>REST - Roles</title>
+                                                <children>
+                                                    <add translate="title">
+                                                        <title>Add</title>
+                                                    </add>
+                                                    <edit translate="title">
+                                                        <title>Edit</title>
+                                                    </edit>
+                                                    <delete translate="title">
+                                                        <title>Delete</title>
+                                                    </delete>
+                                                </children>
+                                            </rest_roles>
+                                            <rest_attributes translate="title">
+                                                <title>REST - Attributes</title>
+                                                <children>
+                                                    <edit translate="title">
+                                                        <title>Edit</title>
+                                                    </edit>
+                                                </children>
+                                            </rest_attributes>
+                                            <oauth_admin_token translate="title">
+                                                <title>OAuth Admin My Apps - My Apps</title>
+                                            </oauth_admin_token>
+                                        </children>
+                                    </api>
+                                    <convert translate="title">
+                                        <title>Import/Export</title>
+                                        <children>
+                                            <gui translate="title">
+                                                <title>Dataflow - Profiles</title>
+                                            </gui>
+                                            <profiles translate="title">
+                                                <title>Dataflow - Advanced Profiles</title>
+                                            </profiles>
+                                        </children>
+                                    </convert>
+                                    <sendfriend translate="title">
+                                        <title>Email to a Friend</title>
+                                    </sendfriend>
+                                    <trans_email translate="title">
+                                        <title>Store Email Addresses Section</title>
+                                    </trans_email>
+                                    <advanceds translate="title">
+                                        <title>Settings</title>
+                                    </advanceds>
+                                    <web translate="title">
+                                        <title>Web</title>
+                                    </web>
+                                    <general translate="title">
+                                        <title>General Section</title>
+                                        <sort_order>20</sort_order>
+                                    </general>
+                                    <currency translate="title">
+                                        <title>Currency Setup</title>
+                                        <sort_order>120</sort_order>
+                                    </currency>
+                                    <design translate="title">
+                                        <title>Design</title>
+                                    </design>
+                                    <admin translate="title">
+                                        <title>Admin</title>
+                                    </admin>
+                                    <system translate="title">
+                                        <title>System</title>
+                                    </system>
+                                    <dev translate="title">
+                                        <title>Developer</title>
+                                    </dev>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <global_search translate="title">
+                        <title>Global Search</title>
+                        <sort_order>100</sort_order>
+                    </global_search>
+                </children>
+            </admin>
+        </resources>
+        <privilegeSets>
+            <default>
+                <view>
+                    <descr>View entity</descr>
+                </view>
+                <edit>
+                    <descr>Edit entity</descr>
+                </edit>
+                <delete>
+                    <descr/>
+                </delete>
+                <create>
+                    <descr/>
+                </create>
+            </default>
+        </privilegeSets>
+    </acl>
+</config>

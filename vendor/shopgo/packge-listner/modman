@@ -1,0 +1,3 @@
+app/code/local/Shopgo/PackgeListener/                               app/code/local/Shopgo/PackgeListener/
+app/etc/modules/Shopgo_PackgeListener.xml                           app/etc/modules/Shopgo_PackgeListener.xml
+var/package.json                                                   var/package.json

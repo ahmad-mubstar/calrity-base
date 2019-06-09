@@ -1,0 +1,140 @@
+<?php $tokenRersult = $this->getPaymentTokenResult($orderid = null); ?>
+<?php if($tokenRersult['succes']): ?>
+    <script type="text/javascript">
+        var reload = false;
+        window.CKOConfig = {
+            debugMode: true,
+            renderMode: 2,
+            publicKey: '<?php echo $this->getPublicKey()?>',
+            paymentToken: "<?php echo $tokenRersult['token'] ?>",
+            value: '<?php echo $this->getConvertAmount() ?>',
+            useCurrencyCode: '<?php echo $this->getUseCurrencyCode() ?>',
+            currency: '<?php echo $this->getCurrency() ?>',
+            customerEmail: '<?php echo $this->getEmailAddress() ?>',
+            customerName: '<?php echo $this->getName()?>',
+            paymentMode: 'mixed',
+            title: '<?php echo $this->getStoreName(); ?>',
+            subtitle:'<?php echo $this->__('Please enter your credit card details') ?>',
+            widgetContainerSelector: '.payment-form',
+            styling: {
+              logoUrl: '<?php echo $this->getLightBoxUrl() ?>',
+              themeColor: '<?php echo $this->getThemeColor() ?>',
+              buttonColor: '<?php echo $this->getButtonColor() ?>',
+              iconColor: '<?php echo $this->getIconColor() ?>',
+            },
+            cardCharged: function(event){
+
+              if (document.getElementById('cko-cc-paymenToken').value.length === 0) {
+                document.getElementById('cko-cc-paymenToken').value = event.data.paymentToken;
+                easyCheckout.placeOrder();
+              }
+            },
+            paymentTokenExpired: function(){
+                reload = true;
+            },
+            lightboxDeactivated: function() {
+              if(reload) {
+                  window.location.reload();
+              }
+            },
+            ready: function() {
+//              if(typeof Checkout !='undefined' && Checkout.hasOwnProperty('render') && Checkout.isMobile()) {
+//                  document.getElementById('cko-redirectUrl').value = Checkout.getRedirectionUrl();
+//              } 
+            },
+            cardTokenised: function(event) {
+              if (document.getElementById('cko-card-token').value.length === 0 || document.getElementById('cko-card-token').value != event.data.cardToken) {
+                document.getElementById('cko-card-token').value = event.data.cardToken;
+                easyCheckout.placeOrder();
+              }
+            },
+                    
+            cardTokenisationFailed: function(resp) {
+                reload = true;
+            },
+            widgetRendered: function(event) {
+              $('#cko-widget').hide(); 
+            },
+        };
+
+    </script>
+
+    <div class="payment-form"></div>
+
+    <?php $_code=$this->getMethodCode() ?>
+    <ul class="form-list" id="payment_form_<?php echo $_code ?>" style="display:none;">
+        <li>
+            <input type="hidden" name="payment[cko_cc_paymenToken]" id="cko-cc-paymenToken" value="<?php echo
+            $this->getPaymentToken() ?>"  class="input-text "/>
+            <input type="hidden" name="payment[cko_card_token]" id="cko-card-token" value=""  class="input-text "/>
+            <input type="hidden" name="payment[cko_redirectUrl]" id="cko-redirectUrl" value=""  class="input-text "/>
+        </li>
+    </ul>
+<?php else:  ?>
+    <div style="" id="advice-required-entry-creditcard_cc_token" class="validation-advice">
+        <?php echo $this->__($tokenRersult['message']) ?>
+    </div>
+<?php endif; ?>
+
+<script type="text/javascript">
+  
+  window.CheckoutJsValidation = function () {
+    if ($(".checkout-agreements .checkbox").length ) {
+      $('#shopgo_easy_checkout .checkout-agreements input[type="checkbox"]').each(function () {
+          if (!$(this).is(':checked')) {
+            easyCheckout.showMessage('Please agree to all the terms and conditions before placing the order.');
+          } else {
+            Checkout.open();
+          }
+      });
+    }
+    else {
+      Checkout.open();
+    }
+  };
+    
+  $(document).ready(function() {
+      
+    var pid = 'p_method_creditcard';
+
+    if(typeof Checkout !='undefined' && Checkout.hasOwnProperty('render')){
+      if (!Checkout.isMobile()) {
+        window.CKOConfig.cardFormMode = 'cardTokenisation';
+        Checkout.configure(window.CKOConfig);
+      }
+      else {
+        window.CKOConfig.forceMobileRedirect = true,
+        Checkout.configure(window.CKOConfig);
+        $('#cko-redirectUrl').val(Checkout.getRedirectionUrl());
+      }
+    }
+
+     if($('#p_method_creditcard').length > 0 && $('#p_method_creditcard').is(':checked')){
+      if(typeof Checkout !='undefined' && !Checkout.isMobile()) { 
+         $("#placeOrderBtn").attr("onclick","CheckoutJsValidation();");
+      }
+    }
+    else {
+      $("#placeOrderBtn").attr("onclick","easyCheckout.saveOrder()");
+    }
+
+    $( "#payment-form .ui.checkbox input[name='payment[method]']").on( "change", function() {
+      var radioValue = $(this).filter(':checked').val();
+        if(radioValue){
+            var currentPaymentMethod = $(this)[0].id;
+            if (currentPaymentMethod === pid){
+              if ( typeof Checkout !='undefined' && !Checkout.isMobile()){
+                $("#placeOrderBtn").attr("onclick","CheckoutJsValidation()");
+              }
+              else {
+                
+                $("#placeOrderBtn").attr("onclick","easyCheckout.saveOrder()");
+              }
+            }
+            else {
+               $("#placeOrderBtn").attr("onclick","easyCheckout.saveOrder()");
+            }
+        }
+    });
+});
+</script>

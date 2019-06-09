@@ -1,0 +1,15 @@
+{
+    "name": "shopgo/gtm",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "Google tag manager",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Ali Halabyah",
+            "email": "ali@shopgo.me"
+        }
+    ]
+}

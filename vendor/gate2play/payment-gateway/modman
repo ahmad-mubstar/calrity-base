@@ -1,0 +1,5 @@
+app/code/community/Gate2play/Paymentgateway/                            app/code/community/Gate2play/Paymentgateway/
+app/design/frontend/base/default/layout/gate2play.xml                   app/design/frontend/base/default/layout/gate2play.xml
+app/design/frontend/base/default/template/gate2play/paymentgateway/     app/design/frontend/base/default/template/gate2play/paymentgateway/
+app/etc/modules/Gate2play_Paymentgateway.xml                            app/etc/modules/Gate2play_Paymentgateway.xml
+skin/frontend/base/default/images/gate2play/loading.gif                 skin/frontend/base/default/images/gate2play/loading.gif

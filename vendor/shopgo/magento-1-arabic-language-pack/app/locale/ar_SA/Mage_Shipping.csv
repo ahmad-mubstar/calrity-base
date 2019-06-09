@@ -1,0 +1,78 @@
+ for more information or email us at ,لمزيد من المعلومات او ارسال رساله الكترونية على  ,لمزيد من المعلومات الرجاء إرسال بريد الكتروني الى
+# of Items (and above),# للعناصر (و اعلى),# من السلع (وأعلى)
+# of Items vs. Destination,# للعناصر vs. مسار,# للسلع بالنسبة للمكان المقصود
+Allow Shipping to multiple addresses,السماح بالشحن لعناوين متعددة,السماح بالشحن لعناوين متعددة
+Calculate Handling Fee,حساب رسوم التسليم,حساب رسوم التسليم
+Carrier:,الناقل:,الناقل:
+City,المدينة,المدينة
+Close Window,إغلاق النافذة,إغلاق النافذة
+Condition,الشرط,الشرط
+Country,الدولة,الدولة
+Date,التاريخ,التاريخ
+Delivered on:,تم التسليم في:,تم التسليم في:
+Delivered to:,تم التسليم إلى:,تم التسليم إلى:
+Description,الوصف,الوصف
+Displayed Error Message,رسالة الخطأ المعروضة,رسالة الخطأ المعروضة
+"Duplicate Row #%s (Country ""%s"", Region/State ""%s"", Zip ""%s"" and Value ""%s"")","تكرار الصف #%s (Country ""%s"", Region/State ""%s"", Zip ""%s"" and Value ""%s"")","تكرار الصف #%s (البلد ""%s"", المنطقة\الولاية ""%s"", الرمز البريدي ""%s"" والقيمة ""%s"")"
+Enabled,مفعل,مفعل
+Error:,خطأ:,خطأ:
+Export,تصدير,تصدير
+Fixed,ثابت,ثابت
+Flat Rate,معدل ثابت,معدل ثابت
+Free Shipping,شحن مجاني,شحن مجاني
+Handling Fee,رسوم الشحن,رسوم التسليم
+Import,استيراد,استيراد
+Info:,معلومات:,معلومات:
+"Invalid %s ""%s"" in the Row #%s","غير صحيح %s ""%s"" في الصف #%s","غير صحيح %s ""%s"" في الصف #%s"
+"Invalid Country ""%s"" in the Row #%s","دولة غير صحيحة ""%s"" في الصف #%s","دولة غير صحيحة ""%s"" في الصف #%s"
+"Invalid Region/State ""%s"" in the Row #%s","منطقة/ولاية غير صحيحة ""%s"" في الصف #%s","منطقة/ولاية غير صحيحة ""%s"" في الصف #%s"
+"Invalid Shipping Price ""%s"" in the Row #%s","سعر شحن غير صحيح ""%s"" في الصف #%s","سعر شحن غير صحيح ""%s"" في الصف #%s"
+Invalid Table Rate code for type %s: %s,غير صحيح الجدول المعدل لقانون النوع %s: %s,رمز معدل جدولي غير صحيح لنوع %s: %s
+Invalid Table Rate code type: %s,جدول غير صالح قانون معدل نوع: %s,رمز معدل جدولي غير صحيح نوع %s: 
+Invalid Table Rates File Format,الجدول معدلات غير صالح صيغة ملف,صيغة ملف غير صالحة للمعدلات الجدولية
+Local Time,التوقيت المحلي,التوقيت المحلي
+Location,موقع,موقع
+Maximum qty allowed for Shipping to multiple addresses,الكمية القصوى المسموح بها للشحن إلى عناوين متعددة,الكمية القصوى المسموح بها للشحن إلى عناوين متعددة
+Method name,اسم الطريقة,اسم الطريقة
+Minimum order amount,الحد الادنى من كمية الاوامر,الحد الادنى لكمية طلب الشراء
+N/A,غير متاح,غير متاح
+None,لايوجد,لايوجد
+Options,خيارات,خيارات
+Order Subtotal (and above),من أجل المجموع الفرعي (وما فوق),المجموع الفرعى للطلب (وما فوق)
+Origin,الاصل,الاصل
+Per Order,حسب الطلبية,للطلب الواحد
+Per Package,لكل مجموعة,للحزمة الواحدة
+Percent,النسبة المئوية,النسبة المئوية
+Price,السعر,السعر
+Price vs. Destination,السعر مقابل الوجهة,السعر مقابل الوجهة
+Region/State,المنطقة/الولاية,المنطقة/الولاية
+Service Type:,نوع الخدمة:,نوع الخدمة:
+Ship to Specific countries,الشحن إلى دول محددة,الشحن إلى دول محددة
+Ship to applicable countries,الشحن إلى الدول المطابقة,الشحن إلى الدول المطابقة
+Shipment #,شحنه #,شحنه #
+Shipped or billed on:,المشحونه او فاتوره:,مشحونه او فاتوره في:
+Shipping Methods,طرق الشحن,طرق الشحن
+Shipping Methods Section,قسم طرق الشحن,قسم طرق الشحن
+Shipping Settings,إعدادات الشحن,إعدادات الشحن
+Shipping Settings Section,قسم اعدادات الشحن,قسم اعدادات الشحن
+Show method if not applicable,عرض الطريقة إذا لا ينطبق,عرض الطريقة إذا لا ينطبق
+Signed by:,وقعت بواسطة:,وقعت بواسطة:
+Sort order,الترتيب,ترتيب
+Status:,الحالة:,الحالة:
+Store Pickup,اختيار المتجر,الإستلام من المتجر
+Table rates,لائحة الأسعار,معدلات جدولية
+The shipping module is not available for selected delivery country,النقل البحري وحده لا تتوفر لمجموعة مختارة من ايصال البلد,وحدة الشخن غير متوفرة في بلد التوصيل المختارة
+There is no tracking available for this shipment.,لا يوجد اي تتبع المتاحة لهذه الشحنه.,لا يوجد اي تتبع متاح لهذه الشحنه.
+There is no tracking available.,لا يوجد متابعة مسموحة.,لا يوجد اي تتبع متاح
+"This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.",هذه طريقة الشحن غير متوفره حاليا. اذا اردت ان سفينة الشحن باستخدام هذا الأسلوب ، يرجى الاتصال بنا.,طريقة الشحن هذه غير متوفرة. الرجاء التواصل معنا اذا اردت أن تشحن باستخدام هذه الطريقة
+Title,العنوان,العنوان
+Track:,تتبع:,تتبع:
+Tracking Number:,رقم التتبع:,رقم التتبع:
+Tracking information is currently not available. Please ,بيانات التتبع غير موجودة حاليا. من فضلك ,بيانات التتبع غير موجودة حاليا. من فضلك 
+Tracking information is currently unavailable.,بيانات التتبع غير موجودة حاليا.,بيانات التتبع غير موجودة حاليا.
+Type,النوع,النوع
+Weight (and above),الوزن (و ما فوق),الوزن (و ما فوق)
+Weight vs. Destination,الوزن vs. المسار,الوزن بالنسبة للمسار
+Weight:,الوزن:,الوزن:
+ZIP/Postal Code,الرمز البريدي,الرمز البريدي
+contact us,اتصل بنا,اتصل بنا

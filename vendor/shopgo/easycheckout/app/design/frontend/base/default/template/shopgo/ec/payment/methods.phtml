@@ -1,0 +1,37 @@
+<form id="payment-form">
+    <div class="ui form">
+        <div class="">
+            <?php if(!$this->getMethods()): ?>
+                <div class="ui small message transition visible" style="">
+                    <!-- <i class="warning icon"></i> -->
+                    <!-- <i class="close icon"></i> -->
+                    <?php echo $this->__('sorry, no payment methods avalibale.'); ?>
+                </div>
+            <?php endif; ?>
+            <?php foreach ($this->getMethods() as $_method): $_code = $_method->getCode() ?>
+                <?php if (sizeof($this->getMethods()) > 1): ?>
+                    <div class="inline field">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="payment[method]" id="p_method_<?php echo $_code ?>" value="<?php echo $_code ?>" title="<?php echo $this->htmlEscape($_method->getTitle()) ?>" <?php if ($this->getSelectedMethodCode() == $_code): ?> checked="checked"<?php endif; ?> class="radio validate-one-required-by-name">
+                            <label></label>
+                        </div>
+                        <label class="truncate" for="p_method_<?php echo $_code ?>"><?php echo $_method->getTitle() ?> <?php echo $this->getMethodLabelAfterHtml($_method) ?></label>
+                    </div>
+                <?php else: ?>
+                    <div class="inline field">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="payment[method]" id="p_method_<?php echo $_code ?>" value="<?php echo $_code ?>" title="<?php echo $this->htmlEscape($_method->getTitle()) ?>"  checked="checked" class="radio">
+                            <label></label>
+                        </div>
+                        <label class="truncate" for="p_method_<?php echo $_code ?>"><?php echo $_method->getTitle() ?> <?php echo $this->getMethodLabelAfterHtml($_method) ?></label>
+                    </div>
+                <?php endif ?>
+                <?php if ($html = $this->getPaymentMethodFormHtml($_method)): ?>
+                    <div class="payment_form_details">
+                        <?php echo $html; ?>
+                    </div>
+                <?php endif; ?>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</form>

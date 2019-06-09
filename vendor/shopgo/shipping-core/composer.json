@@ -1,0 +1,20 @@
+{
+    "name": "shopgo/shipping-core",
+    "type": "magento-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "description": "Contains functions commonly used in Shopgo Magento shipping extensions",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "shopgo/core": "*",
+        "shopgo/advanced-ifconfig": "*"
+    },
+    "authors":[
+        {
+            "name": "Ammar",
+            "email": "ammar@shopgo.me"
+        }
+    ]
+}

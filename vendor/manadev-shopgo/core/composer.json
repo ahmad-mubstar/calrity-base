@@ -1,0 +1,17 @@
+{
+    "name": "manadev-shopgo/core",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "MANAdev Core Magento extension (CMP Compatible)",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name": "MANAdev"
+        }
+    ],
+    "replace": {
+        "manadev/core": "*"
+    }
+}

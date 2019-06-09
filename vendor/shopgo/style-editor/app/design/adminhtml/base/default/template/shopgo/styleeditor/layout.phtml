@@ -1,0 +1,26 @@
+<?php
+/**
+ * Shopgo StyleEditor Layout Template
+ */
+?>
+<!DOCTYPE html>
+<html lang="<?php echo $this->getLang() ?>">
+
+<head>
+    <?php echo $this->getChildHtml('head') ?>
+</head>
+
+<body ng-app="styleEditorApp">
+
+<?php echo $this->getChildHtml('content') ?>
+
+<script type="text/javascript">
+    var StyleEditor = [
+        {
+            domain: '<?php echo Mage::getBaseUrl(); ?>'
+        }
+    ];
+</script>
+
+</body>
+</html>

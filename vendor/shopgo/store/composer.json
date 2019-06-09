@@ -1,0 +1,15 @@
+{
+    "name": "shopgo/store",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "Demo Store Manager",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Ibrahim Salem",
+            "email": "ibrahimsalem75@gmail.com"
+        }
+    ]
+}

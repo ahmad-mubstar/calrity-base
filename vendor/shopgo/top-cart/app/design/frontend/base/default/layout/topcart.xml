@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addCss"><stylesheet>topcart/css/topcart.css</stylesheet></action>
+            <action method="addJs"><script>topcart/topcart.jquery.js</script></action>
+            <action method="addJs"><script>topcart/topcart.js</script></action>
+        </reference>
+        <reference name="header">
+            <block type="page/html_wrapper" name="top.container" as="topContainer" translate="label">
+                <label>Page Header</label>
+                <action method="setElementClass"><value>top-container</value></action>
+                <block type="checkout/cart_sidebar" name="topCart" template="topcart/topcart.phtml" before="-">
+                    <action method="addItemRender"><type>simple</type><block>checkout/cart_item_renderer</block><template>checkout/cart/sidebar/default.phtml</template></action>
+                    <action method="addItemRender"><type>grouped</type><block>checkout/cart_item_renderer_grouped</block><template>checkout/cart/sidebar/default.phtml</template></action>
+                    <action method="addItemRender"><type>configurable</type><block>checkout/cart_item_renderer_configurable</block><template>checkout/cart/sidebar/default.phtml</template></action>
+                    <block type="core/text_list" name="cart_sidebar.extra_actions" as="extra_actions" translate="label" module="checkout">
+                        <label>Shopping Cart Sidebar Extra Actions</label>
+                    </block>
+                </block>
+            </block>
+        </reference>
+    </default>
+</layout>

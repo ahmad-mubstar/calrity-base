@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <adminhtml_shopgo_bpi_index_index>
+        <reference name="head">
+            <action method="addCss"><stylesheet>shopgo/bulkprodimages/css/jquery/jquery.jgrowl.css</stylesheet></action>
+            <action method="addCss"><stylesheet>shopgo/bulkprodimages/css/bulkprodimgs.css</stylesheet></action>
+            <action method="addItem"><type>skin_js</type><file>shopgo/bulkprodimages/js/jquery/jquery.js</file></action>
+            <action method="addItem"><type>skin_js</type><file>shopgo/bulkprodimages/js/jquery/jquery.noconflict.js</file></action>
+            <action method="addItem"><type>skin_js</type><file>shopgo/bulkprodimages/js/jquery/jquery.form.js</file></action>
+            <action method="addItem"><type>skin_js</type><file>shopgo/bulkprodimages/js/jquery/jquery.jgrowl.js</file></action>
+            <!--<action method="addItem"><type>skin_js</type><file>shopgo/bulkprodimages/js/script.js</file></action>-->
+        </reference>
+        <reference name="content">
+            <block type="adminhtml/template" name="shopgo.bulkprodimages" template="shopgo/bulkprodimgs.phtml"></block>
+        </reference>
+    </adminhtml_shopgo_bpi_index_index>
+</layout>

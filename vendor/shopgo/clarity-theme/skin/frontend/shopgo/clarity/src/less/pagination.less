@@ -1,0 +1,224 @@
+@import "../../bower_components/bootstrap/less/pagination.less";
+
+.pager,
+.sorter {
+    .clearfix();
+}
+
+// Pager
+.pager {
+    padding: 4px 8px;
+    line-height: @input-height-small;
+
+    .amount {
+        float: left;
+        margin-bottom: 0;
+    }
+    .limiter {
+        float: right;
+    }
+    .limiter label {
+        margin-bottom: 0;
+    }
+    .limiter select {
+        display: inline;
+        width: 60px;
+    }
+    .pages {
+        float: left;
+        width: 100%;
+        margin-top: 4px; // Add top margin as pages aren't always present
+        text-align: center;
+        strong {
+            display: none;
+        }
+    }
+    .pages ol {
+        .pagination();
+        .pagination-sm();
+
+        margin: 0;
+        display: inline-block;
+    }
+    .pages li {
+        display: inline-block;
+        margin: 0 2px;
+    }
+    .pages .current {
+    }
+}
+
+// Sorter
+.sorter {
+    padding: 4px 8px;
+    line-height: @input-height-small;
+
+    .view-mode {
+        float: left;
+        margin: 0;
+    }
+    .sort-by {
+        float: right;
+        height: 32px;
+    }
+    .sort-by label {
+        margin-bottom: 0;
+    }
+    .sort-by select {
+        display: inline;
+        width: 100px;
+    }
+    .link-feed {
+    }
+
+    // Put the pages section on the same line
+    @media (min-width: @screen-sm) {
+        .sort-by {
+            padding-right: 43px;
+        }
+    }
+}
+
+// Toolbar
+.blog-index-list {
+    .toolbar {
+        margin-top: 0;
+        .pager {
+            border: 0;
+        }
+    }
+}
+
+.toolbar {
+    overflow: hidden;
+    .grid, .list {
+        background: #f5f5f5;
+        padding: 0.8rem 1rem;
+        .transition(.3s);
+    }
+    .grid:hover, .list:hover {
+        background: #444;
+        color: #fff;
+    }
+    .grid-active, .list-active {
+        color: #fff;
+        background: #444;
+    }
+    i.fa.fa-th-large + i,
+    i.fa.fa-align-justify + i {
+        display: none;
+    }
+    .sorter a {
+        .transition(0.3s);
+        font-size: 1.3em;
+        line-height: 1em;
+        display: inline-block;
+        padding: 0.6rem 0.9rem;
+        background-color: #f5f5f5;
+        margin: 0 2px 0 2px;
+    }
+    .sorter a:hover {
+        background-color: #444;
+        color: #fff;
+    }
+    .view-mode {
+        float: right;
+        width: 82px;
+        line-height: 30px;
+        padding-top: 5px;
+    }
+
+    .pager .amount {
+        position: relative;
+        bottom: 2px;
+        float: right;
+        padding-right: 1rem;
+        display: none;
+    }
+    .amount span {
+        color: #888;
+        font-weight: 200;
+        /* @replace: "JF Flat Regular", Arial, Helvetica, sans-serif */
+        font-family: @font-family-sans-serif;
+        font-size: 10px;
+    }
+    margin-bottom: (@line-height-computed / 2);
+    .sorter {
+        padding-left: 0;
+    }
+    .sorter .sort-by {
+        padding-right: 0;
+        float: left;
+        display: inline-block;
+    }
+    .sorter .sort-by label {
+        position: relative;
+        display: block;
+        float: left;
+    }
+    .sorter label {
+        color: #444;
+        font-weight: 200;
+        font-size: 13px;
+        background: #f5f5f5;
+        padding: 0 1rem;
+    }
+    .sorter .limiter .form-control {
+        width: 60px;
+        display: inline-block;
+    }
+}
+
+.toolbar-bottom {
+    border-top: 1px solid #ddd;
+}
+
+.toolbar-bottom {
+    .toolbar {
+        margin-top: 10px;
+    }
+    .pager {
+        float: right;
+    }
+    .amount {
+        display: none;
+    }
+    .sorter {
+        display: none;
+    }
+    .sorter .view-mode {
+        float: right;
+    }
+}
+
+.catalogsearch-result-index .pager, .catalogsearch-result-index .sorter {
+    border: 0;
+}
+
+.toolbar .sorter .limiter .form-control {
+    width: 50px;
+}
+
+//Toolbar mobile
+@media (max-width: 425px) {
+    .toolbar {
+        .pager {
+            .pages {
+                padding-top: 1em;
+                ol {
+                    li {
+                        margin: 0;
+                    }
+                }
+                strong {
+                    position: relative;
+                    bottom: 11px;
+                }
+            }
+        }
+        .limiter {
+            display: block;
+            clear: both;
+        }
+    }
+}

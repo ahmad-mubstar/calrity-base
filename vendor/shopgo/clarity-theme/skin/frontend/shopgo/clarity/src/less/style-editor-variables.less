@@ -1,0 +1,115 @@
+/**
+ *   ShopGo Boilerplate with Less
+ *
+ *   For compatability with the ShopGo Style Editor:
+ *    + Import your Google fonts first
+ *
+ *    + Declare your fonts for use in the editor by using '@font-declaration' (JSON format)
+ *      eg @font-declaration: '{ "Open Sans":["Open Sans","Arial","sans-serif"], "Freckle Face":["Freckle Face","cursive"] }'
+ *
+ *    + Declare your color palette for use in the editor by using '@color-declaration'
+ *      eg @color-declaration: '["#333", "#333", "#EDEDED", "#FFF"]';
+ *
+ *    + Prefix fonts with '@font-' for the style editor to make it editable by the end user
+ *
+ *    + Prefix colors with '@color-' for the style editor to make it editable by the end user
+ *
+ *    + Prefix settings with '@setting-' for the style editor to make it adjustable by the end user
+ */
+/**
+ *   Theme Info
+ */
+//! @theme_name: Clarity
+//! @theme_version: 1.3.0
+
+
+/**
+ *   Declarations
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans|Cairo|El+Messiri|Changa|Aref+Ruqaa|Harmattan|Oswald|Lora|Roboto+Condensed|Raleway|Ubuntu|Fjalla+One|Titillium+Web|Fira+Sans|Kalam|Vollkorn:400,700);
+
+@font-declaration: '{"Vollkorn":["Vollkorn"], "Ubuntu":["Ubuntu"], "Titillium Web":["Titillium Web"], "Source Sans Pro":["Source Sans Pro"], "Roboto Condensed":["Roboto Condensed"], "Raleway":["Raleway"], "Oswald":["Oswald"], "Lora":["Lora"], "Kalam":["Kalam"], "Harmattan":["Harmattan"], "Fjalla One":["Fjalla One"], "Fira Sans":["Fira Sans"], "Montserrat":["Montserrat", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"], "Arial":["Arial", "Helvetica", "sans-serif"], "Lato":["Lato", "Arial", "sans-serif"], "Freckle Face":["Freckle Face", "cursive"], "Exo 2":["Exo 2", "sans-serif"], "Hammersmith One":["Hammersmith One", "sans-serif"], "Ceviche One":["Ceviche One", "cursive"], "Roboto":["Roboto Slab", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"], "Open Sans": ["Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"], "Droid Arabic Kufi": ["Droid Arabic Kufi", "serif"], "JF Flat": ["JF Flat Regular", "serif"], "Arabic Jozoor": ["AraJozoor-Regular", "serif"], "El Messiri":["El Messiri"], "Changa":["Changa"], "Cairo":["Cairo"], "Aref Ruqaa":["Aref Ruqaa"] }';
+
+@color-declaration: '["rgb(0, 0, 0)", "rgb(67, 67, 67)", "rgb(102, 102, 102)", "rgb(204, 204, 204)", "rgb(217, 217, 217)","rgb(255, 255, 255)"], ["rgb(152, 0, 0)", "rgb(255, 0, 0)", "rgb(255, 153, 0)", "rgb(255, 255, 0)", "rgb(0, 255, 0)", "rgb(0, 255, 255)", "rgb(74, 134, 232)", "rgb(0, 0, 255)", "rgb(153, 0, 255)", "rgb(255, 0, 255)"], ["rgb(230, 184, 175)", "rgb(244, 204, 204)", "rgb(252, 229, 205)", "rgb(255, 242, 204)", "rgb(217, 234, 211)", "rgb(208, 224, 227)", "rgb(201, 218, 248)", "rgb(207, 226, 243)", "rgb(217, 210, 233)", "rgb(234, 209, 220)", "rgb(221, 126, 107)", "rgb(234, 153, 153)", "rgb(249, 203, 156)", "rgb(255, 229, 153)", "rgb(182, 215, 168)", "rgb(162, 196, 201)", "rgb(164, 194, 244)", "rgb(159, 197, 232)", "rgb(180, 167, 214)", "rgb(213, 166, 189)", "rgb(204, 65, 37)", "rgb(224, 102, 102)", "rgb(246, 178, 107)", "rgb(255, 217, 102)", "rgb(147, 196, 125)", "rgb(118, 165, 175)", "rgb(109, 158, 235)", "rgb(111, 168, 220)", "rgb(142, 124, 195)", "rgb(194, 123, 160)", "rgb(166, 28, 0)", "rgb(204, 0, 0)", "rgb(230, 145, 56)", "rgb(241, 194, 50)", "rgb(106, 168, 79)", "rgb(69, 129, 142)", "rgb(60, 120, 216)", "rgb(61, 133, 198)", "rgb(103, 78, 167)", "rgb(166, 77, 121)", "rgb(91, 15, 0)", "rgb(102, 0, 0)", "rgb(120, 63, 4)", "rgb(127, 96, 0)", "rgb(39, 78, 19)",  "rgb(12, 52, 61)", "rgb(28, 69, 135)", "rgb(7, 55, 99)", "rgb(32, 18, 77)", "rgb(76, 17, 48)"]';
+
+//@yesno-boxed-layout:                        no;  //no
+//@color-page-background:                     #F7F8FC;  //#F7F8FC
+
+//! @section: header
+@color-toolbar-background:                  #fff;
+@color-toolbar-links:                       #AAA;//#AAA;
+@color-toolbar-links-hover:                 #444;//#444;
+@color-toolbar-icons:                       #60A5CD;//#60A5CD;
+@color-toolbar-icons-dropdown-border:       #ccc;//#ccc;
+@color-toolbar-icons-dropdown-background:   #fff;//#fff;
+@color-toolbar-icons-dropdown-text:         #444;//#444;
+
+@color-header-background:                   #fff;//#fff
+@color-header-search:                       #cdcdcd;
+@color-header-search-field:                 transparent;
+
+@color-menu-background:                     #fff;
+@color-menu-border:                         #f2f2f2;
+@color-menu-text:                           #444; //#444
+@color-menu-links-hover:                    #60A5CD;
+@color-menu-sublinks-hover:                 #60A5CD;
+
+@color-dropdown-menu:                       #fff; //#fff
+@color-dropdown-link:                       #666; //#666
+@color-dropdown-text:                       #444;
+//! @endsection
+
+//! @section: Content
+@color-content-background:                  #fff; //#fff
+@color-main-borders:                        #ddd; //#ddd;
+@color-content-text:                        #333; //#888
+@color-content-links:                       #aaa; //#aaa
+@color-page-title:                          #333; //#333;
+@color-product-prices:                      #60A5CD; //#60A5CD
+@color-block-background:                    #f5f5f5; //#f5f5f5
+@color-block-title:                         #8BC34A; //#8BC34A
+@color-block-text:                          #333; //#333
+@color-block-links:                         #aaa; //#aaa
+//! @endsection
+
+//! @section: Buttons
+@color-primary-buttons:                     #444; //#444
+@color-primary-buttons-hover:               #ccc; //#ccc
+@color-secondary-buttons:                   #ddd; //#444
+@color-secondary-buttons-hover:             #444; //#ccc
+@color-call-to-action-buttons:              #444; //#444
+@color-call-to-action-hover:                #ccc; //#ccc
+//! @endsection
+
+//! @section: Footer
+@color-footer-background:                   #fff; // #fff
+@color-footer-border-top:                   #EEE; // #EEE
+@color-footer-text:                         #333;// #333
+@color-footer-links:                        #666;// #666;
+@color-footer-links-hover:                  #4d4d4d;// #4d4d4d;
+@color-footer-bottom-background:            #fff; //#fff;
+@color-footer-bottom-text:                  #ccc; //#ccc;
+//! @endsection
+
+//! @section: Product Page
+@color-addtolinks-icons:                    #aaa; //#aaa
+@color-addtolinks-icons-hover:              #848484;
+@color-new-label-background:                #444; //#444
+@color-new-label-text:                      #fff; //#444
+@color-sale-label-background:               #717171; //#717171
+@color-sale-label-text:                     #fff; //#717171
+//! @endsection
+
+//! @section: Category Page
+@color-product-name:                        #444;
+@color-category-toolbar:                    #fff;
+@color-category-toolbar-link:               #8BC34A;
+//! @endsection
+
+//! @section: Fonts
+@font-family-english-1: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+@font-family-english-2: "Arial", "Helvetica", "sans-serif";
+@font-family-1-arabic: "Droid Arabic Kufi", "serif";
+@font-family-2-arabic: "Droid Arabic Kufi", "serif";
+//! @endsection

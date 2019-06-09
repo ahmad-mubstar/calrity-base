@@ -1,0 +1,8 @@
+app/code/community/Shopgo/Geo/                                            app/code/community/Shopgo/Geo/
+app/design/adminhtml/base/default/layout/shopgo/geo.xml                   app/design/adminhtml/base/default/layout/shopgo/geo.xml
+app/design/adminhtml/base/default/template/shopgo/geo/                    app/design/adminhtml/base/default/template/shopgo/geo/
+app/design/frontend/base/default/layout/shopgo/geo.xml                    app/design/frontend/base/default/layout/shopgo/geo.xml
+app/design/frontend/base/default/template/shopgo/geo/                     app/design/frontend/base/default/template/shopgo/geo/
+app/etc/modules/Shopgo_Geo.xml                                            app/etc/modules/Shopgo_Geo.xml
+app/locale/ar_SA/Shopgo_Geo.csv                                           app/locale/ar_SA/Shopgo_Geo.csv
+skin/frontend/base/default/shopgo/geo/                                    skin/frontend/base/default/shopgo/geo/

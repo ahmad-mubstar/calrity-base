@@ -1,0 +1,7 @@
+<div class="compare-link">
+<a href="#" class="product-compare"><i class="fa fa-exchange"></i></a>
+    <?php if( $this->helper('catalog/product_compare')->getItemCount()>0 ){ ?>
+	    <span class="compare-num"><?php echo $this->__('%d', $this->helper('catalog/product_compare')->getItemCount()) ?></span>
+	    <span class="ico-view" href="javascript:void(0)"></span>
+    <?php } ?>
+</div>

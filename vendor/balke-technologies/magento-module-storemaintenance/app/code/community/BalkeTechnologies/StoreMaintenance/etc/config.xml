@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<!--
+ Copyright since 2011 Matthias Balke (magento@balke-technologies.de)
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<config>
+    <modules>
+        <BalkeTechnologies_StoreMaintenance>
+            <version>0.4.0</version>
+        </BalkeTechnologies_StoreMaintenance>
+    </modules>
+    
+    <global>
+        <helpers>
+            <BalkeTechnologies_StoreMaintenance>
+                <class>BalkeTechnologies_StoreMaintenance_Helper</class>
+            </BalkeTechnologies_StoreMaintenance>
+        </helpers>
+        <blocks>
+            <BalkeTechnologies_StoreMaintenance>
+                <class>BalkeTechnologies_StoreMaintenance_Block</class>
+            </BalkeTechnologies_StoreMaintenance>    
+        </blocks>
+        <models>
+            <BalkeTechnologies_StoreMaintenance>
+                <class>BalkeTechnologies_StoreMaintenance_Model</class>    
+            </BalkeTechnologies_StoreMaintenance>
+        </models>
+    </global>
+
+    <stores>
+        <default>
+            <web>
+                <routers>
+                    <standard>
+                        <area>frontend</area>
+                        <class>BalkeTechnologies_StoreMaintenance_Controller_Router_Standard</class>
+                    </standard>
+                </routers>
+            </web>
+        </default>
+    </stores>
+
+    <default>
+        <web>
+            <routers> 
+                <standard>
+                    <area>frontend</area>
+                    <class>BalkeTechnologies_StoreMaintenance_Controller_Router_Standard</class>
+                </standard>
+            </routers>
+        </web>
+        <storeMaintenance>
+            <settings>
+                <enabled>0</enabled>
+                <allowedIPs></allowedIPs>
+                <allowFrontendForAdmins>1</allowFrontendForAdmins>
+                <maintenancePage><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>Maintenance</title>
+        <link rel="stylesheet" type="text/css" href="{{skinBasePath}}css/styles.css" />
+        {{if="timerEnabled==1"}}<script type="text/javascript" src="{{skinBasePath}}js/prototype.js"></script>
+        <script type="text/javascript">
+            <!--
+            // year, month, day, hours, minutes, seconds, milliseconds
+            var end = new Date(2012, 01, 01, 00, 00, 00);
+            -->
+        </script>
+        <script type="text/javascript" src="{{skinBasePath}}js/timer.js"></script>{{/if}}
+    </head>
+    <body onload="javascript:getContainer()">
+        <div class="outer-block">
+            <div class="inner-block">
+                <div class="centered">
+                    <h1>we are sorry but this store is down for maintenance</h1>
+                    <h2>please try again {{if="timerEnabled==1"}}in{{else}}later{{/if}} ...</h2>
+                </div>
+            </div>
+        </div>
+        {{if="timerEnabled==1"}}<div class="centered timer" id="timerBlock"><span id="days">0</span> days <span id="hours">00</span> hours <span id="minutes">00</span> minutes <span id="seconds">00</span> seconds</div>{{/if}}
+    </body>
+</html>]]></maintenancePage>
+                <logVerbosity>1</logVerbosity>
+                <logFile>maintenance.log</logFile>
+                <templateSettings>
+                    <timerEnabled>0</timerEnabled>
+                    <endYear>2012</endYear>
+                    <endMonth>01</endMonth>
+                    <endDay>01</endDay>
+                    <endHours>00</endHours>
+                    <endMinutes>00</endMinutes>
+                    <endSeconds>00</endSeconds>
+                    <skinBasePath>frontend/base/default/balketechnologies/storemaintenance/</skinBasePath>
+                </templateSettings>
+            </settings>
+        </storeMaintenance>
+    </default>
+
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <storeMaintenance>
+                                            <title>Store Maintenance</title>
+                                        </storeMaintenance>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+</config>

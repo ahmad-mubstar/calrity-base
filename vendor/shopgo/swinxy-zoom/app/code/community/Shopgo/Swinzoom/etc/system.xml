@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+     <tabs>
+        <shopgo translate="label">
+            <label>Shopgo Extensions</label>
+            <sort_order>250</sort_order>
+        </shopgo>
+    </tabs>
+    <sections>
+        <shopgo_swinzoom translate="label" >
+            <label>Shopgo Swinzoom</label>
+            <tab>shopgo</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>90</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>Shopgo Swinzoom Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                         <mouseweel translate="label">
+                            <label>Mouse Weel</label>
+                            <comment>Add the ability to use the mouse weel to swinzoom?</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><enabled>1</enabled></depends>
+                        </mouseweel>
+                        <mode translate="label">
+                            <label>Swinzoom Mode</label>
+                            <comment></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>swinzoom/system_config_source_mode</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><enabled>1</enabled></depends>
+                        </mode>
+                          <dockposition translate="label">
+                            <label>Dock Position</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>swinzoom/system_config_source_dockposition</source_model>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><mode>dock</mode><enabled>1</enabled></depends>
+                        </dockposition>
+                        <size translate="label">
+                            <label>Base Image Size</label>
+                            <comment>Base Image Size -Percentage- (before Swinzoom) ex. 100 ** preferable to enter a value lower than 70 **</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <validate>validate-number</validate>
+                            <depends><enabled>1</enabled></depends>
+                        </size>
+                        <imgmultiplier translate="label">
+                            <label>Swinzoomed Image Multiplayer</label>
+                            <comment>Multiply Swinzoom Image Size By</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>swinzoom/system_config_source_imgmultiplier</source_model>
+                            <sort_order>7</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><enabled>1</enabled></depends>
+                        </imgmultiplier>
+                        <controls translate="label">
+                            <label>Controls (Swinzoom Bar)</label>
+                            <comment>Swinzoom controls (plus and minus) enable/disable</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>99</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><enabled>1</enabled></depends>
+                        </controls>
+                        <jquery translate="label">
+                            <label>Enable jQuery</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </jquery>
+                    </fields>
+                </general>
+
+            </groups>
+			
+        </shopgo_swinzoom>
+    </sections>
+</config>

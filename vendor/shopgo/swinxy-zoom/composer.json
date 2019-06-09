@@ -1,0 +1,14 @@
+{
+    "name": "shopgo/swinxy-zoom",
+    "type": "magento-module",
+    "description": "SwinxyZoom (Zoom V3) Magento extension",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "ShopGo",
+            "email": "ali@shopgo.me"
+        }
+    ]
+}

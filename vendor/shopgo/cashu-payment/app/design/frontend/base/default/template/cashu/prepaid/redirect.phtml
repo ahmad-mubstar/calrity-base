@@ -1,0 +1,12 @@
+<?php
+$cashu = Mage::registry('cashu');
+?>
+
+<p>Redirecting ... If you have been here for a while, please <a href="javascript:document.cashupaymentform.submit();">click here</a>.</p>
+
+<form name="cashupaymentform" action="<?php echo $cashu['payment_gateway_url'];?>" method="post">
+<input type="hidden" name="Transaction_Code" value="<?php echo $cashu['transaction_code'];?>">
+</form>
+<script type="text/javascript">
+document.cashupaymentform.submit();
+</script>

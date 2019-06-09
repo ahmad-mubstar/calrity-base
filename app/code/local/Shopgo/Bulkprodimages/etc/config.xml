@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+       <Shopgo_Bulkprodimages>
+          <version>0.1.0</version>
+       </Shopgo_Bulkprodimages>
+    </modules>
+
+    <global>
+        <models>
+            <bulkprodimages>
+                <class>Shopgo_Bulkprodimages_Model</class>
+            </bulkprodimages>
+        </models>
+
+        <helpers>
+            <bulkprodimages>
+                <class>Shopgo_Bulkprodimages_Helper</class>
+            </bulkprodimages>
+        </helpers>
+    </global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <bulkprodimages after="Mage_Adminhtml">Shopgo_Bulkprodimages_Adminhtml</bulkprodimages>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
+    <adminhtml>
+
+        <layout>
+            <updates>
+                <shopgo_bulkprodimages>
+                    <file>shopgo/bulkprodimgs.xml</file>
+                </shopgo_bulkprodimages>
+            </updates>
+        </layout>
+    </adminhtml>
+
+
+
+
+</config>

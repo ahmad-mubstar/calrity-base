@@ -1,0 +1,5 @@
+skin/frontend/base/default/shopgo/switcher/                      skin/frontend/base/default/shopgo/switcher/
+app/design/frontend/base/default/template/shopgo/switcher/       app/design/frontend/base/default/template/shopgo/switcher/
+app/design/frontend/base/default/layout/shopgo/switcher.xml      app/design/frontend/base/default/layout/shopgo/switcher.xml
+app/etc/modules/Shopgo_Switcher.xml                              app/etc/modules/Shopgo_Switcher.xml
+app/code/community/Shopgo/Switcher/                              app/code/community/Shopgo/Switcher/

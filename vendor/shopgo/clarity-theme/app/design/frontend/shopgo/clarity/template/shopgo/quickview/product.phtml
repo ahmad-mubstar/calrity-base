@@ -1,0 +1,46 @@
+<?php
+if(1==0){?>
+<!DOCTYPE html>
+<html xml:lang="<?php echo $this->getLang() ?>" lang="<?php echo $this->getLang() ?>">
+	<head>
+		<?php echo $this->getChildHtml('head') ?>
+	</head>
+	<body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
+		<?php echo $this->getChildHtml('after_body_start') ?>
+		<div class="quickview-main row-fluid">
+			<?php echo $this->getChildHtml('content') ?>
+		</div>
+		<?php echo $this->getChildHtml('before_body_end') ?>
+		<?php echo $this->getAbsoluteFooter() ?>
+	</body>
+</html>
+<?php
+} ?>
+<div class="quickview-main">
+	<?php echo $this->getChildHtml('content') ?>
+</div>
+<?php echo $this->getChildHtml('before_body_end') ?>
+
+<script type="text/javascript">
+jQuery(".quantity").append('<i id="add1" class="plus fa fa-plus" />').prepend('<i id="minus1" class="minus fa fa-minus" />');
+        
+        jQuery('<i id="add1" class="plus fa fa-plus" />').insertAfter(".grouped-items-table input.qty");
+        jQuery('<i id="minus1" class="minus fa fa-minus" />').insertBefore(".grouped-items-table input.qty");
+
+        jQuery(".plus").click(function()
+        {
+           var currentVal = parseInt(jQuery(this).parent().find(".qty").val());
+           if (!currentVal || currentVal=="" || currentVal == "NaN") currentVal = 0;
+           jQuery(this).parent().find(".qty").val(currentVal + 1);
+        });
+
+        jQuery(".minus").click(function()
+        {
+           var currentVal = parseInt(jQuery(this).parent().find(".qty").val());
+           if (currentVal == "NaN") currentVal = 0;
+           if (currentVal > 1)
+           {
+               jQuery(this).parent().find(".qty").val(currentVal - 1);
+           }
+        });
+</script>

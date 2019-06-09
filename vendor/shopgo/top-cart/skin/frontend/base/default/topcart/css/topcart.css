@@ -1,0 +1,80 @@
+/* Header Cart ================================================================================ */
+.header .top-cart-block {
+    position:relative;
+    float:right;
+    width:90px;
+    height:75px;
+    background:url(../images/bg_cart.gif) center top repeat;
+    border:1px dashed #bfbfbf;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    z-index:10001;
+}
+.header .top-cart { position:relative; display:inline-block; z-index:9; zoom:1; padding:0 0 0 0;}
+.header .top-cart .block-title {
+    z-index:1;
+    position:relative;
+}
+.header .top-cart .block-title a {
+    display:block;
+    font-size:18px;
+    color:#8f9093;
+    text-decoration:none;
+    width:90px;
+    height:72px;
+    padding:13px 0 0 0;
+}
+.header .top-cart .block-title a span { float:right; text-align:right; display:block; font-size:30px; width:30px; padding:0 0 0 0;}
+.header .top-cart .block-title a strong { clear:both; display:block; font-weight:normal; margin:0 0 0 17px;}
+.header .top-cart .block-title a strong.pic-cart { clear:none; float:right;background:url(../images/pic_cart.gif) right 0px no-repeat; width:27px; height:25px; margin:2px 18px 0 5px;}
+.header .top-cart .block-title a.active,
+.header .top-cart .block-title a:hover,
+.header .top-cart .close-btn
+{
+
+}
+.header .top-cart .block-content {
+    z-index:10001;
+    position:absolute;
+    right:0; top:83px;
+    background:url(../images/bg_cart.gif) center top repeat;
+    border:1px dashed #bfbfbf;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    width:270px;
+    padding:15px;
+}
+.header .top-cart .block-content .mini-products-list .product-details { margin-left:105px; }
+.header .top-cart .block-content .mini-products-list .product-details .price { font-size:16px;}
+.header .top-cart .block-content.active { }
+.header .top-cart .block-content .block-subtitle { padding:0 0 0 0;}
+.header .top-cart .block-content .block-subtitle .close-btn { float:right; cursor:pointer; padding:0 0 0 0;}
+.header .top-cart .block-content .subtotal { text-align:left;}
+.header .top-cart .block-content .actions a {}
+.header .top-cart .block-content button.button { width:100%;}
+
+.header .top-cart .btn-remove, .header .top-cart .btn-edit { float:right; margin-left:5px;}
+.header .top-cart .mini-products-list li { border-bottom:2px solid #cfcfcf; padding:0 0 10px 0; margin:0 0 10px 0;}
+.header .top-cart .product-name {}
+.header .top-cart .product-name a { text-decoration:none;}
+.header .top-cart .product-name a:hover {}
+.header .top-cart .price {}
+.header .top-cart a:hover {}
+.header .top-cart .btn-remove {}
+.header .top-cart .btn-edit {}
+.header .top-cart button.button { margin-top:10px;}
+.header .top-cart button.button span { display:block; float:none;}
+
+.header .top-cart .block-title a span { color:#6e8492;}
+.header .top-cart .block-title a strong.pic-cart { background-color:#6e8492;}
+
+.header .top-cart-block:hover { border-color:#6e8492;}
+
+/* text color */
+.header .top-cart .product-name a { color:#6d6d6d;}
+
+/* links color */
+.header .top-cart .product-name a:hover { color:#395669;}
+/* ======================================================================================= */

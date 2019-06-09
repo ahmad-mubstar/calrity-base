@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+.new-badge {
+	left: 0;
+    top: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.sale-badge {
+	right: 0;
+    top: 0;
+    position: absolute;
+    width: 50px;
+}

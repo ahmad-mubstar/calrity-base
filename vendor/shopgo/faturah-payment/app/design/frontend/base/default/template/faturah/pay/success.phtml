@@ -1,0 +1,40 @@
+<?php
+/*
+$_order = new Mage_Sales_Model_Order();
+$orderId = Mage::getSingleton('checkout/session')->getLastRealOrderId();
+$_order->loadByIncrementId($orderId);
+*/
+$orderId = $this->getOrder();
+$home_url = Mage::helper('core/url')->getHomeUrl();
+
+//$checkout_order_id = Mage::getSingleton('checkout/session')->getLastRealOrderId();
+$current_order = Mage::getModel('sales/order')->loadByIncrementId($orderId);
+
+?>
+<?php if($this->helper('customer')->isLoggedIn()): ?>
+<div class="col-main">
+    <div class="page-title">
+        <h1>Your order has been received.</h1>
+    </div>
+    <h2 class="sub-title">Thank you for your purchase!</h2>
+    <p>Your order # is: <a href="<?php echo $home_url;?>sales/order/view/order_id/<?php echo $current_order->getId();?>"><?php echo $orderId;?></a>.</p>
+    <p>You will receive an order confirmation email with details of your order and a link to track its progress.</p>
+    <p>Click <a href="<?php echo $home_url;?>sales/order/print/order_id/<?php echo $current_order->getId();?>" onclick="this.target='_blank'">here to print</a> a copy of your order confirmation.            </p>
+    <div class="buttons-set">
+        <button type="button" class="button" title="Continue Shopping" onclick="window.location='<?php echo $home_url;?>'"><span><span>Continue Shopping</span></span></button>
+    </div>
+</div>
+<?php else: ?>
+<div class="col-main">
+    <div class="page-title">
+        <h1>Your order has been received.</h1>
+    </div>
+    <h2 class="sub-title">Thank you for your purchase!</h2>
+    <p>Your order # is: <?php echo $orderId;?>.</p>
+    <p>You will receive an order confirmation email with details of your order and a link to track its progress.</p>
+    <div class="buttons-set">
+        <button type="button" class="button" title="Continue Shopping" onclick="window.location='<?php echo $home_url;?>'"><span><span>Continue Shopping</span></span></button>
+    </div>
+</div>
+<?php endif; ?>
+

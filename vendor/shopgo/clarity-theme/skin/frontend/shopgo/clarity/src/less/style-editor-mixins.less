@@ -1,0 +1,82 @@
+.forground (@background) {
+    & when (lightness(@background) > 80%) {
+        color: #000;
+    }
+    & when (lightness(@background) < 80%) {
+        color: #fff;
+    }
+}
+
+.forgroundgray (@background) {
+    & when (lightness(@background) > 60%) {
+        color: #636363;
+    }
+    & when (lightness(@background) < 60%) {
+        color: #ccc;
+    }
+}
+
+.backgroundgray (@background) {
+    & when (lightness(@background) > 60%) {
+        background: #636363;
+    }
+    & when (lightness(@background) < 60%) {
+        background: #ccc;
+    }
+}
+
+.ifColor(@var,@color, @attr, @replacecolor) {
+    & when (@var = @color) {
+        @{attr} : @replacecolor;
+    }
+}
+
+.form-colors() {
+    color: @color-content-text;
+    background-color: @color-content-background;
+    border: 1px solid darken(@color-content-background, 5%);
+    &:focus {
+        border-color: darken(@color-content-background, 8%);
+    }
+    &::-moz-placeholder {
+        color: darken(@color-content-background, 8%);
+    }
+    &:-ms-input-placeholder {
+        color: darken(@color-content-background, 8%);
+    }
+    &::-webkit-input-placeholder {
+        color: darken(@color-content-background, 8%);
+    }
+
+    &[disabled],
+    &[readonly],
+    fieldset[disabled] & {
+        background-color: darken(@color-content-background, 4%);
+    }
+}
+
+.panel-colors() {
+    background-color: darken(@color-content-background, 4%);
+}
+
+.table-colors() {
+    > thead,
+    > tbody,
+    > tfoot {
+        > tr {
+            > th,
+            > td {
+                border-top: 1px solid @table-border-color;
+            }
+        }
+    }
+    > thead > tr > th {
+        border-bottom: 2px solid @table-border-color;
+    }
+    > tbody + tbody {
+        border-top: 2px solid @table-border-color;
+    }
+    .table {
+        background-color: @color-content-background;
+    }
+}

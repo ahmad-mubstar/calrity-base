@@ -1,0 +1,37 @@
+<div id="footer">
+    <div class="container">
+
+        <?php
+        $brands = Mage::getStoreConfig('styleeditor/brands/position');
+        ?>
+        <?php if($brands == "bottom" && $brands != 'none' && Mage::getSingleton('cms/page')->getIdentifier() == 'home' && Mage::app()->getFrontController()->getRequest()->getRouteName() == 'cms'): ?>
+            <div class="container">
+                <?php echo $this->getChildHtml('manufacturerSlider') ?>
+            </div>
+        <?php endif; ?>
+
+        <footer role="contentinfo">
+            <div class="footer-links">
+                <div class="col-md-3 col-sm-6">
+                    <?php echo $this->getChildHtml("cms_about_us") ?>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <?php echo $this->getChildHtml('company-links') ?>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <?php echo $this->getChildHtml("cms_footer_links_1") ?>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <?php echo $this->getChildHtml("footer_newsletter") ?>
+                    <?php echo $this->getChildHtml("follow_list") ?>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<div class="footer-bottom">
+    <div class="container">
+        <address><?php echo $this->getCopyright() ?></address>
+    </div>
+</div>

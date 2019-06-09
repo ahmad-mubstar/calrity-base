@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <ec_index_index translate="label" module="ec">
+        <label>ShopGo EasyCheckout Template</label>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>shopgo/ec/layout.phtml</template>
+            </action>
+            <block type="ec/html_head" name="head" as="head">
+                <!-- external css -->
+                <action method="addExternalItem"><type>external_css</type><name>//cdn.jsdelivr.net/semantic-ui/0.16.1/css/semantic.min.css</name><params/></action>
+                <action method="addExternalItem"><type>external_css</type><name>//da7xgjtj801h2.cloudfront.net/2014.1.416/styles/kendo.common.min.css</name><params/></action>
+                <action method="addExternalItem"><type>external_css</type><name>//da7xgjtj801h2.cloudfront.net/2014.1.416/styles/kendo.rtl.min.css</name><params/></action>
+                <action method="addExternalItem"><type>external_css</type><name>//da7xgjtj801h2.cloudfront.net/2014.1.416/styles/kendo.flat.min.css</name><params/></action>
+                <action method="addExternalItem"><type>external_css</type><name>//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css</name><params/></action>
+                <action method="addExternalItem"><type>external_css</type><name>//cdn.jsdelivr.net/nprogress/0.1.3/css/nprogress.css</name><params/></action>
+                <!-- external js -->
+                <action method="addExternalItem"><type>external_js</type><name>//cdn.jsdelivr.net/jquery/2.1.1/jquery.min.js</name><params/></action>
+                <action method="addExternalItem"><type>external_js</type><name>//cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js</name><params/></action>
+                <action method="addExternalItem"><type>external_js</type><name>//cdn.jsdelivr.net/semantic-ui/0.16.1/javascript/semantic.min.js</name><params/></action>
+                <action method="addExternalItem"><type>external_js</type><name>//da7xgjtj801h2.cloudfront.net/2014.1.416/js/kendo.web.min.js</name><params/></action>
+                <action method="addExternalItem"><type>external_js</type><name>//cdn.jsdelivr.net/nprogress/0.1.3/js/nprogress.js</name><params/></action>
+                <action method="addExternalItem"><type>external_js</type><name>//cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.0/alertify.min.js</name><params/></action>
+                <!-- internal css -->
+                <action method="addCss"><stylesheet>shopgo/ec/css/style.css</stylesheet></action>
+                <!-- internal js -->
+                <action method="addJs"><script>shopgo/EC/easycheckout.js</script></action>
+                <action method="addJs"><script>shopgo/EC/script.js</script></action>
+            </block>
+        </reference>
+        <reference name="content">          
+            <block type="ec/onepage" name="ec.onepage" template="shopgo/ec/index.phtml">
+                <block type="checkout/onepage_login" name="checkout.onepage.login" as="login" template="shopgo/ec/login.phtml">
+                    <block type="page/html_wrapper" name="checkout.onepage.login.before" as="login_before">
+                        <action method="setMayBeInvisible">
+                            <value>1</value>
+                        </action>
+                    </block>
+                </block>
+                <block type="ec/eC_billing" name="checkout.onepage.billing" as="billing" template="shopgo/ec/billing.phtml"/>
+                <block type="checkout/onepage_shipping" name="checkout.onepage.shipping" as="shipping" template="shopgo/ec/shipping.phtml"/>
+                <block type="checkout/onepage_shipping_method" name="checkout.onepage.shipping_method" as="shipping_method" template="shopgo/ec/shipping_method.phtml">
+                    <block type="checkout/onepage_shipping_method_available" name="checkout.onepage.shipping_method.available" as="available" template="shopgo/ec/shipping_method/available.phtml"/>
+                </block>
+                <block type="checkout/onepage_payment" name="checkout.onepage.payment" as="payment" template="shopgo/ec/payment.phtml">
+                    <block type="checkout/onepage_payment_methods" name="checkout.payment.methods" as="methods" template="shopgo/ec/payment/methods.phtml">
+                        <action method="setMethodFormTemplate">
+                            <method>purchaseorder</method>
+                            <template>shopgo/ec/payment/form/purchaseorder.phtml</template>
+                        </action>
+                    </block>
+                </block>
+                <block type="checkout/onepage_review" name="checkout.onepage.review" as="review" template="shopgo/ec/review.phtml">
+                    <block type="checkout/onepage_review_info" name="checkout.onepage.review.info" as="info" template="shopgo/ec/review/info.phtml">
+                        <action method="addItemRender">
+                            <type>default</type>
+                            <block>checkout/cart_item_renderer</block>
+                            <template>shopgo/ec/review/item.phtml</template>
+                        </action>
+                        <action method="addItemRender">
+                            <type>grouped</type>
+                            <block>checkout/cart_item_renderer_grouped</block>
+                            <template>shopgo/ec/review/item.phtml</template>
+                        </action>
+                        <action method="addItemRender">
+                            <type>configurable</type>
+                            <block>checkout/cart_item_renderer_configurable</block>
+                            <template>shopgo/ec/review/item.phtml</template>
+                        </action>
+                        <block type="checkout/cart_totals" name="checkout.onepage.review.info.totals" as="totals" template="shopgo/ec/review/totals.phtml"/>
+                    </block>
+                    <block type="checkout/agreements" name="checkout.onepage.agreements" as="agreements" template="shopgo/ec/agreements.phtml"/>
+                    <block type="checkout/onepage_shipping_method_additional" name="checkout.onepage.shipping_method.additional" as="additional" template="shopgo/ec/review/additional.phtml"/>
+                    <block type="core/template" name="checkout.onepage.review.button" as="button" template="shopgo/ec/review/button.phtml"/>
+                </block>
+            </block>
+        </reference>
+    </ec_index_index>
+    <checkout_onepage_paymentmethod>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>shopgo/ec/payment/methods.phtml</template>
+            </action>
+        </reference>
+    </checkout_onepage_paymentmethod>
+    <checkout_onepage_shippingmethod>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>shopgo/ec/shipping_method/available.phtml</template>
+            </action>
+        </reference>
+    </checkout_onepage_shippingmethod>
+    <checkout_onepage_review>
+        <!-- Mage_Checkout -->
+        <remove name="right"/>
+        <remove name="left"/>
+        <block type="checkout/onepage_review_info" name="root" output="toHtml" template="shopgo/ec/review/info.phtml">
+            <action method="addItemRender">
+                <type>default</type>
+                <block>checkout/cart_item_renderer</block>
+                <template>shopgo/ec/review/item.phtml</template>
+            </action>
+            <action method="addItemRender">
+                <type>grouped</type>
+                <block>checkout/cart_item_renderer_grouped</block>
+                <template>shopgo/ec/review/item.phtml</template>
+            </action>
+            <action method="addItemRender">
+                <type>configurable</type>
+                <block>checkout/cart_item_renderer_configurable</block>
+                <template>shopgo/ec/review/item.phtml</template>
+            </action>
+            <block type="checkout/cart_totals" name="checkout.onepage.review.info.totals" as="totals" template="shopgo/ec/review/totals.phtml"/>
+            <block type="core/text_list" name="checkout.onepage.review.info.items.before" as="items_before" translate="label">
+                <label>Items Before</label>
+            </block>
+            <block type="core/text_list" name="checkout.onepage.review.info.items.after" as="items_after" translate="label">
+                <label>Items After</label>
+            </block>
+        </block>
+    </checkout_onepage_review>
+</layout>

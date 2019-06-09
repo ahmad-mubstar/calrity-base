@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Minicart_Topcart>
+            <version>0.1.0</version>
+        </Minicart_Topcart>
+    </modules>
+    <frontend>
+        <routers>
+            <topcart>
+                <use>standard</use>
+                <args>
+                    <module>Minicart_Topcart</module>
+                    <frontName>web</frontName>
+                </args>
+            </topcart>
+        </routers>
+        <layout>
+            <updates>
+                <topcart>
+                    <file>topcart.xml</file>
+                </topcart>
+            </updates>
+        </layout>
+    </frontend>
+</config>

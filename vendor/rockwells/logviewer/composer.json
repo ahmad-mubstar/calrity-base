@@ -1,0 +1,15 @@
+{
+    "name": "rockwells/logviewer",
+    "type": "magento-module",
+    "license": "MIT",
+    "description": "A Magento extension that provides an easy way to view and truncate log files in the backend",
+    "homepage": "http://www.magentocommerce.com/magento-connect/log-viewer-1.html",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name": "Murkeli"
+        }
+    ]
+}

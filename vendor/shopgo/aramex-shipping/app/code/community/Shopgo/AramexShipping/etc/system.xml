@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <sections>
+        <carriers>
+            <groups>
+                <aramex translate="label" module="aramexshipping">
+                    <label>Aramex</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>99</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <active translate="label">
+                            <label>Enabled for Checkout</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </active>
+                        <title translate="label">
+                            <label>Title</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </title>
+                        <username translate="label">
+                            <label>User Name</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </username>
+                        <password translate="label comment">
+                            <label>Password</label>
+                            <comment><![CDATA[
+                                You can create your own Aramex account here:<br/>
+                                https://www.aramex.com/accounts/registration-signup.aspx
+                            ]]></comment>
+                            <frontend_type>obscure</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_encrypted</backend_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </password>
+                        <account_country_code translate="label">
+                            <label>Account Country Code</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </account_country_code>
+                        <account_entity translate="label">
+                            <label>Account Entity</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </account_entity>
+                        <account_number translate="label">
+                            <label>Account Number</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </account_number>
+                        <account_pin translate="label comment">
+                            <label>Account PIN</label>
+                            <comment><![CDATA[
+                                Aramex Account's Country Code, Entity, Number and PIN can be obtained by contacting Aramex.<br/>
+                                <strong style="color:#3D5B9C">Note:&nbsp;</strong>Shipping settings origin entries (System > Configuration > Sales > Shipping Settings > Origin) must be filled, otherwise the extension will not function properly.
+                            ]]></comment>
+                            <frontend_type>obscure</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_encrypted</backend_model>
+                            <sort_order>80</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </account_pin>
+                        <check_account translate="label">
+                            <frontend_type>button</frontend_type>
+                            <frontend_model>aramexshipping/adminhtml_system_config_form_checkAccountButton</frontend_model>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </check_account>
+                        <cod translate="label">
+                            <label>Cash on Delivery</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>100</sort_order>
+                            <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </cod>
+                        <cod_account translate="label">
+                            <label>COD Account</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                            <sort_order>110</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends><cod>1</cod></depends>
+                        </cod_account>
+                        <cod_account_number translate="label">
+                            <label>COD Account Number</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>120</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <cod>1</cod>
+                                <cod_account>1</cod_account>
+                            </depends>
+                        </cod_account_number>
+                        <cod_account_pin translate="label comment">
+                            <label>COD Account PIN</label>
+                            <comment>COD Account Number and COD Account PIN are used for COD shipments only.</comment>
+                            <frontend_type>obscure</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_encrypted</backend_model>
+                            <sort_order>130</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <cod>1</cod>
+                                <cod_account>1</cod_account>
+                            </depends>
+                        </cod_account_pin>
+                        <product_type translate="label">
+                            <label>Product Type</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>aramexshipping/system_config_source_producttypes</source_model>
+                            <sort_order>140</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </product_type>
+                        <dom_product_type translate="label">
+                            <label>Domestic Product Type</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>aramexshipping/system_config_source_domproducttypes</source_model>
+                            <sort_order>150</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </dom_product_type>
+                        <dom_customs_value translate="label">
+                            <label>Domestic Customs Value</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                            <sort_order>160</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </dom_customs_value>
+                        <unit_of_measure translate="label">
+                            <label>Weight Unit</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>aramexshipping/system_config_source_unitofmeasure</source_model>
+                            <sort_order>170</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </unit_of_measure>
+                        <shipping_service translate="label comment">
+                            <label>Shipping Service</label>
+                            <comment>If disabled, Aramex shipping service will not be used to register Aramex shipments, whenever store shipments are created.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>180</sort_order>
+                            <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </shipping_service>
+                        <tracking_service translate="label comment">
+                            <label>Tracking Service</label>
+                            <comment>If disabled, Aramex tracking service will not be used to add/view Aramex tracking numbers in store shipments.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>190</sort_order>
+                            <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends><shipping_service>1</shipping_service></depends>
+                        </tracking_service>
+                        <auto_tracking_no translate="label comment">
+                            <label>Auto Tracking No.</label>
+                            <comment>Tracking numbers will be added automatically to store shipments when created.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>200</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends>
+                                <tracking_service>1</tracking_service>
+                                <shipping_service>1</shipping_service>
+                            </depends>
+                        </auto_tracking_no>
+                        <pickup_service translate="label comment">
+                            <label>Pickup Service</label>
+                            <comment>If disabled, Aramex shipments pickup service will not be used to create/cancel pickups.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>210</sort_order>
+                            <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends><shipping_service>1</shipping_service></depends>
+                        </pickup_service>
+                        <free_shipping_enable translate="label">
+                            <label>Free Shipping with Minimum Order Amount</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                            <sort_order>220</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </free_shipping_enable>
+                        <free_shipping_subtotal translate="label">
+                            <label>Minimum Order Amount for Free Shipping</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-number validate-zero-or-greater</validate>
+                            <sort_order>230</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends><free_shipping_enable>1</free_shipping_enable></depends>
+                        </free_shipping_subtotal>
+                        <aramex_free_shipping translate="label">
+                            <label>Free Shipping via Aramex</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>240</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </aramex_free_shipping>
+                        <aramex_free_shipping_sallowspecific translate="label">
+                            <label>Free Shipping via Aramex Applicable Countries</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>250</sort_order>
+                            <frontend_class>shipping-applicable-country</frontend_class>
+                            <source_model>adminhtml/system_config_source_shipping_allspecificcountries</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends><aramex_free_shipping>1</aramex_free_shipping></depends>
+                        </aramex_free_shipping_sallowspecific>
+                        <aramex_free_shipping_specificcountry translate="label">
+                            <label>Free Shipping via Aramex Specific Countries</label>
+                            <frontend_type>multiselect</frontend_type>
+                            <sort_order>260</sort_order>
+                            <source_model>adminhtml/system_config_source_country</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <can_be_empty>1</can_be_empty>
+                            <depends>
+                                <aramex_free_shipping>1</aramex_free_shipping>
+                                <aramex_free_shipping_sallowspecific>1</aramex_free_shipping_sallowspecific>
+                            </depends>
+                        </aramex_free_shipping_specificcountry>
+                        <alert_suppliers translate="label comment">
+                            <label>Alert Suppliers</label>
+                            <comment>Notify suppliers about orders that contain their products.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>270</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends><shipping_service>1</shipping_service></depends>
+                        </alert_suppliers>
+                        <specificerrmsg translate="label comment">
+                            <label>Displayed Error Message</label>
+                            <comment>If specified, it will replace some of the system's default messages.</comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>280</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </specificerrmsg>
+                        <sallowspecific translate="label">
+                            <label>Ship to Applicable Countries</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>290</sort_order>
+                            <frontend_class>shipping-applicable-country</frontend_class>
+                            <source_model>adminhtml/system_config_source_shipping_allspecificcountries</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </sallowspecific>
+                        <specificcountry translate="label">
+                            <label>Ship to Specific Countries</label>
+                            <frontend_type>multiselect</frontend_type>
+                            <sort_order>300</sort_order>
+                            <source_model>adminhtml/system_config_source_country</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <can_be_empty>1</can_be_empty>
+                            <depends><sallowspecific>1</sallowspecific></depends>
+                        </specificcountry>
+                        <author_reports translate="label comment">
+                            <label>Usage and Error Reports</label>
+                            <comment><![CDATA[
+                                Help us improve this shipping method, by sending us usage and error reports.<br/>
+                                <strong style="color:#3D5B9C">Notes:</strong><br/>
+                                * Reports will <strong>Not</strong> include Aramex accounts sensitive credentials.<br/>
+                                * This is an <strong>Experimental</strong> feature and is currently done via email, if it proves to be useful, it will be kept and improved.
+                            ]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>310</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </author_reports>
+                        <admin_reports translate="label comment">
+                            <label>Admin Reports</label>
+                            <comment><![CDATA[
+                                Send usage and error reports to website admin(s).<br/>
+                                <strong style="color:#3D5B9C">Notes:</strong><br/>
+                                * Reports will <strong>Not</strong> include Aramex accounts sensitive credentials.<br/>
+                                * This is an <strong>Experimental</strong> feature and is currently done via email, if it proves to be useful, it will be kept and improved.
+                            ]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>320</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </admin_reports>
+                        <reports_emails translate="label comment">
+                            <label>Reports Emails</label>
+                            <comment><![CDATA[
+                                Emails that can receive usage and error reports.<br/>
+                                <strong style="color:#3D5B9C">Notes:</strong><br/>
+                                * Each email in a separate line.<br/>
+                                * If left empty, the general contact email will be used.
+                            ]]></comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>330</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends><admin_reports>1</admin_reports></depends>
+                        </reports_emails>
+                        <debug translate="label comment">
+                            <label>Debug</label>
+                            <comment>Make sure that system logging is enabled (System > Configuration > Advanced > Developer > Log Settings) in order to use this feature.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>340</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </debug>
+                        <showmethod translate="label">
+                            <label>Show Method if Not Applicable</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>350</sort_order>
+                            <frontend_class>shipping-skip-hide</frontend_class>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </showmethod>
+                        <aramex_error translate="label">
+                            <label>Show Aramex errors</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>360</sort_order>
+                            <frontend_class>shipping-skip-hide</frontend_class>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends><showmethod>1</showmethod></depends>
+                        </aramex_error>
+                        <sort_order translate="label">
+                            <label>Sort Order</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>370</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </sort_order>
+                    </fields>
+                </aramex>
+            </groups>
+        </carriers>
+        <shipping translate="label" module="aramexshipping">
+            <groups>
+                <aramex_settings translate="label">
+                    <label>Aramex Shipping Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>6</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <department translate="label">
+                            <label>Department</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </department>
+                        <type translate="label">
+                            <label>Type</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </type>
+                    </fields>
+                </aramex_settings>
+            </groups>
+        </shipping>
+    </sections>
+</config>
